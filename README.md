@@ -6,8 +6,8 @@ PALM/
 │   ├── package.json
 │   ├── vite.config.js
 │   ├── public/
-│   │   └── user_study/           # Preloaded Programs for User Study
-│   │       ├── programs.json
+│   │   └── user_study/
+│   │       ├── programs.json     # Preloaded Programs for User Study
 │   │       └── programs_full.json
 │   └── src/
 │       ├── App.vue
