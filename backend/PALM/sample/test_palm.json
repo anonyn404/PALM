@@ -1,0 +1,55 @@
+{
+  "compile": "pass",
+  "paths": {
+    "test_palm.0": {
+      "path-variant": "static int test_palm(int a, int b){\n    assertTrue(a > b); //[1]\n    return a;\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "test_palm(2, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (test_palm) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\n static int test_palm(int a, int b){\n    assertTrue(a > b); //[1]\n    return a;\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "test_palm.1": {
+      "path-variant": "static int test_palm(int a, int b){\n    assertFalse(a > b); //[1]\n    return b;\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "test_palm(1, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (test_palm) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\n static int test_palm(int a, int b){\n    assertFalse(a > b); //[1]\n    return b;\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    }
+  },
+  "tree": {
+    "type": "branch",
+    "true-branch": {
+      "type": "statement",
+      "next": {
+        "type": "end",
+        "path-id": "test_palm.0",
+        "status": "PASS"
+      },
+      "statement": "return a;"
+    },
+    "false-branch": {
+      "type": "statement",
+      "next": {
+        "type": "end",
+        "path-id": "test_palm.1",
+        "status": "PASS"
+      },
+      "statement": "return b;"
+    },
+    "branch": "a > b"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "compile": "pass",
+  "paths": {
+    "tutorial.0": {
+      "path-variant": "public static boolean tutorial(int x, int y, int z){\n    assertTrue(x > 0); //[1]\n    z = -z;\n    assertTrue(y + z > 0); //[2]\n    return true;\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "tutorial(1, 2, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (tutorial) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static boolean tutorial(int x, int y, int z){\n    assertTrue(x > 0); //[1]\n    z = -z;\n    assertTrue(y + z > 0); //[2]\n    return true;\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "tutorial.1": {
+      "path-variant": "public static boolean tutorial(int x, int y, int z){\n    assertTrue(x > 0); //[1]\n    z = -z;\n    assertFalse(y + z > 0); //[2]\n    return false;\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "tutorial(1, 0, 0);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (tutorial) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static boolean tutorial(int x, int y, int z){\n    assertTrue(x > 0); //[1]\n    z = -z;\n    assertFalse(y + z > 0); //[2]\n    return false;\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "tutorial.2": {
+      "path-variant": "public static boolean tutorial(int x, int y, int z){\n    assertFalse(x > 0); //[1]\n    assertTrue(y + z > 0); //[2]\n    return true;\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "tutorial(0, 1, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (tutorial) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static boolean tutorial(int x, int y, int z){\n    assertFalse(x > 0); //[1]\n    assertTrue(y + z > 0); //[2]\n    return true;\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "tutorial.3": {
+      "path-variant": "public static boolean tutorial(int x, int y, int z){\n    assertFalse(x > 0); //[1]\n    assertFalse(y + z > 0); //[2]\n    return false;\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "tutorial(0, 0, 0);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (tutorial) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static boolean tutorial(int x, int y, int z){\n    assertFalse(x > 0); //[1]\n    assertFalse(y + z > 0); //[2]\n    return false;\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    }
+  },
+  "tree": {
+    "type": "branch",
+    "true-branch": {
+      "type": "statement",
+      "next": {
+        "type": "branch",
+        "true-branch": {
+          "type": "statement",
+          "next": {
+            "type": "end",
+            "path-id": "tutorial.0",
+            "status": "PASS"
+          },
+          "statement": "return true;"
+        },
+        "false-branch": {
+          "type": "statement",
+          "next": {
+            "type": "end",
+            "path-id": "tutorial.1",
+            "status": "PASS"
+          },
+          "statement": "return false;"
+        },
+        "branch": "y + z > 0"
+      },
+      "statement": "z = -z;"
+    },
+    "false-branch": {
+      "type": "branch",
+      "true-branch": {
+        "type": "statement",
+        "next": {
+          "type": "end",
+          "path-id": "tutorial.2",
+          "status": "PASS"
+        },
+        "statement": "return true;"
+      },
+      "false-branch": {
+        "type": "statement",
+        "next": {
+          "type": "end",
+          "path-id": "tutorial.3",
+          "status": "PASS"
+        },
+        "statement": "return false;"
+      },
+      "branch": "y + z > 0"
+    },
+    "branch": "x > 0"
+  }
+}

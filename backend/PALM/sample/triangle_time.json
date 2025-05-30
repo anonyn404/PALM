@@ -1,0 +1,428 @@
+{
+  "compile": "pass",
+  "paths": {
+    "triangle_time.0": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertTrue(b <= c); //[2]\n    x_1 = a;\n    y_1 = b;\n    z_1 = c;\n    assertTrue(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"Not a valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(1, 1, 2);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertTrue(b <= c); //[2]\n    x_1 = a;\n    y_1 = b;\n    z_1 = c;\n    assertTrue(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"Not a valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.1": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertTrue(b <= c); //[2]\n    x_1 = a;\n    y_1 = b;\n    z_1 = c;\n    assertFalse(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"A valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(3, 4, 5);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertTrue(b <= c); //[2]\n    x_1 = a;\n    y_1 = b;\n    z_1 = c;\n    assertFalse(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"A valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.10": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(2, 1, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.11": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "SYNTAX",
+          "test": "public static void main(String args[]) { triangle_time(5, 3, 4); }",
+          "errmsg": "triangle_time.11.java:21: error: illegal start of expression\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n^\ntriangle_time.11.java:24: error: class, interface, or enum expected\n}\n^\n2 errors\n",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        },
+        {
+          "genid": 1,
+          "status": "SYNTAX",
+          "test": "public static void main(String args[]) { triangle_time(5, 3, 4); }",
+          "errmsg": "triangle_time.11.java:21: error: illegal start of expression\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n^\ntriangle_time.11.java:24: error: class, interface, or enum expected\n}\n^\n2 errors\n",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n** Feedback **\nYou have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.\nRound 0 generation:\n```java\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n```\nError reason: Syntax error.\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        },
+        {
+          "genid": 2,
+          "status": "SYNTAX",
+          "test": "public static void main(String args[]) { triangle_time(5, 3, 3); }",
+          "errmsg": "triangle_time.11.java:21: error: illegal start of expression\npublic static void main(String args[]) { triangle_time(5, 3, 3); }\n^\ntriangle_time.11.java:24: error: class, interface, or enum expected\n}\n^\n2 errors\n",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n** Feedback **\nYou have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.\nRound 0 generation:\n```java\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n```\nError reason: Syntax error.\nRound 1 generation:\n```java\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n```\nError reason: Syntax error.\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        },
+        {
+          "genid": 3,
+          "status": "PASS",
+          "test": "triangle_time(5, 3, 3);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertFalse(c < b); //[3]\n    x_1 = b;\n    y_1 = c;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n** Feedback **\nYou have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.\nRound 0 generation:\n```java\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n```\nError reason: Syntax error.\nRound 1 generation:\n```java\npublic static void main(String args[]) { triangle_time(5, 3, 4); }\n```\nError reason: Syntax error.\nRound 2 generation:\n```java\npublic static void main(String args[]) { triangle_time(5, 3, 3); }\n```\nError reason: Syntax error.\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.2": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertTrue(c < a); //[3]\n    x_1 = c;\n    y_1 = a;\n    z_1 = b;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(2, 3, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertTrue(c < a); //[3]\n    x_1 = c;\n    y_1 = a;\n    z_1 = b;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.3": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertTrue(c < a); //[3]\n    x_1 = c;\n    y_1 = a;\n    z_1 = b;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(3, 4, 2);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertTrue(c < a); //[3]\n    x_1 = c;\n    y_1 = a;\n    z_1 = b;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.4": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertFalse(c < a); //[3]\n    x_1 = a;\n    y_1 = c;\n    z_1 = b;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(1, 3, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertFalse(c < a); //[3]\n    x_1 = a;\n    y_1 = c;\n    z_1 = b;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.5": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertFalse(c < a); //[3]\n    x_1 = a;\n    y_1 = c;\n    z_1 = b;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(2, 3, 2);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertTrue(a <= b); //[1]\n    assertFalse(b <= c); //[2]\n    assertFalse(c < a); //[3]\n    x_1 = a;\n    y_1 = c;\n    z_1 = b;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.6": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertTrue(c > a); //[2]\n    x_1 = b;\n    y_1 = a;\n    z_1 = c;\n    assertTrue(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"Not a valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(2, 1, 3);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertTrue(c > a); //[2]\n    x_1 = b;\n    y_1 = a;\n    z_1 = c;\n    assertTrue(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"Not a valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.7": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertTrue(c > a); //[2]\n    x_1 = b;\n    y_1 = a;\n    z_1 = c;\n    assertFalse(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"A valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(3, 2, 4);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertTrue(c > a); //[2]\n    x_1 = b;\n    y_1 = a;\n    z_1 = c;\n    assertFalse(x_1 + y_1 <= z_1); //[3]\n    System.out.println(\"A valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.8": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertTrue(c < b); //[3]\n    x_1 = c;\n    y_1 = b;\n    z_1 = a;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(6, 5, 1);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertTrue(c < b); //[3]\n    x_1 = c;\n    y_1 = b;\n    z_1 = a;\n    assertTrue(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"Not a valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    },
+    "triangle_time.9": {
+      "path-variant": "public static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertTrue(c < b); //[3]\n    x_1 = c;\n    y_1 = b;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}",
+      "generated-tests": [
+        {
+          "genid": 0,
+          "status": "PASS",
+          "test": "triangle_time(6, 5, 2);",
+          "errmsg": "",
+          "prompt": "You are a Java test generator. Invoke the target method (triangle_time) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.\nAllow edge cases (e.g.\u00a0null, empty) if they meet those constraints.\u00a0Include no printing, error handling, unrelated logic or return\u2011value checks.\n\n** Input program **\npublic static void triangle_time(int a, int b, int c){\n    int x_1, y_1, z_1;\n    assertFalse(a <= b); //[1]\n    assertFalse(c > a); //[2]\n    assertTrue(c < b); //[3]\n    x_1 = c;\n    y_1 = b;\n    z_1 = a;\n    assertFalse(x_1 + y_1 <= z_1); //[4]\n    System.out.println(\"A valid triangle\");\n}\n\n\n** Output Format **\nIf satisfiable, output :\n```java\n// write you code here\n```\n\nOnly output the code to replace <hole> in the auxiliary test driver:\npublic static void main(String args[]) { <hole> }\n\nIf no input can satisfy the path condition, output:\nUNSAT\n\nOnly generate a java unit test or UNSAT without any explanation or comments.",
+          "errid": -1,
+          "errline": -1
+        }
+      ]
+    }
+  },
+  "tree": {
+    "type": "statement",
+    "next": {
+      "type": "branch",
+      "true-branch": {
+        "type": "branch",
+        "true-branch": {
+          "type": "statement",
+          "next": {
+            "type": "statement",
+            "next": {
+              "type": "statement",
+              "next": {
+                "type": "branch",
+                "true-branch": {
+                  "type": "statement",
+                  "next": {
+                    "type": "end",
+                    "path-id": "triangle_time.0",
+                    "status": "PASS"
+                  },
+                  "statement": "System.out.println(\"Not a valid triangle\");"
+                },
+                "false-branch": {
+                  "type": "statement",
+                  "next": {
+                    "type": "end",
+                    "path-id": "triangle_time.1",
+                    "status": "PASS"
+                  },
+                  "statement": "System.out.println(\"A valid triangle\");"
+                },
+                "branch": "x_1 + y_1 <= z_1"
+              },
+              "statement": "z_1 = c;"
+            },
+            "statement": "y_1 = b;"
+          },
+          "statement": "x_1 = a;"
+        },
+        "false-branch": {
+          "type": "branch",
+          "true-branch": {
+            "type": "statement",
+            "next": {
+              "type": "statement",
+              "next": {
+                "type": "statement",
+                "next": {
+                  "type": "branch",
+                  "true-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.2",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"Not a valid triangle\");"
+                  },
+                  "false-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.3",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"A valid triangle\");"
+                  },
+                  "branch": "x_1 + y_1 <= z_1"
+                },
+                "statement": "z_1 = b;"
+              },
+              "statement": "y_1 = a;"
+            },
+            "statement": "x_1 = c;"
+          },
+          "false-branch": {
+            "type": "statement",
+            "next": {
+              "type": "statement",
+              "next": {
+                "type": "statement",
+                "next": {
+                  "type": "branch",
+                  "true-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.4",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"Not a valid triangle\");"
+                  },
+                  "false-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.5",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"A valid triangle\");"
+                  },
+                  "branch": "x_1 + y_1 <= z_1"
+                },
+                "statement": "z_1 = b;"
+              },
+              "statement": "y_1 = c;"
+            },
+            "statement": "x_1 = a;"
+          },
+          "branch": "c < a"
+        },
+        "branch": "b <= c"
+      },
+      "false-branch": {
+        "type": "branch",
+        "true-branch": {
+          "type": "statement",
+          "next": {
+            "type": "statement",
+            "next": {
+              "type": "statement",
+              "next": {
+                "type": "branch",
+                "true-branch": {
+                  "type": "statement",
+                  "next": {
+                    "type": "end",
+                    "path-id": "triangle_time.6",
+                    "status": "PASS"
+                  },
+                  "statement": "System.out.println(\"Not a valid triangle\");"
+                },
+                "false-branch": {
+                  "type": "statement",
+                  "next": {
+                    "type": "end",
+                    "path-id": "triangle_time.7",
+                    "status": "PASS"
+                  },
+                  "statement": "System.out.println(\"A valid triangle\");"
+                },
+                "branch": "x_1 + y_1 <= z_1"
+              },
+              "statement": "z_1 = c;"
+            },
+            "statement": "y_1 = a;"
+          },
+          "statement": "x_1 = b;"
+        },
+        "false-branch": {
+          "type": "branch",
+          "true-branch": {
+            "type": "statement",
+            "next": {
+              "type": "statement",
+              "next": {
+                "type": "statement",
+                "next": {
+                  "type": "branch",
+                  "true-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.8",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"Not a valid triangle\");"
+                  },
+                  "false-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.9",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"A valid triangle\");"
+                  },
+                  "branch": "x_1 + y_1 <= z_1"
+                },
+                "statement": "z_1 = a;"
+              },
+              "statement": "y_1 = b;"
+            },
+            "statement": "x_1 = c;"
+          },
+          "false-branch": {
+            "type": "statement",
+            "next": {
+              "type": "statement",
+              "next": {
+                "type": "statement",
+                "next": {
+                  "type": "branch",
+                  "true-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.10",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"Not a valid triangle\");"
+                  },
+                  "false-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "triangle_time.11",
+                      "status": "PASS"
+                    },
+                    "statement": "System.out.println(\"A valid triangle\");"
+                  },
+                  "branch": "x_1 + y_1 <= z_1"
+                },
+                "statement": "z_1 = a;"
+              },
+              "statement": "y_1 = c;"
+            },
+            "statement": "x_1 = b;"
+          },
+          "branch": "c < b"
+        },
+        "branch": "c > a"
+      },
+      "branch": "a <= b"
+    },
+    "statement": "int x_1, y_1, z_1;"
+  }
+}

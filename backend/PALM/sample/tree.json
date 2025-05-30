@@ -1,0 +1,82 @@
+{
+  "type": "statement",
+  "next": {
+    "type": "statement",
+    "next": {
+      "type": "branch",
+      "true-branch": {
+        "type": "branch",
+        "true-branch": {
+          "type": "statement",
+          "next": {
+            "type": "end",
+            "path-id": "test.1",
+            "status": "PASS"
+          },
+          "statement": "return false;"
+        },
+        "false-branch": {
+          "type": "statement",
+          "next": {
+            "type": "branch",
+            "true-branch": {
+              "type": "branch",
+              "true-branch": {
+                "type": "statement",
+                "next": {
+                  "type": "end",
+                  "path-id": "test.3",
+                  "status": "ERROR"
+                },
+                "statement": "return false;"
+              },
+              "false-branch": {
+                "type": "statement",
+                "next": {
+                  "type": "branch",
+                  "true-branch": null,
+                  "false-branch": {
+                    "type": "statement",
+                    "next": {
+                      "type": "end",
+                      "path-id": "test.4",
+                      "status": "PASS"
+                    },
+                    "statement": "return true;"
+                  },
+                  "branch": "i_1 < len_1"
+                },
+                "statement": "i_1++;"
+              },
+              "branch": "text.charAt(i_1) != text.charAt(len_1 - i_1 - 1)"
+            },
+            "false-branch": {
+              "type": "statement",
+              "next": {
+                "type": "end",
+                "path-id": "test.2",
+                "status": "PASS"
+              },
+              "statement": "return true;"
+            },
+            "branch": "i_1 < len_1"
+          },
+          "statement": "i_1++;"
+        },
+        "branch": "text.charAt(i_1) != text.charAt(len_1 - i_1 - 1)"
+      },
+      "false-branch": {
+        "type": "statement",
+        "next": {
+          "type": "end",
+          "path-id": "test.0",
+          "status": "UNSAT"
+        },
+        "statement": "return true;"
+      },
+      "branch": "i_1 < len_1"
+    },
+    "statement": "int i_1 = 0;"
+  },
+  "statement": "int len_1 = text.length();"
+}
