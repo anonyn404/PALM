@@ -1,0 +1,5 @@
+flask
+markupsafe
+flask-cors
+openai
+python-dotenv
