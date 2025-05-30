@@ -1,5 +1,5 @@
 # File Structure
-
+```
 PALM/
 ├── docker-compose.yml
 ├── README.md
@@ -8,7 +8,7 @@ PALM/
 │   ├── package.json
 │   ├── vite.config.js
 │   ├── public/
-│   │   └── user_study/
+│   │   └── user_study/           # Preloaded Programs for User Study
 │   │       ├── programs.json
 │   │       └── programs_full.json
 │   └── src/
@@ -16,35 +16,14 @@ PALM/
 │       ├── main.js
 │       ├── config.js
 │       ├── components/
-│       │   ├── Main.vue
+│       │   ├── Main.vue         # Main Page
 │       │   └── icons/
-│       │       ├── IconCommunity.vue
-│       │       ├── IconSupport.vue
-│       │       ├── IconTooling.vue
-│       │       ├── IconDocumentation.vue
-│       │       └── IconEcosystem.vue
 │       └── assets/
-│           ├── main.css
-│           ├── base.css
-│           └── logo.svg
 ├── backend/
-│   ├── app.py
+│   ├── app.py                  # Backend Flask App
 │   ├── requirements.txt
 │   └── PALM/
-│       ├── README.md
-│       ├── sync.sh
-│       └── testMaker/
-│           ├── main.py
-│           ├── configs.py
-│           ├── pathExtraction.py
-│           ├── models/
-│           │   ├── model.py
-│           │   ├── opeai_model.py
-│           │   └── __init__.py
-│           └── docs/
-│               ├── getDoc.py
-│               └── knowledge.json
-
+```
 
 # Setup and Running using Docker
 
