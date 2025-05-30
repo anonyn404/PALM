@@ -1,0 +1,32 @@
+# Use an official Node.js image to build the app
+FROM node:18 as build-stage
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Copy package.json and package-lock.json for dependency installation
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application files
+COPY . .
+
+# Build the Vue 3 webpage
+RUN npm run build
+
+# Use a lightweight Nginx image to serve the webpage
+FROM nginx:alpine as production-stage
+
+# Remove default Nginx website
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy built Vue 3 static files to Nginx serving directory
+COPY --from=build-stage /app/dist /usr/share/nginx/html
+
+# Expose port 80 to serve the webpage
+EXPOSE 80
+
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]
