@@ -1,4 +1,52 @@
-# Using Docker
+# File Structure
+
+PALM/
+├── docker-compose.yml
+├── README.md
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── public/
+│   │   └── user_study/
+│   │       ├── programs.json
+│   │       └── programs_full.json
+│   └── src/
+│       ├── App.vue
+│       ├── main.js
+│       ├── config.js
+│       ├── components/
+│       │   ├── Main.vue
+│       │   └── icons/
+│       │       ├── IconCommunity.vue
+│       │       ├── IconSupport.vue
+│       │       ├── IconTooling.vue
+│       │       ├── IconDocumentation.vue
+│       │       └── IconEcosystem.vue
+│       └── assets/
+│           ├── main.css
+│           ├── base.css
+│           └── logo.svg
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── PALM/
+│       ├── README.md
+│       ├── sync.sh
+│       └── testMaker/
+│           ├── main.py
+│           ├── configs.py
+│           ├── pathExtraction.py
+│           ├── models/
+│           │   ├── model.py
+│           │   ├── opeai_model.py
+│           │   └── __init__.py
+│           └── docs/
+│               ├── getDoc.py
+│               └── knowledge.json
+
+
+# Setup and Running using Docker
 
 ## Set Environment Variable:
 In the backend folder, create a `.env` file
@@ -25,15 +73,9 @@ Stops and removes containers and network, but keeps volumes.
 ```docker compose down```
 
 [//]: # (# Install on local machine)
-
-[//]: # (for macOS/linux)
-
-[//]: # ()
 [//]: # (## Backend)
 
-[//]: # ()
-[//]: # ()
-[//]: # (Assuming python is already installed)
+[//]: # (Assuming python3.13 is already installed)
 
 [//]: # ()
 [//]: # (```)
