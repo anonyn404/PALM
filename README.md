@@ -1,8 +1,6 @@
 # File Structure
 ```
 PALM/
-├── docker-compose.yml
-├── README.md
 ├── frontend/
 │   ├── index.html
 │   ├── package.json
