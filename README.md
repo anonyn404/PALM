@@ -35,6 +35,8 @@ Set OpenAI API Key by adding this line:
 
 
 ## Start:
+Run docker if you haven't already
+Then,
 ```docker compose up --build```
 
 may take a while, stretch
