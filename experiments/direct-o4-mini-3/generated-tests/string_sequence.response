@@ -1,0 +1,12 @@
+```java
+STRING_SEQUENCE.string_sequence(-1);
+```
+```java
+STRING_SEQUENCE.string_sequence(0);
+```
+```java
+STRING_SEQUENCE.string_sequence(1);
+```
+```java
+STRING_SEQUENCE.string_sequence(2);
+```

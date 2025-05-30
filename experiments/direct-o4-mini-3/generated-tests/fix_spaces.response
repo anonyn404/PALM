@@ -1,0 +1,21 @@
+```java
+FIX_SPACES.fix_spaces("");
+```
+```java
+FIX_SPACES.fix_spaces("a");
+```
+```java
+FIX_SPACES.fix_spaces(" ");
+```
+```java
+FIX_SPACES.fix_spaces("ab");
+```
+```java
+FIX_SPACES.fix_spaces("a ");
+```
+```java
+FIX_SPACES.fix_spaces(" a");
+```
+```java
+FIX_SPACES.fix_spaces("  ");
+```

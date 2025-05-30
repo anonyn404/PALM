@@ -1,0 +1,39 @@
+```java
+TRIANGLE_AREA_2.triangle_area_2(1, 2, 3);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(1, 4, 2);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(4, 1, 2);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(0, 0, 0);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(-1, -1, -1);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(3, 4, 5);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(2.5, 2.5, 2.5);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(1.0, 2.0, 2.999);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(2, 2, 3);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(1, 1, 2);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(3.3, 4.4, 5.5);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(10, 6, 8);
+```
+```java
+TRIANGLE_AREA_2.triangle_area_2(0.0, 1.0, 1.0);
+```

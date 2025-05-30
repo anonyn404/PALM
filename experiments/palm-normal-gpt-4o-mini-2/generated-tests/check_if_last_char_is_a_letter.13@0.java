@@ -1,0 +1,6 @@
+```java
+public static void main(String args[]) { 
+    check_if_last_char_is_a_letter("test "); 
+    check_if_last_char_is_a_letter(""); 
+}
+```

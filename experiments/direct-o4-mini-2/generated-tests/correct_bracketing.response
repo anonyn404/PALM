@@ -1,0 +1,15 @@
+```java
+correct_bracketing("");
+```
+```java
+correct_bracketing("<");
+```
+```java
+correct_bracketing(">");
+```
+```java
+correct_bracketing("<<");
+```
+```java
+correct_bracketing("<>");
+```

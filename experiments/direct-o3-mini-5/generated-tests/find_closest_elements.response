@@ -1,0 +1,36 @@
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {1});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {1, 2});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {2, 1});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {1, 1});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {1, 3, 5});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {3, 1, 2});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {3, 5, 4});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {-2, -1});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {0, 0});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {-3, 2, 4});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[] {5, 5, 5});
+```

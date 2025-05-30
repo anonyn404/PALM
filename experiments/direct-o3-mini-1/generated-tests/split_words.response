@@ -1,0 +1,15 @@
+```java
+SPLIT_WORDS.split_words("a b");
+```
+```java
+SPLIT_WORDS.split_words("a,b");
+```
+```java
+SPLIT_WORDS.split_words("");
+```
+```java
+SPLIT_WORDS.split_words("b");
+```
+```java
+SPLIT_WORDS.split_words("bb");
+```

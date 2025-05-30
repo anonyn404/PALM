@@ -1,0 +1,15 @@
+```java
+special_factorial(0L);
+```
+```java
+special_factorial(-1L);
+```
+```java
+special_factorial(1L);
+```
+```java
+special_factorial(2L);
+```
+```java
+special_factorial(3L);
+```

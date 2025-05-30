@@ -1,0 +1,75 @@
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{3.0});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{3.2});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-1.2});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-3.0});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{0.0});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{2.0, 5.0});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{1.1, 2.9});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-1.1, -2.9});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{3.5, -2.1});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{0.5});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-0.5});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-0.0});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{1.999});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-1.999});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{0.0001});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-0.0001});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{2.2, -2.2});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{3.7, 4.1});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-3.7, -4.1});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{Double.POSITIVE_INFINITY});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{Double.NEGATIVE_INFINITY});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{1.0, -1.0});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{-2.5, 2.5});
+```
+```java
+SUM_SQUARED_NUMS.sum_squared_nums(new double[]{2147483647.0, -2147483648.0});
+```

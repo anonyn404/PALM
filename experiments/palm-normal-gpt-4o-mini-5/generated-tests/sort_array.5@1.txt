@@ -1,0 +1,36 @@
+You are a Java test generator. Invoke the target method (sort_array) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.Arrays;
+public static int[] sort_array(int[] array){
+    assertFalse(array.length == 0); //[1]
+    Arrays.sort(array);
+    assertFalse((array[0] + array[array.length - 1]) % 2 == 1); //[2]
+    int i_1 = 0;
+    assertFalse(0 < array.length / 2); //[3]
+    return array;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+int[] inputArray = {2, 4, 6}; 
+sort_array(inputArray);
+```
+Error reason: the assertion [3] is not satisfied, assertFalse(0 < array.length / 2) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

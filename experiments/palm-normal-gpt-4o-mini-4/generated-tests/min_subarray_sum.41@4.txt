@@ -1,0 +1,76 @@
+You are a Java test generator. Invoke the target method (min_subarray_sum) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+public static long min_subarray_sum(ArrayList<Long> nums){
+    long max_sum_1 = 0;
+    long s_1 = 0;
+    Iterator<Long> num_iter_1 = nums.iterator();
+    long num_1;
+    assertTrue(num_iter_1.hasNext()); //[1]
+    num_1 = num_iter_1.next();
+    s_1 += -num_1;
+    assertTrue(s_1 < 0); //[2]
+    s_1 = 0;
+    max_sum_1 = Math.max(0, 0);
+    assertTrue(num_iter_1.hasNext()); //[3]
+    num_1 = num_iter_1.next();
+    s_1 += -num_1;
+    assertTrue(s_1 < 0); //[4]
+    s_1 = 0;
+    max_sum_1 = Math.max(0, max_sum_1);
+    assertFalse(num_iter_1.hasNext()); //[5]
+    assertFalse(max_sum_1 == 0); //[6]
+    long min_sum_1 = -max_sum_1;
+    return min_sum_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+ArrayList<Long> nums = new ArrayList<>();
+nums.add(1L);
+nums.add(2L);
+min_subarray_sum(nums);
+```
+Error reason: the assertion [6] is not satisfied, assertFalse(max_sum_1 == 0) 
+Round 1 generation:
+```java
+ArrayList<Long> nums = new ArrayList<>();
+nums.add(-1L);
+nums.add(-2L);
+min_subarray_sum(nums);
+```
+Error reason: the assertion [2] is not satisfied, assertTrue(s_1 < 0) 
+Round 2 generation:
+```java
+ArrayList<Long> nums = new ArrayList<>();
+nums.add(1L);
+nums.add(3L);
+min_subarray_sum(nums);
+```
+Error reason: the assertion [6] is not satisfied, assertFalse(max_sum_1 == 0) 
+Round 3 generation:
+```java
+ArrayList<Long> nums = new ArrayList<>();
+nums.add(-5L);
+nums.add(-10L);
+min_subarray_sum(nums);
+```
+Error reason: the assertion [2] is not satisfied, assertTrue(s_1 < 0) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

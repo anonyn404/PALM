@@ -1,0 +1,174 @@
+```java
+same_chars("abc", "abc");
+```
+```java
+same_chars("abc", "cba");
+```
+```java
+same_chars("abc", "abcd");
+```
+```java
+same_chars("abc", "ab");
+```
+```java
+same_chars("a", "a");
+```
+```java
+same_chars("a", "b");
+```
+```java
+same_chars("a", "");
+```
+```java
+same_chars("", "");
+```
+```java
+same_chars("", "a");
+```
+```java
+same_chars("123", "321");
+```
+```java
+same_chars("123", "12");
+```
+```java
+same_chars("123", "1234");
+```
+```java
+same_chars("aA", "Aa");
+```
+```java
+same_chars("abc", "");
+```
+```java
+same_chars("cba", "abc");
+```
+```java
+same_chars("!@#", "#@!");
+```
+```java
+same_chars("!@#", "!@#");
+```
+```java
+same_chars("hello", "hello");
+```
+```java
+same_chars("hello", "world");
+```
+```java
+same_chars("test", "sett");
+```
+```java
+same_chars("Java", "java");
+```
+```java
+same_chars("test", "test");
+```
+```java
+same_chars("te", "et");
+```
+```java
+same_chars("x", "y");
+```
+```java
+same_chars("x", "xx");
+```
+```java
+same_chars("xy", "yx");
+```
+```java
+same_chars("xy", "x");
+```
+```java
+same_chars("xyz", "zyx");
+```
+```java
+same_chars("xyz", "yz");
+```
+```java
+same_chars("xyz", "xyzw");
+```
+```java
+same_chars("ab", "");
+```
+```java
+same_chars("abcde", "edcba");
+```
+```java
+same_chars("ab", "abc");
+```
+```java
+same_chars("ab", "a");
+```
+```java
+same_chars("aa", "a");
+```
+```java
+same_chars("aa", "aa");
+```
+```java
+same_chars("12", "12");
+```
+```java
+same_chars("12", "21");
+```
+```java
+same_chars("12", "123");
+```
+```java
+same_chars("12", "3");
+```
+```java
+same_chars("!a", "!a");
+```
+```java
+same_chars("!a", "a!");
+```
+```java
+same_chars("!a", "!");
+```
+```java
+same_chars("AA", "AA");
+```
+```java
+same_chars("AA", "AAa");
+```
+```java
+same_chars("ABC", "ABC");
+```
+```java
+same_chars("ABC", "CBA");
+```
+```java
+same_chars("ABC", "ABCD");
+```
+```java
+same_chars("ABC", "AB");
+```
+```java
+same_chars("abcd", "dcba");
+```
+```java
+same_chars("abcd", "ab");
+```
+```java
+same_chars("abcd", "abcde");
+```
+```java
+same_chars("xyz!", "!zyx");
+```
+```java
+same_chars("xyz!", "xyz!");
+```
+```java
+same_chars("abc1", "1abc");
+```
+```java
+same_chars("abc1", "abc");
+```
+```java
+same_chars("abc1", "abc1d");
+```
+```java
+same_chars("abc1", "defg");
+```

@@ -1,0 +1,65 @@
+You are a Java test generator. Invoke the target method (same_chars) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.*;
+public static boolean same_chars(String s0, String s1){
+    HashSet<Character> set0_1 = new HashSet<Character>();
+    HashSet<Character> set1_1 = new HashSet<Character>();
+    char[] c0_array_1 = s0.toCharArray();
+    char c0_1;
+    assertTrue(0 < c0_array_1.length); //[1]
+    c0_1 = c0_array_1[0];
+    set0_1.add(c0_1);
+    assertFalse(1 < c0_array_1.length); //[2]
+    char[] c1_array_1 = s1.toCharArray();
+    char c1_1;
+    assertTrue(0 < c1_array_1.length); //[3]
+    c1_1 = c1_array_1[0];
+    set1_1.add(c1_1);
+    assertFalse(1 < c1_array_1.length); //[4]
+    return set0_1.equals(set1_1);
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+    System.out.println(same_chars("a", "a")); // should return true
+    System.out.println(same_chars("b", "b")); // should return true
+    System.out.println(same_chars("c", "c")); // should return true
+    System.out.println(same_chars("a", "b")); // should return false
+    System.out.println(same_chars("a", null)); // should return false
+    System.out.println(same_chars(null, "a")); // should return false
+    System.out.println(same_chars("", "a")); // should return false
+    System.out.println(same_chars("a", "")); // should return false
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.toCharArray()" because "<parameter2>" is null
+	at SAME_CHARS.same_chars(same_chars.13.java:16)
+	at SAME_CHARS.main(same_chars.13.java:32)
+
+Round 1 generation:
+```java
+    System.out.println(same_chars("a", "a")); // should return true
+    System.out.println(same_chars("b", "b")); // should return true
+    System.out.println(same_chars("c", "c")); // should return true
+    System.out.println(same_chars("a", "b")); // should return false
+    System.out.println(same_chars("a", " ")); // should return false
+    System.out.println(same_chars(" ", "a")); // should return false
+    System.out.println(same_chars("", "")); // should return false
+```
+Error reason: the assertion [1] is not satisfied, assertTrue(0 < c0_array_1.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

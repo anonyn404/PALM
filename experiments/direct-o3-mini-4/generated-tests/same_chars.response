@@ -1,0 +1,27 @@
+```java
+SAME_CHARS.same_chars("", "");
+```
+```java
+SAME_CHARS.same_chars("", "a");
+```
+```java
+SAME_CHARS.same_chars("", "ab");
+```
+```java
+SAME_CHARS.same_chars("a", "");
+```
+```java
+SAME_CHARS.same_chars("a", "a");
+```
+```java
+SAME_CHARS.same_chars("a", "ab");
+```
+```java
+SAME_CHARS.same_chars("ab", "");
+```
+```java
+SAME_CHARS.same_chars("ab", "a");
+```
+```java
+SAME_CHARS.same_chars("ab", "ab");
+```

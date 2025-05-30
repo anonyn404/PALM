@@ -1,0 +1,6 @@
+```java
+MEDIAN.median(new int[]{1});
+```
+```java
+MEDIAN.median(new int[]{2, 1});
+```

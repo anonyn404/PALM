@@ -1,0 +1,156 @@
+```java
+MONOTONIC.monotonic(new int[]{1, 2, 3});
+```
+```java
+MONOTONIC.monotonic(new int[]{3, 2, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 2, 2});
+```
+```java
+MONOTONIC.monotonic(new int[]{2, 2, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 1, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 0, -1});
+```
+```java
+MONOTONIC.monotonic(new int[]{-1, 0, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{0});
+```
+```java
+MONOTONIC.monotonic(new int[]{-2, -1, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{0, 1, 2});
+```
+```java
+MONOTONIC.monotonic(new int[]{2, 1, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{3});
+```
+```java
+MONOTONIC.monotonic(new int[]{-3});
+```
+```java
+MONOTONIC.monotonic(new int[]{5, 5});
+```
+```java
+MONOTONIC.monotonic(new int[]{10, 5});
+```
+```java
+MONOTONIC.monotonic(new int[]{5, 10});
+```
+```java
+MONOTONIC.monotonic(new int[]{4, 4, 4});
+```
+```java
+MONOTONIC.monotonic(new int[]{-4, -4, -4});
+```
+```java
+MONOTONIC.monotonic(new int[]{-1, -2, -3});
+```
+```java
+MONOTONIC.monotonic(new int[]{3, 3, 3});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 2});
+```
+```java
+MONOTONIC.monotonic(new int[]{2, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{0, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{4, 5});
+```
+```java
+MONOTONIC.monotonic(new int[]{5, 4});
+```
+```java
+MONOTONIC.monotonic(new int[]{-5, -4});
+```
+```java
+MONOTONIC.monotonic(new int[]{-4, -5});
+```
+```java
+MONOTONIC.monotonic(new int[]{4});
+```
+```java
+MONOTONIC.monotonic(new int[]{3, 3, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 3, 3});
+```
+```java
+MONOTONIC.monotonic(new int[]{3, 3, 2});
+```
+```java
+MONOTONIC.monotonic(new int[]{2, 3, 3});
+```
+```java
+MONOTONIC.monotonic(new int[]{5, 5, 6});
+```
+```java
+MONOTONIC.monotonic(new int[]{6, 5, 5});
+```
+```java
+MONOTONIC.monotonic(new int[]{4, 3, 3});
+```
+```java
+MONOTONIC.monotonic(new int[]{-1, -2, -2});
+```
+```java
+MONOTONIC.monotonic(new int[]{-2, -1, -1});
+```
+```java
+MONOTONIC.monotonic(new int[]{4, 3, 2});
+```
+```java
+MONOTONIC.monotonic(new int[]{2, 3, 4});
+```
+```java
+MONOTONIC.monotonic(new int[]{0, -1});
+```
+```java
+MONOTONIC.monotonic(new int[]{-1, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{9, 9, 8});
+```
+```java
+MONOTONIC.monotonic(new int[]{8, 9, 9});
+```
+```java
+MONOTONIC.monotonic(new int[]{7, 8, 9});
+```
+```java
+MONOTONIC.monotonic(new int[]{9, 8, 7});
+```
+```java
+MONOTONIC.monotonic(new int[]{0, 1, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 0, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{0, 0, 1});
+```
+```java
+MONOTONIC.monotonic(new int[]{1, 0, -1});
+```
+```java
+MONOTONIC.monotonic(new int[]{-1, 0, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{2, 1, 0});
+```
+```java
+MONOTONIC.monotonic(new int[]{0, 1, 2});
+```

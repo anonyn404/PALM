@@ -1,0 +1,153 @@
+```java
+HOW_MANY_TIMES.how_many_times("hello", "l");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "hello");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "o");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "he");
+```
+```java
+HOW_MANY_TIMES.how_many_times("", "l");
+```
+```java
+HOW_MANY_TIMES.how_many_times("", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "abc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "c");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "bc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "abcabc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ab", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ab", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ab", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aa", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aa", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aa", "aa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "c");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "bc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "abc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaa", "aa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaa", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaa", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaa", "aaa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaa", "aaaa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "aa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "bb");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "cd");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "c");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "abc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "bc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "def");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "abcdef");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "e");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "f");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "");
+```

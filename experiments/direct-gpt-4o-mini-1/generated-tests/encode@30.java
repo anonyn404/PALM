@@ -1,0 +1,2 @@
+```javaencode("AaEeIiOoUuTt");
+```

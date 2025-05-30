@@ -1,0 +1,2 @@
+```javaENCODE.encode("abcdef");
+```

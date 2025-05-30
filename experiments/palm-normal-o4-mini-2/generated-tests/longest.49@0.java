@@ -1,0 +1,1 @@
+longest(java.util.Arrays.asList("", "a"));

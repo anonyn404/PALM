@@ -1,0 +1,2 @@
+```javaencrypt("ANY UPPERCASE");
+```

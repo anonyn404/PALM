@@ -1,0 +1,138 @@
+```java
+add_elements(new ArrayList<>(Arrays.asList(1, 2, 3)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(10, 20, 30)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1, 100, 200)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1, 11, 111)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(0, 5, -5)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(-1, -2, -3)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(10, -10, 15)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(500, 50, 5)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(2, 22, 222)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(3, 33, 333)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1, 2, 0)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(99, 100, 1)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1000, 0, 2)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(2, -2, 3)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(5, 3, 7)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(50, 9, 20)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(99, 1, 0)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(0, 200, 300)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(-1, -5, 2)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(4, 400, 5)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(25, 3, 20)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1, 1, 1)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(0, 0, 0)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(5, 5, 5)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(8, 8, 8)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(10, -10, -10)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(50, 25, 0)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(15, 15, 15)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(4, -4, 3)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(30, 5, 90)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(-20, -1, -10)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(75, -25, 50)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(2, -2, 1000)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(120, 30, 3)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(20, 35, 1)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(5, 5)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(10)), 1);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1)), 1);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(12, 15)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(0)), 1);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(20, -20)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(3, 4)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(100, -50)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(7, 2)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(40, 3, 1)), 2);
+```
+```java
+add_elements(new ArrayList<>(Arrays.asList(1, 2)), 2);
+```

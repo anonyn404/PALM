@@ -1,0 +1,36 @@
+You are a Java test generator. Invoke the target method (common) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.*;
+public static void common(int[] l1, int[] l2){
+    HashSet<Integer> common_1 = new HashSet<Integer>();
+    int i_1 = 0;
+    assertTrue(0 < l1.length); //[1]
+    int j_1 = 0;
+    assertTrue(0 < l2.length); //[2]
+    assertFalse(l1[0] == l2[0]); //[3]
+    j_1 += 1;
+    assertTrue(1 < l2.length); //[4]
+    assertFalse(l1[0] == l2[1]); //[5]
+    j_1 += 1;
+    assertFalse(2 < l2.length); //[6]
+    i_1 += 1;
+    assertFalse(1 < l1.length); //[7]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

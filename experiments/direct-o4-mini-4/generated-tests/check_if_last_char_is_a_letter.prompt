@@ -1,0 +1,36 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (check_if_last_char_is_a_letter); ignore branches in other methods and API calls. Generate up to 50 tests invoking check_if_last_char_is_a_letter. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class CHECK_IF_LAST_CHAR_IS_A_LETTER {
+
+    public static boolean check_if_last_char_is_a_letter(String txt) {
+        String[] parts = txt.split(" ");
+        String last = " ";
+        if (parts.length != 0)
+            last = parts[parts.length - 1];
+        if (txt.length() != 0 && txt.charAt(txt.length() - 1) == ' ')
+            last = " ";
+        if (txt.length() == 0)
+            last = " ";
+        int last_char_pos = Character.toLowerCase(last.charAt(0)) - 'a';
+        return (last.length() == 1) && (0 <= last_char_pos && last_char_pos <= 25);
+    }
+}

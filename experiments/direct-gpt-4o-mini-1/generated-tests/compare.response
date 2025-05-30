@@ -1,0 +1,162 @@
+```java
+compare(new int[]{1, 2}, new int[]{1, 2});
+```
+```java
+compare(new int[]{1, 2}, new int[]{2, 1});
+```
+```java
+compare(new int[]{2, 1}, new int[]{1, 2});
+```
+```java
+compare(new int[]{2, 2}, new int[]{2, 2});
+```
+```java
+compare(new int[]{0, 0}, new int[]{0, 0});
+```
+```java
+compare(new int[]{-1, -2}, new int[]{-1, -2});
+```
+```java
+compare(new int[]{-1, -2}, new int[]{-2, -1});
+```
+```java
+compare(new int[]{-2, -1}, new int[]{-1, -2});
+```
+```java
+compare(new int[]{1, -1}, new int[]{1, 1});
+```
+```java
+compare(new int[]{-1, 1}, new int[]{-1, -1});
+```
+```java
+compare(new int[]{0, 1}, new int[]{0, 0});
+```
+```java
+compare(new int[]{1, 0}, new int[]{0, 1});
+```
+```java
+compare(new int[]{1, -1}, new int[]{2, 0});
+```
+```java
+compare(new int[]{2, 0}, new int[]{1, -1});
+```
+```java
+compare(new int[]{2, -2}, new int[]{-2, 2});
+```
+```java
+compare(new int[]{-1, -1}, new int[]{-1, 1});
+```
+```java
+compare(new int[]{0, -1}, new int[]{0, 0});
+```
+```java
+compare(new int[]{-1, 0}, new int[]{1, -1});
+```
+```java
+compare(new int[]{3, 4}, new int[]{5, 6});
+```
+```java
+compare(new int[]{5, 5}, new int[]{3, 3});
+```
+```java
+compare(new int[]{1, 1}, new int[]{1, 1});
+```
+```java
+compare(new int[]{-3, -4}, new int[]{-3, -4});
+```
+```java
+compare(new int[]{0, 2}, new int[]{1, 1});
+```
+```java
+compare(new int[]{2, 0}, new int[]{0, 2});
+```
+```java
+compare(new int[]{1, 2}, new int[]{0, 3});
+```
+```java
+compare(new int[]{2, 3}, new int[]{2, 3});
+```
+```java
+compare(new int[]{-2, 2}, new int[]{0, 0});
+```
+```java
+compare(new int[]{2, -3}, new int[]{1, -2});
+```
+```java
+compare(new int[]{-3, -2}, new int[]{-3, -3});
+```
+```java
+compare(new int[]{-2, 2}, new int[]{2, -2});
+```
+```java
+compare(new int[]{10, 20}, new int[]{5, 15});
+```
+```java
+compare(new int[]{15, 5}, new int[]{20, 10});
+```
+```java
+compare(new int[]{5, 5}, new int[]{5, 5});
+```
+```java
+compare(new int[]{3, 7}, new int[]{5, 8});
+```
+```java
+compare(new int[]{-5, -7}, new int[]{-5, -6});
+```
+```java
+compare(new int[]{-6, -5}, new int[]{-5, -7});
+```
+```java
+compare(new int[]{0, 0}, new int[]{1, 1});
+```
+```java
+compare(new int[]{1, 0}, new int[]{-1, 0});
+```
+```java
+compare(new int[]{4, 3}, new int[]{2, 1});
+```
+```java
+compare(new int[]{3, 4}, new int[]{4, 3});
+```
+```java
+compare(new int[]{0, -2}, new int[]{1, 0});
+```
+```java
+compare(new int[]{5, 0}, new int[]{5, 5});
+```
+```java
+compare(new int[]{10, 10}, new int[]{0, 0});
+```
+```java
+compare(new int[]{0, 10}, new int[]{10, 0});
+```
+```java
+compare(new int[]{0, 1}, new int[]{2, 2});
+```
+```java
+compare(new int[]{-1, -1}, new int[]{1, 1});
+```
+```java
+compare(new int[]{7, 5}, new int[]{6, 4});
+```
+```java
+compare(new int[]{5, 6}, new int[]{7, 5});
+```
+```java
+compare(new int[]{100, 200}, new int[]{0, 50});
+```
+```java
+compare(new int[]{50, 100}, new int[]{75, 0});
+```
+```java
+compare(new int[]{900, 800}, new int[]{900, 800});
+```
+```java
+compare(new int[]{8, 9}, new int[]{8, 10});
+```
+```java
+compare(new int[]{9, 8}, new int[]{10, 8});
+```
+```java
+compare(new int[]{2, 2}, new int[]{-2, -2});
+```

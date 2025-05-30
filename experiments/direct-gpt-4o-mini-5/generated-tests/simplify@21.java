@@ -1,0 +1,2 @@
+```javaSIMPLIFY.simplify("3/3", "1/3");
+```

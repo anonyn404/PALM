@@ -1,0 +1,42 @@
+```java
+COMPARE_ONE.compare_one("1", "1");
+```
+```java
+COMPARE_ONE.compare_one("2", "1");
+```
+```java
+COMPARE_ONE.compare_one("1", "2");
+```
+```java
+COMPARE_ONE.compare_one(1, 1);
+```
+```java
+COMPARE_ONE.compare_one(2, 1);
+```
+```java
+COMPARE_ONE.compare_one(1, 2);
+```
+```java
+COMPARE_ONE.compare_one(1.0, 1.0);
+```
+```java
+COMPARE_ONE.compare_one(2.0, 1.0);
+```
+```java
+COMPARE_ONE.compare_one(1.0, 2.0);
+```
+```java
+COMPARE_ONE.compare_one("2", 1);
+```
+```java
+COMPARE_ONE.compare_one(1, "2");
+```
+```java
+COMPARE_ONE.compare_one("1,5", "1,5");
+```
+```java
+COMPARE_ONE.compare_one("2,5", "1,5");
+```
+```java
+COMPARE_ONE.compare_one("1,5", "2,5");
+```

@@ -1,0 +1,18 @@
+```java
+split_words("hello world");
+```
+```java
+split_words("foo,bar");
+```
+```java
+split_words("12");
+```
+```java
+split_words("ab");
+```
+```java
+split_words("bd");
+```
+```java
+split_words("");
+```

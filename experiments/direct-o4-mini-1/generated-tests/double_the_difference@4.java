@@ -1,0 +1,2 @@
+```javadouble_the_difference(new double[]{1.5, 1.5});
+```

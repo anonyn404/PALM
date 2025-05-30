@@ -1,0 +1,156 @@
+```java
+greatest_common_divisor(48, 18);
+```
+```java
+greatest_common_divisor(18, 48);
+```
+```java
+greatest_common_divisor(0, 5);
+```
+```java
+greatest_common_divisor(5, 0);
+```
+```java
+greatest_common_divisor(0, 0);
+```
+```java
+greatest_common_divisor(12, 15);
+```
+```java
+greatest_common_divisor(15, 12);
+```
+```java
+greatest_common_divisor(-12, 15);
+```
+```java
+greatest_common_divisor(12, -15);
+```
+```java
+greatest_common_divisor(-12, -15);
+```
+```java
+greatest_common_divisor(25, 5);
+```
+```java
+greatest_common_divisor(5, 25);
+```
+```java
+greatest_common_divisor(100, 10);
+```
+```java
+greatest_common_divisor(10, 100);
+```
+```java
+greatest_common_divisor(7, 3);
+```
+```java
+greatest_common_divisor(3, 7);
+```
+```java
+greatest_common_divisor(8, 12);
+```
+```java
+greatest_common_divisor(12, 8);
+```
+```java
+greatest_common_divisor(101, 103);
+```
+```java
+greatest_common_divisor(103, 101);
+```
+```java
+greatest_common_divisor(0, 1);
+```
+```java
+greatest_common_divisor(1, 0);
+```
+```java
+greatest_common_divisor(1, 1);
+```
+```java
+greatest_common_divisor(20, 40);
+```
+```java
+greatest_common_divisor(40, 20);
+```
+```java
+greatest_common_divisor(56, 98);
+```
+```java
+greatest_common_divisor(98, 56);
+```
+```java
+greatest_common_divisor(30, 45);
+```
+```java
+greatest_common_divisor(45, 30);
+```
+```java
+greatest_common_divisor(16, 24);
+```
+```java
+greatest_common_divisor(24, 16);
+```
+```java
+greatest_common_divisor(75, 100);
+```
+```java
+greatest_common_divisor(100, 75);
+```
+```java
+greatest_common_divisor(9, 27);
+```
+```java
+greatest_common_divisor(27, 9);
+```
+```java
+greatest_common_divisor(14, 28);
+```
+```java
+greatest_common_divisor(28, 14);
+```
+```java
+greatest_common_divisor(-20, 30);
+```
+```java
+greatest_common_divisor(30, -20);
+```
+```java
+greatest_common_divisor(-30, -15);
+```
+```java
+greatest_common_divisor(-15, -30);
+```
+```java
+greatest_common_divisor(42, 56);
+```
+```java
+greatest_common_divisor(56, 42);
+```
+```java
+greatest_common_divisor(2, 3);
+```
+```java
+greatest_common_divisor(3, 2);
+```
+```java
+greatest_common_divisor(35, 10);
+```
+```java
+greatest_common_divisor(10, 35);
+```
+```java
+greatest_common_divisor(1, 2);
+```
+```java
+greatest_common_divisor(2, 1);
+```
+```java
+greatest_common_divisor(1000, 500);
+```
+```java
+greatest_common_divisor(500, 1000);
+```
+```java
+greatest_common_divisor(17, 19);
+```

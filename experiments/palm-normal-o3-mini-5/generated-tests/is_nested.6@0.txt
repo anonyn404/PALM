@@ -1,0 +1,32 @@
+You are a Java test generator. Invoke the target method (is_nested) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+public static void is_nested(String brackets){
+    ArrayList<Integer> opening_brackets_1 = new ArrayList<>();
+    ArrayList<Integer> closing_brackets_1 = new ArrayList<>();
+    int i_1 = 0;
+    assertTrue(0 < brackets.length()); //[1]
+    assertFalse(brackets.charAt(0) == '['); //[2]
+    closing_brackets_1.add(0);
+    i_1++;
+    assertTrue(1 < brackets.length()); //[3]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

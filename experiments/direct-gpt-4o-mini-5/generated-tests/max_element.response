@@ -1,0 +1,159 @@
+```java
+max_element(Arrays.asList(1));
+```
+```java
+max_element(Arrays.asList(2));
+```
+```java
+max_element(Arrays.asList(1, 2));
+```
+```java
+max_element(Arrays.asList(2, 1));
+```
+```java
+max_element(Arrays.asList(-1, 1));
+```
+```java
+max_element(Arrays.asList(-2, -1));
+```
+```java
+max_element(Arrays.asList(0, 1));
+```
+```java
+max_element(Arrays.asList(0, -1));
+```
+```java
+max_element(Arrays.asList(-5, 5));
+```
+```java
+max_element(Arrays.asList(5, -5));
+```
+```java
+max_element(Arrays.asList(3, 3));
+```
+```java
+max_element(Arrays.asList(5, 5));
+```
+```java
+max_element(Arrays.asList(-3, -2));
+```
+```java
+max_element(Arrays.asList(2, 2));
+```
+```java
+max_element(Arrays.asList(4, 2));
+```
+```java
+max_element(Arrays.asList(2, 4));
+```
+```java
+max_element(Arrays.asList(0, 0));
+```
+```java
+max_element(Arrays.asList(1, -1));
+```
+```java
+max_element(Arrays.asList(-1, 1, 0));
+```
+```java
+max_element(Arrays.asList(1, 2, 3));
+```
+```java
+max_element(Arrays.asList(3, 2, 1));
+```
+```java
+max_element(Arrays.asList(10, 20));
+```
+```java
+max_element(Arrays.asList(20, 10));
+```
+```java
+max_element(Arrays.asList(0, -10));
+```
+```java
+max_element(Arrays.asList(-10, 0));
+```
+```java
+max_element(Arrays.asList(4, 4));
+```
+```java
+max_element(Arrays.asList(-4, -2));
+```
+```java
+max_element(Arrays.asList(5, -10));
+```
+```java
+max_element(Arrays.asList(-10, 5));
+```
+```java
+max_element(Arrays.asList(Integer.MAX_VALUE, Integer.MIN_VALUE));
+```
+```java
+max_element(Arrays.asList(Integer.MIN_VALUE, Integer.MAX_VALUE));
+```
+```java
+max_element(Arrays.asList(Integer.MIN_VALUE, 0));
+```
+```java
+max_element(Arrays.asList(0, Integer.MIN_VALUE));
+```
+```java
+max_element(Arrays.asList(Integer.MAX_VALUE, 0));
+```
+```java
+max_element(Arrays.asList(0, Integer.MAX_VALUE));
+```
+```java
+max_element(Arrays.asList(1, 100));
+```
+```java
+max_element(Arrays.asList(100, 1));
+```
+```java
+max_element(Arrays.asList(-1, -100));
+```
+```java
+max_element(Arrays.asList(-100, -1));
+```
+```java
+max_element(Arrays.asList(0, 1, 2));
+```
+```java
+max_element(Arrays.asList(2, 1, 0));
+```
+```java
+max_element(Arrays.asList(1, 0, -1));
+```
+```java
+max_element(Arrays.asList(-1, 0, 1));
+```
+```java
+max_element(Arrays.asList(-2, -1, 0));
+```
+```java
+max_element(Arrays.asList(0, -2, -1));
+```
+```java
+max_element(Arrays.asList(-1000, -500, -750));
+```
+```java
+max_element(Arrays.asList(-500, -1000, -750));
+```
+```java
+max_element(Arrays.asList(750, -500, -1000));
+```
+```java
+max_element(Arrays.asList(-500, 750, -1000));
+```
+```java
+max_element(Arrays.asList(1, 2, 2));
+```
+```java
+max_element(Arrays.asList(2, 2, 1));
+```
+```java
+max_element(Arrays.asList(5, 5, 5));
+```
+```java
+max_element(Arrays.asList(3, 3, 3));
+```

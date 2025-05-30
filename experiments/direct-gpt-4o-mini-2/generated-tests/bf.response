@@ -1,0 +1,153 @@
+```java
+BF.bf("Mercury", "Venus");
+```
+```java
+BF.bf("Venus", "Earth");
+```
+```java
+BF.bf("Earth", "Mars");
+```
+```java
+BF.bf("Mars", "Jupiter");
+```
+```java
+BF.bf("Jupiter", "Saturn");
+```
+```java
+BF.bf("Saturn", "Uranus");
+```
+```java
+BF.bf("Uranus", "Neptune");
+```
+```java
+BF.bf("Neptune", "Mercury");
+```
+```java
+BF.bf("Venus", "Mars");
+```
+```java
+BF.bf("Earth", "Jupiter");
+```
+```java
+BF.bf("Mars", "Saturn");
+```
+```java
+BF.bf("Jupiter", "Uranus");
+```
+```java
+BF.bf("Saturn", "Neptune");
+```
+```java
+BF.bf("Mercury", "Neptune");
+```
+```java
+BF.bf("Venus", "Jupiter");
+```
+```java
+BF.bf("Earth", "Saturn");
+```
+```java
+BF.bf("Mars", "Uranus");
+```
+```java
+BF.bf("Jupiter", "Neptune");
+```
+```java
+BF.bf("Pluto", "Venus");
+```
+```java
+BF.bf("Earth", "Pluto");
+```
+```java
+BF.bf("Neptune", "Pluto");
+```
+```java
+BF.bf("Pluto", "Earth");
+```
+```java
+BF.bf("Pluto", "Uranus");
+```
+```java
+BF.bf("Pluto", "Saturn");
+```
+```java
+BF.bf("Uranus", "Pluto");
+```
+```java
+BF.bf("Jupiter", "Pluto");
+```
+```java
+BF.bf("Mercury", "Pluto");
+```
+```java
+BF.bf("Venus", "Pluto");
+```
+```java
+BF.bf("Mars", "Pluto");
+```
+```java
+BF.bf("Earth", "Earth");
+```
+```java
+BF.bf("Mars", "Mars");
+```
+```java
+BF.bf("Saturn", "Saturn");
+```
+```java
+BF.bf("Jupiter", "Jupiter");
+```
+```java
+BF.bf("Uranus", "Uranus");
+```
+```java
+BF.bf("Neptune", "Neptune");
+```
+```java
+BF.bf("Venus", "Earth");
+```
+```java
+BF.bf("Earth", "Venus");
+```
+```java
+BF.bf("Saturn", "Uranus");
+```
+```java
+BF.bf("Uranus", "Saturn");
+```
+```java
+BF.bf("Earth", "Mars");
+```
+```java
+BF.bf("Mars", "Earth");
+```
+```java
+BF.bf("Mercury", "Earth");
+```
+```java
+BF.bf("Earth", "Mercury");
+```
+```java
+BF.bf("Mars", "Neptune");
+```
+```java
+BF.bf("Neptune", "Mars");
+```
+```java
+BF.bf("Jupiter", "Earth");
+```
+```java
+BF.bf("Earth", "Jupiter");
+```
+```java
+BF.bf("Mercury", "Saturn");
+```
+```java
+BF.bf("Saturn", "Mercury");
+```
+```java
+BF.bf("Uranus", "Earth");
+```
+```java
+BF.bf("Earth", "Uranus");
+```

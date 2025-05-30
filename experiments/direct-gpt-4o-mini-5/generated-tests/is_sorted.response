@@ -1,0 +1,150 @@
+```java
+is_sorted(new int[]{});
+```
+```java
+is_sorted(new int[]{1});
+```
+```java
+is_sorted(new int[]{1, 1});
+```
+```java
+is_sorted(new int[]{1, 2});
+```
+```java
+is_sorted(new int[]{2, 1});
+```
+```java
+is_sorted(new int[]{1, 1, 1});
+```
+```java
+is_sorted(new int[]{1, 2, 2});
+```
+```java
+is_sorted(new int[]{1, 0});
+```
+```java
+is_sorted(new int[]{0, 1});
+```
+```java
+is_sorted(new int[]{-1, 0});
+```
+```java
+is_sorted(new int[]{0, -1});
+```
+```java
+is_sorted(new int[]{1, 2, 3});
+```
+```java
+is_sorted(new int[]{3, 2, 1});
+```
+```java
+is_sorted(new int[]{1, 2, 2, 3});
+```
+```java
+is_sorted(new int[]{3, 3, 2, 1});
+```
+```java
+is_sorted(new int[]{4, 5, 6, 7});
+```
+```java
+is_sorted(new int[]{1, 1, 2});
+```
+```java
+is_sorted(new int[]{2, 1, 1});
+```
+```java
+is_sorted(new int[]{2, 2, 2});
+```
+```java
+is_sorted(new int[]{1, 1, 2, 3});
+```
+```java
+is_sorted(new int[]{3, 4, 5, 6});
+```
+```java
+is_sorted(new int[]{1, 3, 2});
+```
+```java
+is_sorted(new int[]{1, 3, 3});
+```
+```java
+is_sorted(new int[]{3, 3, 3});
+```
+```java
+is_sorted(new int[]{1, 2, 2, 3, 4});
+```
+```java
+is_sorted(new int[]{5, 4, 3, 2});
+```
+```java
+is_sorted(new int[]{1, 2, 2, 2});
+```
+```java
+is_sorted(new int[]{2, 3, 2, 4});
+```
+```java
+is_sorted(new int[]{0, 0, 0});
+```
+```java
+is_sorted(new int[]{10, 9, 10});
+```
+```java
+is_sorted(new int[]{7, 8, 8, 9});
+```
+```java
+is_sorted(new int[]{0, 1, 2, 3});
+```
+```java
+is_sorted(new int[]{3, 2, 1, 0});
+```
+```java
+is_sorted(new int[]{1, 3, 2, 2});
+```
+```java
+is_sorted(new int[]{2, 2, 3, 4});
+```
+```java
+is_sorted(new int[]{4, 3});
+```
+```java
+is_sorted(new int[]{7});
+```
+```java
+is_sorted(new int[]{5, 5});
+```
+```java
+is_sorted(new int[]{5, 5, 5});
+```
+```java
+is_sorted(new int[]{4, 4, 5});
+```
+```java
+is_sorted(new int[]{6, 5, 5});
+```
+```java
+is_sorted(new int[]{-1, -1});
+```
+```java
+is_sorted(new int[]{-2, -1});
+```
+```java
+is_sorted(new int[]{-1, 0, 1});
+```
+```java
+is_sorted(new int[]{-5, -5, -5});
+```
+```java
+is_sorted(new int[]{1, 1, 3});
+```
+```java
+is_sorted(new int[]{3, 3, 3});
+```
+```java
+is_sorted(new int[]{0, 0, 1});
+```
+```java
+is_sorted(new int[]{1, 2, 1});
+```
+```java
+is_sorted(new int[]{-3, -2, -1});
+```

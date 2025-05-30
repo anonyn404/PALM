@@ -1,0 +1,24 @@
+```java
+generate_integers(1, 0);
+```
+```java
+generate_integers(2, 2);
+```
+```java
+generate_integers(2, 3);
+```
+```java
+generate_integers(3, 4);
+```
+```java
+generate_integers(2, 8);
+```
+```java
+generate_integers(10, 3);
+```
+```java
+generate_integers(1, 9);
+```
+```java
+generate_integers(9, 10);
+```

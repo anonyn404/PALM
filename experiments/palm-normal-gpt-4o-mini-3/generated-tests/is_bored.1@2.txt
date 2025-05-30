@@ -1,0 +1,41 @@
+You are a Java test generator. Invoke the target method (is_bored) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static int is_bored(String S){
+    String[] sentences_1 = S.split("\\.|\\?|!");
+    int result_1 = 0;
+    String sentence_1;
+    assertFalse(0 < sentences_1.length); //[1]
+    return 0;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+is_bored("");
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(0 < sentences_1.length) 
+Round 1 generation:
+```java
+is_bored(null);
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.split(String)" because "<parameter1>" is null
+	at IS_BORED.is_bored(is_bored.1.java:7)
+	at IS_BORED.main(is_bored.1.java:17)
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

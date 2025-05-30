@@ -1,0 +1,33 @@
+```java
+SOLUTION.solution(new ArrayList<Integer>());
+```
+```java
+{
+    ArrayList<Integer> lst = new ArrayList<Integer>();
+    lst.add(2);
+    SOLUTION.solution(lst);
+}
+```
+```java
+{
+    ArrayList<Integer> lst = new ArrayList<Integer>();
+    lst.add(3);
+    SOLUTION.solution(lst);
+}
+```
+```java
+{
+    ArrayList<Integer> lst = new ArrayList<Integer>();
+    lst.add(2);
+    lst.add(4);
+    SOLUTION.solution(lst);
+}
+```
+```java
+{
+    ArrayList<Integer> lst = new ArrayList<Integer>();
+    lst.add(3);
+    lst.add(2);
+    SOLUTION.solution(lst);
+}
+```

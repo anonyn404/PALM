@@ -1,0 +1,144 @@
+```java
+max_fill(new int[][]{{1, 1}}, 1);
+```
+```java
+max_fill(new int[][]{{1, 1}}, 2);
+```
+```java
+max_fill(new int[][]{{2, 2}}, 1);
+```
+```java
+max_fill(new int[][]{{2, 2}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{1, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{1, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 1}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 1}}, 2);
+```
+```java
+max_fill(new int[][]{{3, 3}}, 1);
+```
+```java
+max_fill(new int[][]{{3, 3}}, 2);
+```
+```java
+max_fill(new int[][]{{3, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{3, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 3}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 3}}, 2);
+```
+```java
+max_fill(new int[][]{{4, 4}}, 1);
+```
+```java
+max_fill(new int[][]{{4, 4}}, 2);
+```
+```java
+max_fill(new int[][]{{4, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{4, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 4}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 4}}, 2);
+```
+```java
+max_fill(new int[][]{{5, 5}}, 1);
+```
+```java
+max_fill(new int[][]{{5, 5}}, 2);
+```
+```java
+max_fill(new int[][]{{5, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{5, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 5}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 5}}, 2);
+```
+```java
+max_fill(new int[][]{{1, 2}, {3, 4}}, 1);
+```
+```java
+max_fill(new int[][]{{1, 2}, {3, 4}}, 2);
+```
+```java
+max_fill(new int[][]{{1, 2}, {0, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{1, 2}, {0, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 0}, {3, 4}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 0}, {3, 4}}, 2);
+```
+```java
+max_fill(new int[][]{{1, 1}, {2, 2}}, 1);
+```
+```java
+max_fill(new int[][]{{1, 1}, {2, 2}}, 2);
+```
+```java
+max_fill(new int[][]{{0, 0}, {0, 0}}, 1);
+```
+```java
+max_fill(new int[][]{{0, 0}, {0, 0}}, 2);
+```
+```java
+max_fill(new int[][]{{3, 2}, {1, 4}}, 1);
+```
+```java
+max_fill(new int[][]{{3, 2}, {1, 4}}, 2);
+```
+```java
+max_fill(new int[][]{{3, 4}, {2, 1}}, 1);
+```
+```java
+max_fill(new int[][]{{3, 4}, {2, 1}}, 2);
+```
+```java
+max_fill(new int[][]{{10, 5}, {5, 10}}, 5);
+```
+```java
+max_fill(new int[][]{{10, 5}, {5, 10}}, 10);
+```
+```java
+max_fill(new int[][]{{10, 10}, {10, 10}}, 5);
+```
+```java
+max_fill(new int[][]{{10, 10}, {10, 10}}, 10);
+```
+```java
+max_fill(new int[][]{{1, 1}, {1, 1}}, 1);
+```
+```java
+max_fill(new int[][]{{1, 1}, {1, 1}}, 2);
+```

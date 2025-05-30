@@ -1,0 +1,5 @@
+```javaHashMap<Object, Object> dict = new HashMap<>();
+dict.put("foo", "value1");
+dict.put("bar", "value2");
+CHECK_DICT_CASE.check_dict_case(dict);
+```

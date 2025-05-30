@@ -1,0 +1,50 @@
+You are a Java test generator. Invoke the target method (how_many_times) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static int how_many_times(String string, String substring){
+    int times_1 = 0;
+    int i_1 = 0;
+    assertFalse(0 < string.length() - substring.length() + 1); //[1]
+    return 0;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+how_many_times("", ""); 
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(0 < string.length() - substring.length() + 1) 
+Round 1 generation:
+```java
+how_many_times("abc", ""); 
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(0 < string.length() - substring.length() + 1) 
+Round 2 generation:
+```java
+how_many_times(null, "abc");
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "<parameter1>" is null
+	at HOW_MANY_TIMES.how_many_times(how_many_times.1.java:9)
+	at HOW_MANY_TIMES.main(how_many_times.1.java:16)
+
+Round 3 generation:
+```java
+how_many_times("abc", "abc"); 
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(0 < string.length() - substring.length() + 1) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

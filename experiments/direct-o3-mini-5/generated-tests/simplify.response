@@ -1,0 +1,15 @@
+```java
+simplify("1/1", "1/1");
+```
+```java
+simplify("5/2", "1/1");
+```
+```java
+simplify("6/3", "6/2");
+```
+```java
+simplify("3/2", "1/2");
+```
+```java
+simplify("4/2", "2/-1");
+```

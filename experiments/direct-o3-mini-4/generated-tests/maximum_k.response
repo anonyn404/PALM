@@ -1,0 +1,15 @@
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(Arrays.asList(10, 20, 30)), 2);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(Arrays.asList(10, 20, 30)), 1);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(Arrays.asList(10, 20, 30)), 3);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(Arrays.asList(10, 20)), 0);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(Arrays.asList()), 0);
+```

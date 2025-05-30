@@ -1,0 +1,18 @@
+```java
+BF.bf("X", "Earth");
+```
+```java
+BF.bf("Earth", "Fake");
+```
+```java
+BF.bf("Earth", "Mars");
+```
+```java
+BF.bf("Earth", "Jupiter");
+```
+```java
+BF.bf("Saturn", "Earth");
+```
+```java
+BF.bf("Mars", "Mars");
+```

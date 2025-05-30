@@ -1,0 +1,27 @@
+```java
+triangle_area_2(1, 2, 3);
+```
+```java
+triangle_area_2(1, 1, 3);
+```
+```java
+triangle_area_2(1, 3, 1);
+```
+```java
+triangle_area_2(1.5, 4, 2);
+```
+```java
+triangle_area_2(3, 1, 1);
+```
+```java
+triangle_area_2(4, 1, 3);
+```
+```java
+triangle_area_2(3, 4, 5);
+```
+```java
+triangle_area_2(2, 3, 4);
+```
+```java
+triangle_area_2(5, 7, 8);
+```

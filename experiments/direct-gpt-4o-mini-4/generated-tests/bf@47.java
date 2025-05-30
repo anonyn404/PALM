@@ -1,0 +1,2 @@
+```javaBF.bf("Mercury", "Jupiter");
+```

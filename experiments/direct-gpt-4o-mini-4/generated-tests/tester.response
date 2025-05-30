@@ -1,0 +1,144 @@
+```java
+foo(1, 1);
+```
+```java
+foo(1, -1);
+```
+```java
+foo(1, 0);
+```
+```java
+foo(-1, 1);
+```
+```java
+foo(-1, -1);
+```
+```java
+foo(-1, 0);
+```
+```java
+foo(0, 1);
+```
+```java
+foo(0, -1);
+```
+```java
+foo(0, 0);
+```
+```java
+foo(2, 2);
+```
+```java
+foo(2, -2);
+```
+```java
+foo(2, 0);
+```
+```java
+foo(-2, 2);
+```
+```java
+foo(-2, -2);
+```
+```java
+foo(-2, 0);
+```
+```java
+foo(0, 2);
+```
+```java
+foo(0, -2);
+```
+```java
+foo(0, 3);
+```
+```java
+foo(3, 0);
+```
+```java
+foo(3, 3);
+```
+```java
+foo(3, -3);
+```
+```java
+foo(-3, 3);
+```
+```java
+foo(-3, -3);
+```
+```java
+foo(-3, 0);
+```
+```java
+foo(4, 4);
+```
+```java
+foo(4, -4);
+```
+```java
+foo(4, 0);
+```
+```java
+foo(-4, 4);
+```
+```java
+foo(-4, -4);
+```
+```java
+foo(-4, 0);
+```
+```java
+foo(0, 4);
+```
+```java
+foo(0, -4);
+```
+```java
+foo(5, 5);
+```
+```java
+foo(5, -5);
+```
+```java
+foo(5, 0);
+```
+```java
+foo(-5, 5);
+```
+```java
+foo(-5, -5);
+```
+```java
+foo(-5, 0);
+```
+```java
+foo(0, 5);
+```
+```java
+foo(0, -5);
+```
+```java
+foo(6, 6);
+```
+```java
+foo(6, -6);
+```
+```java
+foo(6, 0);
+```
+```java
+foo(-6, 6);
+```
+```java
+foo(-6, -6);
+```
+```java
+foo(-6, 0);
+```
+```java
+foo(0, 6);
+```
+```java
+foo(0, -6);
+```

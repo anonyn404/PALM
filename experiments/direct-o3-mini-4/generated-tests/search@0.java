@@ -1,0 +1,2 @@
+```javasearch(new int[]{});
+```

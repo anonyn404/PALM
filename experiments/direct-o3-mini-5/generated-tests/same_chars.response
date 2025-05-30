@@ -1,0 +1,42 @@
+```java
+same_chars("", "");
+```
+```java
+same_chars("", "a");
+```
+```java
+same_chars("", "ab");
+```
+```java
+same_chars("a", "");
+```
+```java
+same_chars("a", "a");
+```
+```java
+same_chars("a", "ab");
+```
+```java
+same_chars("ab", "");
+```
+```java
+same_chars("ab", "a");
+```
+```java
+same_chars("ab", "ab");
+```
+```java
+same_chars("aa", "a");
+```
+```java
+same_chars("a", "aa");
+```
+```java
+same_chars("aa", "ab");
+```
+```java
+same_chars("aa", "bb");
+```
+```java
+same_chars("ab", "bb");
+```

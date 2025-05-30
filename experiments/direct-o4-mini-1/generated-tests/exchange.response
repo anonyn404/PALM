@@ -1,0 +1,147 @@
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(2, 1)), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 2)), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>());
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(2, 1)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(1, 3)));
+```

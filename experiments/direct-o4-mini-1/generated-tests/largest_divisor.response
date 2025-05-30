@@ -1,0 +1,12 @@
+```java
+LARGEST_DIVISOR.largest_divisor(2);
+```
+```java
+LARGEST_DIVISOR.largest_divisor(4);
+```
+```java
+LARGEST_DIVISOR.largest_divisor(5);
+```
+```java
+LARGEST_DIVISOR.largest_divisor(1);
+```

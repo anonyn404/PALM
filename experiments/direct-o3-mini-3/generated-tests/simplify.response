@@ -1,0 +1,24 @@
+```java
+SIMPLIFY.simplify("6/3", "2/1");
+```
+```java
+SIMPLIFY.simplify("1/2", "3/2");
+```
+```java
+SIMPLIFY.simplify("1/2", "2/1");
+```
+```java
+SIMPLIFY.simplify("-4/2", "3/1");
+```
+```java
+SIMPLIFY.simplify("2/4", "9/3");
+```
+```java
+SIMPLIFY.simplify("10/5", "3/4");
+```
+```java
+SIMPLIFY.simplify("8/4", "2/1");
+```
+```java
+SIMPLIFY.simplify("7/3", "6/5");
+```

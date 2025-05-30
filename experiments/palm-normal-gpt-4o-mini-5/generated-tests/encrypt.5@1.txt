@@ -1,0 +1,41 @@
+You are a Java test generator. Invoke the target method (encrypt) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static String encrypt(String s){
+    StringBuilder sb_1 = new StringBuilder();
+    String d_1 = "abcdefghijklmnopqrstuvwxyz";
+    char[] c_array_1 = s.toCharArray();
+    char c_1;
+    assertTrue(0 < c_array_1.length); //[1]
+    c_1 = c_array_1[0];
+    assertFalse('a' <= c_1 && c_1 <= 'z'); //[2]
+    sb_1.append(c_1);
+    assertFalse(1 < c_array_1.length); //[3]
+    return sb_1.toString();
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+public static void main(String args[]) { encrypt(null); }
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.toCharArray()" because "<parameter1>" is null
+	at ENCRYPT.encrypt(encrypt.5.java:9)
+	at ENCRYPT.main(encrypt.5.java:21)
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

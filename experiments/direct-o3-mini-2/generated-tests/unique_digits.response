@@ -1,0 +1,30 @@
+```java
+unique_digits(new ArrayList<Integer>());
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(135)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(246)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(0)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(-135)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(135, 246)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(246, 135)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(135, 135)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(135, 0)));
+```
+```java
+unique_digits(new ArrayList<Integer>(Arrays.asList(246, -135)));
+```

@@ -1,0 +1,2 @@
+```javaODD_COUNT.odd_count(new ArrayList<String>(Arrays.asList("24", "13")));
+```

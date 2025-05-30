@@ -1,0 +1,153 @@
+```java
+count_distinct_characters("");
+```
+```java
+count_distinct_characters("a");
+```
+```java
+count_distinct_characters("ab");
+```
+```java
+count_distinct_characters("aA");
+```
+```java
+count_distinct_characters("abc");
+```
+```java
+count_distinct_characters("aabbcc");
+```
+```java
+count_distinct_characters("abcd");
+```
+```java
+count_distinct_characters("aabbcC");
+```
+```java
+count_distinct_characters("abcdabcd");
+```
+```java
+count_distinct_characters("abCA");
+```
+```java
+count_distinct_characters("AAaaBBbb");
+```
+```java
+count_distinct_characters("1234");
+```
+```java
+count_distinct_characters("a1B2c3");
+```
+```java
+count_distinct_characters("!@#$%^&*()");
+```
+```java
+count_distinct_characters("a b c");
+```
+```java
+count_distinct_characters("AaBbCcDdEeFf");
+```
+```java
+count_distinct_characters("abcd efgh");
+```
+```java
+count_distinct_characters("A,, B.. C!!");
+```
+```java
+count_distinct_characters("MixedCASE");
+```
+```java
+count_distinct_characters("Whitespace    ");
+```
+```java
+count_distinct_characters("Café");
+```
+```java
+count_distinct_characters("naïve");
+```
+```java
+count_distinct_characters("façade");
+```
+```java
+count_distinct_characters("Rocket Science!");
+```
+```java
+count_distinct_characters("12345 abcde");
+```
+```java
+count_distinct_characters("test1@test.com");
+```
+```java
+count_distinct_characters("((nested))");
+```
+```java
+count_distinct_characters("C++ and Java");
+```
+```java
+count_distinct_characters("path/To/File.java");
+```
+```java
+count_distinct_characters("100% profitable");
+```
+```java
+count_distinct_characters("strawberry");
+```
+```java
+count_distinct_characters("blueberry");
+```
+```java
+count_distinct_characters("dragonfruit");
+```
+```java
+count_distinct_characters("rasp-berry");
+```
+```java
+count_distinct_characters("cherry-tomato");
+```
+```java
+count_distinct_characters("cantaloupe");
+```
+```java
+count_distinct_characters("fruit salad");
+```
+```java
+count_distinct_characters("kiwi@fruit.com");
+```
+```java
+count_distinct_characters("pizza&salad");
+```
+```java
+count_distinct_characters("blue&green");
+```
+```java
+count_distinct_characters("red && white");
+```
+```java
+count_distinct_characters("cost: $9.99");
+```
+```java
+count_distinct_characters("The quick brown fox");
+```
+```java
+count_distinct_characters("jumps over 13 lazy dogs");
+```
+```java
+count_distinct_characters("To be or not to be");
+```
+```java
+count_distinct_characters("all__lowercase");
+```
+```java
+count_distinct_characters("UPPERCASE");
+```
+```java
+count_distinct_characters("UuPpEeRr");
+```
+```java
+count_distinct_characters("1122334455");
+```
+```java
+count_distinct_characters("abc-xyz!@#");
+```
+```java
+count_distinct_characters("1.1.1.1");
+```

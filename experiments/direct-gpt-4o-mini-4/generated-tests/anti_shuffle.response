@@ -1,0 +1,159 @@
+```java
+anti_shuffle("hello world");
+```
+```java
+anti_shuffle("test case");
+```
+```java
+anti_shuffle("abc def ghi");
+```
+```java
+anti_shuffle("apple banana cherry");
+```
+```java
+anti_shuffle("zebra lion tiger");
+```
+```java
+anti_shuffle("openai gpt");
+```
+```java
+anti_shuffle("one two three");
+```
+```java
+anti_shuffle("a b c");
+```
+```java
+anti_shuffle("red blue green");
+```
+```java
+anti_shuffle("java python csharp");
+```
+```java
+anti_shuffle("ant elephant bee");
+```
+```java
+anti_shuffle("the quick brown fox");
+```
+```java
+anti_shuffle("hello");
+```
+```java
+anti_shuffle("");
+```
+```java
+anti_shuffle("spaces   between");
+```
+```java
+anti_shuffle("  leading spaces");
+```
+```java
+anti_shuffle("trailing spaces  ");
+```
+```java
+anti_shuffle("  multiple   spaces  ");
+```
+```java
+anti_shuffle("single-word");
+```
+```java
+anti_shuffle("abcdefgh");
+```
+```java
+anti_shuffle("xyz abc");
+```
+```java
+anti_shuffle("banana apple");
+```
+```java
+anti_shuffle("unsorted words");
+```
+```java
+anti_shuffle("longer phrase with more words");
+```
+```java
+anti_shuffle("this is a test");
+```
+```java
+anti_shuffle("123 456 789");
+```
+```java
+anti_shuffle("mixed1234 letters");
+```
+```java
+anti_shuffle("aaa bbb ccc");
+```
+```java
+anti_shuffle("order matters");
+```
+```java
+anti_shuffle("should not shuffle");
+```
+```java
+anti_shuffle("words together");
+```
+```java
+anti_shuffle("good morning");
+```
+```java
+anti_shuffle("night sky");
+```
+```java
+anti_shuffle("quick brown dog");
+```
+```java
+anti_shuffle("lazy fox jumps");
+```
+```java
+anti_shuffle("camel case test");
+```
+```java
+anti_shuffle("camel case");
+```
+```java
+anti_shuffle("punctuation! included.");
+```
+```java
+anti_shuffle("numbers 12345");
+```
+```java
+anti_shuffle("spaces    and    tabs");
+```
+```java
+anti_shuffle("only one");
+```
+```java
+anti_shuffle("short");
+```
+```java
+anti_shuffle("this is fun");
+```
+```java
+anti_shuffle("word 1, word 2.");
+```
+```java
+anti_shuffle("word; other-word");
+```
+```java
+anti_shuffle("the sky is blue");
+```
+```java
+anti_shuffle("goodbye");
+```
+```java
+anti_shuffle("greetings Earth!");
+```
+```java
+anti_shuffle("rocket science");
+```
+```java
+anti_shuffle("great adventure");
+```
+```java
+anti_shuffle("just a string");
+```
+```java
+anti_shuffle("example test");
+```
+```java
+anti_shuffle("fun with words");
+```

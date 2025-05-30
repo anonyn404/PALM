@@ -1,0 +1,144 @@
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, 2, 3));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, "string", 3));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("string", 2, 3));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, 2, "string"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, null, 3));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(null, null, null));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(42, 0, -1));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("text", 5, 3.14));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(100, "example", 200));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(true, 100, false));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList('a', 1, 'b'));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(3, 5, 7));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(0));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(-10, "not an int", -5));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("just a string"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(0, 0));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(-2, 5));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(2, "word", 4));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(9, 8, 7));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(-100, 100));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(99, "another test", 1));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Object(), new Integer(5), new Object()));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(3), new Integer(-3), new Integer(0)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(7), "some string"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Object(), new String()));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(9, 10));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(5, null));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(null, 1, 3));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("1", "2", 2));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("text", null, 0));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(2), new Integer(3), new Integer(4)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, new Object()));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("string", new Integer(5)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, 2, 3, 4));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(9), new Integer(8), "string"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(1), new Integer(2)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(5), new Integer(6), new Integer(7)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(3, 8, "text"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("ignore this", new Integer(4)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(-2, -2, "string"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(-3.5, 0, 0));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(4, 2));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("not an integer", new Integer(3), new Integer(8)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Float(3.5), new Integer(3), new Integer(9)));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Integer(2), new String("hello")));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(-1, 1, "text"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(new Character('a'), new Integer(2), new Integer(3)));
+```

@@ -1,0 +1,30 @@
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(), 0);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(), 1);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(), 2);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(5)), 0);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(5)), 2);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(3, 1)), 1);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(3, 1)), 2);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(4, 2, 5)), 1);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(4, 2, 5)), 2);
+```
+```java
+MAXIMUM_K.maximum_k(new ArrayList<>(java.util.Arrays.asList(3, 1)), -1);
+```

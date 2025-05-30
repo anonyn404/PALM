@@ -1,0 +1,1 @@
+has_close_elements(java.util.Arrays.asList(0.0, 1.0), 1.0);

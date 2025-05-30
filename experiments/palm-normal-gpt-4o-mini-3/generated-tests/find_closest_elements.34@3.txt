@@ -1,0 +1,60 @@
+You are a Java test generator. Invoke the target method (find_closest_elements) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static double[] find_closest_elements(double[] numbers){
+    double[] result_1 = new double[2];
+    double distance_1 = Double.MAX_VALUE;
+    int i_1 = 0;
+    assertTrue(0 < numbers.length); //[1]
+    int j_1 = 1;
+    assertTrue(1 < numbers.length); //[2]
+    double new_distance_1 = Math.abs(numbers[0] - numbers[1]);
+    assertTrue(new_distance_1 < distance_1); //[3]
+    distance_1 = new_distance_1;
+    assertTrue(numbers[0] < numbers[1]); //[4]
+    result_1[0] = numbers[0];
+    result_1[1] = numbers[1];
+    j_1 += 1;
+    assertFalse(2 < numbers.length); //[5]
+    i_1 += 1;
+    assertFalse(1 < numbers.length); //[6]
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+public static void main(String args[]) { 
+    double[] numbers = {1.0, 2.0}; 
+    find_closest_elements(numbers);
+}
+```
+Error reason: the assertion [6] is not satisfied, assertFalse(1 < numbers.length) 
+Round 1 generation:
+```java
+    double[] numbers = {1.0}; 
+    find_closest_elements(numbers);
+```
+Error reason: the assertion [2] is not satisfied, assertTrue(1 < numbers.length) 
+Round 2 generation:
+```java
+    double[] numbers = {1.0, 2.0, 3.0}; 
+    find_closest_elements(numbers);
+```
+Error reason: the assertion [5] is not satisfied, assertFalse(2 < numbers.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

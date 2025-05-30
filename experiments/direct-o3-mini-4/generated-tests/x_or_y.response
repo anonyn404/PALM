@@ -1,0 +1,21 @@
+```java
+X_OR_Y.x_or_y(1, 10, 20);
+```
+```java
+X_OR_Y.x_or_y(2, 10, 20);
+```
+```java
+X_OR_Y.x_or_y(0, 10, 20);
+```
+```java
+X_OR_Y.x_or_y(4, 10, 20);
+```
+```java
+X_OR_Y.x_or_y(9, 10, 20);
+```
+```java
+X_OR_Y.x_or_y(5, 10, 20);
+```
+```java
+X_OR_Y.x_or_y(-3, 10, 20);
+```

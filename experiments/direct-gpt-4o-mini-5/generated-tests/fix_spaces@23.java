@@ -1,0 +1,2 @@
+```javafix_spaces("x     ");
+```

@@ -1,0 +1,12 @@
+```java
+INTERSPERSE.intersperse(Collections.<Integer>emptyList(), 0);
+```
+```java
+INTERSPERSE.intersperse(Collections.singletonList(1), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2, 3), 0);
+```

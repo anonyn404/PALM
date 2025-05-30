@@ -1,0 +1,15 @@
+```java
+WORDS_STRINGS.words_strings(null);
+```
+```java
+WORDS_STRINGS.words_strings("");
+```
+```java
+WORDS_STRINGS.words_strings("hello");
+```
+```java
+WORDS_STRINGS.words_strings("hello,world");
+```
+```java
+WORDS_STRINGS.words_strings(",hello,world,");
+```

@@ -1,0 +1,48 @@
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>());
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put(1, 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("ABC", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("abc", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("AbC", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("A", 1); put("B", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("a", 1); put("b", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("A", 1); put("b", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("a", 1); put("B", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("A", 1); put(1, 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("a", 1); put(1, 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("AbC", 1); put("A", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("A", 1); put("AbC", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put("a", 1); put("AbC", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put(1, 1); put("A", 1); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object,Object>() {{ put(1, 1); put(2, 2); }});
+```

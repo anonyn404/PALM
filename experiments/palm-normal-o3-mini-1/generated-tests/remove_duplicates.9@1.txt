@@ -1,0 +1,79 @@
+You are a Java test generator. Invoke the target method (remove_duplicates) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+public static void remove_duplicates(List<Integer> numbers){
+    List<Integer> result_1 = new ArrayList<Integer>();
+    HashMap<Integer, Integer> count_1 = new HashMap<Integer, Integer>();
+    Iterator<Integer> n_iter_1 = numbers.iterator();
+    Integer n_1;
+    assertFalse(n_iter_1.hasNext()); //[1]
+    Iterator<Integer> n_iter_2 = numbers.iterator();
+    Integer n_2;
+    assertTrue(n_iter_2.hasNext()); //[2]
+    n_2 = n_iter_2.next();
+    assertFalse(count_1.get(n_2) == 1); //[3]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+List<Integer> customList = new AbstractList<Integer>() {
+    int callCount = 0;
+    @Override
+    public Iterator<Integer> iterator() {
+        callCount++;
+        if (callCount == 1) {
+            return Collections.emptyIterator();
+        } else if (callCount == 2) {
+            return new Iterator<Integer>() {
+                boolean returned = false;
+                @Override
+                public boolean hasNext() {
+                    return !returned;
+                }
+                @Override
+                public Integer next() {
+                    if (!returned) {
+                        returned = true;
+                        return 0;
+                    }
+                    throw new NoSuchElementException();
+                }
+            };
+        }
+        return Collections.emptyIterator();
+    }
+    @Override
+    public Integer get(int index) {
+        throw new UnsupportedOperationException();
+    }
+    @Override
+    public int size() {
+        throw new UnsupportedOperationException();
+    }
+};
+remove_duplicates(customList);
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at REMOVE_DUPLICATES.remove_duplicates(remove_duplicates.9.java:19)
+	at REMOVE_DUPLICATES.main(remove_duplicates.9.java:60)
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

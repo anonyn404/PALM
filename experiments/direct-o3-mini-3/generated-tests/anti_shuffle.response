@@ -1,0 +1,24 @@
+```java
+anti_shuffle("");
+```
+```java
+anti_shuffle("a");
+```
+```java
+anti_shuffle("cba");
+```
+```java
+anti_shuffle("fed cba");
+```
+```java
+anti_shuffle("banana apple");
+```
+```java
+anti_shuffle("z y");
+```
+```java
+anti_shuffle("mno lkj");
+```
+```java
+anti_shuffle("hello world");
+```

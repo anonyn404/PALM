@@ -1,0 +1,24 @@
+```java
+bf("Pluto", "Mars");
+```
+```java
+bf("Mars", "Pluto");
+```
+```java
+bf("Mercury", "Venus");
+```
+```java
+bf("Mercury", "Earth");
+```
+```java
+bf("Mercury", "Mars");
+```
+```java
+bf("Earth", "Earth");
+```
+```java
+bf("Earth", "Mercury");
+```
+```java
+bf("Mars", "Mercury");
+```

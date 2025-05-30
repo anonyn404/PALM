@@ -1,0 +1,51 @@
+```java
+IS_BORED.is_bored("");
+```
+```java
+IS_BORED.is_bored("A");
+```
+```java
+IS_BORED.is_bored("Hi");
+```
+```java
+IS_BORED.is_bored("I a");
+```
+```java
+IS_BORED.is_bored("I am fine.");
+```
+```java
+IS_BORED.is_bored("You go.");
+```
+```java
+IS_BORED.is_bored("I go!I up");
+```
+```java
+IS_BORED.is_bored("I go?They stop");
+```
+```java
+IS_BORED.is_bored("They eat.You drink");
+```
+```java
+IS_BORED.is_bored("  I bye . Hello ");
+```
+```java
+IS_BORED.is_bored("Ice cream.");
+```
+```java
+IS_BORED.is_bored("I ?");
+```
+```java
+IS_BORED.is_bored("I run!");
+```
+```java
+IS_BORED.is_bored("I hi!I bye.");
+```
+```java
+IS_BORED.is_bored("I x?I y?I z");
+```
+```java
+IS_BORED.is_bored("\tI eat!\nI sleep");
+```
+```java
+IS_BORED.is_bored("I test");
+```

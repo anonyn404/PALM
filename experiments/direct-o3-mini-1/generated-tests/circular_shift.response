@@ -1,0 +1,24 @@
+```java
+CIRCULAR_SHIFT.circular_shift(5, 6);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 4);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 3);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(1234, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(10, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-9, 3);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(0, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-45, 2);
+```

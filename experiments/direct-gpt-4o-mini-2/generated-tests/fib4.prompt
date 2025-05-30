@@ -1,0 +1,39 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (fib4); ignore branches in other methods and API calls. Generate up to 50 tests invoking fib4. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+public class FIB4 {
+
+    public static int fib4(int n) {
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        result.add(0);
+        result.add(0);
+        result.add(2);
+        result.add(0);
+        if (n < 4)
+            return result.get(n);
+        for (int i = 4; i < n + 1; i += 1) {
+            result.add(result.get(0) + result.get(1) + result.get(2) + result.get(3));
+            result.remove(0);
+        }
+        return result.get(result.size() - 1);
+    }
+}

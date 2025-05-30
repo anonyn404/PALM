@@ -1,0 +1,21 @@
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>());
+```
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>(Arrays.asList(5)));
+```
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>(Arrays.asList(0)));
+```
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>(Arrays.asList(2, 0)));
+```
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>(Arrays.asList(0, 3)));
+```
+```java
+BY_LENGTH.by_length(new ArrayList<Integer>(Arrays.asList(0, 10)));
+```

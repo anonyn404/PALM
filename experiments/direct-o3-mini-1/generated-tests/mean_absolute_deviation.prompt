@@ -1,0 +1,37 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (mean_absolute_deviation); ignore branches in other methods and API calls. Generate up to 50 tests invoking mean_absolute_deviation. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.List;
+public class MEAN_ABSOLUTE_DEVIATION {
+
+    public static double mean_absolute_deviation(List<Double> numbers) {
+        double sum = 0.;
+        for (Double number : numbers) {
+            sum += number;
+        }
+        double mean = sum / numbers.size();
+        double deviation_sum = 0.;
+        for (Double number : numbers) {
+            deviation_sum += Math.abs(number - mean);
+        }
+        return deviation_sum / numbers.size();
+    }
+}

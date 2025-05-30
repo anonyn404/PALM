@@ -1,0 +1,12 @@
+```java
+right_angle_triangle(3,4,5);
+```
+```java
+right_angle_triangle(5,3,4);
+```
+```java
+right_angle_triangle(4,5,3);
+```
+```java
+right_angle_triangle(1,1,1);
+```

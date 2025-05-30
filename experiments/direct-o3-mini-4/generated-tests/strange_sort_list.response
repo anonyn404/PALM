@@ -1,0 +1,9 @@
+```java
+STRANGE_SORT_LIST.strange_sort_list(new ArrayList<>());
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(new ArrayList<>(Arrays.asList(42)));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(new ArrayList<>(Arrays.asList(5, 3)));
+```

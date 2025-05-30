@@ -1,0 +1,42 @@
+You are a Java test generator. Invoke the target method (mean_absolute_deviation) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.List;
+public static double mean_absolute_deviation(List<Double> numbers){
+    double sum_1 = 0.;
+    Iterator<Double> number_iter_1 = numbers.iterator();
+    Double number_1;
+    assertTrue(number_iter_1.hasNext()); //[1]
+    number_1 = number_iter_1.next();
+    sum_1 += number_1;
+    assertTrue(number_iter_1.hasNext()); //[2]
+    number_1 = number_iter_1.next();
+    sum_1 += number_1;
+    assertFalse(number_iter_1.hasNext()); //[3]
+    double mean_1 = sum_1 / numbers.size();
+    double deviation_sum_1 = 0.;
+    Iterator<Double> number_iter_2 = numbers.iterator();
+    Double number_2;
+    assertTrue(number_iter_2.hasNext()); //[4]
+    number_2 = number_iter_2.next();
+    deviation_sum_1 += Math.abs(number_2 - mean_1);
+    assertFalse(number_iter_2.hasNext()); //[5]
+    return deviation_sum_1 / numbers.size();
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

@@ -1,0 +1,18 @@
+```java
+SORT_ARRAY.sort_array(new int[]{});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1,2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1,1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1,2,3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{2,4,6,8});
+```

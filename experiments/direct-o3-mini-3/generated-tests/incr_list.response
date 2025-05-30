@@ -1,0 +1,9 @@
+```java
+INCR_LIST.incr_list(new ArrayList<>());
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(5));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-1, 10));
+```

@@ -1,0 +1,45 @@
+You are a Java test generator. Invoke the target method (separate_paren_groups) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+public static List<String> separate_paren_groups(String paren_string){
+    List<String> result_1 = new ArrayList<String>();
+    String current_string_1 = "";
+    int current_depth_1 = 0;
+    char[] c_array_1 = paren_string.toCharArray();
+    char c_1;
+    assertTrue(0 < c_array_1.length); //[1]
+    c_1 = c_array_1[0];
+    assertTrue(c_1 == '('); //[2]
+    current_depth_1 += 1;
+    current_string_1 += String.valueOf(c_1);
+    assertTrue(1 < c_array_1.length); //[3]
+    c_1 = c_array_1[1];
+    assertFalse(c_1 == '('); //[4]
+    assertTrue(c_1 == ')'); //[5]
+    current_depth_1 -= 1;
+    current_string_1 += String.valueOf(c_1);
+    assertTrue(true); //[6]
+    result_1.add(current_string_1);
+    current_string_1 = "";
+    assertFalse(2 < c_array_1.length); //[7]
+    return result_1;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

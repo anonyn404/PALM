@@ -1,0 +1,55 @@
+You are a Java test generator. Invoke the target method (search) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void search(int[] lst){
+    int max_1 = -1;
+    Integer i_1;
+    assertTrue(0 < lst.length); //[1]
+    i_1 = lst[0];
+    assertTrue(i_1 > max_1); //[2]
+    max_1 = i_1;
+    assertFalse(1 < lst.length); //[3]
+    int result_1 = -1;
+    int[] frq_1 = new int[max_1 + 1];
+    int i_2 = 0;
+    assertFalse(0 < lst.length); //[4]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+public static void main(String args[]) { 
+    search(new int[]{1}); 
+}
+```
+Error reason: the assertion [4] is not satisfied, assertFalse(0 < lst.length) 
+Round 1 generation:
+```java
+public static void main(String args[]) { 
+    search(new int[]{0}); 
+}
+```
+Error reason: the assertion [4] is not satisfied, assertFalse(0 < lst.length) 
+Round 2 generation:
+```java
+public static void main(String args[]) { 
+    search(new int[]{-1}); 
+}
+```
+Error reason: the assertion [2] is not satisfied, assertTrue(i_1 > max_1) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

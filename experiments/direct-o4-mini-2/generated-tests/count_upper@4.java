@@ -1,0 +1,2 @@
+```javacount_upper("ABC");
+```

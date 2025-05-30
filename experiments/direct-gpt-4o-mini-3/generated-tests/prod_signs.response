@@ -1,0 +1,162 @@
+```java
+prod_signs(new int[]{0});
+```
+```java
+prod_signs(new int[]{1});
+```
+```java
+prod_signs(new int[]{-1});
+```
+```java
+prod_signs(new int[]{1, 0});
+```
+```java
+prod_signs(new int[]{0, -1});
+```
+```java
+prod_signs(new int[]{1, -1});
+```
+```java
+prod_signs(new int[]{-1, 1});
+```
+```java
+prod_signs(new int[]{2, 2});
+```
+```java
+prod_signs(new int[]{-2, -2});
+```
+```java
+prod_signs(new int[]{3, -3});
+```
+```java
+prod_signs(new int[]{-3, 3});
+```
+```java
+prod_signs(new int[]{0, 0});
+```
+```java
+prod_signs(new int[]{0, 1});
+```
+```java
+prod_signs(new int[]{1, 0});
+```
+```java
+prod_signs(new int[]{0, -2});
+```
+```java
+prod_signs(new int[]{-1, 2});
+```
+```java
+prod_signs(new int[]{-2, 1});
+```
+```java
+prod_signs(new int[]{1, 1});
+```
+```java
+prod_signs(new int[]{-1, -1});
+```
+```java
+prod_signs(new int[]{0, 2});
+```
+```java
+prod_signs(new int[]{2, 0});
+```
+```java
+prod_signs(new int[]{3, 0});
+```
+```java
+prod_signs(new int[]{0, 3});
+```
+```java
+prod_signs(new int[]{-4, 4});
+```
+```java
+prod_signs(new int[]{4, -4});
+```
+```java
+prod_signs(new int[]{5, 5});
+```
+```java
+prod_signs(new int[]{0, -5});
+```
+```java
+prod_signs(new int[]{-5, 0});
+```
+```java
+prod_signs(new int[]{-6, -6});
+```
+```java
+prod_signs(new int[]{6, -6});
+```
+```java
+prod_signs(new int[]{-7, 7});
+```
+```java
+prod_signs(new int[]{7, -7});
+```
+```java
+prod_signs(new int[]{0, 0, 1});
+```
+```java
+prod_signs(new int[]{1, 0, 0});
+```
+```java
+prod_signs(new int[]{-1, 0, 0});
+```
+```java
+prod_signs(new int[]{2, 0, -2});
+```
+```java
+prod_signs(new int[]{0, 3, 3});
+```
+```java
+prod_signs(new int[]{3, -3, 0});
+```
+```java
+prod_signs(new int[]{-2, 2, 2});
+```
+```java
+prod_signs(new int[]{2, -2, -2});
+```
+```java
+prod_signs(new int[]{0, 0, 0});
+```
+```java
+prod_signs(new int[]{1, -1, 1});
+```
+```java
+prod_signs(new int[]{-1, 1, -1});
+```
+```java
+prod_signs(new int[]{1, 2, 3});
+```
+```java
+prod_signs(new int[]{-1, -2, -3});
+```
+```java
+prod_signs(new int[]{0, 2, -2});
+```
+```java
+prod_signs(new int[]{0, -5, 5});
+```
+```java
+prod_signs(new int[]{9, 0, -9});
+```
+```java
+prod_signs(new int[]{0, 0, 1, -1});
+```
+```java
+prod_signs(new int[]{5, 10});
+```
+```java
+prod_signs(new int[]{10, -20});
+```
+```java
+prod_signs(new int[]{6, -6});
+```
+```java
+prod_signs(new int[]{-9, 8});
+```
+```java
+prod_signs(new int[]{-7, 7, 7});
+```

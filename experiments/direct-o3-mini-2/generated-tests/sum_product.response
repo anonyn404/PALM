@@ -1,0 +1,9 @@
+```java
+SUM_PRODUCT.sum_product(new ArrayList<Integer>());
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(5));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(2, 3));
+```

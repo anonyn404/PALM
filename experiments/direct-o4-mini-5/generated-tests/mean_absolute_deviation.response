@@ -1,0 +1,84 @@
+```java
+mean_absolute_deviation(Collections.<Double>emptyList());
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(3.0, 3.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-1.0, -5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-2.0, 3.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.5, 2.5));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.234, 1.234));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1e308, -1e308));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.MAX_VALUE, Double.MIN_VALUE));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.POSITIVE_INFINITY, Double.POSITIVE_INFINITY));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.NEGATIVE_INFINITY, Double.NEGATIVE_INFINITY));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.NaN, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, Double.NaN));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.NaN, Double.NaN));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0, 0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0, 5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0, -5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1e-308, 1e308));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.MIN_VALUE, 0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(123.456, 789.012));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-123.456, -789.012));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1000.0, 1000.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1000.0, -1000.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 2.0));
+```

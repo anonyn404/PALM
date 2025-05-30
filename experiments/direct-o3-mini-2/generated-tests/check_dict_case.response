@@ -1,0 +1,33 @@
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<>());
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put(1, "value"); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("ABC", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("abc", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("Abc", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("ABC", null); put("DEF", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("ABC", null); put("def", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("abc", null); put("def", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("abc", null); put("DEF", null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("abc", null); put(2, null); }});
+```
+```java
+CHECK_DICT_CASE.check_dict_case(new HashMap<Object, Object>() {{ put("ABC", null); put(3, null); }});
+```

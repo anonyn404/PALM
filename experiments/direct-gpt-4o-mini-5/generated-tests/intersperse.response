@@ -1,0 +1,150 @@
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList()), 1);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1)), 2);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 2)), 3);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(2, 3)), 4);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(3, 4)), 5);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3)), 6);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(2, 3, 4)), 7);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 3)), 8);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 4)), 9);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 4)), 10);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(4)), 11);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(5)), 12);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(5, 6)), 13);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(6, 7)), 14);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(7, 8)), 15);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(5, 7)), 16);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(5, 6, 7)), 17);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(7, 9)), 18);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(8, 9)), 19);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 5)), 20);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(0, 1)), 21);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-1, 0)), 22);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-2, -1)), 23);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-2, 1)), 24);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-3, 0, 1)), 25);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-1, 2)), 26);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 3, 4)), 27);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(5, -5)), 28);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, -1)), 29);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-1)), 30);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-2, 2)), 31);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-3, -2)), 32);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(0, -1)), 33);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 4, 5)), 34);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-4, -3)), 35);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 5, 9)), 36);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 5)), 37);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(7, 1, 2)), 38);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(3, 6, 3)), 39);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(6, 1, -1)), 40);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-1, -2)), 41);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(2, 4, -2)), 42);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 3, -3)), 43);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-4, 5, 6)), 44);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-2, -3, -4)), 45);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(0, 3, 7)), 46);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(1, 4, -4)), 47);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-5, 4, 3)), 48);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(-1, -4, -2)), 49);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(2, -3, 5)), 50);
+```

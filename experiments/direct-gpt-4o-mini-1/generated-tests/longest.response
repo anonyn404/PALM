@@ -1,0 +1,123 @@
+```java
+longest(Arrays.asList("short", "longer", "longest"));
+```
+```java
+longest(Arrays.asList("a", "bb", "ccc"));
+```
+```java
+longest(Arrays.asList("one", "two", "three"));
+```
+```java
+longest(Arrays.asList("apple", "banana", "kiwi"));
+```
+```java
+longest(Arrays.asList("", "longest", "long"));
+```
+```java
+longest(Arrays.asList("x", "y", "z"));
+```
+```java
+longest(Arrays.asList("hello", "world"));
+```
+```java
+longest(Arrays.asList("test", "testing"));
+```
+```java
+longest(Arrays.asList("abc", "abcd", "ab"));
+```
+```java
+longest(Arrays.asList("car", "racecar", "truck"));
+```
+```java
+longest(Arrays.asList("single"));
+```
+```java
+longest(Arrays.asList("a", "ab", "abc", "abcd", "abcde"));
+```
+```java
+longest(Arrays.asList("xyz", "def", "ghi"));
+```
+```java
+longest(Arrays.asList("cat", "caterpillar", "cow"));
+```
+```java
+longest(Arrays.asList("longest", "longer", "long"));
+```
+```java
+longest(Arrays.asList("123", "12", "1"));
+```
+```java
+longest(Arrays.asList("art", "artist", "artistry"));
+```
+```java
+longest(Arrays.asList("tree", "bush", "flower"));
+```
+```java
+longest(Arrays.asList("one", "two", "three", "four"));
+```
+```java
+longest(Arrays.asList("long", "short"));
+```
+```java
+longest(Arrays.asList("singleString"));
+```
+```java
+longest(Arrays.asList("java", "c++", "python"));
+```
+```java
+longest(Arrays.asList("v", "vv", "vvv"));
+```
+```java
+longest(Arrays.asList("back", "forward", "stay"));
+```
+```java
+longest(Arrays.asList("high", "higher", "highest"));
+```
+```java
+longest(Arrays.asList("8", "80", "800"));
+```
+```java
+longest(Arrays.asList("my", "name", "is"));
+```
+```java
+longest(Arrays.asList("sky", "cloud", "rain", "stormy"));
+```
+```java
+longest(Arrays.asList("open", "close"));
+```
+```java
+longest(Arrays.asList("light", "darkness"));
+```
+```java
+longest(Arrays.asList("quick", "brown", "fox"));
+```
+```java
+longest(Arrays.asList("follow", "me", "please"));
+```
+```java
+longest(Arrays.asList("up", "down", "left", "right"));
+```
+```java
+longest(Arrays.asList("stay", "go", "come"));
+```
+```java
+longest(Arrays.asList("fast", "slow", "medium"));
+```
+```java
+longest(Arrays.asList("fastest", "fast", "faster"));
+```
+```java
+longest(Arrays.asList("red", "blue", "green"));
+```
+```java
+longest(Arrays.asList("strong", "strength", "stronger"));
+```
+```java
+longest(Arrays.asList("day", "night"));
+```
+```java
+longest(Arrays.asList("cat", "dog", "hamster"));
+```
+```java
+longest(Arrays.asList("sharp", "dull"));
+```

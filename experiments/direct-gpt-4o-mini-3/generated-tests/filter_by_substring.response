@@ -1,0 +1,129 @@
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "l");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "o");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "h");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana"), "b");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana"), "c");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana"), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "hello"), "h");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("", "world"), "w");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("", ""), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("java", "javascript"), "java");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("filter", "by", "substring"), "by");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("test", "testing", "tested"), "test");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("one", "two", "three"), "four");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("case", "cases", "case"), "case");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("alpha", "beta"), "beta");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("foo", "bar", "foo"), "foo");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "orange", "banana"), "orange");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("abcdef", "ghijkl"), "jkl");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("testing", "example"), "x");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("cat", "catalogue", "dog"), "cat");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("red", "green", "blue"), "y");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("sequence", "qu", "quench"), "qu");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("array", "list"), "arr");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("boundary", "test", "cases"), "ound");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("orange", "lemon"), "lemo");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("filter", "result"), "res");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("phone", "calendar"), "cal");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("example", "samples"), "exam");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("check", "unchecked"), "check");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("magic", "magician"), "mag");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("spectrum", "spectral"), "spectrum");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("jump", "jumped", "jumping"), "j");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("sandwich", "sand"), "s");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("knowledge", "know"), "know");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("information", "inform"), "info");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("space", "time"), "space");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("multiple", "base"), "base");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("match", "mismatch"), "match");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("grape", "fruit"), "ape");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("display", "play"), "play");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("current", "past"), "current");
+```

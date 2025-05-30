@@ -1,0 +1,36 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (double_the_difference); ignore branches in other methods and API calls. Generate up to 50 tests invoking double_the_difference. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class DOUBLE_THE_DIFFERENCE {
+
+    public static int double_the_difference(double[] lst) {
+        int result = 0;
+        for (Double d : lst) {
+            if ((int) d.doubleValue() == d) {
+                int d_int = (int) d.doubleValue();
+                if (d_int % 2 == 1 && d_int >= 0) {
+                    result += d_int * d_int;
+                }
+            }
+        }
+        return result;
+    }
+}

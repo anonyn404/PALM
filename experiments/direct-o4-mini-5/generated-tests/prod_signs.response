@@ -1,0 +1,39 @@
+```java
+prod_signs(new int[]{});
+```
+```java
+prod_signs(new int[]{0});
+```
+```java
+prod_signs(new int[]{-5});
+```
+```java
+prod_signs(new int[]{5});
+```
+```java
+prod_signs(new int[]{0, 0});
+```
+```java
+prod_signs(new int[]{0, -5});
+```
+```java
+prod_signs(new int[]{0, 5});
+```
+```java
+prod_signs(new int[]{-5, 0});
+```
+```java
+prod_signs(new int[]{-5, -5});
+```
+```java
+prod_signs(new int[]{-5, 5});
+```
+```java
+prod_signs(new int[]{5, 0});
+```
+```java
+prod_signs(new int[]{5, -5});
+```
+```java
+prod_signs(new int[]{5, 5});
+```

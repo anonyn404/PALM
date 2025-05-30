@@ -1,0 +1,18 @@
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[]{});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[]{5.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[]{Double.MIN_VALUE});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[]{3.0, 4.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[]{4.0, 3.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[]{4.0, 4.0});
+```

@@ -1,0 +1,153 @@
+```java
+add_even_at_odd(new int[]{1});
+```
+```java
+add_even_at_odd(new int[]{1, 2});
+```
+```java
+add_even_at_odd(new int[]{1, 3});
+```
+```java
+add_even_at_odd(new int[]{1, 2, 4});
+```
+```java
+add_even_at_odd(new int[]{1, 3, 5});
+```
+```java
+add_even_at_odd(new int[]{1, 2, 4, 6});
+```
+```java
+add_even_at_odd(new int[]{1, 3, 5, 7});
+```
+```java
+add_even_at_odd(new int[]{1, 2, 8});
+```
+```java
+add_even_at_odd(new int[]{1, 2, 8, 10});
+```
+```java
+add_even_at_odd(new int[]{1, 1, 2});
+```
+```java
+add_even_at_odd(new int[]{1, 1, 2, 4});
+```
+```java
+add_even_at_odd(new int[]{3, 4});
+```
+```java
+add_even_at_odd(new int[]{3, 2});
+```
+```java
+add_even_at_odd(new int[]{0, 2});
+```
+```java
+add_even_at_odd(new int[]{1, 0, 4});
+```
+```java
+add_even_at_odd(new int[]{5, 6, 7});
+```
+```java
+add_even_at_odd(new int[]{5, 8, 2});
+```
+```java
+add_even_at_odd(new int[]{6, 12});
+```
+```java
+add_even_at_odd(new int[]{0, 0, 0});
+```
+```java
+add_even_at_odd(new int[]{1, 2, 3, 4, 5});
+```
+```java
+add_even_at_odd(new int[]{2, 1, 3});
+```
+```java
+add_even_at_odd(new int[]{0, 1, 2});
+```
+```java
+add_even_at_odd(new int[]{9, 10});
+```
+```java
+add_even_at_odd(new int[]{2, 1, 4});
+```
+```java
+add_even_at_odd(new int[]{1, 0});
+```
+```java
+add_even_at_odd(new int[]{3, 3, 2});
+```
+```java
+add_even_at_odd(new int[]{1, 7, 2, 6});
+```
+```java
+add_even_at_odd(new int[]{0, 2, 4});
+```
+```java
+add_even_at_odd(new int[]{-1, 2, 3});
+```
+```java
+add_even_at_odd(new int[]{2});
+```
+```java
+add_even_at_odd(new int[]{2, 4, 6});
+```
+```java
+add_even_at_odd(new int[]{3, 0, 2});
+```
+```java
+add_even_at_odd(new int[]{3, 5, 8});
+```
+```java
+add_even_at_odd(new int[]{10, 2, 4});
+```
+```java
+add_even_at_odd(new int[]{-2, 1, 0});
+```
+```java
+add_even_at_odd(new int[]{2, 5});
+```
+```java
+add_even_at_odd(new int[]{4, 1, 6});
+```
+```java
+add_even_at_odd(new int[]{1, -2});
+```
+```java
+add_even_at_odd(new int[]{1, 3, -4});
+```
+```java
+add_even_at_odd(new int[]{1});
+```
+```java
+add_even_at_odd(new int[]{3, 7});
+```
+```java
+add_even_at_odd(new int[]{5, 2});
+```
+```java
+add_even_at_odd(new int[]{6, 1});
+```
+```java
+add_even_at_odd(new int[]{2, 3, 6});
+```
+```java
+add_even_at_odd(new int[]{8});
+```
+```java
+add_even_at_odd(new int[]{4, 4, 4});
+```
+```java
+add_even_at_odd(new int[]{7, 8, 9});
+```
+```java
+add_even_at_odd(new int[]{1, 2, 3});
+```
+```java
+add_even_at_odd(new int[]{0});
+```
+```java
+add_even_at_odd(new int[]{-1, -2});
+```
+```java
+add_even_at_odd(new int[]{10, 10});
+```

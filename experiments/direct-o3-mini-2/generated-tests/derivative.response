@@ -1,0 +1,9 @@
+```java
+DERIVATIVE.derivative(Collections.emptyList());
+```
+```java
+DERIVATIVE.derivative(Arrays.asList(1, 2));
+```
+```java
+DERIVATIVE.derivative(Arrays.asList(3, 4, 5));
+```

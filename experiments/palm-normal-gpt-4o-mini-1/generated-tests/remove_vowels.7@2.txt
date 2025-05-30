@@ -1,0 +1,61 @@
+You are a Java test generator. Invoke the target method (remove_vowels) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static String remove_vowels(String string){
+    StringBuilder sb_1 = new StringBuilder();
+    char[] c_array_1 = string.toCharArray();
+    char c_1;
+    assertTrue(0 < c_array_1.length); //[1]
+    c_1 = c_array_1[0];
+    char c_lower_1 = Character.toLowerCase(c_1);
+    assertFalse(c_lower_1 == 'a' || c_lower_1 == 'e' || c_lower_1 == 'i' || c_lower_1 == 'o' || c_lower_1 == 'u'); //[2]
+    sb_1.append(c_1);
+    assertFalse(1 < c_array_1.length); //[3]
+    return sb_1.toString();
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+public static void main(String args[]) { 
+    // Test with a single consonant character
+    String result1 = remove_vowels("b"); // Should pass both assertions.
+    
+    // Test with a string that starts with a consonant
+    String result2 = remove_vowels("cde"); // Should pass all assertions.
+
+    // Test with a null string (directly to reach the assertion about length)
+    String result3 = remove_vowels(null); // Should reach an assertion failure due to null.
+}
+```
+Error reason: the assertion [3] is not satisfied, assertFalse(1 < c_array_1.length) 
+Round 1 generation:
+```java
+public static void main(String args[]) { 
+    // Test with an empty string
+    String result1 = remove_vowels(""); // Should pass assertion [1] and [2].
+
+    // Test with a single consonant character
+    String result2 = remove_vowels("b"); // Should pass all assertions.
+
+    // Test with a string that starts with a consonant
+    String result3 = remove_vowels("cde"); // Should pass all assertions.
+}
+```
+Error reason: the assertion [1] is not satisfied, assertTrue(0 < c_array_1.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

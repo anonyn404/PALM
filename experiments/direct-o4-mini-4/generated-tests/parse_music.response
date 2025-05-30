@@ -1,0 +1,54 @@
+```java
+parse_music("");
+```
+```java
+parse_music(" ");
+```
+```java
+parse_music("o");
+```
+```java
+parse_music("o|");
+```
+```java
+parse_music(".|");
+```
+```java
+parse_music("x");
+```
+```java
+parse_music("o o");
+```
+```java
+parse_music("o o|");
+```
+```java
+parse_music("o .|");
+```
+```java
+parse_music("o| o");
+```
+```java
+parse_music("o| o|");
+```
+```java
+parse_music("o| .|");
+```
+```java
+parse_music(".| o");
+```
+```java
+parse_music(".| o|");
+```
+```java
+parse_music(".| .|");
+```
+```java
+parse_music("x x");
+```
+```java
+parse_music("o x");
+```
+```java
+parse_music("x o");
+```

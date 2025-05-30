@@ -1,0 +1,9 @@
+```java
+SOLVE.solve(5);
+```
+```java
+SOLVE.solve(12);
+```
+```java
+SOLVE.solve(-5);
+```

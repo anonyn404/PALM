@@ -1,0 +1,15 @@
+```java
+largest_prime_factor(2);
+```
+```java
+largest_prime_factor(4);
+```
+```java
+largest_prime_factor(5);
+```
+```java
+largest_prime_factor(6);
+```
+```java
+largest_prime_factor(9);
+```

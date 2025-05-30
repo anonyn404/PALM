@@ -1,0 +1,153 @@
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("A");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("ab");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aB");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("abc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aBc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("abcABC");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aa");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aaA");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("abcab");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aabbcc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a!b@c#");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("abc123");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("AaBbCc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("testing");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Test");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Code!");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Distinct");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("character");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("char Character");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Java");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("input string");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("TEST test");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Unique!");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a b c");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("!");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("123");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("123abc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aA");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Some Text");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("With Spaces");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Punctuations: ,.");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Multiple spaces    ");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("EndsWithSpace ");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("   LeadingSpaces");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Mixed123abc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("cAsEs");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("4th Time");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("It's Testing");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Final Test");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Identical Ids");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("AWESOME");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("More letters");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("One Word");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("word-word");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Capitals");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("DUPLICATE");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Mixed CASE");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("   ");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("!@#$%^&*()");
+```

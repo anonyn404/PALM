@@ -1,0 +1,156 @@
+```java
+sum_product(Arrays.asList(1, 2));
+```
+```java
+sum_product(Arrays.asList(-1, 2));
+```
+```java
+sum_product(Arrays.asList(0, 2));
+```
+```java
+sum_product(Arrays.asList(1, -2));
+```
+```java
+sum_product(Arrays.asList(1, 0));
+```
+```java
+sum_product(Arrays.asList(-1, -2));
+```
+```java
+sum_product(Arrays.asList(-1, 0));
+```
+```java
+sum_product(Arrays.asList(0, 0));
+```
+```java
+sum_product(Arrays.asList(2, 3));
+```
+```java
+sum_product(Arrays.asList(2, -3));
+```
+```java
+sum_product(Arrays.asList(-2, 3));
+```
+```java
+sum_product(Arrays.asList(-2, -3));
+```
+```java
+sum_product(Arrays.asList(5, 5));
+```
+```java
+sum_product(Arrays.asList(-5, 5));
+```
+```java
+sum_product(Arrays.asList(5, -5));
+```
+```java
+sum_product(Arrays.asList(0, 5));
+```
+```java
+sum_product(Arrays.asList(0, -5));
+```
+```java
+sum_product(Arrays.asList(5, 0));
+```
+```java
+sum_product(Arrays.asList(-5, 0));
+```
+```java
+sum_product(new ArrayList<>());
+```
+```java
+sum_product(Arrays.asList(1, 1));
+```
+```java
+sum_product(Arrays.asList(1, -1));
+```
+```java
+sum_product(Arrays.asList(-1, 1));
+```
+```java
+sum_product(Arrays.asList(-1, -1));
+```
+```java
+sum_product(Arrays.asList(10, 15));
+```
+```java
+sum_product(Arrays.asList(10, -15));
+```
+```java
+sum_product(Arrays.asList(-10, 15));
+```
+```java
+sum_product(Arrays.asList(-10, -15));
+```
+```java
+sum_product(Arrays.asList(Integer.MAX_VALUE, 1));
+```
+```java
+sum_product(Arrays.asList(1, Integer.MAX_VALUE));
+```
+```java
+sum_product(Arrays.asList(Integer.MIN_VALUE, -1));
+```
+```java
+sum_product(Arrays.asList(-1, Integer.MIN_VALUE));
+```
+```java
+sum_product(Arrays.asList(Integer.MAX_VALUE, Integer.MAX_VALUE));
+```
+```java
+sum_product(Arrays.asList(Integer.MIN_VALUE, Integer.MIN_VALUE));
+```
+```java
+sum_product(Arrays.asList(-1, 0));
+```
+```java
+sum_product(Arrays.asList(0, 1));
+```
+```java
+sum_product(Arrays.asList(0, -1));
+```
+```java
+sum_product(Arrays.asList(1, 2, 3));
+```
+```java
+sum_product(Arrays.asList(1, 2, -3));
+```
+```java
+sum_product(Arrays.asList(-1, 2, 3));
+```
+```java
+sum_product(Arrays.asList(0, 1, 0));
+```
+```java
+sum_product(Arrays.asList(0, 0, 0));
+```
+```java
+sum_product(Arrays.asList(2, 2, 2));
+```
+```java
+sum_product(Arrays.asList(-2, -2, -2));
+```
+```java
+sum_product(Arrays.asList(5, 3, 2));
+```
+```java
+sum_product(Arrays.asList(3, 5, -2));
+```
+```java
+sum_product(Arrays.asList(2, 3, -5));
+```
+```java
+sum_product(Arrays.asList(-2, -3, 5));
+```
+```java
+sum_product(Arrays.asList(1, 1, -1));
+```
+```java
+sum_product(Arrays.asList(-1, -1, -1));
+```
+```java
+sum_product(Arrays.asList(0, Integer.MAX_VALUE));
+```
+```java
+sum_product(Arrays.asList(Integer.MIN_VALUE, 0));
+```

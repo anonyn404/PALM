@@ -1,0 +1,9 @@
+```java
+SUM_SQUARES.sum_squares(new int[] {});
+```
+```java
+SUM_SQUARES.sum_squares(new int[] {7});
+```
+```java
+SUM_SQUARES.sum_squares(new int[] {3, 5});
+```

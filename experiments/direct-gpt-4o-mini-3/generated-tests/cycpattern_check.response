@@ -1,0 +1,165 @@
+```java
+cycpattern_check("abcde", "abc");
+```
+```java
+cycpattern_check("abcde", "de");
+```
+```java
+cycpattern_check("abcdef", "abcdef");
+```
+```java
+cycpattern_check("abcdef", "f");
+```
+```java
+cycpattern_check("aabb", "aa");
+```
+```java
+cycpattern_check("aabb", "bb");
+```
+```java
+cycpattern_check("abcd", "bc");
+```
+```java
+cycpattern_check("aaaa", "a");
+```
+```java
+cycpattern_check("xyz", "z");
+```
+```java
+cycpattern_check("hello", "lo");
+```
+```java
+cycpattern_check("hello", "hello");
+```
+```java
+cycpattern_check("abcdefg", "efg");
+```
+```java
+cycpattern_check("abcdefg", "g");
+```
+```java
+cycpattern_check("testcase", "test");
+```
+```java
+cycpattern_check("pattern", "tern");
+```
+```java
+cycpattern_check("sampletext", "text");
+```
+```java
+cycpattern_check("example", "x");
+```
+```java
+cycpattern_check("algorithms", "alg");
+```
+```java
+cycpattern_check("data", "a");
+```
+```java
+cycpattern_check("java", "java");
+```
+```java
+cycpattern_check("circular", "cir");
+```
+```java
+cycpattern_check("loop", "lo");
+```
+```java
+cycpattern_check("string", "ing");
+```
+```java
+cycpattern_check("substring", "sub");
+```
+```java
+cycpattern_check("manipulation", "manip");
+```
+```java
+cycpattern_check("computation", "put");
+```
+```java
+cycpattern_check("iteration", "ter");
+```
+```java
+cycpattern_check("recursion", "cur");
+```
+```java
+cycpattern_check("variable", "var");
+```
+```java
+cycpattern_check("method", "m");
+```
+```java
+cycpattern_check("parameter", "para");
+```
+```java
+cycpattern_check("class", "c");
+```
+```java
+cycpattern_check("object", "obj");
+```
+```java
+cycpattern_check("array", "arr");
+```
+```java
+cycpattern_check("function", "fun");
+```
+```java
+cycpattern_check("module", "mod");
+```
+```java
+cycpattern_check("complexity", "com");
+```
+```java
+cycpattern_check("testing", "test");
+```
+```java
+cycpattern_check("debugging", "bug");
+```
+```java
+cycpattern_check("development", "dev");
+```
+```java
+cycpattern_check("operation", "op");
+```
+```java
+cycpattern_check("implementation", "impl");
+```
+```java
+cycpattern_check("exception", "ex");
+```
+```java
+cycpattern_check("optimization", "opt");
+```
+```java
+cycpattern_check("architecture", "arch");
+```
+```java
+cycpattern_check("programming", "pro");
+```
+```java
+cycpattern_check("analysis", "an");
+```
+```java
+cycpattern_check("integration", "gr");
+```
+```java
+cycpattern_check("syntax", "sy");
+```
+```java
+cycpattern_check("compiler", "comp");
+```
+```java
+cycpattern_check("variable", "vari");
+```
+```java
+cycpattern_check("methodology", "meth");
+```
+```java
+cycpattern_check("iteration", "ite");
+```
+```java
+cycpattern_check("looping", "loop");
+```
+```java
+cycpattern_check("example", "exam");
+```

@@ -1,0 +1,2 @@
+```javaunique(Collections.emptyList());
+```

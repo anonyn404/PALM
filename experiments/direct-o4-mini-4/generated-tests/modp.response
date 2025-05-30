@@ -1,0 +1,9 @@
+```java
+MODP.modp(0, 1);
+```
+```java
+MODP.modp(1, 1);
+```
+```java
+MODP.modp(2, 1);
+```

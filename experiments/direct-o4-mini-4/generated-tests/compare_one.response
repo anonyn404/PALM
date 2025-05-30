@@ -1,0 +1,60 @@
+```java
+COMPARE_ONE.compare_one(1, 1);
+```
+```java
+COMPARE_ONE.compare_one(5, 3);
+```
+```java
+COMPARE_ONE.compare_one(2, 4);
+```
+```java
+COMPARE_ONE.compare_one(1.1, 1.1);
+```
+```java
+COMPARE_ONE.compare_one(5.5, 2.2);
+```
+```java
+COMPARE_ONE.compare_one(1.5, 3.7);
+```
+```java
+COMPARE_ONE.compare_one("2.2", "2.2");
+```
+```java
+COMPARE_ONE.compare_one("5.5", "3.3");
+```
+```java
+COMPARE_ONE.compare_one("1.1", "4.4");
+```
+```java
+COMPARE_ONE.compare_one("3,14", "3.14");
+```
+```java
+COMPARE_ONE.compare_one("5", 5);
+```
+```java
+COMPARE_ONE.compare_one("2.5", 2.5);
+```
+```java
+COMPARE_ONE.compare_one(2, 2.0);
+```
+```java
+COMPARE_ONE.compare_one(3, 2.0);
+```
+```java
+COMPARE_ONE.compare_one(1, 2.0);
+```
+```java
+COMPARE_ONE.compare_one(new Object(), new Object());
+```
+```java
+COMPARE_ONE.compare_one(new Object(), 1);
+```
+```java
+COMPARE_ONE.compare_one(1, new Object());
+```
+```java
+COMPARE_ONE.compare_one("0", new Object());
+```
+```java
+COMPARE_ONE.compare_one(new Object(), "0.0");
+```

@@ -1,0 +1,24 @@
+```java
+pluck(new int[] {});
+```
+```java
+pluck(new int[] {1});
+```
+```java
+pluck(new int[] {2});
+```
+```java
+pluck(new int[] {1, 3});
+```
+```java
+pluck(new int[] {1, 4});
+```
+```java
+pluck(new int[] {2, 3});
+```
+```java
+pluck(new int[] {4, 2});
+```
+```java
+pluck(new int[] {2, 4});
+```

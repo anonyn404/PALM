@@ -1,0 +1,12 @@
+```java
+LONGEST.longest(new ArrayList<>());
+```
+```java
+LONGEST.longest(Arrays.asList("a"));
+```
+```java
+LONGEST.longest(Arrays.asList("ab", "a"));
+```
+```java
+LONGEST.longest(Arrays.asList("a", "ab"));
+```

@@ -1,0 +1,2 @@
+```javawords_strings(null);
+```

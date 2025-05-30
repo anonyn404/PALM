@@ -1,0 +1,39 @@
+```java
+SEARCH.search(new int[]{});
+```
+```java
+SEARCH.search(new int[]{0});
+```
+```java
+SEARCH.search(new int[]{1});
+```
+```java
+SEARCH.search(new int[]{2});
+```
+```java
+SEARCH.search(new int[]{0, 0});
+```
+```java
+SEARCH.search(new int[]{0, 1});
+```
+```java
+SEARCH.search(new int[]{1, 0});
+```
+```java
+SEARCH.search(new int[]{1, 1});
+```
+```java
+SEARCH.search(new int[]{0, 2});
+```
+```java
+SEARCH.search(new int[]{1, 2});
+```
+```java
+SEARCH.search(new int[]{2, 2});
+```
+```java
+SEARCH.search(new int[]{0, 3});
+```
+```java
+SEARCH.search(new int[]{3, 3});
+```

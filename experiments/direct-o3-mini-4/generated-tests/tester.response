@@ -1,0 +1,9 @@
+```java
+new TESTER().foo(0, 0);
+```
+```java
+new TESTER().foo(1, 2);
+```
+```java
+new TESTER().foo(1, 0);
+```

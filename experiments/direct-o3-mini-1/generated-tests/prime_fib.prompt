@@ -1,0 +1,48 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (prime_fib); ignore branches in other methods and API calls. Generate up to 50 tests invoking prime_fib. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+public class PRIME_FIB {
+
+    public static boolean is_prime(int n) {
+        if (n < 2)
+            return false;
+        for (int i = 2; i < (int) Math.sqrt(n) + 1; i += 1) {
+            if (n % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+    public static int prime_fib(int n) {
+        ArrayList<Integer> fib = new ArrayList<Integer>();
+        fib.add(0);
+        fib.add(1);
+        while (true) {
+            int len = fib.size();
+            fib.add(fib.get(len - 1) + fib.get(len - 2));
+            if (is_prime(fib.get(fib.size() - 1)))
+                n -= 1;
+            if (n == 0)
+                return fib.get(fib.size() - 1);
+        }
+    }
+}

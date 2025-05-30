@@ -1,0 +1,15 @@
+```java
+BELOW_ZERO.below_zero(Arrays.asList());
+```
+```java
+BELOW_ZERO.below_zero(Arrays.asList(-1));
+```
+```java
+BELOW_ZERO.below_zero(Arrays.asList(0));
+```
+```java
+BELOW_ZERO.below_zero(Arrays.asList(1, -2));
+```
+```java
+BELOW_ZERO.below_zero(Arrays.asList(1, 1));
+```

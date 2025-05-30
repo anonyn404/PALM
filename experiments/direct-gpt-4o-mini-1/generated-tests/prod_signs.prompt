@@ -1,0 +1,40 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (prod_signs); ignore branches in other methods and API calls. Generate up to 50 tests invoking prod_signs. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class PROD_SIGNS {
+
+    public static int prod_signs(int[] arr) {
+        if (arr.length == 0)
+            return -10;
+        int prod = 1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0)
+                prod = 0;
+            else if (arr[i] < 0)
+                prod *= -1;
+        }
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += Math.abs(arr[i]);
+        }
+        return prod * sum;
+    }
+}

@@ -1,0 +1,138 @@
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple", "banana", "apricot"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("carrot", "apple", "grape"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("orange", "applause", "app"), "app");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("kiwi", "banana", "blueberry"), "b");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("avocado", "avenger", "berry"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("dragonfruit", "date", "fig"), "d");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("strawberry", "raspberry", "blueberry"), "b");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("melon", "cantaloupe", "mango"), "m");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("lemon", "lime", "lavender"), "l");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("peach", "pear", "plum"), "p");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("coconut", "cucumber", "bell"), "c");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("grapefruit", "guava", "grape"), "g");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("kiwi", "kiwifruit", "citrus"), "ki");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("banana", "blackberry", "blueberry"), "b");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("artichoke", "zucchini", "asparagus"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apricot", "apple", "banana"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("garlic", "ginger", "ginseng"), "g");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("nectarine", "papaya", "pomegranate"), "p");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("kiwi", "kale", "kohlrabi"), "k");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("tangerine", "tomato", "turnip"), "t");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("pumpkin", "potato", "parsnip"), "p");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("zucchini", "zest", "zucchini bread"), "z");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple pie", "banana bread", "apricot tart"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("caramel", "chocolate", "cake"), "ch");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("raspberry tart", "peach cobbler", "plum pudding"), "p");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("cabbage", "carrot", "celery"), "ca");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("nettle", "nori", "nashi"), "n");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("almond", "anise", "artichoke"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("cherry", "chestnut", "chickpea"), "ch");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("elderberry", "eggplant", "endive"), "e");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("honeydew", "harvest", "honey"), "h");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("iris", "ivy", "ivy leaf"), "i");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("jicama", "jalapeno", "jackfruit"), "j");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("kumquat", "kiwi", "carambola"), "k");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("nectar", "nutmeg", "nut"), "n");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("paprika", "parsley", "pepper"), "p");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("quinoa", "quince", "quasar"), "q");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("raspberry", "rhubarb", "radish"), "r");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("sugar", "salt", "saffron"), "s");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("tamarind", "tangerine", "thyme"), "t");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("ugli", "umber", "upland"), "u");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("vanilla", "velvet", "vinegar"), "v");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("watermelon", "walnut", "wheatgrass"), "w");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("xigua", "xanadu", "xmas"), "x");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("yam", "yarrow", "yellow"), "y");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("zucchini", "zest", "zep"), "z");
+```

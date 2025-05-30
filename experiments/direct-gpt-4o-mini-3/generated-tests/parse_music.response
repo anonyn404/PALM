@@ -1,0 +1,174 @@
+```java
+parse_music("");
+```
+```java
+parse_music("o");
+```
+```java
+parse_music("o|");
+```
+```java
+parse_music(".|");
+```
+```java
+parse_music("o o");
+```
+```java
+parse_music("o o|");
+```
+```java
+parse_music("o .|");
+```
+```java
+parse_music("o| o");
+```
+```java
+parse_music("o| .|");
+```
+```java
+parse_music(".| o");
+```
+```java
+parse_music(".| o|");
+```
+```java
+parse_music("o o o");
+```
+```java
+parse_music("o o| o");
+```
+```java
+parse_music("o| o| o");
+```
+```java
+parse_music("o .| o");
+```
+```java
+parse_music("o| .| o");
+```
+```java
+parse_music(".| o o");
+```
+```java
+parse_music(".| o| o");
+```
+```java
+parse_music("o o| o|");
+```
+```java
+parse_music("o .| o|");
+```
+```java
+parse_music("o| .| o|");
+```
+```java
+parse_music(".| o| o|");
+```
+```java
+parse_music("o| o| o|");
+```
+```java
+parse_music("o o| o .|");
+```
+```java
+parse_music("o| o .| .|");
+```
+```java
+parse_music("o .| o| o");
+```
+```java
+parse_music("o| .| o o|");
+```
+```java
+parse_music(".| o o| o|");
+```
+```java
+parse_music("o| .| o| o");
+```
+```java
+parse_music("o o| o| .|");
+```
+```java
+parse_music("o| o .| o|");
+```
+```java
+parse_music(".| o .| o");
+```
+```java
+parse_music("o| o| .| o");
+```
+```java
+parse_music("o o o| .|");
+```
+```java
+parse_music("o| o .| o|");
+```
+```java
+parse_music(".| o| o| .|");
+```
+```java
+parse_music("o o| .| o|");
+```
+```java
+parse_music("o| o| .| o");
+```
+```java
+parse_music(".| o| o| o");
+```
+```java
+parse_music("o| .| o o|");
+```
+```java
+parse_music(".| .| o| .|");
+```
+```java
+parse_music("o o o| o");
+```
+```java
+parse_music("o| o o| | o");
+```
+```java
+parse_music(".| o| o o|");
+```
+```java
+parse_music("o| o .| .|");
+```
+```java
+parse_music("o o| o o|");
+```
+```java
+parse_music(".| o .| o|");
+```
+```java
+parse_music("o| .| o| | o");
+```
+```java
+parse_music(".| o| .| o");
+```
+```java
+parse_music("o .| o .|");
+```
+```java
+parse_music("o| o| o o|");
+```
+```java
+parse_music(".| .| o| o");
+```
+```java
+parse_music("o .| o| o|");
+```
+```java
+parse_music("o| .| .| o");
+```
+```java
+parse_music("o o| | .|");
+```
+```java
+parse_music("o| o .| | o");
+```
+```java
+parse_music(".| o o| | .|");
+```
+```java
+parse_music("o| o| | o|");
+```

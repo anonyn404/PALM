@@ -1,0 +1,30 @@
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(), new ArrayList<Integer>());
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(), new ArrayList<Integer>(Arrays.asList(3)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>());
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(2)), new ArrayList<Integer>(Arrays.asList(3)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(1)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```
+```java
+EXCHANGE.exchange(new ArrayList<Integer>(Arrays.asList(2, 4)), new ArrayList<Integer>(Arrays.asList(2, 4)));
+```

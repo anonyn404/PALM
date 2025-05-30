@@ -1,0 +1,162 @@
+```java
+sum_squares(new int[]{0});
+```
+```java
+sum_squares(new int[]{1});
+```
+```java
+sum_squares(new int[]{2});
+```
+```java
+sum_squares(new int[]{3});
+```
+```java
+sum_squares(new int[]{4});
+```
+```java
+sum_squares(new int[]{5});
+```
+```java
+sum_squares(new int[]{6});
+```
+```java
+sum_squares(new int[]{7});
+```
+```java
+sum_squares(new int[]{8});
+```
+```java
+sum_squares(new int[]{9});
+```
+```java
+sum_squares(new int[]{10});
+```
+```java
+sum_squares(new int[]{-1});
+```
+```java
+sum_squares(new int[]{-5, -3});
+```
+```java
+sum_squares(new int[]{-10, 2});
+```
+```java
+sum_squares(new int[]{10, 20, 30});
+```
+```java
+sum_squares(new int[]{1, 2, 3, 4});
+```
+```java
+sum_squares(new int[]{3, 6, 9, 12});
+```
+```java
+sum_squares(new int[]{1, 4, 7, -3});
+```
+```java
+sum_squares(new int[]{0, 0, 0});
+```
+```java
+sum_squares(new int[]{5, 5, 5});
+```
+```java
+sum_squares(new int[]{0, 1, 2});
+```
+```java
+sum_squares(new int[]{1, 2, 3, 4, 5});
+```
+```java
+sum_squares(new int[]{7, 14, 21});
+```
+```java
+sum_squares(new int[]{-1, -2, -3});
+```
+```java
+sum_squares(new int[]{8, 16, 24});
+```
+```java
+sum_squares(new int[]{10, 11, 12});
+```
+```java
+sum_squares(new int[]{-4, -8, -12});
+```
+```java
+sum_squares(new int[]{-5, 0, 5});
+```
+```java
+sum_squares(new int[]{1, 0, -1});
+```
+```java
+sum_squares(new int[]{3, 3});
+```
+```java
+sum_squares(new int[]{2, 0});
+```
+```java
+sum_squares(new int[]{18, 24});
+```
+```java
+sum_squares(new int[]{13, 17, -1});
+```
+```java
+sum_squares(new int[]{9, 27});
+```
+```java
+sum_squares(new int[]{0, 7, 14});
+```
+```java
+sum_squares(new int[]{15, 30});
+```
+```java
+sum_squares(new int[]{6, -6});
+```
+```java
+sum_squares(new int[]{-7, -14, -21});
+```
+```java
+sum_squares(new int[]{0, -1, 1});
+```
+```java
+sum_squares(new int[]{1, -2, 3});
+```
+```java
+sum_squares(new int[]{5, 5, 5, 10});
+```
+```java
+sum_squares(new int[]{100, 0});
+```
+```java
+sum_squares(new int[]{99});
+```
+```java
+sum_squares(new int[]{2, 4});
+```
+```java
+sum_squares(new int[]{6, -3, -12});
+```
+```java
+sum_squares(new int[]{20, -5, 2});
+```
+```java
+sum_squares(new int[]{1, 4, 7});
+```
+```java
+sum_squares(new int[]{1, 0});
+```
+```java
+sum_squares(new int[]{2, 2});
+```
+```java
+sum_squares(new int[]{3, -3});
+```
+```java
+sum_squares(new int[]{2, 3, 4});
+```
+```java
+sum_squares(new int[]{2, 5, -5});
+```
+```java
+sum_squares(new int[]{3, 3, 3});
+```
+```java
+sum_squares(new int[]{1, 2, -2});
+```

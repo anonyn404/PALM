@@ -1,0 +1,35 @@
+You are a Java test generator. Invoke the target method (special_filter) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+public static int special_filter(int[] nums){
+    int count_1 = 0;
+    ArrayList<Integer> odd_digits_1 = new ArrayList<Integer>(Arrays.asList(1, 3, 5, 7, 9));
+    Integer num_1;
+    assertTrue(0 < nums.length); //[1]
+    num_1 = nums[0];
+    assertFalse(num_1 > 10); //[2]
+    assertTrue(1 < nums.length); //[3]
+    num_1 = nums[1];
+    assertFalse(num_1 > 10); //[4]
+    assertFalse(2 < nums.length); //[5]
+    return 0;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

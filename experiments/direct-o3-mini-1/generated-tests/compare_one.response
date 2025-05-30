@@ -1,0 +1,42 @@
+```java
+COMPARE_ONE.compare_one("5", "5");
+```
+```java
+COMPARE_ONE.compare_one(Integer.valueOf(5), Integer.valueOf(5));
+```
+```java
+COMPARE_ONE.compare_one(Double.valueOf(5.0), Double.valueOf(5.0));
+```
+```java
+COMPARE_ONE.compare_one("5", Integer.valueOf(5));
+```
+```java
+COMPARE_ONE.compare_one("7", "6");
+```
+```java
+COMPARE_ONE.compare_one(Integer.valueOf(7), Double.valueOf(6.0));
+```
+```java
+COMPARE_ONE.compare_one(Double.valueOf(7.0), Integer.valueOf(6));
+```
+```java
+COMPARE_ONE.compare_one("4", "8");
+```
+```java
+COMPARE_ONE.compare_one(Integer.valueOf(4), Double.valueOf(8.0));
+```
+```java
+COMPARE_ONE.compare_one(Double.valueOf(4.0), Integer.valueOf(8));
+```
+```java
+COMPARE_ONE.compare_one(new Object(), Integer.valueOf(8));
+```
+```java
+COMPARE_ONE.compare_one(new Object(), new Object());
+```
+```java
+COMPARE_ONE.compare_one(Integer.valueOf(5), new Object());
+```
+```java
+COMPARE_ONE.compare_one(new Object(), Double.valueOf(5.0));
+```

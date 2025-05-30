@@ -1,0 +1,27 @@
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("a"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("a","b"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList("a"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList("a","b"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a","b"), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a","b"), Arrays.asList("a"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a","b"), Arrays.asList("c","d"));
+```

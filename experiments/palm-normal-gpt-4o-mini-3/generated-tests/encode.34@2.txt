@@ -1,0 +1,46 @@
+You are a Java test generator. Invoke the target method (encode) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void encode(String message){
+    StringBuilder sb_1 = new StringBuilder();
+    char[] c_array_1 = message.toCharArray();
+    char c_1;
+    assertTrue(0 < c_array_1.length); //[1]
+    c_1 = c_array_1[0];
+    assertTrue(Character.isUpperCase(c_1)); //[2]
+    c_1 = Character.toLowerCase(c_1);
+    assertFalse(c_1 == 'a' || c_1 == 'e' || c_1 == 'i' || c_1 == 'o' || c_1 == 'u' || c_1 == 'A' || c_1 == 'E' || c_1 == 'I' || c_1 == 'O' || c_1 == 'U'); //[3]
+    sb_1.append(c_1);
+    assertTrue(1 < c_array_1.length); //[4]
+    c_1 = c_array_1[1];
+    assertFalse(Character.isUpperCase(c_1)); //[5]
+    assertFalse(Character.isLowerCase(c_1)); //[6]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+main(new String[]{"AB", "1"});
+```
+Error reason: The target method is not invoked in your generated test.
+Round 1 generation:
+```java
+public static void main(String args[]) { encode("AB1"); }
+```
+Error reason: the assertion [3] is not satisfied, assertFalse(c_1 == 'a' || c_1 == 'e' || c_1 == 'i' || c_1 == 'o' || c_1 == 'u' || c_1 == 'A' || c_1 == 'E' || c_1 == 'I' || c_1 == 'O' || c_1 == 'U') 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

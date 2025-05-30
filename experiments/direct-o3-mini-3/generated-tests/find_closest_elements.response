@@ -1,0 +1,15 @@
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[]{});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[]{5.0});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[]{1.0, 2.0});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[]{2.0, 1.0});
+```
+```java
+FIND_CLOSEST_ELEMENTS.find_closest_elements(new double[]{1.0, 3.0, 2.0});
+```

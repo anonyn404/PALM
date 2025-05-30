@@ -1,0 +1,138 @@
+```java
+compare_one("1", "1");
+```
+```java
+compare_one("-1", "1");
+```
+```java
+compare_one("2", "1");
+```
+```java
+compare_one("1", new Double(1.0));
+```
+```java
+compare_one("-1", new Double(1.0));
+```
+```java
+compare_one("2", new Double(1.0));
+```
+```java
+compare_one("1", new Integer(1));
+```
+```java
+compare_one("-1", new Integer(1));
+```
+```java
+compare_one("2", new Integer(1));
+```
+```java
+compare_one("0", new Object());
+```
+```java
+compare_one("-1", new Object());
+```
+```java
+compare_one("1", new Object());
+```
+```java
+compare_one(new Double(1.0), "1");
+```
+```java
+compare_one(new Double(-1.0), "1");
+```
+```java
+compare_one(new Double(2.0), "1");
+```
+```java
+compare_one(new Double(1.0), new Double(1.0));
+```
+```java
+compare_one(new Double(-1.0), new Double(1.0));
+```
+```java
+compare_one(new Double(2.0), new Double(1.0));
+```
+```java
+compare_one(new Double(1.0), new Integer(1));
+```
+```java
+compare_one(new Double(-1.0), new Integer(1));
+```
+```java
+compare_one(new Double(2.0), new Integer(1));
+```
+```java
+compare_one(new Double(0.0), new Object());
+```
+```java
+compare_one(new Double(-1.0), new Object());
+```
+```java
+compare_one(new Double(1.0), new Object());
+```
+```java
+compare_one(new Integer(1), "1");
+```
+```java
+compare_one(new Integer(-1), "1");
+```
+```java
+compare_one(new Integer(2), "1");
+```
+```java
+compare_one(new Integer(1), new Double(1.0));
+```
+```java
+compare_one(new Integer(-1), new Double(1.0));
+```
+```java
+compare_one(new Integer(2), new Double(1.0));
+```
+```java
+compare_one(new Integer(1), new Integer(1));
+```
+```java
+compare_one(new Integer(-1), new Integer(1));
+```
+```java
+compare_one(new Integer(2), new Integer(1));
+```
+```java
+compare_one(new Integer(0), new Object());
+```
+```java
+compare_one(new Integer(-1), new Object());
+```
+```java
+compare_one(new Integer(1), new Object());
+```
+```java
+compare_one(new Object(), "0");
+```
+```java
+compare_one(new Object(), "1");
+```
+```java
+compare_one(new Object(), "-1");
+```
+```java
+compare_one(new Object(), new Double(0.0));
+```
+```java
+compare_one(new Object(), new Double(1.0));
+```
+```java
+compare_one(new Object(), new Double(-1.0));
+```
+```java
+compare_one(new Object(), new Integer(0));
+```
+```java
+compare_one(new Object(), new Integer(1));
+```
+```java
+compare_one(new Object(), new Integer(-1));
+```
+```java
+compare_one(new Object(), new Object());
+```

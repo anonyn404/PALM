@@ -1,0 +1,9 @@
+```java
+INTERSPERSE.intersperse(new ArrayList<Integer>(), 3);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(7)), 3);
+```
+```java
+INTERSPERSE.intersperse(new ArrayList<>(Arrays.asList(7, 8)), 3);
+```

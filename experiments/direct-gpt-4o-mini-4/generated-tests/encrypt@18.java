@@ -1,0 +1,2 @@
+```javaencrypt("abcde");
+```

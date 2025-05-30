@@ -1,0 +1,156 @@
+```java
+IS_BORED.is_bored("I am bored. I want to play.");
+```
+```java
+IS_BORED.is_bored("I am happy. I have fun.");
+```
+```java
+IS_BORED.is_bored("I feel bored! I need to relax.");
+```
+```java
+IS_BORED.is_bored("I have nothing to do.");
+```
+```java
+IS_BORED.is_bored("Are you bored? I am bored!");
+```
+```java
+IS_BORED.is_bored("I am tired. I need sleep.");
+```
+```java
+IS_BORED.is_bored("I miss my friends.");
+```
+```java
+IS_BORED.is_bored("I am bored. I will go out.");
+```
+```java
+IS_BORED.is_bored("This is fine.");
+```
+```java
+IS_BORED.is_bored("I want to do something exciting.");
+```
+```java
+IS_BORED.is_bored("I am bored. What should I do?");
+```
+```java
+IS_BORED.is_bored("I love coding!");
+```
+```java
+IS_BORED.is_bored("Hello! I am here.");
+```
+```java
+IS_BORED.is_bored("I need a hobby.");
+```
+```java
+IS_BORED.is_bored("I am bored. I feel like watching TV.");
+```
+```java
+IS_BORED.is_bored("Today is a beautiful day.");
+```
+```java
+IS_BORED.is_bored("I want to go for a walk.");
+```
+```java
+IS_BORED.is_bored("I am bored. Let's play a game.");
+```
+```java
+IS_BORED.is_bored("What are you doing?");
+```
+```java
+IS_BORED.is_bored("I am bored. I want to learn new skills.");
+```
+```java
+IS_BORED.is_bored("I enjoy reading.");
+```
+```java
+IS_BORED.is_bored("Shall we go out?");
+```
+```java
+IS_BORED.is_bored("I have a good idea!");
+```
+```java
+IS_BORED.is_bored("I could use some inspiration.");
+```
+```java
+IS_BORED.is_bored("I am just sitting here.");
+```
+```java
+IS_BORED.is_bored("I want to try something different.");
+```
+```java
+IS_BORED.is_bored("I cannot think of anything to do.");
+```
+```java
+IS_BORED.is_bored("I would like to chat.");
+```
+```java
+IS_BORED.is_bored("I think I am bored.");
+```
+```java
+IS_BORED.is_bored("Maybe I should do some exercise.");
+```
+```java
+IS_BORED.is_bored("I am bored! What can we do?");
+```
+```java
+IS_BORED.is_bored("I could write a story.");
+```
+```java
+IS_BORED.is_bored("I feel like drawing.");
+```
+```java
+IS_BORED.is_bored("I want to learn to cook.");
+```
+```java
+IS_BORED.is_bored("Let's brainstorm ideas.");
+```
+```java
+IS_BORED.is_bored("How about watching a movie?");
+```
+```java
+IS_BORED.is_bored("I need some fun.");
+```
+```java
+IS_BORED.is_bored("I am bored during this long meeting.");
+```
+```java
+IS_BORED.is_bored("I can not wait for the weekend.");
+```
+```java
+IS_BORED.is_bored("This is so dull.");
+```
+```java
+IS_BORED.is_bored("I want to explore new things.");
+```
+```java
+IS_BORED.is_bored("I feel really bored.");
+```
+```java
+IS_BORED.is_bored("I want to talk about my problems.");
+```
+```java
+IS_BORED.is_bored("Do you want to do something?");
+```
+```java
+IS_BORED.is_bored("Let's have some fun!");
+```
+```java
+IS_BORED.is_bored("I want to go to the beach.");
+```
+```java
+IS_BORED.is_bored("What a boring day.");
+```
+```java
+IS_BORED.is_bored("I am looking for fun activities.");
+```
+```java
+IS_BORED.is_bored("This conversation is boring.");
+```
+```java
+IS_BORED.is_bored("Is there anything we can do?");
+```
+```java
+IS_BORED.is_bored("I need to spice up my day.");
+```
+```java
+IS_BORED.is_bored("");
+```

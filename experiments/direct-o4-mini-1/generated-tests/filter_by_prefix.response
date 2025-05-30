@@ -1,0 +1,42 @@
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList(), "");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList(""), "");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList(""), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a"), "");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("ab"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a"), "ab");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a","b"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("b","a"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a","ab"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a","a"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("b","c"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a","b"), "");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("a","b"), "abc");
+```

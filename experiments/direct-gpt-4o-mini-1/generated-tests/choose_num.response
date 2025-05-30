@@ -1,0 +1,144 @@
+```java
+CHOOSE_NUM.choose_num(1, 2);
+```
+```java
+CHOOSE_NUM.choose_num(2, 1);
+```
+```java
+CHOOSE_NUM.choose_num(2, 2);
+```
+```java
+CHOOSE_NUM.choose_num(0, 1);
+```
+```java
+CHOOSE_NUM.choose_num(1, 0);
+```
+```java
+CHOOSE_NUM.choose_num(0, 0);
+```
+```java
+CHOOSE_NUM.choose_num(3, 4);
+```
+```java
+CHOOSE_NUM.choose_num(4, 3);
+```
+```java
+CHOOSE_NUM.choose_num(4, 4);
+```
+```java
+CHOOSE_NUM.choose_num(-1, 0);
+```
+```java
+CHOOSE_NUM.choose_num(0, -1);
+```
+```java
+CHOOSE_NUM.choose_num(-1, -1);
+```
+```java
+CHOOSE_NUM.choose_num(5, 6);
+```
+```java
+CHOOSE_NUM.choose_num(6, 5);
+```
+```java
+CHOOSE_NUM.choose_num(6, 6);
+```
+```java
+CHOOSE_NUM.choose_num(7, 8);
+```
+```java
+CHOOSE_NUM.choose_num(8, 7);
+```
+```java
+CHOOSE_NUM.choose_num(8, 8);
+```
+```java
+CHOOSE_NUM.choose_num(2, 3);
+```
+```java
+CHOOSE_NUM.choose_num(3, 2);
+```
+```java
+CHOOSE_NUM.choose_num(3, 3);
+```
+```java
+CHOOSE_NUM.choose_num(10, 11);
+```
+```java
+CHOOSE_NUM.choose_num(11, 10);
+```
+```java
+CHOOSE_NUM.choose_num(11, 11);
+```
+```java
+CHOOSE_NUM.choose_num(12, 13);
+```
+```java
+CHOOSE_NUM.choose_num(13, 12);
+```
+```java
+CHOOSE_NUM.choose_num(13, 13);
+```
+```java
+CHOOSE_NUM.choose_num(14, 15);
+```
+```java
+CHOOSE_NUM.choose_num(15, 14);
+```
+```java
+CHOOSE_NUM.choose_num(15, 15);
+```
+```java
+CHOOSE_NUM.choose_num(20, 21);
+```
+```java
+CHOOSE_NUM.choose_num(21, 20);
+```
+```java
+CHOOSE_NUM.choose_num(21, 21);
+```
+```java
+CHOOSE_NUM.choose_num(8, 0);
+```
+```java
+CHOOSE_NUM.choose_num(0, 8);
+```
+```java
+CHOOSE_NUM.choose_num(8, 8);
+```
+```java
+CHOOSE_NUM.choose_num(-2, -1);
+```
+```java
+CHOOSE_NUM.choose_num(-1, -2);
+```
+```java
+CHOOSE_NUM.choose_num(-2, -2);
+```
+```java
+CHOOSE_NUM.choose_num(20, 19);
+```
+```java
+CHOOSE_NUM.choose_num(19, 20);
+```
+```java
+CHOOSE_NUM.choose_num(20, 20);
+```
+```java
+CHOOSE_NUM.choose_num(0, 2);
+```
+```java
+CHOOSE_NUM.choose_num(2, 0);
+```
+```java
+CHOOSE_NUM.choose_num(2, 2);
+```
+```java
+CHOOSE_NUM.choose_num(-10, 10);
+```
+```java
+CHOOSE_NUM.choose_num(10, -10);
+```
+```java
+CHOOSE_NUM.choose_num(-10, -10);
+```

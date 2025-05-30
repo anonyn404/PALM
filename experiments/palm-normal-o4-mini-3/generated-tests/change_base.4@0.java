@@ -1,0 +1,3 @@
+```java
+change_base(4, 3);
+```

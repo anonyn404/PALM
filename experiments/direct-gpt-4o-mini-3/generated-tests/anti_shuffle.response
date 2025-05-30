@@ -1,0 +1,171 @@
+```java
+anti_shuffle("hello world");
+```
+```java
+anti_shuffle("apple banana");
+```
+```java
+anti_shuffle("abc def");
+```
+```java
+anti_shuffle("a b c");
+```
+```java
+anti_shuffle("z y x");
+```
+```java
+anti_shuffle("apple orange pear");
+```
+```java
+anti_shuffle("sort this");
+```
+```java
+anti_shuffle("test cases");
+```
+```java
+anti_shuffle("singleword");
+```
+```java
+anti_shuffle("spaces    between");
+```
+```java
+anti_shuffle("duplicate duplicate");
+```
+```java
+anti_shuffle("already sorted");
+```
+```java
+anti_shuffle("C B A");
+```
+```java
+anti_shuffle("Z A Y");
+```
+```java
+anti_shuffle("one two three");
+```
+```java
+anti_shuffle("abc xyz");
+```
+```java
+anti_shuffle(" q w e ");
+```
+```java
+anti_shuffle("1 2 3");
+```
+```java
+anti_shuffle("a2 b1 c3");
+```
+```java
+anti_shuffle("! @ #");
+```
+```java
+anti_shuffle("empty");
+```
+```java
+anti_shuffle("twowords");
+```
+```java
+anti_shuffle("join the dots");
+```
+```java
+anti_shuffle("letters l e t t e r s");
+```
+```java
+anti_shuffle("  leading space");
+```
+```java
+anti_shuffle("trailing space ");
+```
+```java
+anti_shuffle(" mixed spacing ");
+```
+```java
+anti_shuffle("a   b   c");
+```
+```java
+anti_shuffle("java is fun");
+```
+```java
+anti_shuffle("longer string example");
+```
+```java
+anti_shuffle("Java Python C++");
+```
+```java
+anti_shuffle("!@#$%^&*()");
+```
+```java
+anti_shuffle("spaces   and   tabs");
+```
+```java
+anti_shuffle("same same");
+```
+```java
+anti_shuffle("unique1234");
+```
+```java
+anti_shuffle("a b c d");
+```
+```java
+anti_shuffle("reverse sort");
+```
+```java
+anti_shuffle("New test case");
+```
+```java
+anti_shuffle("number 1 2 3");
+```
+```java
+anti_shuffle("quick brown fox");
+```
+```java
+anti_shuffle("  multiple spaces ");
+```
+```java
+anti_shuffle("mixed-case String");
+```
+```java
+anti_shuffle("sorted sorted");
+```
+```java
+anti_shuffle("X Y Z");
+```
+```java
+anti_shuffle("some duplicates duplicates");
+```
+```java
+anti_shuffle("special characters !@#$");
+```
+```java
+anti_shuffle("one word");
+```
+```java
+anti_shuffle("aQuickBrownFox");
+```
+```java
+anti_shuffle("  cased words ");
+```
+```java
+anti_shuffle("End test");
+```
+```java
+anti_shuffle("C a B");
+```
+```java
+anti_shuffle("d e f g");
+```
+```java
+anti_shuffle("  mixed case ");
+```
+```java
+anti_shuffle("the quick brown");
+```
+```java
+anti_shuffle("hello from Java");
+```
+```java
+anti_shuffle("Java ROCKS");
+```
+```java
+anti_shuffle("");
+```

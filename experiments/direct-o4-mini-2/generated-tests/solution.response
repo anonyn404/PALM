@@ -1,0 +1,15 @@
+```java
+solution(new ArrayList<Integer>());
+```
+```java
+solution(new ArrayList<>(Arrays.asList(2)));
+```
+```java
+solution(new ArrayList<>(Arrays.asList(3)));
+```
+```java
+solution(new ArrayList<>(Arrays.asList(2, 4)));
+```
+```java
+solution(new ArrayList<>(Arrays.asList(3, 4)));
+```

@@ -1,0 +1,8 @@
+```java
+// write you code here
+ArrayList<Integer> lst1 = new ArrayList<Integer>();
+lst1.add(1);
+ArrayList<Integer> lst2 = new ArrayList<Integer>();
+lst2.add(2);
+exchange(lst1, lst2);
+```

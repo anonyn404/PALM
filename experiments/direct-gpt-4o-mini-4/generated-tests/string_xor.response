@@ -1,0 +1,168 @@
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("00", "11");
+```
+```java
+STRING_XOR.string_xor("11", "00");
+```
+```java
+STRING_XOR.string_xor("11", "11");
+```
+```java
+STRING_XOR.string_xor("01", "10");
+```
+```java
+STRING_XOR.string_xor("01", "01");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("10", "10");
+```
+```java
+STRING_XOR.string_xor("00", "1");
+```
+```java
+STRING_XOR.string_xor("1", "00");
+```
+```java
+STRING_XOR.string_xor("0", "0");
+```
+```java
+STRING_XOR.string_xor("1", "1");
+```
+```java
+STRING_XOR.string_xor("0", "1");
+```
+```java
+STRING_XOR.string_xor("1", "0");
+```
+```java
+STRING_XOR.string_xor("01", "00");
+```
+```java
+STRING_XOR.string_xor("10", "11");
+```
+```java
+STRING_XOR.string_xor("11", "10");
+```
+```java
+STRING_XOR.string_xor("10", "00");
+```
+```java
+STRING_XOR.string_xor("00", "10");
+```
+```java
+STRING_XOR.string_xor("1", "10");
+```
+```java
+STRING_XOR.string_xor("10", "1");
+```
+```java
+STRING_XOR.string_xor("1", "00");
+```
+```java
+STRING_XOR.string_xor("00", "01");
+```
+```java
+STRING_XOR.string_xor("01", "00");
+```
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("1", "01");
+```
+```java
+STRING_XOR.string_xor("01", "1");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("01", "10");
+```
+```java
+STRING_XOR.string_xor("11", "01");
+```
+```java
+STRING_XOR.string_xor("01", "11");
+```
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("01", "01");
+```
+```java
+STRING_XOR.string_xor("10", "10");
+```
+```java
+STRING_XOR.string_xor("11", "11");
+```
+```java
+STRING_XOR.string_xor("00", "0");
+```
+```java
+STRING_XOR.string_xor("0", "00");
+```
+```java
+STRING_XOR.string_xor("1", "1");
+```
+```java
+STRING_XOR.string_xor("0", "1");
+```
+```java
+STRING_XOR.string_xor("1", "0");
+```
+```java
+STRING_XOR.string_xor("0", "0");
+```
+```java
+STRING_XOR.string_xor("000", "000");
+```
+```java
+STRING_XOR.string_xor("011", "110");
+```
+```java
+STRING_XOR.string_xor("111", "000");
+```
+```java
+STRING_XOR.string_xor("000", "111");
+```
+```java
+STRING_XOR.string_xor("010", "101");
+```
+```java
+STRING_XOR.string_xor("101", "010");
+```
+```java
+STRING_XOR.string_xor("111", "111");
+```
+```java
+STRING_XOR.string_xor("110", "011");
+```
+```java
+STRING_XOR.string_xor("011", "110");
+```
+```java
+STRING_XOR.string_xor("110", "001");
+```
+```java
+STRING_XOR.string_xor("001", "110");
+```
+```java
+STRING_XOR.string_xor("100", "011");
+```
+```java
+STRING_XOR.string_xor("011", "100");
+```
+```java
+STRING_XOR.string_xor("001", "101");
+```
+```java
+STRING_XOR.string_xor("101", "001");
+```

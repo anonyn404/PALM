@@ -1,0 +1,31 @@
+```java
+GET_POSITIVE.get_positive(new ArrayList<Integer>());
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(5));
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(0));
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(-5));
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(1, 2));
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(1, 0));
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(0, 1));
+```
+
+```java
+GET_POSITIVE.get_positive(Arrays.asList(0, -1));
+```

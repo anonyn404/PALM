@@ -1,0 +1,41 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (remove_duplicates); ignore branches in other methods and API calls. Generate up to 50 tests invoking remove_duplicates. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+public class REMOVE_DUPLICATES {
+
+    public static List<Integer> remove_duplicates(List<Integer> numbers) {
+        List<Integer> result = new ArrayList<Integer>();
+        HashMap<Integer, Integer> count = new HashMap<Integer, Integer>();
+        for (Integer n : numbers) {
+            if (!count.containsKey(n))
+                count.put(n, 0);
+            count.put(n, count.get(n) + 1);
+        }
+        for (Integer n : numbers) {
+            if (count.get(n) == 1)
+                result.add(n);
+        }
+        return result;
+    }
+}

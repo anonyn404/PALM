@@ -1,0 +1,156 @@
+```java
+INTERSPERSE.intersperse(new ArrayList<Integer>(), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(2, 3), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(3, 4), 2);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2, 3), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2, 3), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(2, 3, 4), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(2, 3, 4), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(5), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(5), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(5, 6), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(5, 6), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(6, 7), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(6, 7), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(7), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(7), 2);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(8, 9), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(0, 1, 2), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(0, 1, 2), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-1, -2), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-1, -2), -1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-1, -2, -3), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-4, -5), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-4, -5), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-6, -7), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-6, -7), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(4, 5), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(4, 5), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(4, 5, 6), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(4, 5, 6), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(0, 2), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(0, 2), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(3, 5), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(3, 5), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(0, -1), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(0, -1), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, -1, 2), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, -1, 2), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(2, -2, -3), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(5, 6, 7), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(8, 9, 10), 2);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-5, -6, -7), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(7, 8, 9), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(10), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(10), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2, 3, 4), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2, 3, 4), 2);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-1, -2, -3), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(-1, -2, -3), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 0), 1);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 0), 2);
+```

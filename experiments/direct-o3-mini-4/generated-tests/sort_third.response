@@ -1,0 +1,18 @@
+```java
+SORT_THIRD.sort_third(new ArrayList<>());
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(10));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(10, 20));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(10, 20, 30));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(10, 20, 30, 40));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(10, 20, 30, 40, 50));
+```

@@ -1,0 +1,156 @@
+```java
+REMOVE_VOWELS.remove_vowels("");
+```
+```java
+REMOVE_VOWELS.remove_vowels("a");
+```
+```java
+REMOVE_VOWELS.remove_vowels("e");
+```
+```java
+REMOVE_VOWELS.remove_vowels("i");
+```
+```java
+REMOVE_VOWELS.remove_vowels("o");
+```
+```java
+REMOVE_VOWELS.remove_vowels("u");
+```
+```java
+REMOVE_VOWELS.remove_vowels("hello");
+```
+```java
+REMOVE_VOWELS.remove_vowels("world");
+```
+```java
+REMOVE_VOWELS.remove_vowels("aeiou");
+```
+```java
+REMOVE_VOWELS.remove_vowels("java");
+```
+```java
+REMOVE_VOWELS.remove_vowels("testing");
+```
+```java
+REMOVE_VOWELS.remove_vowels("remove");
+```
+```java
+REMOVE_VOWELS.remove_vowels("vowels");
+```
+```java
+REMOVE_VOWELS.remove_vowels("this should remove vowels");
+```
+```java
+REMOVE_VOWELS.remove_vowels("the quick brown fox");
+```
+```java
+REMOVE_VOWELS.remove_vowels("jumps over lazy dog");
+```
+```java
+REMOVE_VOWELS.remove_vowels("rhythm");
+```
+```java
+REMOVE_VOWELS.remove_vowels("bcdfghjklmnpqrstvwxyz");
+```
+```java
+REMOVE_VOWELS.remove_vowels("aeiouAEIOU");
+```
+```java
+REMOVE_VOWELS.remove_vowels("sElected strings");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Calculate");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Removing");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Extra vowels");
+```
+```java
+REMOVE_VOWELS.remove_vowels("dElighted");
+```
+```java
+REMOVE_VOWELS.remove_vowels("umbrella");
+```
+```java
+REMOVE_VOWELS.remove_vowels("aAaAaAa");
+```
+```java
+REMOVE_VOWELS.remove_vowels("CCCCC");
+```
+```java
+REMOVE_VOWELS.remove_vowels("AquickBROWNfox");
+```
+```java
+REMOVE_VOWELS.remove_vowels("mUst be tested!");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Yes or no?");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Hey THERE!");
+```
+```java
+REMOVE_VOWELS.remove_vowels("FIND the vowels");
+```
+```java
+REMOVE_VOWELS.remove_vowels("deconstruct");
+```
+```java
+REMOVE_VOWELS.remove_vowels("outrageous");
+```
+```java
+REMOVE_VOWELS.remove_vowels("is it over yet");
+```
+```java
+REMOVE_VOWELS.remove_vowels("always test!");
+```
+```java
+REMOVE_VOWELS.remove_vowels("be on time");
+```
+```java
+REMOVE_VOWELS.remove_vowels("for your consideration");
+```
+```java
+REMOVE_VOWELS.remove_vowels("keep it simple");
+```
+```java
+REMOVE_VOWELS.remove_vowels("exlamation!");
+```
+```java
+REMOVE_VOWELS.remove_vowels("A TREMENDOUS task");
+```
+```java
+REMOVE_VOWELS.remove_vowels("key value pairs");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Additional Cases");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Good Morning");
+```
+```java
+REMOVE_VOWELS.remove_vowels("supercalifragilisticexpialidocious");
+```
+```java
+REMOVE_VOWELS.remove_vowels("abcde");
+```
+```java
+REMOVE_VOWELS.remove_vowels("Functional Programming");
+```
+```java
+REMOVE_VOWELS.remove_vowels("clean code");
+```
+```java
+REMOVE_VOWELS.remove_vowels("XML is interesting!");
+```
+```java
+REMOVE_VOWELS.remove_vowels("awesome function");
+```
+```java
+REMOVE_VOWELS.remove_vowels("write your code");
+```
+```java
+REMOVE_VOWELS.remove_vowels("java programming");
+```

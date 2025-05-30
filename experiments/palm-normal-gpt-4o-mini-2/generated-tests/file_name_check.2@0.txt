@@ -1,0 +1,25 @@
+You are a Java test generator. Invoke the target method (file_name_check) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void file_name_check(String file_name){
+    String[] lst_1 = file_name.split("\\.");
+    assertFalse(lst_1.length != 2); //[1]
+    assertFalse(!(lst_1[1].equals("txt") || lst_1[1].equals("exe") || lst_1[1].equals("dll"))); //[2]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

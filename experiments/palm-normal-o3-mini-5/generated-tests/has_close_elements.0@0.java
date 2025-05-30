@@ -1,0 +1,5 @@
+```java
+List<Double> list = new ArrayList<>();
+list.add(1.0);
+has_close_elements(list, 0.5);
+```

@@ -1,0 +1,64 @@
+You are a Java test generator. Invoke the target method (common) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.*;
+public static void common(int[] l1, int[] l2){
+    HashSet<Integer> common_1 = new HashSet<Integer>();
+    int i_1 = 0;
+    assertTrue(0 < l1.length); //[1]
+    int j_1 = 0;
+    assertFalse(0 < l2.length); //[2]
+    i_1 += 1;
+    assertFalse(1 < l1.length); //[3]
+    int[] result_1 = new int[common_1.size()];
+    int index_1 = 0;
+    Iterator<Integer> c_iter_1 = common_1.iterator();
+    Integer c_1;
+    assertTrue(c_iter_1.hasNext()); //[4]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+int[] l1 = new int[]{1}; 
+int[] l2 = new int[]{}; 
+common(l1, l2);
+```
+Error reason: the assertion [4] is not satisfied, assertTrue(c_iter_1.hasNext()) 
+Round 1 generation:
+```java
+int[] l1 = new int[]{1}; 
+int[] l2 = new int[]{1}; 
+common(l1, l2);
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(0 < l2.length) 
+Round 2 generation:
+```java
+int[] l1 = new int[1]; 
+int[] l2 = new int[0]; 
+common(l1, l2);
+```
+Error reason: the assertion [4] is not satisfied, assertTrue(c_iter_1.hasNext()) 
+Round 3 generation:
+```java
+int[] l1 = new int[0]; 
+int[] l2 = new int[0]; 
+common(l1, l2);
+```
+Error reason: the assertion [1] is not satisfied, assertTrue(0 < l1.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

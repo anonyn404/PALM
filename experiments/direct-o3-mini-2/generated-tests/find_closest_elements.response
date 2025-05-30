@@ -1,0 +1,33 @@
+```java
+find_closest_elements(new double[]{});
+```
+```java
+find_closest_elements(new double[]{1.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{2.0, 1.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 2.0, 10.0});
+```
+```java
+find_closest_elements(new double[]{3.0, 1.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{5.0, 3.0, 10.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{2.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 1.0, 1.0});
+```
+```java
+find_closest_elements(new double[]{-3.0, -1.0});
+```
+```java
+find_closest_elements(new double[]{-5.0, 0.0, 3.0});
+```

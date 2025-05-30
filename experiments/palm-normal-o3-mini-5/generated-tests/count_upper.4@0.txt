@@ -1,0 +1,29 @@
+You are a Java test generator. Invoke the target method (count_upper) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void count_upper(String s){
+    int count_1 = 0;
+    int i_1 = 0;
+    assertTrue(0 < s.length()); //[1]
+    char c_1 = s.charAt(0);
+    assertFalse(c_1 == 'A' || c_1 == 'E' || c_1 == 'I' || c_1 == 'O' || c_1 == 'U'); //[2]
+    i_1 += 2;
+    assertTrue(2 < s.length()); //[3]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

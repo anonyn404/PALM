@@ -1,0 +1,1 @@
+filter_integers(java.util.Arrays.asList("a", new Object()));

@@ -1,0 +1,123 @@
+```java
+STRING_TO_MD5.string_to_md5("");
+```
+```java
+STRING_TO_MD5.string_to_md5(" ");
+```
+```java
+STRING_TO_MD5.string_to_md5("hello");
+```
+```java
+STRING_TO_MD5.string_to_md5("test");
+```
+```java
+STRING_TO_MD5.string_to_md5("sample text");
+```
+```java
+STRING_TO_MD5.string_to_md5("example");
+```
+```java
+STRING_TO_MD5.string_to_md5("12345");
+```
+```java
+STRING_TO_MD5.string_to_md5("!@#$%");
+```
+```java
+STRING_TO_MD5.string_to_md5("abcdef");
+```
+```java
+STRING_TO_MD5.string_to_md5("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+```
+```java
+STRING_TO_MD5.string_to_md5("the quick brown fox");
+```
+```java
+STRING_TO_MD5.string_to_md5("jumps over the lazy dog");
+```
+```java
+STRING_TO_MD5.string_to_md5("longer string with multiple words");
+```
+```java
+STRING_TO_MD5.string_to_md5("special characters: *&^%$#@!");
+```
+```java
+STRING_TO_MD5.string_to_md5("unicode test: 測試");
+```
+```java
+STRING_TO_MD5.string_to_md5("string with newline\ncharacter");
+```
+```java
+STRING_TO_MD5.string_to_md5("string with tab\tcharacter");
+```
+```java
+STRING_TO_MD5.string_to_md5("string with carriage return\rcharacter");
+```
+```java
+STRING_TO_MD5.string_to_md5("string with form feed\fcharacter");
+```
+```java
+STRING_TO_MD5.string_to_md5("unique@domain.com");
+```
+```java
+STRING_TO_MD5.string_to_md5("mixedCaseString");
+```
+```java
+STRING_TO_MD5.string_to_md5("another123test");
+```
+```java
+STRING_TO_MD5.string_to_md5("café");
+```
+```java
+STRING_TO_MD5.string_to_md5("null byte\u0000string");
+```
+```java
+STRING_TO_MD5.string_to_md5("verylongstringwhichmightexercisealgorithm");
+```
+```java
+STRING_TO_MD5.string_to_md5("testing special characters: \u20AC");
+```
+```java
+STRING_TO_MD5.string_to_md5("testing the boundaries of the input string");
+```
+```java
+STRING_TO_MD5.string_to_md5("testing dot and comma, are we?");
+```
+```java
+STRING_TO_MD5.string_to_md5("    "); // string with spaces only
+```
+```java
+STRING_TO_MD5.string_to_md5("a"); // single character
+```
+```java
+STRING_TO_MD5.string_to_md5("abc"); // three characters
+```
+```java
+STRING_TO_MD5.string_to_md5("abcd"); // four characters
+```
+```java
+STRING_TO_MD5.string_to_md5("abcde"); // five characters
+```
+```java
+STRING_TO_MD5.string_to_md5("2,5,9,13,21"); // numeric string with commas
+```
+```java
+STRING_TO_MD5.string_to_md5("´`´´´`"); // various quotes
+```
+```java
+STRING_TO_MD5.string_to_md5("o'clock"); // apostrophe
+```
+```java
+STRING_TO_MD5.string_to_md5("テスト"); // Japanese characters
+```
+```java
+STRING_TO_MD5.string_to_md5("𝔉𝔢𝔠𝔦𝔞𝔩"); // Fraktur script
+```
+```java
+STRING_TO_MD5.string_to_md5("string\twith\ttabs"); // string with multiple tabs
+```
+```java
+STRING_TO_MD5.string_to_md5("string\nwith\nnewlines"); // string with multiple newlines
+```
+```java
+STRING_TO_MD5.string_to_md5("string\r\nwith\r\ncarriage"); // carriage return and newlines
+```

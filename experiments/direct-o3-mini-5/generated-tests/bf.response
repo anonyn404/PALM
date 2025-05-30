@@ -1,0 +1,24 @@
+```java
+bf("NotAPlanet", "Earth");
+```
+```java
+bf("Earth", "X");
+```
+```java
+bf("Mercury", "Venus");
+```
+```java
+bf("Mercury", "Earth");
+```
+```java
+bf("Mercury", "Mars");
+```
+```java
+bf("Earth", "Earth");
+```
+```java
+bf("Mars", "Earth");
+```
+```java
+bf("Mars", "Mercury");
+```

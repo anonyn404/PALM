@@ -1,0 +1,138 @@
+```java
+will_it_fly(new int[]{}, 0);
+```
+```java
+will_it_fly(new int[]{1}, 0);
+```
+```java
+will_it_fly(new int[]{1}, 1);
+```
+```java
+will_it_fly(new int[]{1, 1}, 0);
+```
+```java
+will_it_fly(new int[]{1, 1}, 2);
+```
+```java
+will_it_fly(new int[]{1, 2}, 0);
+```
+```java
+will_it_fly(new int[]{2, 1}, 0);
+```
+```java
+will_it_fly(new int[]{2, 2}, 2);
+```
+```java
+will_it_fly(new int[]{3, 2}, 4);
+```
+```java
+will_it_fly(new int[]{3, 3}, 5);
+```
+```java
+will_it_fly(new int[]{1, 2, 1}, 4);
+```
+```java
+will_it_fly(new int[]{1, 2, 1}, 3);
+```
+```java
+will_it_fly(new int[]{1, 1, 1}, 2);
+```
+```java
+will_it_fly(new int[]{2, 2, 2}, 5);
+```
+```java
+will_it_fly(new int[]{2, 3, 2}, 4);
+```
+```java
+will_it_fly(new int[]{0, 0}, 0);
+```
+```java
+will_it_fly(new int[]{0, 0, 0}, 0);
+```
+```java
+will_it_fly(new int[]{5, 5}, 10);
+```
+```java
+will_it_fly(new int[]{5, 4}, 8);
+```
+```java
+will_it_fly(new int[]{5, 6}, 10);
+```
+```java
+will_it_fly(new int[]{4, 4}, 8);
+```
+```java
+will_it_fly(new int[]{4, 4}, 7);
+```
+```java
+will_it_fly(new int[]{2, 2}, 4);
+```
+```java
+will_it_fly(new int[]{2, 1}, 3);
+```
+```java
+will_it_fly(new int[]{-1, -1}, 0);
+```
+```java
+will_it_fly(new int[]{0, 1}, 0);
+```
+```java
+will_it_fly(new int[]{10, 10}, 20);
+```
+```java
+will_it_fly(new int[]{10, 0}, 10);
+```
+```java
+will_it_fly(new int[]{1, 2, 3}, 6);
+```
+```java
+will_it_fly(new int[]{1, 3, 1}, 5);
+```
+```java
+will_it_fly(new int[]{1, 2, 2}, 4);
+```
+```java
+will_it_fly(new int[]{2, 2, 1}, 5);
+```
+```java
+will_it_fly(new int[]{3, 3, 3}, 9);
+```
+```java
+will_it_fly(new int[]{2, 0, 2}, 4);
+```
+```java
+will_it_fly(new int[]{7, 7}, 14);
+```
+```java
+will_it_fly(new int[]{8, 8}, 17);
+```
+```java
+will_it_fly(new int[]{1, 1, 1}, 4);
+```
+```java
+will_it_fly(new int[]{0, 0, 1}, 1);
+```
+```java
+will_it_fly(new int[]{1, 2, 1}, 5);
+```
+```java
+will_it_fly(new int[]{3, 5, 3}, 9);
+```
+```java
+will_it_fly(new int[]{4, 4, 4}, 12);
+```
+```java
+will_it_fly(new int[]{2, 1, 2}, 4);
+```
+```java
+will_it_fly(new int[]{2, 3, 2}, 6);
+```
+```java
+will_it_fly(new int[]{5, 5, 6}, 10);
+```
+```java
+will_it_fly(new int[]{0, 1, 0}, 1);
+```
+```java
+will_it_fly(new int[]{1, 1, 1}, 2);
+```

@@ -1,0 +1,153 @@
+```java
+check_dict_case(new HashMap<>());
+```
+```java
+HashMap<Object, Object> dict1 = new HashMap<>(); dict1.put("KEY", 1); check_dict_case(dict1);
+```
+```java
+HashMap<Object, Object> dict2 = new HashMap<>(); dict2.put("key", 1); check_dict_case(dict2);
+```
+```java
+HashMap<Object, Object> dict3 = new HashMap<>(); dict3.put("KEY", 1); dict3.put("ANOTHER_KEY", 2); check_dict_case(dict3);
+```
+```java
+HashMap<Object, Object> dict4 = new HashMap<>(); dict4.put("key", 1); dict4.put("ANOTHER_KEY", 2); check_dict_case(dict4);
+```
+```java
+HashMap<Object, Object> dict5 = new HashMap<>(); dict5.put("KEY", 1); dict5.put("key", 2); check_dict_case(dict5);
+```
+```java
+HashMap<Object, Object> dict6 = new HashMap<>(); dict6.put(1, 1); dict6.put("key", 2); check_dict_case(dict6);
+```
+```java
+HashMap<Object, Object> dict7 = new HashMap<>(); dict7.put("KEY", 1); dict7.put(1, 2); check_dict_case(dict7);
+```
+```java
+HashMap<Object, Object> dict8 = new HashMap<>(); dict8.put(1, 1); dict8.put(2, 2); check_dict_case(dict8);
+```
+```java
+HashMap<Object, Object> dict9 = new HashMap<>(); dict9.put("KEY", 1); dict9.put("key", 2); dict9.put(1, 3); check_dict_case(dict9);
+```
+```java
+HashMap<Object, Object> dict10 = new HashMap<>(); dict10.put("KEY", 1); dict10.put("NOTKEY", 2); check_dict_case(dict10);
+```
+```java
+HashMap<Object, Object> dict11 = new HashMap<>(); dict11.put("key1", 1); dict11.put("key2", 2); check_dict_case(dict11);
+```
+```java
+HashMap<Object, Object> dict12 = new HashMap<>(); dict12.put("KEY1", 1); dict12.put("KEY2", 2); check_dict_case(dict12);
+```
+```java
+HashMap<Object, Object> dict13 = new HashMap<>(); dict13.put("someKey", null); check_dict_case(dict13);
+```
+```java
+HashMap<Object, Object> dict14 = new HashMap<>(); dict14.put("MIXEDCase", 1); check_dict_case(dict14);
+```
+```java
+HashMap<Object, Object> dict15 = new HashMap<>(); dict15.put("upper", "string"); dict15.put("lower", "string"); check_dict_case(dict15);
+```
+```java
+HashMap<Object, Object> dict16 = new HashMap<>(); dict16.put("123", "value"); check_dict_case(dict16);
+```
+```java
+HashMap<Object, Object> dict17 = new HashMap<>(); dict17.put("Lower", "1"); dict17.put("UPPER", "2"); check_dict_case(dict17);
+```
+```java
+HashMap<Object, Object> dict18 = new HashMap<>(); dict18.put("KEY", "value"); dict18.put("another_key", "value"); check_dict_case(dict18);
+```
+```java
+HashMap<Object, Object> dict19 = new HashMap<>(); dict19.put("ALLCAPS", 1); dict19.put("mixedCase", 2); check_dict_case(dict19);
+```
+```java
+HashMap<Object, Object> dict20 = new HashMap<>(); dict20.put("unique_key", 1); dict20.put(2, 3); check_dict_case(dict20);
+```
+```java
+HashMap<Object, Object> dict21 = new HashMap<>(); dict21.put("", null); check_dict_case(dict21);
+```
+```java
+HashMap<Object, Object> dict22 = new HashMap<>(); dict22.put("HELLO", "WORLD"); dict22.put("WORLD", "HELLO"); check_dict_case(dict22);
+```
+```java
+HashMap<Object, Object> dict23 = new HashMap<>(); dict23.put("TestKey", 1); dict23.put("TESTKEY", 2); check_dict_case(dict23);
+```
+```java
+HashMap<Object, Object> dict24 = new HashMap<>(); dict24.put("MixedCase123", 1); check_dict_case(dict24);
+```
+```java
+HashMap<Object, Object> dict25 = new HashMap<>(); dict25.put("key123", 1); check_dict_case(dict25);
+```
+```java
+HashMap<Object, Object> dict26 = new HashMap<>(); dict26.put(3.14, "pi"); check_dict_case(dict26);
+```
+```java
+HashMap<Object, Object> dict27 = new HashMap<>(); dict27.put("UPPERCASE", 1); dict27.put("UPPERCASE2", 2); check_dict_case(dict27);
+```
+```java
+HashMap<Object, Object> dict28 = new HashMap<>(); dict28.put(null, "value"); check_dict_case(dict28);
+```
+```java
+HashMap<Object, Object> dict29 = new HashMap<>(); dict29.put("UPPERCASE", 1); dict29.put("lowercase", 2); check_dict_case(dict29);
+```
+```java
+HashMap<Object, Object> dict30 = new HashMap<>(); dict30.put("KEY1", 1); dict30.put("KEY2", null); check_dict_case(dict30);
+```
+```java
+HashMap<Object, Object> dict31 = new HashMap<>(); dict31.put("timestamp", new Date()); check_dict_case(dict31);
+```
+```java
+HashMap<Object, Object> dict32 = new HashMap<>(); dict32.put("validKey", "value"); dict32.put("anotherValidKey", "anotherValue"); check_dict_case(dict32);
+```
+```java
+HashMap<Object, Object> dict33 = new HashMap<>(); dict33.put("key", "value1"); dict33.put("key", "value2"); check_dict_case(dict33);
+```
+```java
+HashMap<Object, Object> dict34 = new HashMap<>(); dict34.put("CAPSLOCK", "value"); dict34.put("capslock", "value"); check_dict_case(dict34);
+```
+```java
+HashMap<Object, Object> dict35 = new HashMap<>(); dict35.put("UniqueKey", 1); dict35.put("AnotherKey", 2); check_dict_case(dict35);
+```
+```java
+HashMap<Object, Object> dict36 = new HashMap<>(); dict36.put("KEYONCE", "one"); dict36.put("KEYTWICE", "two"); check_dict_case(dict36);
+```
+```java
+HashMap<Object, Object> dict37 = new HashMap<>(); dict37.put("mixedUPPER", "value"); dict37.put("mixedlower", "value"); check_dict_case(dict37);
+```
+```java
+HashMap<Object, Object> dict38 = new HashMap<>(); dict38.put("anotherOne", 1); check_dict_case(dict38);
+```
+```java
+HashMap<Object, Object> dict39 = new HashMap<>(); dict39.put("STRING", "value"); dict39.put("string", "another"); check_dict_case(dict39);
+```
+```java
+HashMap<Object, Object> dict40 = new HashMap<>(); dict40.put(1, "one"); dict40.put(2, 2.0); check_dict_case(dict40);
+```
+```java
+HashMap<Object, Object> dict41 = new HashMap<>(); dict41.put("KEYWORD", "value"); dict41.put("anotherKeyword", 3); check_dict_case(dict41);
+```
+```java
+HashMap<Object, Object> dict42 = new HashMap<>(); dict42.put("lowerHIGHER", "value"); check_dict_case(dict42);
+```
+```java
+HashMap<Object, Object> dict43 = new HashMap<>(); dict43.put("valid1", "value1"); dict43.put("valid2", "value2"); check_dict_case(dict43);
+```
+```java
+HashMap<Object, Object> dict44 = new HashMap<>(); dict44.put("upperlower", 1); check_dict_case(dict44);
+```
+```java
+HashMap<Object, Object> dict45 = new HashMap<>(); dict45.put("key123", "value"); check_dict_case(dict45);
+```
+```java
+HashMap<Object, Object> dict46 = new HashMap<>(); dict46.put("SOMESTRING", "value"); dict46.put("someOtherString", "anotherValue"); check_dict_case(dict46);
+```
+```java
+HashMap<Object, Object> dict47 = new HashMap<>(); dict47.put("1", "value"); check_dict_case(dict47);
+```
+```java
+HashMap<Object, Object> dict48 = new HashMap<>(); dict48.put("12345", "number"); dict48.put("anotherKey", "value"); check_dict_case(dict48);
+```
+```java
+HashMap<Object, Object> dict49 = new HashMap<>(); dict49.put("A", "apple"); dict49.put("B", "banana"); check_dict_case(dict49);
+```
+```java
+HashMap<Object, Object> dict50 = new HashMap<>(); dict50.put("C", "cat"); dict50.put("D", "dog"); check_dict_case(dict50);
+```

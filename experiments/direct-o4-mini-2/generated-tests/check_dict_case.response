@@ -1,0 +1,42 @@
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put(1, null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("Ab", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("ABC", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("abc", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("A", null); put("B", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("A", null); put("b", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("A", null); put(1, null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("A", null); put("Ab", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("a", null); put("b", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("a", null); put("B", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("a", null); put(1, null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put("a", null); put("Ab", null); }});
+```
+```java
+check_dict_case(new java.util.HashMap<Object,Object>() {{ put(1, null); put("A", null); }});
+```

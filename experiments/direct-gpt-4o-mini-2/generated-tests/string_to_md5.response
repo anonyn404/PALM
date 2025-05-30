@@ -1,0 +1,141 @@
+```java
+STRING_TO_MD5.string_to_md5("");
+```
+```java
+STRING_TO_MD5.string_to_md5("hello");
+```
+```java
+STRING_TO_MD5.string_to_md5("world");
+```
+```java
+STRING_TO_MD5.string_to_md5("abc");
+```
+```java
+STRING_TO_MD5.string_to_md5("123");
+```
+```java
+STRING_TO_MD5.string_to_md5(" ");
+```
+```java
+STRING_TO_MD5.string_to_md5("test");
+```
+```java
+STRING_TO_MD5.string_to_md5("example");
+```
+```java
+STRING_TO_MD5.string_to_md5("test123");
+```
+```java
+STRING_TO_MD5.string_to_md5("MD5 String");
+```
+```java
+STRING_TO_MD5.string_to_md5("another test");
+```
+```java
+STRING_TO_MD5.string_to_md5("longer input string for testing");
+```
+```java
+STRING_TO_MD5.string_to_md5("short");
+```
+```java
+STRING_TO_MD5.string_to_md5("empty string test");
+```
+```java
+STRING_TO_MD5.string_to_md5("case sensitivity");
+```
+```java
+STRING_TO_MD5.string_to_md5("Same String");
+```
+```java
+STRING_TO_MD5.string_to_md5("same string");
+```
+```java
+STRING_TO_MD5.string_to_md5("123456");
+```
+```java
+STRING_TO_MD5.string_to_md5("a");
+```
+```java
+STRING_TO_MD5.string_to_md5("b");
+```
+```java
+STRING_TO_MD5.string_to_md5("c");
+```
+```java
+STRING_TO_MD5.string_to_md5("1");
+```
+```java
+STRING_TO_MD5.string_to_md5("X");
+```
+```java
+STRING_TO_MD5.string_to_md5("Y");
+```
+```java
+STRING_TO_MD5.string_to_md5("Z");
+```
+```java
+STRING_TO_MD5.string_to_md5("Some random string");
+```
+```java
+STRING_TO_MD5.string_to_md5("Special char #$%");
+```
+```java
+STRING_TO_MD5.string_to_md5("😊");
+```
+```java
+STRING_TO_MD5.string_to_md5("Long input string that should also be tested thoroughly");
+```
+```java
+STRING_TO_MD5.string_to_md5("Whitespace    ");
+```
+```java
+STRING_TO_MD5.string_to_md5("\nNew line");
+```
+```java
+STRING_TO_MD5.string_to_md5("Tab\tcharacter");
+```
+```java
+STRING_TO_MD5.string_to_md5("Mixed 123 & abc");
+```
+```java
+STRING_TO_MD5.string_to_md5("Base64encodedString==");
+```
+```java
+STRING_TO_MD5.string_to_md5("Hexadecimal 0xABC");
+```
+```java
+STRING_TO_MD5.string_to_md5("JSON-like {\"key\": \"value\"}");
+```
+```java
+STRING_TO_MD5.string_to_md5("XML <tag>content</tag>");
+```
+```java
+STRING_TO_MD5.string_to_md5("HTML <p>paragraph</p>");
+```
+```java
+STRING_TO_MD5.string_to_md5("Comma, separated, values");
+```
+```java
+STRING_TO_MD5.string_to_md5("Random String #123!");
+```
+```java
+STRING_TO_MD5.string_to_md5("Under_score_string");
+```
+```java
+STRING_TO_MD5.string_to_md5("Punctuation!@#$%^&*()");
+```
+```java
+STRING_TO_MD5.string_to_md5("Escape characters: \t \n \\" );
+```
+```java
+STRING_TO_MD5.string_to_md5("Same input different call");
+```
+```java
+STRING_TO_MD5.string_to_md5("Character set: áéíóú");
+```
+```java
+STRING_TO_MD5.string_to_md5("Unicode: 你好");
+```
+```java
+STRING_TO_MD5.string_to_md5("End of testing input.");
+```

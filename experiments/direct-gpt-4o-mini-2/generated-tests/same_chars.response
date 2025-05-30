@@ -1,0 +1,162 @@
+```java
+same_chars("", "");
+```
+```java
+same_chars("a", "a");
+```
+```java
+same_chars("a", "b");
+```
+```java
+same_chars("abc", "cba");
+```
+```java
+same_chars("abc", "abcd");
+```
+```java
+same_chars("abc", "");
+```
+```java
+same_chars("aa", "aa");
+```
+```java
+same_chars("ab", "ab");
+```
+```java
+same_chars("abcd", "abcd");
+```
+```java
+same_chars("a", "");
+```
+```java
+same_chars("abc", "abc");
+```
+```java
+same_chars("abc", "def");
+```
+```java
+same_chars("abc", "xyz");
+```
+```java
+same_chars("aaa", "aa");
+```
+```java
+same_chars("xyz", "zyx");
+```
+```java
+same_chars("a", "aa");
+```
+```java
+same_chars("abc", "aabbcc");
+```
+```java
+same_chars("abc", "abcde");
+```
+```java
+same_chars("x", "x");
+```
+```java
+same_chars("ab", "ba");
+```
+```java
+same_chars("a", "b");
+```
+```java
+same_chars("a", "c");
+```
+```java
+same_chars("abc", "bac");
+```
+```java
+same_chars("qwe", "ewq");
+```
+```java
+same_chars("123", "321");
+```
+```java
+same_chars("abcde", "edcba");
+```
+```java
+same_chars("a1b", "b1a");
+```
+```java
+same_chars("Hello", "olleH");
+```
+```java
+same_chars("aabbcc", "abc");
+```
+```java
+same_chars("abcd", "abc");
+```
+```java
+same_chars("aaaa", "aaa");
+```
+```java
+same_chars("abcABC", "ABCabc");
+```
+```java
+same_chars("12345", "54321");
+```
+```java
+same_chars("abcd", "defg");
+```
+```java
+same_chars("abc123", "321cba");
+```
+```java
+same_chars("A", "A");
+```
+```java
+same_chars("abcd", "");
+```
+```java
+same_chars("xyz", "xyzz");
+```
+```java
+same_chars("testing", "ingtest");
+```
+```java
+same_chars("!", "!");
+```
+```java
+same_chars("racecar", "racecar");
+```
+```java
+same_chars("hello", "olelh");
+```
+```java
+same_chars("key", "eyk");
+```
+```java
+same_chars("word", "wordy");
+```
+```java
+same_chars("1234", "1243");
+```
+```java
+same_chars("spoon", "noops");
+```
+```java
+same_chars("java", "avaj");
+```
+```java
+same_chars("apple", "papel");
+```
+```java
+same_chars("banana", "nanaba");
+```
+```java
+same_chars("abcd", "xyza");
+```
+```java
+same_chars("kittens", "snetkit");
+```
+```java
+same_chars("short", "thors");
+```
+```java
+same_chars("fizz", "ziff");
+```
+```java
+same_chars("FizzBuzz", "BuzzFizz");
+```

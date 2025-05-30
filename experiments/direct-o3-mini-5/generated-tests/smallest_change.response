@@ -1,0 +1,30 @@
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{1});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{5, 5});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{5, 6});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{7, 8, 7});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{7, 8, 9});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{1, 2, 2, 1});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{1, 2, 2, 3});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{1, 2, 3, 1});
+```
+```java
+SMALLEST_CHANGE.smallest_change(new int[]{1, 2, 3, 4});
+```

@@ -1,0 +1,153 @@
+```java
+PARSE_MUSIC.parse_music("");
+```
+```java
+PARSE_MUSIC.parse_music("o");
+```
+```java
+PARSE_MUSIC.parse_music("o |");
+```
+```java
+PARSE_MUSIC.parse_music(".|");
+```
+```java
+PARSE_MUSIC.parse_music("o o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o| o .|");
+```
+```java
+PARSE_MUSIC.parse_music("o o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o|");
+```
+```java
+PARSE_MUSIC.parse_music(".| o");
+```
+```java
+PARSE_MUSIC.parse_music("o .| o|");
+```
+```java
+PARSE_MUSIC.parse_music(" .| o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| .| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o .|");
+```
+```java
+PARSE_MUSIC.parse_music("o .| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o o o");
+```
+```java
+PARSE_MUSIC.parse_music(" .| .| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o| o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o o| o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o .| o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o| o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| .| .| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o| o .| .|");
+```
+```java
+PARSE_MUSIC.parse_music(".| o| o .|");
+```
+```java
+PARSE_MUSIC.parse_music(".| o .| o|");
+```
+```java
+PARSE_MUSIC.parse_music(" .| o .| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o .| o");
+```
+```java
+PARSE_MUSIC.parse_music("o o| | o|");
+```
+```java
+PARSE_MUSIC.parse_music("o | .| o|");
+```
+```java
+PARSE_MUSIC.parse_music(" .| o .| o|");
+```
+```java
+PARSE_MUSIC.parse_music("o| o| .| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o .| o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o o .| o| o");
+```
+```java
+PARSE_MUSIC.parse_music(".| .| o o|");
+```
+```java
+PARSE_MUSIC.parse_music("o| o| o o|");
+```
+```java
+PARSE_MUSIC.parse_music("o .| o| o .|");
+```
+```java
+PARSE_MUSIC.parse_music(".| o| o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o o o| o");
+```
+```java
+PARSE_MUSIC.parse_music(".| o| o| o");
+```
+```java
+PARSE_MUSIC.parse_music(" .| o| o| o|");
+```
+```java
+PARSE_MUSIC.parse_music(" .| .| o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o .| o o|");
+```
+```java
+PARSE_MUSIC.parse_music("o .| o| | o");
+```
+```java
+PARSE_MUSIC.parse_music(".| o| | o .|");
+```
+```java
+PARSE_MUSIC.parse_music(" .| o o| | o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o .| o .|");
+```
+```java
+PARSE_MUSIC.parse_music("o| | .| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o o| o| | .|");
+```
+```java
+PARSE_MUSIC.parse_music(" | o| o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("| | o| o| o");
+```

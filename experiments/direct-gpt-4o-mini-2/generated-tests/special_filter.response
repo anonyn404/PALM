@@ -1,0 +1,156 @@
+```java
+special_filter(new int[]{11});
+```
+```java
+special_filter(new int[]{13});
+```
+```java
+special_filter(new int[]{21});
+```
+```java
+special_filter(new int[]{33});
+```
+```java
+special_filter(new int[]{15, 31});
+```
+```java
+special_filter(new int[]{17, 39});
+```
+```java
+special_filter(new int[]{11, 13});
+```
+```java
+special_filter(new int[]{13, 15});
+```
+```java
+special_filter(new int[]{15, 17});
+```
+```java
+special_filter(new int[]{31, 33});
+```
+```java
+special_filter(new int[]{21, 23});
+```
+```java
+special_filter(new int[]{15});
+```
+```java
+special_filter(new int[]{25});
+```
+```java
+special_filter(new int[]{37});
+```
+```java
+special_filter(new int[]{11, 25});
+```
+```java
+special_filter(new int[]{39});
+```
+```java
+special_filter(new int[]{11, 31});
+```
+```java
+special_filter(new int[]{10});
+```
+```java
+special_filter(new int[]{9});
+```
+```java
+special_filter(new int[]{20});
+```
+```java
+special_filter(new int[]{30});
+```
+```java
+special_filter(new int[]{9, 11});
+```
+```java
+special_filter(new int[]{39, 41});
+```
+```java
+special_filter(new int[]{13, 25});
+```
+```java
+special_filter(new int[]{11, 35});
+```
+```java
+special_filter(new int[]{9, 33});
+```
+```java
+special_filter(new int[]{19, 31});
+```
+```java
+special_filter(new int[]{29, 13});
+```
+```java
+special_filter(new int[]{35});
+```
+```java
+special_filter(new int[]{37, 11});
+```
+```java
+special_filter(new int[]{11, 17});
+```
+```java
+special_filter(new int[]{33, 39});
+```
+```java
+special_filter(new int[]{19, 25});
+```
+```java
+special_filter(new int[]{35, 45});
+```
+```java
+special_filter(new int[]{31, 11});
+```
+```java
+special_filter(new int[]{19});
+```
+```java
+special_filter(new int[]{41});
+```
+```java
+special_filter(new int[]{21, 33});
+```
+```java
+special_filter(new int[]{15, 45});
+```
+```java
+special_filter(new int[]{27});
+```
+```java
+special_filter(new int[]{25, 15});
+```
+```java
+special_filter(new int[]{11, 19});
+```
+```java
+special_filter(new int[]{17, 45});
+```
+```java
+special_filter(new int[]{13, 9});
+```
+```java
+special_filter(new int[]{9, 10});
+```
+```java
+special_filter(new int[]{11, 21});
+```
+```java
+special_filter(new int[]{39, 49});
+```
+```java
+special_filter(new int[]{19, 15});
+```
+```java
+special_filter(new int[]{39, 21});
+```
+```java
+special_filter(new int[]{11, 13, 17});
+```
+```java
+special_filter(new int[]{15, 39});
+```
+```java
+special_filter(new int[]{21, 3});
+```

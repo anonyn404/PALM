@@ -1,0 +1,60 @@
+```java
+is_bored("");
+```
+```java
+is_bored("I");
+```
+```java
+is_bored("I a");
+```
+```java
+is_bored("No");
+```
+```java
+is_bored("I bored.");
+```
+```java
+is_bored("No.");
+```
+```java
+is_bored("I bored!I happy");
+```
+```java
+is_bored("I bored!I happy?I sad");
+```
+```java
+is_bored("Hello?I there");
+```
+```java
+is_bored("I there?Hello");
+```
+```java
+is_bored("I  ");
+```
+```java
+is_bored("  I x");
+```
+```java
+is_bored("X I ");
+```
+```java
+is_bored("I?I");
+```
+```java
+is_bored("??");
+```
+```java
+is_bored(".I a");
+```
+```java
+is_bored("!I2");
+```
+```java
+is_bored("?I ");
+```
+```java
+is_bored("I ? I a");
+```
+```java
+is_bored("I a.!?");
+```

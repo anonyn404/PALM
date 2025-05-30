@@ -1,0 +1,9 @@
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(new ArrayList<Double>());
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(0.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(1.0, -1.0));
+```

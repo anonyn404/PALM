@@ -1,0 +1,31 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (compare); ignore branches in other methods and API calls. Generate up to 50 tests invoking compare. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class COMPARE {
+
+    public static int[] compare(int[] game, int[] guess) {
+        int[] result = new int[game.length];
+        for (int i = 0; i < game.length; i += 1) {
+            result[i] = Math.abs(game[i] - guess[i]);
+        }
+        return result;
+    }
+}

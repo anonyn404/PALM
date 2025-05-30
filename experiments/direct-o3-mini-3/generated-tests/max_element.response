@@ -1,0 +1,15 @@
+```java
+MAX_ELEMENT.max_element(Arrays.asList(42));
+```
+```java
+MAX_ELEMENT.max_element(Arrays.asList(7, 5));
+```
+```java
+MAX_ELEMENT.max_element(Arrays.asList(5, 7));
+```
+```java
+MAX_ELEMENT.max_element(Arrays.asList(3, 3));
+```
+```java
+MAX_ELEMENT.max_element(Arrays.asList(1, 2, 0));
+```

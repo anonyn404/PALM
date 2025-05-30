@@ -1,0 +1,45 @@
+```java
+parse_nested_parens("()");
+```
+```java
+parse_nested_parens("((");
+```
+```java
+parse_nested_parens("))");
+```
+```java
+parse_nested_parens(")(");
+```
+```java
+parse_nested_parens("");
+```
+```java
+parse_nested_parens("a");
+```
+```java
+parse_nested_parens("(");
+```
+```java
+parse_nested_parens(")");
+```
+```java
+parse_nested_parens("() ()");
+```
+```java
+parse_nested_parens("(( ))");
+```
+```java
+parse_nested_parens("a (");
+```
+```java
+parse_nested_parens(") a");
+```
+```java
+parse_nested_parens(") (");
+```
+```java
+parse_nested_parens("(( a");
+```
+```java
+parse_nested_parens("( )");
+```

@@ -1,0 +1,66 @@
+```java
+compare_one(null, null);
+```
+```java
+compare_one(new Object(), 5);
+```
+```java
+compare_one(5, new Object());
+```
+```java
+compare_one(new Object(), new Double(3.14));
+```
+```java
+compare_one(new Double(3.14), new Object());
+```
+```java
+compare_one("2.718", "3.14");
+```
+```java
+compare_one("3,14", "2,718");
+```
+```java
+compare_one("5", 5);
+```
+```java
+compare_one(5, "5");
+```
+```java
+compare_one(new Double(2), 2);
+```
+```java
+compare_one("0", 0.0);
+```
+```java
+compare_one(null, 5.0);
+```
+```java
+compare_one(5.0, null);
+```
+```java
+compare_one("1,0", 1.0);
+```
+```java
+compare_one("1,0", 2);
+```
+```java
+compare_one(2, "1,0");
+```
+```java
+compare_one("123,456", "123.456");
+```
+```java
+compare_one(-1, "-2");
+```
+```java
+compare_one("-3", "-3");
+```
+```java
+compare_one(-3, -2.5);
+```
+```java
+compare_one(4.5, 5);
+```
+```java
+compare_one(0, "0");
+```

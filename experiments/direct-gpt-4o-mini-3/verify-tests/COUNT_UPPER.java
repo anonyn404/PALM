@@ -1,0 +1,552 @@
+import java.io.*;
+import java.util.*;
+
+public class COUNT_UPPER {
+
+    public static int count_upper(String s) throws Exception {
+        {
+            counter_ABC_0 += 1;
+            if (counter_ABC_0 > 2)
+                throw new Exception("Out of loop-bound. Invalid path.");
+        }
+        int counter_ABC_7 = 0;
+        {
+            profile_var += "_s7";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        int count = 0;
+        int counter_ABC_2 = 0;
+        {
+            profile_var += "_s2";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        for (int i = 0; i < s.length(); i += 2) {
+            {
+                counter_ABC_2 += 1;
+                if (counter_ABC_2 > 2)
+                    throw new Exception("Out of loop-bound. Invalid path.");
+            }
+            int counter_ABC_6 = 0;
+            {
+                profile_var += "_s6";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            char c = s.charAt(i);
+            int counter_ABC_3 = 0;
+            {
+                profile_var += "_s3";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+                {
+                    profile_var += "_T5";
+                    if (profile_var.length() > 10000)
+                        throw new Exception("Profiler string too long");
+                }
+                {
+                    counter_ABC_3 += 1;
+                    if (counter_ABC_3 > 2)
+                        throw new Exception("Out of loop-bound. Invalid path.");
+                }
+                int counter_ABC_4 = 0;
+                {
+                    profile_var += "_s4";
+                    if (profile_var.length() > 10000)
+                        throw new Exception("Profiler string too long");
+                }
+                count += 1;
+            }
+        }
+        int counter_ABC_1 = 0;
+        {
+            profile_var += "_s1";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        return count;
+    }
+
+    static void process_coverage() {
+        if (profile_var.length() == 0)
+            return;
+        path_set.add(profile_var);
+        profile_var = "";
+    }
+
+    public static void main(String[] args) {
+
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("BCDFGH");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AEEEA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("OOO");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AIUAI");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("ALOHA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("INOUT");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("UIOA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("ABCDEF");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AEE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AU");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("BEEB");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("ABCDE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AEIOU");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("UAEI");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("OAOAO");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("QWERTY");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AEAEAE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("XYZ");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("A");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("UOUOU");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AUA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("O");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AABB");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("OIEU");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AEIOUX");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("UUU");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("E");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("U");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("PASTE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("EEEEEE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("I");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AOA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AO");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AAB");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("EIOUAE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AIA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AAEE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("EABOE");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("TESTTEST");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AABBCC");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AEXO");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AUC");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AAEEIIOO");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("ACEIO");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AI");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("ABCDEAEIOU");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AABAA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    COUNT_UPPER.count_upper("AA");
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+            try {
+                FileWriter writer = new FileWriter("count_upper.txt");
+                for (String path : path_set)
+                    writer.write(path + "\n");
+                // writer.write(path_set.size() + "\n");
+                // writer.write(branch_set.size() + "\n");
+                // writer.write(statement_set.size() + "\n");
+                writer.close();
+            }
+            catch (Exception e) {
+                ;
+            }
+        
+    }
+
+    static String profile_var = "";
+
+    static int counter_ABC_0 = -1000000;
+
+    static Set<String> path_set = new HashSet<>();
+}

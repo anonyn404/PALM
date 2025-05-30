@@ -1,0 +1,156 @@
+```java
+rolling_max(Arrays.asList(1, 2));
+```
+```java
+rolling_max(Arrays.asList(2, 1));
+```
+```java
+rolling_max(Arrays.asList(3, 3));
+```
+```java
+rolling_max(Arrays.asList(5, 10));
+```
+```java
+rolling_max(Arrays.asList(10, 5));
+```
+```java
+rolling_max(Arrays.asList(-1, -2));
+```
+```java
+rolling_max(Arrays.asList(-2, -1));
+```
+```java
+rolling_max(Arrays.asList(0, 0));
+```
+```java
+rolling_max(Arrays.asList(1, 0));
+```
+```java
+rolling_max(Arrays.asList(0, 1));
+```
+```java
+rolling_max(Arrays.asList(1, -1));
+```
+```java
+rolling_max(Arrays.asList(-1, 1));
+```
+```java
+rolling_max(Arrays.asList(2, 2));
+```
+```java
+rolling_max(Arrays.asList(3, 1));
+```
+```java
+rolling_max(Arrays.asList(1, 3));
+```
+```java
+rolling_max(Arrays.asList(Integer.MAX_VALUE, Integer.MIN_VALUE));
+```
+```java
+rolling_max(Arrays.asList(Integer.MIN_VALUE, Integer.MAX_VALUE));
+```
+```java
+rolling_max(Arrays.asList(1, Integer.MAX_VALUE));
+```
+```java
+rolling_max(Arrays.asList(Integer.MAX_VALUE, 1));
+```
+```java
+rolling_max(Arrays.asList(-5, 5));
+```
+```java
+rolling_max(Arrays.asList(5, -5));
+```
+```java
+rolling_max(Arrays.asList(-10, -20));
+```
+```java
+rolling_max(Arrays.asList(-20, -10));
+```
+```java
+rolling_max(Arrays.asList(7, 7));
+```
+```java
+rolling_max(Arrays.asList(10, 10));
+```
+```java
+rolling_max(Arrays.asList(100, 50));
+```
+```java
+rolling_max(Arrays.asList(50, 100));
+```
+```java
+rolling_max(Arrays.asList(20, 20));
+```
+```java
+rolling_max(Arrays.asList(0, -1));
+```
+```java
+rolling_max(Arrays.asList(-1, 0));
+```
+```java
+rolling_max(Arrays.asList(3, -3));
+```
+```java
+rolling_max(Arrays.asList(-3, 3));
+```
+```java
+rolling_max(Arrays.asList(4, 4));
+```
+```java
+rolling_max(Arrays.asList(2, 2, 2));
+```
+```java
+rolling_max(Arrays.asList(5, 2, 5));
+```
+```java
+rolling_max(Arrays.asList(2, 5, 2));
+```
+```java
+rolling_max(Arrays.asList(8, 3, 8));
+```
+```java
+rolling_max(Arrays.asList(3, 8, 3));
+```
+```java
+rolling_max(Arrays.asList(-8, -3, -8));
+```
+```java
+rolling_max(Arrays.asList(-3, -8, -3));
+```
+```java
+rolling_max(Arrays.asList(1, 2, null));
+```
+```java
+rolling_max(Arrays.asList(null, 2, 1));
+```
+```java
+rolling_max(Arrays.asList(null, null));
+```
+```java
+rolling_max(Arrays.asList(1, null));
+```
+```java
+rolling_max(Arrays.asList(null, 1));
+```
+```java
+rolling_max(Arrays.asList(2, null));
+```
+```java
+rolling_max(Arrays.asList(null, 2));
+```
+```java
+rolling_max(Arrays.asList(-1, null));
+```
+```java
+rolling_max(Arrays.asList(null, -1));
+```
+```java
+rolling_max(Arrays.asList(null, null, 1));
+```
+```java
+rolling_max(Arrays.asList(null, 1, null));
+```
+```java
+rolling_max(Arrays.asList(1, null, null));
+```

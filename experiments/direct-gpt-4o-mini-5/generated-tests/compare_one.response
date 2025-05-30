@@ -1,0 +1,162 @@
+```java
+COMPARE_ONE.compare_one("1", "1");
+```
+```java
+COMPARE_ONE.compare_one("2", "2");
+```
+```java
+COMPARE_ONE.compare_one("3.0", "3");
+```
+```java
+COMPARE_ONE.compare_one("4", "4.0");
+```
+```java
+COMPARE_ONE.compare_one("5.0", 5);
+```
+```java
+COMPARE_ONE.compare_one(3, 3.0);
+```
+```java
+COMPARE_ONE.compare_one(2, 2);
+```
+```java
+COMPARE_ONE.compare_one(1.5, 1.5);
+```
+```java
+COMPARE_ONE.compare_one(-1, -1);
+```
+```java
+COMPARE_ONE.compare_one("0", "0.0");
+```
+```java
+COMPARE_ONE.compare_one("1.5", "1.50");
+```
+```java
+COMPARE_ONE.compare_one(10, 20);
+```
+```java
+COMPARE_ONE.compare_one(20, 10);
+```
+```java
+COMPARE_ONE.compare_one("10.0", "10");
+```
+```java
+COMPARE_ONE.compare_one("text", "text");
+```
+```java
+COMPARE_ONE.compare_one(0, -1);
+```
+```java
+COMPARE_ONE.compare_one(-5, -5);
+```
+```java
+COMPARE_ONE.compare_one("5", 10);
+```
+```java
+COMPARE_ONE.compare_one("5", 5.0);
+```
+```java
+COMPARE_ONE.compare_one(10.0, "10");
+```
+```java
+COMPARE_ONE.compare_one("1,0", "1.0");
+```
+```java
+COMPARE_ONE.compare_one(2.0, "2");
+```
+```java
+COMPARE_ONE.compare_one("3,0", "3");
+```
+```java
+COMPARE_ONE.compare_one(15, "15");
+```
+```java
+COMPARE_ONE.compare_one("20.5", 20.5);
+```
+```java
+COMPARE_ONE.compare_one(0.0, 0);
+```
+```java
+COMPARE_ONE.compare_one(-10, -10.0);
+```
+```java
+COMPARE_ONE.compare_one(1.0, 2);
+```
+```java
+COMPARE_ONE.compare_one("NaN", "0");
+```
+```java
+COMPARE_ONE.compare_one(5, null);
+```
+```java
+COMPARE_ONE.compare_one(null, 5);
+```
+```java
+COMPARE_ONE.compare_one("0.0", null);
+```
+```java
+COMPARE_ONE.compare_one(null, null);
+```
+```java
+COMPARE_ONE.compare_one(10, "text");
+```
+```java
+COMPARE_ONE.compare_one(7, 404);
+```
+```java
+COMPARE_ONE.compare_one("5", "not a number");
+```
+```java
+COMPARE_ONE.compare_one(6.5, "6.5");
+```
+```java
+COMPARE_ONE.compare_one("1E2", 100.0);
+```
+```java
+COMPARE_ONE.compare_one(0.1, "0.1");
+```
+```java
+COMPARE_ONE.compare_one(-1.0, -1);
+```
+```java
+COMPARE_ONE.compare_one("0.01", 0.01);
+```
+```java
+COMPARE_ONE.compare_one("2.2", "2");
+```
+```java
+COMPARE_ONE.compare_one("text", 4);
+```
+```java
+COMPARE_ONE.compare_one("1.0", "1");
+```
+```java
+COMPARE_ONE.compare_one("3.5", "3.500");
+```
+```java
+COMPARE_ONE.compare_one(2.1, 2.2);
+```
+```java
+COMPARE_ONE.compare_one("4.5", 4);
+```
+```java
+COMPARE_ONE.compare_one("11", 11);
+```
+```java
+COMPARE_ONE.compare_one("1e1", "10");
+```
+```java
+COMPARE_ONE.compare_one(3.3, "3.3");
+```
+```java
+COMPARE_ONE.compare_one(-3, -2);
+```
+```java
+COMPARE_ONE.compare_one(8, 9);
+```
+```java
+COMPARE_ONE.compare_one(null, "null");
+```
+```java
+COMPARE_ONE.compare_one("marker", "marker");
+```

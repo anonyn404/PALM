@@ -1,0 +1,12 @@
+```java
+ROLLING_MAX.rolling_max(new ArrayList<Integer>());
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(5));
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(5, 3));
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(5, 7));
+```

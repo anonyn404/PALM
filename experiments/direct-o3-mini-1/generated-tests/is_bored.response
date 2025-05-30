@@ -1,0 +1,30 @@
+```java
+IS_BORED.is_bored("You are bored");
+```
+```java
+IS_BORED.is_bored("I am bored");
+```
+```java
+IS_BORED.is_bored("Hello!World?");
+```
+```java
+IS_BORED.is_bored("I am happy.Hello");
+```
+```java
+IS_BORED.is_bored("Hello.I like this");
+```
+```java
+IS_BORED.is_bored("I feel bored!I am tired");
+```
+```java
+IS_BORED.is_bored("I");
+```
+```java
+IS_BORED.is_bored("");
+```
+```java
+IS_BORED.is_bored(".I discover");
+```
+```java
+IS_BORED.is_bored("   I lead?   I lead!");
+```

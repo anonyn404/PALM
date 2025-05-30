@@ -1,0 +1,150 @@
+```java
+fix_spaces("hello");
+```
+```java
+fix_spaces("hello  world");
+```
+```java
+fix_spaces("hello   world");
+```
+```java
+fix_spaces("hello      world");
+```
+```java
+fix_spaces("   hello   world");
+```
+```java
+fix_spaces("hello   world   from java");
+```
+```java
+fix_spaces("hello  world    from  java");
+```
+```java
+fix_spaces("hello      world   from   java");
+```
+```java
+fix_spaces("  leading spaces");
+```
+```java
+fix_spaces("trailing spaces  ");
+```
+```java
+fix_spaces("   multiple    spaces   ");
+```
+```java
+fix_spaces("single");
+```
+```java
+fix_spaces("   ");
+```
+```java
+fix_spaces("");
+```
+```java
+fix_spaces("a b c d e f g");
+```
+```java
+fix_spaces("a   b c   d");
+```
+```java
+fix_spaces("a b   c   d   e   f");
+```
+```java
+fix_spaces("test  ");
+```
+```java
+fix_spaces("  test");
+```
+```java
+fix_spaces("test   test");
+```
+```java
+fix_spaces("   a   b  c  d   ");
+```
+```java
+fix_spaces("x  y  z");
+```
+```java
+fix_spaces("x     y  z");
+```
+```java
+fix_spaces("x     ");
+```
+```java
+fix_spaces("     x");
+```
+```java
+fix_spaces("   x   ");
+```
+```java
+fix_spaces("white   spaces");
+```
+```java
+fix_spaces("this is  a test");
+```
+```java
+fix_spaces("one  two three");
+```
+```java
+fix_spaces("happy   coding");
+```
+```java
+fix_spaces("   too many   spaces   here   ");
+```
+```java
+fix_spaces("lots    of   spaces  ");
+```
+```java
+fix_spaces("a b c d e   ");
+```
+```java
+fix_spaces("a  b    c d");
+```
+```java
+fix_spaces("  text with multiple   spaces");
+```
+```java
+fix_spaces("  ");
+```
+```java
+fix_spaces("no spaces");
+```
+```java
+fix_spaces("sparse     gaps");
+```
+```java
+fix_spaces("check   this    out");
+```
+```java
+fix_spaces("  a    b   c   d   e ");
+```
+```java
+fix_spaces("join   us  ");
+```
+```java
+fix_spaces("   skip   spaces");
+```
+```java
+fix_spaces("just   one   example");
+```
+```java
+fix_spaces("this    string    has    too    many    spaces");
+```
+```java
+fix_spaces("simple   case");
+```
+```java
+fix_spaces("another    example  ");
+```
+```java
+fix_spaces("a   b c");
+```
+```java
+fix_spaces("    ");
+```
+```java
+fix_spaces("some   text with a mix of  spaces");
+```
+```java
+fix_spaces("testing    function   ");
+```

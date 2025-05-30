@@ -1,0 +1,162 @@
+```java
+FIX_SPACES.fix_spaces("abc");
+```
+```java
+FIX_SPACES.fix_spaces("a b c");
+```
+```java
+FIX_SPACES.fix_spaces("a   b");
+```
+```java
+FIX_SPACES.fix_spaces("a b  c");
+```
+```java
+FIX_SPACES.fix_spaces("   a b");
+```
+```java
+FIX_SPACES.fix_spaces("a b   c");
+```
+```java
+FIX_SPACES.fix_spaces("a    b");
+```
+```java
+FIX_SPACES.fix_spaces("multiple    spaces");
+```
+```java
+FIX_SPACES.fix_spaces("leading spaces ");
+```
+```java
+FIX_SPACES.fix_spaces("trailing spaces   ");
+```
+```java
+FIX_SPACES.fix_spaces("     ");
+```
+```java
+FIX_SPACES.fix_spaces("a b c d e f g");
+```
+```java
+FIX_SPACES.fix_spaces("   single   middle   spaces   ");
+```
+```java
+FIX_SPACES.fix_spaces("no spaces");
+```
+```java
+FIX_SPACES.fix_spaces("one    space");
+```
+```java
+FIX_SPACES.fix_spaces("two  spaces between");
+```
+```java
+FIX_SPACES.fix_spaces("test   with    many   spaces");
+```
+```java
+FIX_SPACES.fix_spaces("spaces     at    start");
+```
+```java
+FIX_SPACES.fix_spaces("spaces     at    end     ");
+```
+```java
+FIX_SPACES.fix_spaces("a b");
+```
+```java
+FIX_SPACES.fix_spaces("  a b  ");
+```
+```java
+FIX_SPACES.fix_spaces("   a   b   ");
+```
+```java
+FIX_SPACES.fix_spaces("   a b c   ");
+```
+```java
+FIX_SPACES.fix_spaces("a       b");
+```
+```java
+FIX_SPACES.fix_spaces("     a");
+```
+```java
+FIX_SPACES.fix_spaces("b     ");
+```
+```java
+FIX_SPACES.fix_spaces("     c     ");
+```
+```java
+FIX_SPACES.fix_spaces(" even  more    spaces  ");
+```
+```java
+FIX_SPACES.fix_spaces("abc  def ghi");
+```
+```java
+FIX_SPACES.fix_spaces("abc   ");
+```
+```java
+FIX_SPACES.fix_spaces("   def");
+```
+```java
+FIX_SPACES.fix_spaces("za  zc");
+```
+```java
+FIX_SPACES.fix_spaces("aa  bb   cc");
+```
+```java
+FIX_SPACES.fix_spaces("single_space");
+```
+```java
+FIX_SPACES.fix_spaces(" custom spaces ");
+```
+```java
+FIX_SPACES.fix_spaces("    spaces   in   between");
+```
+```java
+FIX_SPACES.fix_spaces("start and    end   ");
+```
+```java
+FIX_SPACES.fix_spaces("all    spaces");
+```
+```java
+FIX_SPACES.fix_spaces("space alone    ");
+```
+```java
+FIX_SPACES.fix_spaces("mixed   spaces and characters 123");
+```
+```java
+FIX_SPACES.fix_spaces(" a b   c d");
+```
+```java
+FIX_SPACES.fix_spaces("Hello    World!");
+```
+```java
+FIX_SPACES.fix_spaces("This is    a    test.");
+```
+```java
+FIX_SPACES.fix_spaces("Try    with     123");
+```
+```java
+FIX_SPACES.fix_spaces("goodbye   everyone  ");
+```
+```java
+FIX_SPACES.fix_spaces("   ");
+```
+```java
+FIX_SPACES.fix_spaces("");
+```
+```java
+FIX_SPACES.fix_spaces("ab  cd ef");
+```
+```java
+FIX_SPACES.fix_spaces("start   middle     end");
+```
+```java
+FIX_SPACES.fix_spaces("spaced out    ");
+```
+```java
+FIX_SPACES.fix_spaces("  inbetween  ");
+```
+```java
+FIX_SPACES.fix_spaces("MANY    SPACES");
+```
+```java
+FIX_SPACES.fix_spaces("Testing multiple spaces   ");
+```
+```java
+FIX_SPACES.fix_spaces("Normal text");
+```

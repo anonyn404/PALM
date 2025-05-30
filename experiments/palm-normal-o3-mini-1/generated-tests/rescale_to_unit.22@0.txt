@@ -1,0 +1,33 @@
+You are a Java test generator. Invoke the target method (rescale_to_unit) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void rescale_to_unit(double[] numbers){
+    double min_1 = Double.MAX_VALUE;
+    double max_1 = Double.MIN_VALUE;
+    int i_1 = 0;
+    assertTrue(0 < numbers.length); //[1]
+    assertTrue(numbers[0] > max_1); //[2]
+    max_1 = numbers[0];
+    assertTrue(numbers[0] < min_1); //[3]
+    min_1 = numbers[0];
+    i_1 += 1;
+    assertTrue(1 < numbers.length); //[4]
+    assertFalse(numbers[1] > max_1); //[5]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

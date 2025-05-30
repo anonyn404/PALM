@@ -1,0 +1,39 @@
+```java
+SPECIAL_FILTER.special_filter(new int[]{});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{5});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{11});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{12});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{5, 5});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{11, 5});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{12, 5});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{5, 11});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{5, 12});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{11, 11});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{11, 12});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{12, 11});
+```
+```java
+SPECIAL_FILTER.special_filter(new int[]{12, 12});
+```

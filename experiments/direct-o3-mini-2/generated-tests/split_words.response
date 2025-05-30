@@ -1,0 +1,9 @@
+```java
+SPLIT_WORDS.split_words("hello world");
+```
+```java
+SPLIT_WORDS.split_words("hello,world");
+```
+```java
+SPLIT_WORDS.split_words("hello");
+```

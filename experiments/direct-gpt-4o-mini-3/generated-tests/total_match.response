@@ -1,0 +1,141 @@
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList("b"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b"), Arrays.asList("c"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc"), Arrays.asList("defg"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList("test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test"), Arrays.asList(""));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("hello", "world"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("longer"), Arrays.asList("short"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList(""));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one"), Arrays.asList("two", "three"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("first", "second"), Arrays.asList("third"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hello"), Arrays.asList("hello"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test1", "test2"), Arrays.asList("test3", "test4"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("short"), Arrays.asList("a", "b", "c"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("long"), Arrays.asList("longer"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one", "two"), Arrays.asList("three"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList("a"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("two"), Arrays.asList("one", "three"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc"), Arrays.asList("ab"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("0123456789", "abcdefg"), Arrays.asList("hijklmn"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("happy"), Arrays.asList("sad", "mad"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b"), Arrays.asList("c"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("string", "string"), Arrays.asList("string"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("small"), Arrays.asList("tiny", "small"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("x"), Arrays.asList("y", "z"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("aaa"), Arrays.asList("bb"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("longer_string"), Arrays.asList("short"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hello"), Arrays.asList("world", "hello"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one"), Arrays.asList("two", "three"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one", "two"), Arrays.asList("three", "four"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test", "sample"), Arrays.asList("example"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("foo"), Arrays.asList("bar", "baz"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("short"), Arrays.asList("longer", "evenlonger"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b", "c"), Arrays.asList("d"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList("abc"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("long_string"), Arrays.asList("short"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("xyz"), Arrays.asList("abc", "def"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("middle"), Arrays.asList("the", "end"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("beginning"), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("just"), Arrays.asList("another", "test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("this"), Arrays.asList("is", "a", "test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one", "two", "three"), Arrays.asList("four", "five"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("small"), Arrays.asList("small", "big"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("alpha", "beta"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("only"), Arrays.asList("one"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("sample"), Arrays.asList("example", "test"));
+```

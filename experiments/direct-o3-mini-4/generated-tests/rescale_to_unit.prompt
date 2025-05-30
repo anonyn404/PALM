@@ -1,0 +1,41 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (rescale_to_unit); ignore branches in other methods and API calls. Generate up to 50 tests invoking rescale_to_unit. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class RESCALE_TO_UNIT {
+
+    public static double[] rescale_to_unit(double[] numbers) {
+        double min = Double.MAX_VALUE;
+        double max = Double.MIN_VALUE;
+        for (int i = 0; i < numbers.length; i += 1) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        double[] result = new double[numbers.length];
+        for (int i = 0; i < numbers.length; i += 1) {
+            result[i] = (numbers[i] - min) / (max - min);
+        }
+        return result;
+    }
+}

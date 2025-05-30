@@ -1,0 +1,43 @@
+You are a Java test generator. Invoke the target method (unique_digits) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+public static void unique_digits(ArrayList<Integer> x){
+    ArrayList<Integer> res_1 = new ArrayList<Integer>();
+    Iterator<Integer> i_iter_1 = x.iterator();
+    int i_1;
+    assertTrue(i_iter_1.hasNext()); //[1]
+    i_1 = i_iter_1.next();
+    int num_1 = i_1;
+    boolean all_odd_1 = true;
+    assertTrue(num_1 > 0); //[2]
+    int curr_digit_1 = num_1 % 10;
+    assertTrue((curr_digit_1 % 2) == 0); //[3]
+    all_odd_1 = false;
+    assertFalse(false); //[4]
+    assertTrue(i_iter_1.hasNext()); //[5]
+    i_1 = i_iter_1.next();
+    int num_2 = i_1;
+    boolean all_odd_2 = true;
+    assertTrue(num_2 > 0); //[6]
+    int curr_digit_2 = num_2 % 10;
+    assertTrue((curr_digit_2 % 2) == 0); //[7]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

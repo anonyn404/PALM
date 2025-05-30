@@ -1,0 +1,3 @@
+```java
+circular_shift(123, 2);
+```

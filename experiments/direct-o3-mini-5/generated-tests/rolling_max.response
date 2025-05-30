@@ -1,0 +1,9 @@
+```java
+ROLLING_MAX.rolling_max(new ArrayList<>());
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(42));
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(42, 99));
+```

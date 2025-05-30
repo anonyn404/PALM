@@ -1,0 +1,83 @@
+```java
+CHECK_DICT_CASE.check_dict_case(new java.util.HashMap<>());
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("ABC", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("abc", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("Abc", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put(1, "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("A", "v");
+m.put("B", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("A", "v");
+m.put("b", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("A", "v");
+m.put("Ab", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("A", "v");
+m.put(1, "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("a", "v");
+m.put("A", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("a", "v");
+m.put("b", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("a", "v");
+m.put("Ab", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("a", "v");
+m.put(1, "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("Ab", "v");
+m.put("B", "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```
+```java
+java.util.HashMap<Object,Object> m = new java.util.HashMap<>();
+m.put("Ab", "v");
+m.put(1, "v");
+CHECK_DICT_CASE.check_dict_case(m);
+```

@@ -1,0 +1,189 @@
+```java
+foo(1, 1);
+```
+```java
+foo(1, -1);
+```
+```java
+foo(-1, 1);
+```
+```java
+foo(-1, -1);
+```
+```java
+foo(0, 1);
+```
+```java
+foo(0, -1);
+```
+```java
+foo(0, 0);
+```
+```java
+foo(1, 0);
+```
+```java
+foo(-1, 0);
+```
+```java
+foo(2, 2);
+```
+```java
+foo(2, -2);
+```
+```java
+foo(-2, 2);
+```
+```java
+foo(-2, -2);
+```
+```java
+foo(2, 0);
+```
+```java
+foo(0, 2);
+```
+```java
+foo(-2, 0);
+```
+```java
+foo(0, -2);
+```
+```java
+foo(1, 2);
+```
+```java
+foo(1, 0);
+```
+```java
+foo(0, 1);
+```
+```java
+foo(-1, 2);
+```
+```java
+foo(-1, 0);
+```
+```java
+foo(2, 1);
+```
+```java
+foo(0, 0);
+```
+```java
+foo(2, -1);
+```
+```java
+foo(0, 2);
+```
+```java
+foo(-2, 1);
+```
+```java
+foo(1, 0);
+```
+```java
+foo(-2, -1);
+```
+```java
+foo(0, -2);
+```
+```java
+foo(-1, -2);
+```
+```java
+foo(1, 1);
+```
+```java
+foo(2, 2);
+```
+```java
+foo(0, 1);
+```
+```java
+foo(1, -1);
+```
+```java
+foo(-1, 1);
+```
+```java
+foo(0, -1);
+```
+```java
+foo(-2, 2);
+```
+```java
+foo(2, -2);
+```
+```java
+foo(0, 0);
+```
+```java
+foo(-1, 0);
+```
+```java
+foo(2, 0);
+```
+```java
+foo(0, 2);
+```
+```java
+foo(-2, 0);
+```
+```java
+foo(-1, -1);
+```
+```java
+foo(1, 2);
+```
+```java
+foo(2, 1);
+```
+```java
+foo(2, 0);
+```
+```java
+foo(0, 2);
+```
+```java
+foo(-1, 1);
+```
+```java
+foo(-2, 1);
+```
+```java
+foo(1, 0);
+```
+```java
+foo(-1, 2);
+```
+```java
+foo(1, 1);
+```
+```java
+foo(2, 2);
+```
+```java
+foo(-1, -2);
+```
+```java
+foo(1, 2);
+```
+```java
+foo(2, -2);
+```
+```java
+foo(0, -2);
+```
+```java
+foo(2, 1);
+```
+```java
+foo(-2, 0);
+```
+```java
+foo(0, 0);
+```
+```java
+foo(-2, -1);
+```

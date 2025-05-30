@@ -1,0 +1,141 @@
+```java
+REVERSE_DELETE.reverse_delete("abc", "d");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "l");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "o");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "h");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "he");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "hello");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "xyz");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "de");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "xyz");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "bde");
+```
+```java
+REVERSE_DELETE.reverse_delete("reverse", "r");
+```
+```java
+REVERSE_DELETE.reverse_delete("reverse", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("racecar", "r");
+```
+```java
+REVERSE_DELETE.reverse_delete("racecar", "ace");
+```
+```java
+REVERSE_DELETE.reverse_delete("test", "est");
+```
+```java
+REVERSE_DELETE.reverse_delete("count", "o");
+```
+```java
+REVERSE_DELETE.reverse_delete("palindrome", "m");
+```
+```java
+REVERSE_DELETE.reverse_delete("example", "e");
+```
+```java
+REVERSE_DELETE.reverse_delete("unique", "u");
+```
+```java
+REVERSE_DELETE.reverse_delete("zebra", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("loop", "l");
+```
+```java
+REVERSE_DELETE.reverse_delete("string", "t");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "llo");
+```
+```java
+REVERSE_DELETE.reverse_delete("data", "ata");
+```
+```java
+REVERSE_DELETE.reverse_delete("java", "j");
+```
+```java
+REVERSE_DELETE.reverse_delete("code", "co");
+```
+```java
+REVERSE_DELETE.reverse_delete("alpha", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("beta", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("gamma", "g");
+```
+```java
+REVERSE_DELETE.reverse_delete("theta", "t");
+```

@@ -1,0 +1,5 @@
+```java
+public static void main(String args[]) { 
+    pairs_sum_to_zero(new ArrayList<>()); 
+}
+```

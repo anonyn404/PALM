@@ -1,0 +1,153 @@
+```java
+smallest_change(new int[] {1, 2});
+```
+```java
+smallest_change(new int[] {1, 1});
+```
+```java
+smallest_change(new int[] {1, 2, 3, 4});
+```
+```java
+smallest_change(new int[] {1, 4, 3, 2});
+```
+```java
+smallest_change(new int[] {1, 1, 2, 2});
+```
+```java
+smallest_change(new int[] {1, 2, 3, 3});
+```
+```java
+smallest_change(new int[] {1, 2, 1, 2});
+```
+```java
+smallest_change(new int[] {2, 2});
+```
+```java
+smallest_change(new int[] {0, 1});
+```
+```java
+smallest_change(new int[] {3, 2, 2, 3});
+```
+```java
+smallest_change(new int[] {2, 3, 3, 2});
+```
+```java
+smallest_change(new int[] {4, 5, 5, 4});
+```
+```java
+smallest_change(new int[] {4, 6});
+```
+```java
+smallest_change(new int[] {7, 8, 8, 7});
+```
+```java
+smallest_change(new int[] {9, 10});
+```
+```java
+smallest_change(new int[] {10, 9});
+```
+```java
+smallest_change(new int[] {3, 4, 5, 3});
+```
+```java
+smallest_change(new int[] {5, 4, 4, 5});
+```
+```java
+smallest_change(new int[] {1, 2, 1, 1});
+```
+```java
+smallest_change(new int[] {2, 1, 1, 2});
+```
+```java
+smallest_change(new int[] {0, 0});
+```
+```java
+smallest_change(new int[] {0, 1, 0, 1});
+```
+```java
+smallest_change(new int[] {1, 3, 3, 1});
+```
+```java
+smallest_change(new int[] {2, 2, 1, 1});
+```
+```java
+smallest_change(new int[] {3, 3, 4, 4});
+```
+```java
+smallest_change(new int[] {5, 6, 6, 5});
+```
+```java
+smallest_change(new int[] {2, 1, 2, 1});
+```
+```java
+smallest_change(new int[] {1, 0});
+```
+```java
+smallest_change(new int[] {0, 2, 2, 0});
+```
+```java
+smallest_change(new int[] {1, 2, 3, 2});
+```
+```java
+smallest_change(new int[] {2, 3, 2, 2});
+```
+```java
+smallest_change(new int[] {3, 1, 2, 3});
+```
+```java
+smallest_change(new int[] {4, 3, 3, 4});
+```
+```java
+smallest_change(new int[] {6, 5});
+```
+```java
+smallest_change(new int[] {7, 6, 5, 6});
+```
+```java
+smallest_change(new int[] {8, 9, 9, 8});
+```
+```java
+smallest_change(new int[] {10, 10});
+```
+```java
+smallest_change(new int[] {11, 12, 11, 11});
+```
+```java
+smallest_change(new int[] {12, 12, 12, 12});
+```
+```java
+smallest_change(new int[] {13, 14, 15, 13});
+```
+```java
+smallest_change(new int[] {14, 15, 14, 15});
+```
+```java
+smallest_change(new int[] {0, 5});
+```
+```java
+smallest_change(new int[] {8, 0, 0, 8});
+```
+```java
+smallest_change(new int[] {7, 8, 6, 5});
+```
+```java
+smallest_change(new int[] {5, 6, 4, 5});
+```
+```java
+smallest_change(new int[] {9, 8, 7, 6});
+```
+```java
+smallest_change(new int[] {0, 1, 1, 0});
+```
+```java
+smallest_change(new int[] {2, 3, 2, 0});
+```
+```java
+smallest_change(new int[] {4, 5, 4, 1});
+```
+```java
+smallest_change(new int[] {8, 7, 5, 5});
+```
+```java
+smallest_change(new int[] {11, 11, 0, 0});
+```

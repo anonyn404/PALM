@@ -1,0 +1,35 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (generate_integers); ignore branches in other methods and API calls. Generate up to 50 tests invoking generate_integers. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+public class GENERATE_INTEGERS {
+
+    public static ArrayList<Integer> generate_integers(int a, int b) {
+        int lower = Math.max(2, Math.min(a, b));
+        int upper = Math.min(8, Math.max(a, b));
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        for (int i = lower; i <= upper; i += 1) {
+            if (i % 2 == 0)
+                result.add(i);
+        }
+        return result;
+    }
+}

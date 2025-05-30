@@ -1,0 +1,120 @@
+```java
+derivative(Arrays.asList(1));
+```
+```java
+derivative(Arrays.asList(1, 2));
+```
+```java
+derivative(Arrays.asList(1, 2, 3));
+```
+```java
+derivative(Arrays.asList(0));
+```
+```java
+derivative(Arrays.asList(0, 1));
+```
+```java
+derivative(Arrays.asList(1, 0));
+```
+```java
+derivative(Arrays.asList(-1, 2, 3));
+```
+```java
+derivative(Arrays.asList(-1, -2));
+```
+```java
+derivative(Arrays.asList(1, -1));
+```
+```java
+derivative(Arrays.asList(1, 1));
+```
+```java
+derivative(Arrays.asList(3, 4));
+```
+```java
+derivative(Arrays.asList(5, 2));
+```
+```java
+derivative(Arrays.asList(2, 2, 2));
+```
+```java
+derivative(Arrays.asList(0, 0));
+```
+```java
+derivative(Arrays.asList(1, 2, 0));
+```
+```java
+derivative(Arrays.asList(-3, -1));
+```
+```java
+derivative(Arrays.asList(1, -2, 3));
+```
+```java
+derivative(Arrays.asList(-1));
+```
+```java
+derivative(Arrays.asList(10));
+```
+```java
+derivative(Arrays.asList(10, 20));
+```
+```java
+derivative(Arrays.asList(2, 0));
+```
+```java
+derivative(Arrays.asList(-2, -5));
+```
+```java
+derivative(Arrays.asList(5, 1));
+```
+```java
+derivative(Arrays.asList(-5, 10));
+```
+```java
+derivative(Arrays.asList(0, 1, 2));
+```
+```java
+derivative(Arrays.asList(1, -5, 4));
+```
+```java
+derivative(Arrays.asList(1, 2, -3));
+```
+```java
+derivative(Arrays.asList(0, -1));
+```
+```java
+derivative(Arrays.asList(100));
+```
+```java
+derivative(Arrays.asList(-100, 0));
+```
+```java
+derivative(Arrays.asList(3, -1));
+```
+```java
+derivative(Arrays.asList(1, 2, 3, 4));
+```
+```java
+derivative(Arrays.asList());
+```
+```java
+derivative(Arrays.asList(1, 2, 5, 0, -1));
+```
+```java
+derivative(Arrays.asList(-10, -20));
+```
+```java
+derivative(Arrays.asList(-1, 2, -2));
+```
+```java
+derivative(Arrays.asList(1, 2, -4));
+```
+```java
+derivative(Arrays.asList(100, 200));
+```
+```java
+derivative(Arrays.asList(1, 1, 1));
+```
+```java
+derivative(Arrays.asList(2, 3, 4));
+```

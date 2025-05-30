@@ -1,0 +1,36 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (fizz_buzz); ignore branches in other methods and API calls. Generate up to 50 tests invoking fizz_buzz. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class FIZZ_BUZZ {
+
+    public static int fizz_buzz(int n) {
+        int result = 0;
+        for (int i = 0; i < n; i += 1) {
+            if (i % 11 == 0 || i % 13 == 0) {
+                for (int j = 0; j < (i + "").length(); j += 1) {
+                    if ((i + "").substring(j, j + 1).equals("7"))
+                        result += 1;
+                }
+            }
+        }
+        return result;
+    }
+}

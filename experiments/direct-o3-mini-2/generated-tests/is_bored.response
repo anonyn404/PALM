@@ -1,0 +1,21 @@
+```java
+is_bored("");
+```
+```java
+is_bored("Hello");
+```
+```java
+is_bored("I am bored");
+```
+```java
+is_bored("Hello. World");
+```
+```java
+is_bored("I like it. World");
+```
+```java
+is_bored("Hello. I like it!");
+```
+```java
+is_bored("I am happy. I agree!");
+```

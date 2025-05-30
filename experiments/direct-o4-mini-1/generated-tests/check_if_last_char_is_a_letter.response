@@ -1,0 +1,24 @@
+```java
+check_if_last_char_is_a_letter("");
+```
+```java
+check_if_last_char_is_a_letter(" ");
+```
+```java
+check_if_last_char_is_a_letter("a ");
+```
+```java
+check_if_last_char_is_a_letter("b");
+```
+```java
+check_if_last_char_is_a_letter("7");
+```
+```java
+check_if_last_char_is_a_letter("cd");
+```
+```java
+check_if_last_char_is_a_letter("hello world");
+```
+```java
+check_if_last_char_is_a_letter("foo x");
+```

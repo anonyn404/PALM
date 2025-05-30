@@ -1,0 +1,33 @@
+```java
+IS_BORED.is_bored("");
+```
+```java
+IS_BORED.is_bored("A");
+```
+```java
+IS_BORED.is_bored("Hi");
+```
+```java
+IS_BORED.is_bored("I a");
+```
+```java
+IS_BORED.is_bored("H.A");
+```
+```java
+IS_BORED.is_bored("A.I a");
+```
+```java
+IS_BORED.is_bored("I a.H");
+```
+```java
+IS_BORED.is_bored("I a.I b");
+```
+```java
+IS_BORED.is_bored("I a.I b.I c");
+```
+```java
+IS_BORED.is_bored("  I x  .Y");
+```
+```java
+IS_BORED.is_bored(".I y");
+```

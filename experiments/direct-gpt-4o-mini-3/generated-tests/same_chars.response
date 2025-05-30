@@ -1,0 +1,156 @@
+```java
+SAME_CHARS.same_chars("", "");
+```
+```java
+SAME_CHARS.same_chars("a", "a");
+```
+```java
+SAME_CHARS.same_chars("a", "b");
+```
+```java
+SAME_CHARS.same_chars("abc", "abc");
+```
+```java
+SAME_CHARS.same_chars("abc", "cba");
+```
+```java
+SAME_CHARS.same_chars("abc", "ab");
+```
+```java
+SAME_CHARS.same_chars("a", "");
+```
+```java
+SAME_CHARS.same_chars("a", "aa");
+```
+```java
+SAME_CHARS.same_chars("aa", "a");
+```
+```java
+SAME_CHARS.same_chars("ab", "ba");
+```
+```java
+SAME_CHARS.same_chars("abcd", "abcd");
+```
+```java
+SAME_CHARS.same_chars("abcd", "badc");
+```
+```java
+SAME_CHARS.same_chars("ab", "abc");
+```
+```java
+SAME_CHARS.same_chars("abc", "ab");
+```
+```java
+SAME_CHARS.same_chars("aabb", "abab");
+```
+```java
+SAME_CHARS.same_chars("aaa", "aaa");
+```
+```java
+SAME_CHARS.same_chars("aabb", "aabb");
+```
+```java
+SAME_CHARS.same_chars("", "a");
+```
+```java
+SAME_CHARS.same_chars("hello", "hello");
+```
+```java
+SAME_CHARS.same_chars("hello", "olleh");
+```
+```java
+SAME_CHARS.same_chars("xyz", "zyx");
+```
+```java
+SAME_CHARS.same_chars("abc", "a");
+```
+```java
+SAME_CHARS.same_chars("abc", "bc");
+```
+```java
+SAME_CHARS.same_chars("pqr", "rsp");
+```
+```java
+SAME_CHARS.same_chars("test", "sett");
+```
+```java
+SAME_CHARS.same_chars("123", "321");
+```
+```java
+SAME_CHARS.same_chars("abc", "aaa");
+```
+```java
+SAME_CHARS.same_chars("xyz", "xyz");
+```
+```java
+SAME_CHARS.same_chars("abcd", "a");
+```
+```java
+SAME_CHARS.same_chars("abcd", "abcde");
+```
+```java
+SAME_CHARS.same_chars("abcdef", "fedcba");
+```
+```java
+SAME_CHARS.same_chars("aA", "Aa");
+```
+```java
+SAME_CHARS.same_chars("12345", "54321");
+```
+```java
+SAME_CHARS.same_chars("cat", "dog");
+```
+```java
+SAME_CHARS.same_chars("AB", "ab");
+```
+```java
+SAME_CHARS.same_chars("A", "A");
+```
+```java
+SAME_CHARS.same_chars("hello", "hell");
+```
+```java
+SAME_CHARS.same_chars("lower", "Lower");
+```
+```java
+SAME_CHARS.same_chars("abcd", "dcba");
+```
+```java
+SAME_CHARS.same_chars("1234", "1243");
+```
+```java
+SAME_CHARS.same_chars("xoxo", "oxox");
+```
+```java
+SAME_CHARS.same_chars("a", "b");
+```
+```java
+SAME_CHARS.same_chars("A", "");
+```
+```java
+SAME_CHARS.same_chars("Aa", "AA");
+```
+```java
+SAME_CHARS.same_chars("one", "two");
+```
+```java
+SAME_CHARS.same_chars("one", "neon");
+```
+```java
+SAME_CHARS.same_chars("same", "sames");
+```
+```java
+SAME_CHARS.same_chars("moon", "noon");
+```
+```java
+SAME_CHARS.same_chars("extra", "taxer");
+```
+```java
+SAME_CHARS.same_chars("original", "nogrial");
+```
+```java
+SAME_CHARS.same_chars("testcase", "tsetcase");
+```
+```java
+SAME_CHARS.same_chars("ab", "ba");
+```

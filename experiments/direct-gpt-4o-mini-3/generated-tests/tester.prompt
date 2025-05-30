@@ -1,0 +1,46 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (tester); ignore branches in other methods and API calls. Generate up to 50 tests invoking tester. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.*;
+import ImportTest.*;
+public class TESTER {
+
+    int inner_field = 0;
+
+    public int foo(int a, int b) {
+        int x = 0;
+        if (a > 0) {
+            x += a;
+            if (b > 0)
+                x += b;
+        }
+        return x;
+    }
+
+    public int bar(int a, int b) {
+        int x = this.tar(a);
+        return x;
+    }
+
+    public int tar(int a) {
+        return a;
+    }
+}

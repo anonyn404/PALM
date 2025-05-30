@@ -1,0 +1,21 @@
+```java
+SOLUTION.solution(new ArrayList<Integer>());
+```
+```java
+SOLUTION.solution(new ArrayList<Integer>(Arrays.asList(1)));
+```
+```java
+SOLUTION.solution(new ArrayList<Integer>(Arrays.asList(2)));
+```
+```java
+SOLUTION.solution(new ArrayList<Integer>(Arrays.asList(1, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<Integer>(Arrays.asList(2, 3)));
+```
+```java
+SOLUTION.solution(new ArrayList<Integer>(Arrays.asList(1, 4)));
+```
+```java
+SOLUTION.solution(new ArrayList<Integer>(Arrays.asList(2, 5)));
+```

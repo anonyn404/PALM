@@ -1,0 +1,141 @@
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple", "banana", "apricot"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple", "banana", "cherry"), "b");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("grape", "orange", "kiwi"), "g");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("strawberry", "blueberry", "raspberry"), "b");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("kiwi", "melon", "cantaloupe"), "m");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple", "apricot", "avocado"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("banana", "blackberry", "fig"), "bl");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("pear", "peach", "pineapple"), "p");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("date", "dragonfruit", "fig"), "d");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("lemon", "lime", "lychee"), "l");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("eggplant", "tomato", "carrot"), "e");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("mango", "melon", "cantaloupe"), "man");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("peach", "pear", "pineapple"), "pe");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("appetizer", "main course", "dessert"), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("quinoa", "rice", "barley"), "qu");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("cucumber", "carrot", "zucchini"), "c");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("blackbean", "chickpea", "lentil"), "b");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("almond", "walnut", "pecan"), "al");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("meat", "dairy", "grain"), "d");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("fish", "poultry", "beef"), "f");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("cereal", "oats", "granola"), "o");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("sourdough", "rye", "pullman"), "s");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("chocolate", "vanilla", "strawberry"), "ch");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("soda", "juice", "water"), "wa");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("sport", "soccer", "basketball"), "soc");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("jazz", "rock", "pop"), "j");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("mystery", "fantasy", "science fiction"), "f");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("romance", "drama", "thriller"), "dra");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("adventure", "action", "comedy"), "ad");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("negotiation", "discussion", "debate"), "di");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("merchandise", "office supplies", "electronics"), "of");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("documentary", "fiction", "biography"), "do");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("blockbuster", "indie", "arthouse"), "bl");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("micro", "macro", "nano"), "mi");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("hardware", "software", "firmware"), "so");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("browser", "app", "extension"), "br");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("header", "footer", "sidebar"), "fo");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("grid", "flexbox", "table"), "flex");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("server", "client", "database"), "cl");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("document", "spreadsheet", "presentation"), "sp");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("API", " SDK", "framework"), "API");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("javascript", "python", "java"), "ja");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("html", "css", "xml"), "ht");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("animation", "scripting", "styling"), "scr");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("pattern", "style", "theme"), "th");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("tutorial", "guide", "reference"), "tu");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("structure", "function", "procedure"), "fu");
+```

@@ -1,0 +1,39 @@
+You are a Java test generator. Invoke the target method (remove_duplicates) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+public static void remove_duplicates(List<Integer> numbers){
+    List<Integer> result_1 = new ArrayList<Integer>();
+    HashMap<Integer, Integer> count_1 = new HashMap<Integer, Integer>();
+    Iterator<Integer> n_iter_1 = numbers.iterator();
+    Integer n_1;
+    assertTrue(n_iter_1.hasNext()); //[1]
+    n_1 = n_iter_1.next();
+    assertTrue(!count_1.containsKey(n_1)); //[2]
+    count_1.put(n_1, 0);
+    count_1.put(n_1, count_1.get(n_1) + 1);
+    assertTrue(n_iter_1.hasNext()); //[3]
+    n_1 = n_iter_1.next();
+    assertFalse(!count_1.containsKey(n_1)); //[4]
+    count_1.put(n_1, count_1.get(n_1) + 1);
+    assertFalse(n_iter_1.hasNext()); //[5]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

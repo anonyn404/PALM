@@ -1,0 +1,12 @@
+```java
+sort_even(new int[]{});
+```
+```java
+sort_even(new int[]{5});
+```
+```java
+sort_even(new int[]{2,1});
+```
+```java
+sort_even(new int[]{3,1,2});
+```

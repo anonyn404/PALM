@@ -1,0 +1,150 @@
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world a");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world A");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world Z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter(" ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("123");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello123");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello123 ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hi!");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hi! ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("a");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("A");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("b");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("B");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("c");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("C");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("xyz");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("xyz ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("x y z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("x y!z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("#");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("&*()");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("abc 123");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("test!");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("test ! ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("testing");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("testing ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("goodbye");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("goodbye ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("goodbyez");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("goodbyeZ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world test");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world test ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world test z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("hello world test Z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("x y z ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("This is a test");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("This is a test ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("This is a test X");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("This is a test Y");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("special@char");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("I love coding");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("I love coding ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("I love coding z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("I love coding Z");
+```

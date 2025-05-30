@@ -1,0 +1,37 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (closest_integer); ignore branches in other methods and API calls. Generate up to 50 tests invoking closest_integer. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class CLOSEST_INTEGER {
+
+    public static int closest_integer(String value) {
+        if (value.indexOf('.') >= 0) {
+            while (value.charAt(value.length() - 1) == '0') value = value.substring(0, value.length() - 1);
+        }
+        double num = Double.parseDouble(value);
+        int result = 0;
+        if (value.length() >= 2 && value.substring(value.length() - 2).equals(".5")) {
+            result = num > 0 ? (int) Math.ceil(num) : (int) Math.floor(num);
+        } else if (value.length() > 0) {
+            result = (int) Math.round(num);
+        }
+        return result;
+    }
+}

@@ -1,0 +1,168 @@
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("apple", "banana", "apricot")), "ap");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("apple", "banana", "grape")), "a");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("orange", "apple", "berry")), "b");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("cherry", "blueberry", "blackberry")), "blue");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("kiwi", "orange", "grapefruit")), "ki");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("melon", "lemon", "lime")), "le");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("kiwi", "apple", "banana")), "k");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("peach", "pear", "apricot")), "pe");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("watermelon", "melon", "berry")), "water");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("strawberry", "blackberry", "blueberry")), "black");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("apple", "grape", "orange")), "or");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("banana", "mango", "apricot")), "m");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("raspberry", "blueberry", "blackberry")), "ras");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("fig", "pear", "peach")), "f");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("avocado", "guava", "kiwi")), "a");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("plum", "cherry", "apple")), "ch");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("tangerine", "lime", "lemon")), "t");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("grapefruit", "lemon", "orange")), "gra");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("cantaloupe", "honeydew", "fig")), "h");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("coconut", "pineapple", "kiwi")), "pi");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("nectarine", "peach", "plum")), "nec");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("papaya", "banana", "apple")), "pa");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("apricot", "banana", "cantaloupe")), "c");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("blackberry", "blueberry", "raspberry")), "bl");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("pear", "kiwi", "fruit")), "fr");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("citrus", "lemon", "lime")), "ci");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("watermelon", "melon", "fig")), "fi");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("kiwi", "kiwifruit", "banana")), "kiw");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("cucumber", "melons", "grapes")), "cu");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("nectarine", "apple", "banana")), "ne");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("raspberry", "apple", "blackberry")), "r");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("tomato", "potato", "pepper")), "po");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("kiwi", "lime", "mango")), "mo");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("jacksfruit", "jackfruit", "orange")), "jack");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("cherry", "blueberry", "berry")), "ber");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("zucchini", "cucumber", "banana")), "z");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("berry", "cherry", "mango")), "ma");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("nectar", "peach", "plum")), "nea");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("orange", "grape", "pear")), "or");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("potato", "tomato", "onion")), "to");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("peach", "plum", "banana")), "pl");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("carrot", "celery", "cabbage")), "ca");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("green", "yellow", "red")), "g");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("black", "white", "brown")), "wh");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("silver", "gold", "bronze")), "sil");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("vanilla", "chocolate", "strawberry")), "st");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("milk", "cream", "sour")), "m");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("chocolate", "vanilla", "strawberry")), "va");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("beef", "chicken", "pork")), "be");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("lettuce", "spinach", "cabbage")), "la");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("spinach", "kale", "cabbage")), "sp");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("tofu", "tempeh", "seitan")), "to");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("cereal", "oats", "granola")), "gr");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("bread", "rolls", "baguette")), "ba");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("salad", "soup", "stew")), "sal");
+```
+```java
+filter_by_prefix(new ArrayList<>(Arrays.asList("fruitcake", "pie", "tart")), "fr");
+```

@@ -1,0 +1,19 @@
+```java
+BELOW_ZERO.below_zero(Collections.emptyList());
+```
+
+```java
+BELOW_ZERO.below_zero(Arrays.asList(-1));
+```
+
+```java
+BELOW_ZERO.below_zero(Arrays.asList(0));
+```
+
+```java
+BELOW_ZERO.below_zero(Arrays.asList(0, -1));
+```
+
+```java
+BELOW_ZERO.below_zero(Arrays.asList(1, 0));
+```

@@ -1,0 +1,36 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (correct_bracketing); ignore branches in other methods and API calls. Generate up to 50 tests invoking correct_bracketing. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class CORRECT_BRACKETING {
+
+    public static boolean correct_bracketing(String brackets) {
+        int depth = 0;
+        for (char b : brackets.toCharArray()) {
+            if (b == '<')
+                depth += 1;
+            else
+                depth -= 1;
+            if (depth < 0)
+                return false;
+        }
+        return depth == 0;
+    }
+}

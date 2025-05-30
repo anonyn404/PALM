@@ -1,0 +1,2 @@
+```javaprime_length("aaaaaaaaa");
+```

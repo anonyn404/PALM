@@ -1,0 +1,32 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (digit_sum); ignore branches in other methods and API calls. Generate up to 50 tests invoking digit_sum. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class DIGIT_SUM {
+
+    public static int digit_sum(String s) {
+        int result = 0;
+        for (char c : s.toCharArray()) {
+            if ('A' <= c && c <= 'Z')
+                result += (int) c;
+        }
+        return result;
+    }
+}

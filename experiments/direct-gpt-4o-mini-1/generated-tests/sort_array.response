@@ -1,0 +1,156 @@
+```java
+SORT_ARRAY.sort_array(new int[]{});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{2, 3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{3, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 2, 3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{3, 1, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 2, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 3, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{4, 5});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{5, 4});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{2, 4, 3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{3, 4, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{6, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 6});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{0, 0});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{0, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 0});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-1, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, -1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-2, -1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-1, -2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{2, 0});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{0, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{5, 10});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{10, 5});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-5, 5});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{5, -5});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{9, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 9});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{7, 3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{3, 7});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{4, 4});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{8, 7});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{7, 8});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-3, 3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{3, -3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-4, -2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-2, -4});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 2, 2, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{2, 1, 1, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{0, 1, -1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{-1, 1, 0});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{0, -1, 1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{10, 20, 15});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{15, 20, 10});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{3, 1, 4, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{2, 4, 1, 3});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{6, 3, 8, 4});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{4, 8, 3, 6});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{100, 0});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{0, 100}); 
+```

@@ -1,0 +1,9 @@
+```java
+sort_array(new int[]{});
+```
+```java
+sort_array(new int[]{2, 1});
+```
+```java
+sort_array(new int[]{2, 4});
+```

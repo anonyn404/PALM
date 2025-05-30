@@ -1,0 +1,15 @@
+```java
+generate_integers(1,0);
+```
+```java
+generate_integers(3,3);
+```
+```java
+generate_integers(2,2);
+```
+```java
+generate_integers(3,4);
+```
+```java
+generate_integers(2,3);
+```

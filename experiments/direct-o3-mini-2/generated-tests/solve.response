@@ -1,0 +1,15 @@
+```java
+solve(0);
+```
+```java
+solve(5);
+```
+```java
+solve(10);
+```
+```java
+solve(99);
+```
+```java
+solve(123);
+```

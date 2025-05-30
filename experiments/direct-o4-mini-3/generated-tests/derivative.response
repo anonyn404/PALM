@@ -1,0 +1,12 @@
+```java
+DERIVATIVE.derivative(new ArrayList<Integer>());
+```
+```java
+DERIVATIVE.derivative(Arrays.asList(1));
+```
+```java
+DERIVATIVE.derivative(Arrays.asList(1, 2));
+```
+```java
+DERIVATIVE.derivative(Arrays.asList(1, 2, 3));
+```

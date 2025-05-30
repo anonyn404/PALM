@@ -1,0 +1,153 @@
+```java
+filter_by_prefix(Arrays.asList("apple", "banana", "apricot"), "ap");
+```
+```java
+filter_by_prefix(Arrays.asList("cat", "dog", "caterpillar"), "ca");
+```
+```java
+filter_by_prefix(Arrays.asList("ball", "bat", "basket"), "ba");
+```
+```java
+filter_by_prefix(Arrays.asList("hello", "helium", "hero"), "he");
+```
+```java
+filter_by_prefix(Arrays.asList("sun", "moon", "star"), "s");
+```
+```java
+filter_by_prefix(Arrays.asList("java", "javascript", "javafx"), "ja");
+```
+```java
+filter_by_prefix(Arrays.asList("grape", "orange", "grapefruit"), "gr");
+```
+```java
+filter_by_prefix(Arrays.asList("elephant", "eel", "emperor"), "e");
+```
+```java
+filter_by_prefix(Arrays.asList("kiwi", "kiwifruit", "kiwipie"), "ki");
+```
+```java
+filter_by_prefix(Arrays.asList("car", "bike", "bus"), "c");
+```
+```java
+filter_by_prefix(Arrays.asList("peach", "pear", "plum"), "pe");
+```
+```java
+filter_by_prefix(Arrays.asList("table", "chair", "couch"), "t");
+```
+```java
+filter_by_prefix(Arrays.asList("red", "blue", "green"), "r");
+```
+```java
+filter_by_prefix(Arrays.asList("note", "notebook", "notepad"), "no");
+```
+```java
+filter_by_prefix(Arrays.asList("mouse", "keyboard", "monitor"), "mo");
+```
+```java
+filter_by_prefix(Arrays.asList("stone", "rock", "pebble"), "s");
+```
+```java
+filter_by_prefix(Arrays.asList("mint", "basil", "sage"), "m");
+```
+```java
+filter_by_prefix(Arrays.asList("cucumber", "carrot", "celery"), "cu");
+```
+```java
+filter_by_prefix(Arrays.asList("sugar", "salt", "spice"), "s");
+```
+```java
+filter_by_prefix(Arrays.asList("forest", "fountain", "field"), "fo");
+```
+```java
+filter_by_prefix(Arrays.asList("computer", "cellphone", "tablet"), "c");
+```
+```java
+filter_by_prefix(Arrays.asList("fish", "fishing", "fisherman"), "fi");
+```
+```java
+filter_by_prefix(Arrays.asList("airplane", "airport", "aeroplane"), "ai");
+```
+```java
+filter_by_prefix(Arrays.asList("spoon", "fork", "knife"), "s");
+```
+```java
+filter_by_prefix(Arrays.asList("gold", "silver", "bronze"), "g");
+```
+```java
+filter_by_prefix(Arrays.asList("soccer", "basketball", "football"), "s");
+```
+```java
+filter_by_prefix(Arrays.asList("planet", "star", "galaxy"), "pl");
+```
+```java
+filter_by_prefix(Arrays.asList("book", "bookmark", "bookshelf"), "bo");
+```
+```java
+filter_by_prefix(Arrays.asList("mountain", "hill", "valley"), "m");
+```
+```java
+filter_by_prefix(Arrays.asList("rainbow", "rain", "shine"), "ra");
+```
+```java
+filter_by_prefix(Arrays.asList("peanut", "almond", "cashew"), "p");
+```
+```java
+filter_by_prefix(Arrays.asList("bread", "butter", "biscuit"), "b");
+```
+```java
+filter_by_prefix(Arrays.asList("television", "phone", "tablet"), "te");
+```
+```java
+filter_by_prefix(Arrays.asList("zebra", "lion", "tiger"), "z");
+```
+```java
+filter_by_prefix(Arrays.asList("flashlight", "battery", "candle"), "fl");
+```
+```java
+filter_by_prefix(Arrays.asList("grapevine", "grassy", "greenery"), "gr");
+```
+```java
+filter_by_prefix(Arrays.asList("license", "licensor", "licensee"), "lic");
+```
+```java
+filter_by_prefix(Arrays.asList("cheese", "cheeseburger", "cheesecake"), "chee");
+```
+```java
+filter_by_prefix(Arrays.asList("cereal", "cerealbar", "cerealbox"), "cer");
+```
+```java
+filter_by_prefix(Arrays.asList("bake", "baker", "baking"), "ba");
+```
+```java
+filter_by_prefix(Arrays.asList("canyon", "cave", "cliff"), "ca");
+```
+```java
+filter_by_prefix(Arrays.asList("bear", "beard", "beast"), "be");
+```
+```java
+filter_by_prefix(Arrays.asList("chocolate", "candy", "cake"), "ch");
+```
+```java
+filter_by_prefix(Arrays.asList("print", "printer", "printing"), "pr");
+```
+```java
+filter_by_prefix(Arrays.asList("truffle", "toffee", "treat"), "tr");
+```
+```java
+filter_by_prefix(Arrays.asList("monk", "monkey", "montage"), "mo");
+```
+```java
+filter_by_prefix(Arrays.asList("flute", "fiddle", "fife"), "fi");
+```
+```java
+filter_by_prefix(Arrays.asList("taco", "tortilla", "taco stand"), "ta");
+```
+```java
+filter_by_prefix(Arrays.asList("nest", "net", "needle"), "n");
+```
+```java
+filter_by_prefix(Arrays.asList("peugeot", "porsche", "pinto"), "p");
+```
+```java
+filter_by_prefix(Arrays.asList("anchor", "anemone", "angel"), "an");
+```

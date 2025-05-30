@@ -1,0 +1,2 @@
+```javaby_length(new ArrayList<>(Arrays.asList(5, 9)));
+```

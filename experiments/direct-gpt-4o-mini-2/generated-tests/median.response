@@ -1,0 +1,174 @@
+```java
+MEDIAN.median(new int[]{1, 2, 3});
+```
+```java
+MEDIAN.median(new int[]{1, 3});
+```
+```java
+MEDIAN.median(new int[]{2});
+```
+```java
+MEDIAN.median(new int[]{5, 1, 3});
+```
+```java
+MEDIAN.median(new int[]{4, 1, 2, 3});
+```
+```java
+MEDIAN.median(new int[]{6, 5, 3, 2});
+```
+```java
+MEDIAN.median(new int[]{7, 8});
+```
+```java
+MEDIAN.median(new int[]{0, 0});
+```
+```java
+MEDIAN.median(new int[]{-3, -1, -2});
+```
+```java
+MEDIAN.median(new int[]{-2, -3});
+```
+```java
+MEDIAN.median(new int[]{2, 2, 2});
+```
+```java
+MEDIAN.median(new int[]{1, 4});
+```
+```java
+MEDIAN.median(new int[]{10, 20, 30});
+```
+```java
+MEDIAN.median(new int[]{10, 15});
+```
+```java
+MEDIAN.median(new int[]{5, 3, 9});
+```
+```java
+MEDIAN.median(new int[]{3, 6, 9, 12});
+```
+```java
+MEDIAN.median(new int[]{-1, -2});
+```
+```java
+MEDIAN.median(new int[]{4, -2, 2});
+```
+```java
+MEDIAN.median(new int[]{-5, 5});
+```
+```java
+MEDIAN.median(new int[]{8, 6});
+```
+```java
+MEDIAN.median(new int[]{0, 4, 6});
+```
+```java
+MEDIAN.median(new int[]{3, 1});
+```
+```java
+MEDIAN.median(new int[]{-9, 0});
+```
+```java
+MEDIAN.median(new int[]{7, 9, 11, 4});
+```
+```java
+MEDIAN.median(new int[]{3, 5, 8});
+```
+```java
+MEDIAN.median(new int[]{2, 4, 6, 8});
+```
+```java
+MEDIAN.median(new int[]{1});
+```
+```java
+MEDIAN.median(new int[]{-5, -8});
+```
+```java
+MEDIAN.median(new int[]{1, 1});
+```
+```java
+MEDIAN.median(new int[]{9, 3, 7});
+```
+```java
+MEDIAN.median(new int[]{4, 4});
+```
+```java
+MEDIAN.median(new int[]{15, 25, 5});
+```
+```java
+MEDIAN.median(new int[]{10, 10});
+```
+```java
+MEDIAN.median(new int[]{1, 2, 3, 4});
+```
+```java
+MEDIAN.median(new int[]{-1, -3, -4});
+```
+```java
+MEDIAN.median(new int[]{0, 9, 1});
+```
+```java
+MEDIAN.median(new int[]{2, 3, 5});
+```
+```java
+MEDIAN.median(new int[]{2, -2});
+```
+```java
+MEDIAN.median(new int[]{100, 200});
+```
+```java
+MEDIAN.median(new int[]{-10, -20, -30});
+```
+```java
+MEDIAN.median(new int[]{-1, 0});
+```
+```java
+MEDIAN.median(new int[]{1, 0, -1});
+```
+```java
+MEDIAN.median(new int[]{12});
+```
+```java
+MEDIAN.median(new int[]{9, 5});
+```
+```java
+MEDIAN.median(new int[]{4, 5, 6});
+```
+```java
+MEDIAN.median(new int[]{11, 10});
+```
+```java
+MEDIAN.median(new int[]{-5, -2, -3});
+```
+```java
+MEDIAN.median(new int[]{8, 7});
+```
+```java
+MEDIAN.median(new int[]{10, 5, 5});
+```
+```java
+MEDIAN.median(new int[]{8});
+```
+```java
+MEDIAN.median(new int[]{2, 9, 3});
+```
+```java
+MEDIAN.median(new int[]{14, 14});
+```
+```java
+MEDIAN.median(new int[]{0, 4, 2});
+```
+```java
+MEDIAN.median(new int[]{-7, -3, 0});
+```
+```java
+MEDIAN.median(new int[]{5, 10});
+```
+```java
+MEDIAN.median(new int[]{9, 8, 7});
+```
+```java
+MEDIAN.median(new int[]{3, -4, 2});
+```
+```java
+MEDIAN.median(new int[]{6, 9});
+```

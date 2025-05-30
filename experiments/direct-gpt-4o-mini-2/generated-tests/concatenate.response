@@ -1,0 +1,159 @@
+```java
+CONCATENATE.concatenate(new String[] {});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", ""});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", ""});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Test", "1"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Test", "2"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Test", "Hello"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Java", "Unit", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Java", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Unit", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Unit", ""});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "Unit"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Test", " "});
+```
+```java
+CONCATENATE.concatenate(new String[] {" ", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {" ", " "});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", " ", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {" ", "Hello", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", "World", "!"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "Hello", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", "", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Java", "", "Unit"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Unit", "", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "Java", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Test", "Java"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Java", "Unit"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Unit", "Java"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Java", " "});
+```
+```java
+CONCATENATE.concatenate(new String[] {" ", "Java"});
+```
+```java
+CONCATENATE.concatenate(new String[] {" ", "", ""});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "Test", ""});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", "Test", ""});
+```
+```java
+CONCATENATE.concatenate(new String[] {"", "", "World"});
+```
+```java
+CONCATENATE.concatenate(new String[] {"Hello", "World", "Test"});
+```
+```java
+CONCATENATE.concatenate(new String[] { "Test", "Hello", "World" });
+```
+```java
+CONCATENATE.concatenate(new String[] { "Hello", null });
+```
+```java
+CONCATENATE.concatenate(new String[] { null, "World" });
+```
+```java
+CONCATENATE.concatenate(new String[] { null, null });
+```
+```java
+CONCATENATE.concatenate(new String[] { "Hello", "World", null });
+```
+```java
+CONCATENATE.concatenate(new String[] { null, " ", "Hello" });
+```
+```java
+CONCATENATE.concatenate(new String[] { " ", null, "World" });
+```
+```java
+CONCATENATE.concatenate(new String[] { null, " " });
+```
+```java
+CONCATENATE.concatenate(new String[] { " ", null });
+```
+```java
+CONCATENATE.concatenate(new String[] { "Test", "", null });
+```
+```java
+CONCATENATE.concatenate(new String[] { null, "", "Test" });
+```
+```java
+CONCATENATE.concatenate(new String[] { "Some", "", "", "Text" });
+```
+```java
+CONCATENATE.concatenate(new String[] { "", "Some", "", "Text" });
+```
+```java
+CONCATENATE.concatenate(new String[] { "", "", "Some", "Text" });
+```
+```java
+CONCATENATE.concatenate(new String[] { "Text", "", "", "Some" });
+```

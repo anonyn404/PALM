@@ -1,0 +1,141 @@
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(3, 4, 5);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(5, 12, 13);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(6, 8, 10);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(8, 15, 17);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(9, 12, 15);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(7, 24, 25);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, 0, 0);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, 3, 3);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(5, 0, 5);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, 4, 4);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 1, 1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(2, 2, 2);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 0, 1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(2, 0, 2);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(3, 0, 3);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(4, 0, 4);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(5, 0, 6);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(3, 4, 6);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 2, 2);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(5, 5, 10);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 1, 1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, 1, 1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 1, 0);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(-3, 4, 5);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(3, -4, 5);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(3, 4, -5);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(-3, -4, -5);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(-3, 0, 3);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, -4, 4);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(-1, -1, -1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(-5, -12, -13);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, 0, 1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 0, 0);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(2, 2, 3);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(10, 24, 26);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(15, 20, 25);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(8, 15, 20);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(0, 0, -1);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(7, 1, 7);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 7, 7);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(9, 12, 16);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(10, 10, 20);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(8, 15, 0);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(24, 7, 25);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(2, 4, 8);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(6, 10, 0);
+```
+```java
+RIGHT_ANGLE_TRIANGLE.right_angle_triangle(1, 1, 2);
+```

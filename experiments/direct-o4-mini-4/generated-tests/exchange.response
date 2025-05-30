@@ -1,0 +1,27 @@
+```java
+exchange(new ArrayList<>(Arrays.asList()), new ArrayList<>(Arrays.asList()));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList(1)), new ArrayList<>(Arrays.asList()));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList(1, 3)), new ArrayList<>(Arrays.asList()));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList()), new ArrayList<>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList(1)), new ArrayList<>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList(1, 3)), new ArrayList<>(Arrays.asList(2)));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList()), new ArrayList<>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList(1)), new ArrayList<>(Arrays.asList(2, 4)));
+```
+```java
+exchange(new ArrayList<>(Arrays.asList(1, 3)), new ArrayList<>(Arrays.asList(2, 4)));
+```

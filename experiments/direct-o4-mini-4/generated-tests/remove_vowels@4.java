@@ -1,0 +1,2 @@
+```javaremove_vowels("ba");
+```

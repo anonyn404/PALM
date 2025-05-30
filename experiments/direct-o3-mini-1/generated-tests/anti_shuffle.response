@@ -1,0 +1,12 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("cba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("bad cab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle(" ");
+```

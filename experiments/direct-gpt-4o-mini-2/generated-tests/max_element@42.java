@@ -1,0 +1,2 @@
+```javamax_element(Arrays.asList(7, 1, 1));
+```

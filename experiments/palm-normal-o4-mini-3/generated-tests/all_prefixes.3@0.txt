@@ -1,0 +1,31 @@
+You are a Java test generator. Invoke the target method (all_prefixes) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+public static List<String> all_prefixes(String string){
+    List<String> result_1 = new ArrayList<String>();
+    int i_1 = 0;
+    assertTrue(0 < string.length()); //[1]
+    result_1.add(string.substring(0, 1));
+    i_1 += 1;
+    assertFalse(1 < string.length()); //[2]
+    return result_1;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

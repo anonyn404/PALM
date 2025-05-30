@@ -1,0 +1,2 @@
+```javaFACTORIZE.factorize(40);
+```

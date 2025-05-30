@@ -1,0 +1,1 @@
+is_bored("I x.y");

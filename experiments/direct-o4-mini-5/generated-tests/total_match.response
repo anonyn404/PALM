@@ -1,0 +1,39 @@
+```java
+total_match(Arrays.asList(), Arrays.asList());
+```
+```java
+total_match(Arrays.asList(), Arrays.asList("a"));
+```
+```java
+total_match(Arrays.asList(), Arrays.asList("a","b"));
+```
+```java
+total_match(Arrays.asList("a"), Arrays.asList());
+```
+```java
+total_match(Arrays.asList("a"), Arrays.asList("a"));
+```
+```java
+total_match(Arrays.asList("aa"), Arrays.asList("a"));
+```
+```java
+total_match(Arrays.asList("a"), Arrays.asList("a","b"));
+```
+```java
+total_match(Arrays.asList("aaa"), Arrays.asList("a","b"));
+```
+```java
+total_match(Arrays.asList("a","b"), Arrays.asList());
+```
+```java
+total_match(Arrays.asList("a","b"), Arrays.asList("bbb"));
+```
+```java
+total_match(Arrays.asList("aa","b"), Arrays.asList("bb"));
+```
+```java
+total_match(Arrays.asList("a","b"), Arrays.asList("c","d"));
+```
+```java
+total_match(Arrays.asList("aa","bbb"), Arrays.asList("cc","d"));
+```

@@ -1,0 +1,39 @@
+```java
+MAX_FILL.max_fill(new int[][]{}, 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{}}, 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1}}, 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1,2}}, 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{},{}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{}, {1}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{}, {1,2}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1}, {}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1}, {1}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1}, {1,2}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1,2}, {}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1,2}, {1}} , 5);
+```
+```java
+MAX_FILL.max_fill(new int[][]{{1,2}, {1,2}} , 5);
+```

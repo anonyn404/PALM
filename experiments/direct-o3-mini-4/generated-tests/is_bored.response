@@ -1,0 +1,24 @@
+```java
+is_bored("bored");
+```
+```java
+is_bored("I bored");
+```
+```java
+is_bored("I happy. sad");
+```
+```java
+is_bored("happy?I excited");
+```
+```java
+is_bored("I start!I continue");
+```
+```java
+is_bored("I.");
+```
+```java
+is_bored("I ");
+```
+```java
+is_bored("  I bored  ");
+```

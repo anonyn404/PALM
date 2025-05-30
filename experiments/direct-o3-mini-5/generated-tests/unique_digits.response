@@ -1,0 +1,33 @@
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList()));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(7)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(8)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(128)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(-135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(0)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(135, 128, -79, 0)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(57)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(42)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<>(Arrays.asList(111, 222, 333, 444)));
+```

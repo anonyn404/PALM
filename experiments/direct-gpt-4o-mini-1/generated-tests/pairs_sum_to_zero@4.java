@@ -1,0 +1,2 @@
+```javapairs_sum_to_zero(Arrays.asList(1, 2, 3, -3, -2, -1));
+```

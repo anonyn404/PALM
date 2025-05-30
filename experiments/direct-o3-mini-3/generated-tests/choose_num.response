@@ -1,0 +1,12 @@
+```java
+CHOOSE_NUM.choose_num(2, 1);
+```
+```java
+CHOOSE_NUM.choose_num(1, 2);
+```
+```java
+CHOOSE_NUM.choose_num(3, 3);
+```
+```java
+CHOOSE_NUM.choose_num(1, 3);
+```

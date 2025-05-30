@@ -1,0 +1,12 @@
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("ab");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aa");
+```

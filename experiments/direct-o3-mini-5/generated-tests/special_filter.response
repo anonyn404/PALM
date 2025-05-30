@@ -1,0 +1,24 @@
+```java
+special_filter(new int[]{});
+```
+```java
+special_filter(new int[]{10});
+```
+```java
+special_filter(new int[]{11});
+```
+```java
+special_filter(new int[]{24});
+```
+```java
+special_filter(new int[]{11, 35});
+```
+```java
+special_filter(new int[]{7, 24});
+```
+```java
+special_filter(new int[]{24, 53});
+```
+```java
+special_filter(new int[]{11, 7});
+```

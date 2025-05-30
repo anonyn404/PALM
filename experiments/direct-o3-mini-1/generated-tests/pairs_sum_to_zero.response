@@ -1,0 +1,21 @@
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Collections.emptyList());
+```
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Arrays.asList(1));
+```
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Arrays.asList(1, -1));
+```
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Arrays.asList(2, 3));
+```
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Arrays.asList(1, 2, -1));
+```
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Arrays.asList(1, 2, 3));
+```
+```java
+PAIRS_SUM_TO_ZERO.pairs_sum_to_zero(Arrays.asList(0, 0));
+```

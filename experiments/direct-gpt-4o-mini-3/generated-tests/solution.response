@@ -1,0 +1,150 @@
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 2, 3, 4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2, 1, 4, 3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 2, 4, 6)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(0, 1, 2, 3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 3, 5, 7)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(4, 6, 8, 10)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-1, -2, -3, -4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(7, 8, 9, 10)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 3, 7, 8)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2, 2, 2, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 0, -1, 1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(3, 5, 8, 6)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(0, 1, 2, 4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(0)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2, 4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2, 3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-2, -4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(9, 8, 7)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(5, 5, 5)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(10, 11, 12, 13)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(0, -1, -2, -3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2, 3, 4, 5)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(1, 1, 1, 1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-1, -1, -1, -1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(0, 0, 0, 0)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(3, 3, 3, 3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(4, 1, 6, 1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(8, 8, 5, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(7, 0, 2, 0)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(6, 1, 2, 3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-5, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(4, 4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(5, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(10, 10, 10, 10)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(12, 11, 10, 9)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(5, 3, 1, 2)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(0, 1)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(3, 5)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(8, 9)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(2, 4)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-4, -3)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(-2, 0)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(7)));
+```
+```java
+SOLUTION.solution(new ArrayList<>(Arrays.asList(9)));
+```

@@ -1,0 +1,132 @@
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "b");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "c");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "d");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "e");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "apple");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "banana");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "cherry");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "b");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "c");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "d");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "e");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple"), "b");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("banana"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("banana"), "b");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("cherry"), "c");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("cherry"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("cherry"), "e");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "orange"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "orange"), "n");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("orange", "grape"), "o");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("orange", "grape"), "g");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("orange", "grape"), "p");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("orange", "grape"), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList(""), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList(""), "b");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "ap");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "na");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple", "banana", "cherry", "date"), "he");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("grape", "fruit"), "g");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("grape", "fruit"), "r");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("grape", "fruit"), "t");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "hello");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "world");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList(""), "");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("test", "testing", "tester"), "test");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("test", "testing", "tester"), "ing");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("test", "testing", "tester"), "ster");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("sample", "example"), "sam");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("sample", "example"), "exam");
+```

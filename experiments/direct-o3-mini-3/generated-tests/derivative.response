@@ -1,0 +1,15 @@
+```java
+DERIVATIVE.derivative(Arrays.asList());
+```
+
+```java
+DERIVATIVE.derivative(Arrays.asList(42));
+```
+
+```java
+DERIVATIVE.derivative(Arrays.asList(10, 20));
+```
+
+```java
+DERIVATIVE.derivative(Arrays.asList(3, 4, 5));
+```

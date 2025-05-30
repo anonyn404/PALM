@@ -1,0 +1,15 @@
+```java
+ISCUDE.iscude(0);
+```
+```java
+ISCUDE.iscude(8);
+```
+```java
+ISCUDE.iscude(-27);
+```
+```java
+ISCUDE.iscude(2);
+```
+```java
+ISCUDE.iscude(-2);
+```

@@ -1,0 +1,2 @@
+```javaLONGEST.longest(List.of(""));
+```

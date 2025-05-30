@@ -1,0 +1,156 @@
+```java
+REVERSE_DELETE.reverse_delete("hello", "aeiou");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "h");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello", "l");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "xyz");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("x", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("x", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("racecar", "ace");
+```
+```java
+REVERSE_DELETE.reverse_delete("racecar", "rc");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcd", "bd");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcd", "ad");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "345");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "2");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "1");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello world", "o");
+```
+```java
+REVERSE_DELETE.reverse_delete("hello world", "dh");
+```
+```java
+REVERSE_DELETE.reverse_delete("test", "te");
+```
+```java
+REVERSE_DELETE.reverse_delete("test", "s");
+```
+```java
+REVERSE_DELETE.reverse_delete("example", "e");
+```
+```java
+REVERSE_DELETE.reverse_delete("example", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcd", "xyz");
+```
+```java
+REVERSE_DELETE.reverse_delete("apple", "p");
+```
+```java
+REVERSE_DELETE.reverse_delete("banana", "ba");
+```
+```java
+REVERSE_DELETE.reverse_delete("grape", "ae");
+```
+```java
+REVERSE_DELETE.reverse_delete("cucumber", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("cucumber", "u");
+```
+```java
+REVERSE_DELETE.reverse_delete("node", "n");
+```
+```java
+REVERSE_DELETE.reverse_delete("edge", "g");
+```
+```java
+REVERSE_DELETE.reverse_delete("loop", "p");
+```
+```java
+REVERSE_DELETE.reverse_delete("tree", "t");
+```
+```java
+REVERSE_DELETE.reverse_delete("forest", "r");
+```
+```java
+REVERSE_DELETE.reverse_delete("java", "va");
+```
+```java
+REVERSE_DELETE.reverse_delete("cheese", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("milk", "m");
+```
+```java
+REVERSE_DELETE.reverse_delete("orange", "r");
+```
+```java
+REVERSE_DELETE.reverse_delete("pear", "e");
+```
+```java
+REVERSE_DELETE.reverse_delete("fruit", "ti");
+```
+```java
+REVERSE_DELETE.reverse_delete("vegetable", "v");
+```
+```java
+REVERSE_DELETE.reverse_delete("potato", "p");
+```
+```java
+REVERSE_DELETE.reverse_delete("carrot", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("kale", "k");
+```
+```java
+REVERSE_DELETE.reverse_delete("nectarine", "n");
+```
+```java
+REVERSE_DELETE.reverse_delete("zucchini", "z");
+```
+```java
+REVERSE_DELETE.reverse_delete("watermelon", "w");
+```
+```java
+REVERSE_DELETE.reverse_delete("strawberry", "s");
+```
+```java
+REVERSE_DELETE.reverse_delete("apricot", "t");
+```
+```java
+REVERSE_DELETE.reverse_delete("blackberry", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("raspberry", "r");
+```

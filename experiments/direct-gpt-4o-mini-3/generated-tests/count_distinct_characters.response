@@ -1,0 +1,144 @@
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("A");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("ab");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("AB");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aB");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aabb");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("ABab");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("abc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("ABC");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("aBc");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a b c");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("123");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a1b2");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("hello");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Hello");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("HeLLo");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("!@#$%^&*");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("EsP3rAntO");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Esp3rantO!");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("multiple spaces");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("repeated letters");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("UppercaseLetters");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("lowercaseletters");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("MixedCase123");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Testing123");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("tEsTiNg");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("MIXEDmixed123");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("special@#$%");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("spaces  and  tabs");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("a b   c");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("0123456789");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("One Two Three");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("different CASES");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("abcdefghijklmno");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("pqrstuvwxyz");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("CyclicCyclic");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Testing 1, 2, 3");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("One two three: test");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("Testing!!");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("A B C D");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("CollabCollab");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("JOIN US!");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("OnE tWo thrEE");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("ABCDEFabcdef");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("123321");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("###$$$%%%");
+```
+```java
+COUNT_DISTINCT_CHARACTERS.count_distinct_characters("random characters & 123");
+```

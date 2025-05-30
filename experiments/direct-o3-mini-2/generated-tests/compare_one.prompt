@@ -1,0 +1,51 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (compare_one); ignore branches in other methods and API calls. Generate up to 50 tests invoking compare_one. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class COMPARE_ONE {
+
+    public static Object compare_one(Object a, Object b) {
+        double temp_a = 0, temp_b = 0;
+        if (a instanceof String) {
+            String temp_a_string = a.toString();
+            temp_a_string = temp_a_string.replace(',', '.');
+            temp_a = Double.parseDouble(temp_a_string);
+        }
+        if (b instanceof String) {
+            String temp_b_string = b.toString();
+            temp_b_string = temp_b_string.replace(',', '.');
+            temp_b = Double.parseDouble(temp_b_string);
+        }
+        if (a instanceof Double)
+            temp_a = (Double) a;
+        if (b instanceof Double)
+            temp_b = (Double) b;
+        if (a instanceof Integer)
+            temp_a = ((Integer) a).doubleValue();
+        if (b instanceof Integer)
+            temp_b = ((Integer) b).doubleValue();
+        if (temp_a == temp_b)
+            return null;
+        if (temp_a > temp_b)
+            return a;
+        else
+            return b;
+    }
+}

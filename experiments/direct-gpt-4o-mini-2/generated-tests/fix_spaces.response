@@ -1,0 +1,153 @@
+```java
+fix_spaces("hello");
+```
+```java
+fix_spaces("hello world");
+```
+```java
+fix_spaces("hello    world");
+```
+```java
+fix_spaces("hello   there   world");
+```
+```java
+fix_spaces("  leading spaces");
+```
+```java
+fix_spaces("trailing spaces  ");
+```
+```java
+fix_spaces("multiple   spaces   in   between");
+```
+```java
+fix_spaces("single space");
+```
+```java
+fix_spaces("  ");
+```
+```java
+fix_spaces("");
+```
+```java
+fix_spaces("space at the end ");
+```
+```java
+fix_spaces("  space at the beginning");
+```
+```java
+fix_spaces("spaces  and   underscores");
+```
+```java
+fix_spaces("too    many    spaces");
+```
+```java
+fix_spaces("this is a test    string");
+```
+```java
+fix_spaces("no  spaces");
+```
+```java
+fix_spaces("word1   word2   word3");
+```
+```java
+fix_spaces("one  two  three   four");
+```
+```java
+fix_spaces("leading and trailing   spaces   ");
+```
+```java
+fix_spaces("   ");
+```
+```java
+fix_spaces("matrix   of   spaces   ");
+```
+```java
+fix_spaces("irrelevant");
+```
+```java
+fix_spaces("word     follow by space");
+```
+```java
+fix_spaces("spaces     in     every    part");
+```
+```java
+fix_spaces("a   b   c");
+```
+```java
+fix_spaces("leading and   ending spaces   ");
+```
+```java
+fix_spaces("   one   ");
+```
+```java
+fix_spaces("perfectly     spaced");
+```
+```java
+fix_spaces("single   double    triple");
+```
+```java
+fix_spaces("space    space");
+```
+```java
+fix_spaces("spaces between   chars");
+```
+```java
+fix_spaces("  alone  ");
+```
+```java
+fix_spaces("   test   ");
+```
+```java
+fix_spaces("word    ");
+```
+```java
+fix_spaces("spaces;within;words");
+```
+```java
+fix_spaces("start and  finish");
+```
+```java
+fix_spaces("two  words");
+```
+```java
+fix_spaces("even    more    spaces");
+```
+```java
+fix_spaces("trailing space ");
+```
+```java
+fix_spaces("good    example");
+```
+```java
+fix_spaces("minimally  spaced");
+```
+```java
+fix_spaces("  repetitive   test  ");
+```
+```java
+fix_spaces("spaces at    borders   ");
+```
+```java
+fix_spaces("  split   words  ");
+```
+```java
+fix_spaces("  check  consistency    ");
+```
+```java
+fix_spaces("   lots  of spaces   ");
+```
+```java
+fix_spaces("formatted  properly");
+```
+```java
+fix_spaces("no spaces at all");
+```
+```java
+fix_spaces("irregular      spacing");
+```
+```java
+fix_spaces("words   spaces    ");
+```
+```java
+fix_spaces("    spaces    inbetween         ");
+```

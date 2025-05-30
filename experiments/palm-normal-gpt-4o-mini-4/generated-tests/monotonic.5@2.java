@@ -1,0 +1,3 @@
+```java
+monotonic(null);
+```

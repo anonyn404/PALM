@@ -1,0 +1,3 @@
+```java
+greatest_common_divisor(1, 2);
+```

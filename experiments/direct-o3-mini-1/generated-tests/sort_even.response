@@ -1,0 +1,15 @@
+```java
+SORT_EVEN.sort_even(new int[]{});
+```
+```java
+SORT_EVEN.sort_even(new int[]{5});
+```
+```java
+SORT_EVEN.sort_even(new int[]{9, 3});
+```
+```java
+SORT_EVEN.sort_even(new int[]{3, 10, 1});
+```
+```java
+SORT_EVEN.sort_even(new int[]{8, 7, 4, 2});
+```

@@ -1,0 +1,171 @@
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList("b"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc"), Arrays.asList("de"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList("hello"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hello"), Arrays.asList(""));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b"), Arrays.asList("c"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("xyz"), Arrays.asList("xy"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("x"), Arrays.asList("y", "z"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one", "two"), Arrays.asList("three"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("short"), Arrays.asList("longer_string"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test"), Arrays.asList("test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("ab", "cd"), Arrays.asList("efg", "hij"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc"), Arrays.asList("abcde"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList(""));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("long_string"), Arrays.asList("short1", "short2"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "ab"), Arrays.asList("abc"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("single"), Arrays.asList("another_one"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("first", "second"), Arrays.asList("third"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hello"), Arrays.asList("world", "java"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("quick", "brown"), Arrays.asList("fox"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("example"), Arrays.asList("examples"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("low"), Arrays.asList("higher"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("aaa"), Arrays.asList("aa"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("first"), Arrays.asList("second", "third"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one", "two", "three"), Arrays.asList("four", "five"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("short"), Arrays.asList("two_letters"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("cat"), Arrays.asList("dog", "elephant"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abin", "self"), Arrays.asList("together", "with"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("more"), Arrays.asList("lesser_length"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("quick", "brown", "fox"), Arrays.asList("jumps"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hello", "world"), Arrays.asList("longer_words", "here"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("java"), Arrays.asList("is", "fun", "and", "cool"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test_case"), Arrays.asList("another_case_example"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("single"), Arrays.asList("multiple_words_string"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("word1", "word2"), Arrays.asList("word3"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("length_1"), Arrays.asList("length_2", "extra"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("equal_length_1"), Arrays.asList("equal_length_2"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one_more"), Arrays.asList("two_more"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a"), Arrays.asList("this_is_bigger"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("non_empty"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("small"), Arrays.asList("larger_size"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("cases"), Arrays.asList("a_test_case"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("tiny"), Arrays.asList("minute"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("value"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("y"), Arrays.asList("a", "b"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc", "def"), Arrays.asList("g"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("just"), Arrays.asList("for_testing"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("foo"), Arrays.asList("bar", "baz"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("alpha"), Arrays.asList("beta", "gamma"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("cat", "dog"), Arrays.asList("mouse"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("apples"), Arrays.asList("oranges", "bananas"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("txt"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("strong"), Arrays.asList("stronger", "strongest"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc"), Arrays.asList("def", "ghi"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("small", "tiny"), Arrays.asList("huge"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("color"), Arrays.asList("colorful", "colors"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test1", "test2"), Arrays.asList("test3"));
+```

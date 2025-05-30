@@ -1,0 +1,150 @@
+```java
+WORDS_STRINGS.words_strings(null);
+```
+```java
+WORDS_STRINGS.words_strings("");
+```
+```java
+WORDS_STRINGS.words_strings("hello");
+```
+```java
+WORDS_STRINGS.words_strings("hello,world");
+```
+```java
+WORDS_STRINGS.words_strings("  leading spaces");
+```
+```java
+WORDS_STRINGS.words_strings("trailing spaces  ");
+```
+```java
+WORDS_STRINGS.words_strings("  multiple   spaces  ");
+```
+```java
+WORDS_STRINGS.words_strings("single");
+```
+```java
+WORDS_STRINGS.words_strings("this,is,a,test");
+```
+```java
+WORDS_STRINGS.words_strings("a,b,c,d");
+```
+```java
+WORDS_STRINGS.words_strings("no commas");
+```
+```java
+WORDS_STRINGS.words_strings(",leading comma");
+```
+```java
+WORDS_STRINGS.words_strings("trailing comma,");
+```
+```java
+WORDS_STRINGS.words_strings(",both,commas,");
+```
+```java
+WORDS_STRINGS.words_strings("a  b  c");
+```
+```java
+WORDS_STRINGS.words_strings(" ");
+```
+```java
+WORDS_STRINGS.words_strings("a,,b,,c");
+```
+```java
+WORDS_STRINGS.words_strings("multiple,,commas");
+```
+```java
+WORDS_STRINGS.words_strings(",,");
+```
+```java
+WORDS_STRINGS.words_strings("one,two,three,four");
+```
+```java
+WORDS_STRINGS.words_strings("one,,two, three");
+```
+```java
+WORDS_STRINGS.words_strings("regular string");
+```
+```java
+WORDS_STRINGS.words_strings("comma,example,test");
+```
+```java
+WORDS_STRINGS.words_strings("words,with,spaces");
+```
+```java
+WORDS_STRINGS.words_strings(",,leading, , and, trailing, ,spaces,,");
+```
+```java
+WORDS_STRINGS.words_strings("mixed,, input");
+```
+```java
+WORDS_STRINGS.words_strings("consecutive  spaces");
+```
+```java
+WORDS_STRINGS.words_strings("b,,a");
+```
+```java
+WORDS_STRINGS.words_strings("sequential, commas");
+```
+```java
+WORDS_STRINGS.words_strings("test, run");
+```
+```java
+WORDS_STRINGS.words_strings("single,comma");
+```
+```java
+WORDS_STRINGS.words_strings("phrase with commas, and spaces");
+```
+```java
+WORDS_STRINGS.words_strings("test,,example");
+```
+```java
+WORDS_STRINGS.words_strings(",a, ,b, ,c");
+```
+```java
+WORDS_STRINGS.words_strings("hello , world");
+```
+```java
+WORDS_STRINGS.words_strings("one, two , three");
+```
+```java
+WORDS_STRINGS.words_strings("word1,word2,word3");
+```
+```java
+WORDS_STRINGS.words_strings(" , , ");
+```
+```java
+WORDS_STRINGS.words_strings("perfectly chosen, , , input");
+```
+```java
+WORDS_STRINGS.words_strings(",consecutive commas,,here");
+```
+```java
+WORDS_STRINGS.words_strings(",leading space ,");
+```
+```java
+WORDS_STRINGS.words_strings("string,with,,,,multiple,,,,,commas");
+```
+```java
+WORDS_STRINGS.words_strings("none,above");
+```
+```java
+WORDS_STRINGS.words_strings(",leading,comma,here");
+```
+```java
+WORDS_STRINGS.words_strings(",mixed,spacing");
+```
+```java
+WORDS_STRINGS.words_strings("only commas,,,");
+```
+```java
+WORDS_STRINGS.words_strings(",string, with, , spaces, and commas");
+```
+```java
+WORDS_STRINGS.words_strings("this is a phrase with commas, and spaces");
+```
+```java
+WORDS_STRINGS.words_strings("1,2,3,4");
+```
+```java
+WORDS_STRINGS.words_strings("repeat,,adinfinitum");
+```

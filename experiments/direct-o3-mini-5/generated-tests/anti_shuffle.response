@@ -1,0 +1,18 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("cba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("cba edc");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("bbaa");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc  cab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a");
+```

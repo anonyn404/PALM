@@ -1,0 +1,24 @@
+```java
+IS_SORTED.is_sorted(new int[]{});
+```
+```java
+IS_SORTED.is_sorted(new int[]{42});
+```
+```java
+IS_SORTED.is_sorted(new int[]{5,10});
+```
+```java
+IS_SORTED.is_sorted(new int[]{10,5});
+```
+```java
+IS_SORTED.is_sorted(new int[]{1,1,1});
+```
+```java
+IS_SORTED.is_sorted(new int[]{1,3,2});
+```
+```java
+IS_SORTED.is_sorted(new int[]{1,2,3,3});
+```
+```java
+IS_SORTED.is_sorted(new int[]{1,1,2,2,3});
+```

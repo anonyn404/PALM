@@ -1,0 +1,3 @@
+```java
+is_simple_power(2, 3);
+```

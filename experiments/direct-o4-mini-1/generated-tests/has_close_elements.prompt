@@ -1,0 +1,35 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (has_close_elements); ignore branches in other methods and API calls. Generate up to 50 tests invoking has_close_elements. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.List;
+public class HAS_CLOSE_ELEMENTS {
+
+    public static boolean has_close_elements(List<Double> numbers, double threshold) {
+        for (int i = 0; i < numbers.size(); i += 1) {
+            for (int j = i + 1; j < numbers.size(); j += 1) {
+                double distance = Math.abs(numbers.get(i) - numbers.get(j));
+                if (distance < threshold)
+                    return true;
+            }
+        }
+        return false;
+    }
+}

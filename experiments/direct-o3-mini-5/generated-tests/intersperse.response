@@ -1,0 +1,12 @@
+```java
+INTERSPERSE.intersperse(new ArrayList<>(), 0);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(42), 99);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(10, 20), 30);
+```
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2, 3), 0);
+```

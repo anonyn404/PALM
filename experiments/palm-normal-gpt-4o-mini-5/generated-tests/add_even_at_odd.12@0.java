@@ -1,0 +1,4 @@
+```java
+int[] lst = new int[]{1, 3, 5, 7}; 
+add_even_at_odd(lst);
+```

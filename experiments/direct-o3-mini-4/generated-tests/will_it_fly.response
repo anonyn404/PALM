@@ -1,0 +1,33 @@
+```java
+WILL_IT_FLY.will_it_fly(new int[]{4}, 3);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{}, 0);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{5}, 5);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,1}, 3);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2}, 3);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2,1}, 4);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2,0}, 3);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2,2,1}, 6);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2,3,1}, 7);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2,3,2,1}, 9);
+```
+```java
+WILL_IT_FLY.will_it_fly(new int[]{1,2,3,4,1}, 11);
+```

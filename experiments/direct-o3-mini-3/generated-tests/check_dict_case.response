@@ -1,0 +1,70 @@
+```java
+HashMap<Object, Object> map = new HashMap<>();
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put(1, "value");
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("HELLO", 1);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("hello", 1);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("Hello", 1);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("HELLO", 1);
+map.put("WORLD", 2);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("HELLO", 1);
+map.put("world", 2);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("hello", 1);
+map.put("world", 2);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("hello", 1);
+map.put("WORLD", 2);
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("HELLO", 1);
+map.put(2, "value");
+CHECK_DICT_CASE.check_dict_case(map);
+```
+
+```java
+HashMap<Object, Object> map = new HashMap<>();
+map.put("hello", 1);
+map.put(2, "value");
+CHECK_DICT_CASE.check_dict_case(map);
+```

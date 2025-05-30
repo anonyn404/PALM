@@ -1,0 +1,30 @@
+You are a Java test generator. Invoke the target method (vowels_count) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void vowels_count(String str){
+    int result_1 = 0;
+    char[] str_chars_1 = str.toCharArray();
+    char c_1;
+    assertTrue(0 < str_chars_1.length); //[1]
+    c_1 = str_chars_1[0];
+    assertTrue(c_1 == 'a' || c_1 == 'e' || c_1 == 'i' || c_1 == 'o' || c_1 == 'u' || c_1 == 'A' || c_1 == 'E' || c_1 == 'I' || c_1 == 'O' || c_1 == 'U'); //[2]
+    result_1 += 1;
+    assertTrue(1 < str_chars_1.length); //[3]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

@@ -1,0 +1,5 @@
+```java
+int[][] grid = { {5, 5}, {7} };
+int bucket_capacity = 10;
+max_fill(grid, bucket_capacity);
+```

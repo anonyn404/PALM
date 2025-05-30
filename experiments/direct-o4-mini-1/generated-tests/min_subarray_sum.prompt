@@ -1,0 +1,44 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (min_subarray_sum); ignore branches in other methods and API calls. Generate up to 50 tests invoking min_subarray_sum. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+public class MIN_SUBARRAY_SUM {
+
+    public static long min_subarray_sum(ArrayList<Long> nums) {
+        long max_sum = 0;
+        long s = 0;
+        for (long num : nums) {
+            s += -num;
+            if (s < 0) {
+                s = 0;
+            }
+            max_sum = Math.max(s, max_sum);
+        }
+        if (max_sum == 0) {
+            max_sum = -nums.get(0);
+            for (int i = 1; i < nums.size(); i++) {
+                max_sum = Math.max(max_sum, -nums.get(i));
+            }
+        }
+        long min_sum = -max_sum;
+        return min_sum;
+    }
+}

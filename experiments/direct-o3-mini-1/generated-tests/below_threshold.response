@@ -1,0 +1,23 @@
+```java
+below_threshold(new int[]{}, 5);
+```
+
+```java
+below_threshold(new int[]{5}, 5);
+```
+
+```java
+below_threshold(new int[]{3}, 5);
+```
+
+```java
+below_threshold(new int[]{5, 0}, 5);
+```
+
+```java
+below_threshold(new int[]{3, 5}, 5);
+```
+
+```java
+below_threshold(new int[]{3, 4}, 5);
+```

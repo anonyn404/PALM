@@ -1,0 +1,46 @@
+You are a Java test generator. Invoke the target method (min_subarray_sum) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+public static void min_subarray_sum(ArrayList<Long> nums){
+    long max_sum_1 = 0;
+    long s_1 = 0;
+    Iterator<Long> num_iter_1 = nums.iterator();
+    long num_1;
+    assertTrue(num_iter_1.hasNext()); //[1]
+    num_1 = num_iter_1.next();
+    s_1 += -num_1;
+    assertFalse(s_1 < 0); //[2]
+    max_sum_1 = Math.max(s_1, 0);
+    assertTrue(num_iter_1.hasNext()); //[3]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+ArrayList<Long> nums = new ArrayList<>(Arrays.asList(1L));
+min_subarray_sum(nums);
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(s_1 < 0) 
+Round 1 generation:
+```java
+ArrayList<Long> nums = new ArrayList<>(Arrays.asList(Long.MAX_VALUE));
+min_subarray_sum(nums);
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(s_1 < 0) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

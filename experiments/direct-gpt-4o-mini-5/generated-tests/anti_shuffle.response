@@ -1,0 +1,174 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("hello world");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("apple banana");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc def");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a b c");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("cat dog");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("zebra apple");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("one two three");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("   ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("single-word");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("java programming");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("test cases");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("spaces  in between");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("  multiple     spaces  ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("same same");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("qwerty asdf");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("order matters");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("A B C");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Up down");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abcd efgh");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("hello    there");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("x y z");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("The quick brown fox");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Mix of uppercase LOWERCASE");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("repeat repeat");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Mix  Up Some words");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("sorted not sorted");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Captain America");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("hello, world!");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("space  time");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("empty spaces   ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Hello World");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc xyz");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("testing sentence");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("simple example");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("more complex example");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Java   Programming");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("End-to-end testing");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("strings with punctuation.");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("simply    grouped");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("overlapping words");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("The quick brown fox jumps");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("  leading and trailing  ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("   only   spaces   ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("PERSONALIZE all things");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("two words together");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("thIs is a test");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("knock knock");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("sound  good");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("banana apple orange");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("input with  spaces");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("upper lower MIX");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("back-and-forth");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("testing different inputs");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("create new words");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("This should work");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Start simple");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Finish strong!");
+```

@@ -1,0 +1,39 @@
+```java
+WORDS_STRINGS.words_strings(null);
+```
+```java
+WORDS_STRINGS.words_strings("");
+```
+```java
+WORDS_STRINGS.words_strings("a");
+```
+```java
+WORDS_STRINGS.words_strings(",");
+```
+```java
+WORDS_STRINGS.words_strings("ab");
+```
+```java
+WORDS_STRINGS.words_strings("a,");
+```
+```java
+WORDS_STRINGS.words_strings(",a");
+```
+```java
+WORDS_STRINGS.words_strings(",,");
+```
+```java
+WORDS_STRINGS.words_strings("a b");
+```
+```java
+WORDS_STRINGS.words_strings("a,b");
+```
+```java
+WORDS_STRINGS.words_strings(" ,");
+```
+```java
+WORDS_STRINGS.words_strings(", ");
+```
+```java
+WORDS_STRINGS.words_strings("  ");
+```

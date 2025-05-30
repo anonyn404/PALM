@@ -1,0 +1,9 @@
+```java
+STRANGE_SORT_LIST.strange_sort_list(Collections.emptyList());
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(5));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, 2));
+```

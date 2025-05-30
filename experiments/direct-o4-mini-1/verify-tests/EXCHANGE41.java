@@ -1,0 +1,22 @@
+import java.util.*;
+import java.util.ArrayList;
+public class EXCHANGE41 {
+
+    public static String exchange(ArrayList<Integer> lst1, ArrayList<Integer> lst2) {
+        int odd = 0, even = 0;
+        for (int i : lst1) {
+            if ((i % 2) == 1)
+                odd++;
+        }
+        for (int i : lst2) {
+            if ((i % 2) == 0)
+                even++;
+        }
+        if (even >= odd) {
+            return "YES";
+        }
+        return "NO";
+    }
+public void my_test() {exchange(new ArrayList<Integer>(Arrays.asList(1, 3)), new ArrayList<Integer>());
+}
+}

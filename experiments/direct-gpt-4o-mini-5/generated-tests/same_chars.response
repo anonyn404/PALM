@@ -1,0 +1,159 @@
+```java
+same_chars("abc", "abc");
+```
+```java
+same_chars("abc", "acb");
+```
+```java
+same_chars("abc", "abcd");
+```
+```java
+same_chars("abc", "ab");
+```
+```java
+same_chars("abc", "");
+```
+```java
+same_chars("", "");
+```
+```java
+same_chars("", "a");
+```
+```java
+same_chars("a", "a");
+```
+```java
+same_chars("a", "b");
+```
+```java
+same_chars("a", "");
+```
+```java
+same_chars("abc", "def");
+```
+```java
+same_chars("aaa", "aa");
+```
+```java
+same_chars("hello", "olleh");
+```
+```java
+same_chars("hello", "hello");
+```
+```java
+same_chars("hell", "oell");
+```
+```java
+same_chars("character", "catcher");
+```
+```java
+same_chars("foo", "off");
+```
+```java
+same_chars("hello", "helloo");
+```
+```java
+same_chars("test", "sett");
+```
+```java
+same_chars("openai", "aiopen");
+```
+```java
+same_chars("123", "321");
+```
+```java
+same_chars("123", "1234");
+```
+```java
+same_chars("test", "tes");
+```
+```java
+same_chars("same", "same");
+```
+```java
+same_chars("xyz", "zxy");
+```
+```java
+same_chars("java", "avaj");
+```
+```java
+same_chars("abcd", "dcba");
+```
+```java
+same_chars("case", "scae");
+```
+```java
+same_chars("game", "mage");
+```
+```java
+same_chars("ress", "sres");
+```
+```java
+same_chars("level", "lleve");
+```
+```java
+same_chars("", "any string");
+```
+```java
+same_chars("dog", "god");
+```
+```java
+same_chars("unique", "equine");
+```
+```java
+same_chars("abcd", "abcd");
+```
+```java
+same_chars("abc", "aB");
+```
+```java
+same_chars("down", "wond");
+```
+```java
+same_chars("do", "od");
+```
+```java
+same_chars("test", "TEST");
+```
+```java
+same_chars("parallel", "palel");
+```
+```java
+same_chars("one", "no");
+```
+```java
+same_chars("sun", "uns");
+```
+```java
+same_chars("test", "test");
+```
+```java
+same_chars("abracadabra", "abracadab");
+```
+```java
+same_chars("alive", "vile");
+```
+```java
+same_chars("input", "output");
+```
+```java
+same_chars("python", "htoyp");
+```
+```java
+same_chars("hello", "hel");
+```
+```java
+same_chars("state", "taste");
+```
+```java
+same_chars("same", "same");
+```
+```java
+same_chars("item", "meit");
+```
+```java
+same_chars("floor", "loofr");
+```
+```java
+same_chars("string", "tgsnri");
+```

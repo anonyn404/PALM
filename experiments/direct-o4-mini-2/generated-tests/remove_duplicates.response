@@ -1,0 +1,12 @@
+```java
+remove_duplicates(new ArrayList<Integer>());
+```
+```java
+remove_duplicates(Arrays.asList(1));
+```
+```java
+remove_duplicates(Arrays.asList(1, 2));
+```
+```java
+remove_duplicates(Arrays.asList(1, 1));
+```

@@ -1,0 +1,156 @@
+```java
+next_smallest(new int[]{5, 3, 1});
+```
+```java
+next_smallest(new int[]{1, 2});
+```
+```java
+next_smallest(new int[]{4, 4, 4});
+```
+```java
+next_smallest(new int[]{3, 2, 1});
+```
+```java
+next_smallest(new int[]{-1, 0, 1});
+```
+```java
+next_smallest(new int[]{2, 2, 2, 2});
+```
+```java
+next_smallest(new int[]{10, 5, 7});
+```
+```java
+next_smallest(new int[]{-2, -1});
+```
+```java
+next_smallest(new int[]{5});
+```
+```java
+next_smallest(new int[]{-3, -2, -1, 0});
+```
+```java
+next_smallest(new int[]{0, 0, 0, 0});
+```
+```java
+next_smallest(new int[]{3, 1});
+```
+```java
+next_smallest(new int[]{1, 2, 3, 4});
+```
+```java
+next_smallest(new int[]{-1, 1});
+```
+```java
+next_smallest(new int[]{4, 5, 5});
+```
+```java
+next_smallest(new int[]{-10, -5, -1});
+```
+```java
+next_smallest(new int[]{2, 3, 2});
+```
+```java
+next_smallest(new int[]{8, 8, 9});
+```
+```java
+next_smallest(new int[]{1});
+```
+```java
+next_smallest(new int[]{-1, 0, 0});
+```
+```java
+next_smallest(new int[]{100, 2, 0});
+```
+```java
+next_smallest(new int[]{0, -2, -1});
+```
+```java
+next_smallest(new int[]{0, 1, 1});
+```
+```java
+next_smallest(new int[]{1, 1, 1});
+```
+```java
+next_smallest(new int[]{44, 22, 44});
+```
+```java
+next_smallest(new int[]{7});
+```
+```java
+next_smallest(new int[]{-5, 5, 0});
+```
+```java
+next_smallest(new int[]{6, 6, 7});
+```
+```java
+next_smallest(new int[]{3, 5, 7});
+```
+```java
+next_smallest(new int[]{9, 8, 9});
+```
+```java
+next_smallest(new int[]{2, 1, 3, 3});
+```
+```java
+next_smallest(new int[]{-2, -1, -3});
+```
+```java
+next_smallest(new int[]{3, 3});
+```
+```java
+next_smallest(new int[]{1, 1, -1});
+```
+```java
+next_smallest(new int[]{6, 6, 6, 5});
+```
+```java
+next_smallest(new int[]{-4, -2});
+```
+```java
+next_smallest(new int[]{-8, -4, -6});
+```
+```java
+next_smallest(new int[]{0});
+```
+```java
+next_smallest(new int[]{2, 0, 2});
+```
+```java
+next_smallest(new int[]{-9, -3});
+```
+```java
+next_smallest(new int[]{-1, 2});
+```
+```java
+next_smallest(new int[]{5, 5, 5});
+```
+```java
+next_smallest(new int[]{11, 10});
+```
+```java
+next_smallest(new int[]{9, 9});
+```
+```java
+next_smallest(new int[]{4, 4, 5, 5});
+```
+```java
+next_smallest(new int[]{7, 7, 6});
+```
+```java
+next_smallest(new int[]{8, 8, 10});
+```
+```java
+next_smallest(new int[]{-3, -2});
+```
+```java
+next_smallest(new int[]{5, 1, 1});
+```
+```java
+next_smallest(new int[]{3, 7});
+```
+```java
+next_smallest(new int[]{10, 9, 8, 7});
+```
+```java
+next_smallest(new int[]{0, 2});
+```

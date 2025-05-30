@@ -1,0 +1,24 @@
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {5.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {1.0, 2.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {1.0, 0.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {1.0, 1.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {Double.MIN_VALUE, 1.0});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {Double.MIN_VALUE, Double.MIN_VALUE});
+```
+```java
+RESCALE_TO_UNIT.rescale_to_unit(new double[] {Double.MIN_VALUE, -1.0});
+```

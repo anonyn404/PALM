@@ -1,0 +1,138 @@
+```java
+rescale_to_unit(new double[]{1.0, 2.0});
+```
+```java
+rescale_to_unit(new double[]{2.0, 1.0});
+```
+```java
+rescale_to_unit(new double[]{-1.0, 1.0});
+```
+```java
+rescale_to_unit(new double[]{0.0, 1.0});
+```
+```java
+rescale_to_unit(new double[]{1.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{1.0, 1.0});
+```
+```java
+rescale_to_unit(new double[]{-1.0, -2.0});
+```
+```java
+rescale_to_unit(new double[]{2.0, 3.0});
+```
+```java
+rescale_to_unit(new double[]{3.0, 2.0});
+```
+```java
+rescale_to_unit(new double[]{0.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{1.0, -1.0});
+```
+```java
+rescale_to_unit(new double[]{-2.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{1.5, 2.5});
+```
+```java
+rescale_to_unit(new double[]{1.0, 3.0});
+```
+```java
+rescale_to_unit(new double[]{3.0, 1.0});
+```
+```java
+rescale_to_unit(new double[]{-1.5, 0.5});
+```
+```java
+rescale_to_unit(new double[]{0.5, -0.5});
+```
+```java
+rescale_to_unit(new double[]{0.0, 5.0});
+```
+```java
+rescale_to_unit(new double[]{5.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{-5.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{1.0, 1.0, 1.0});
+```
+```java
+rescale_to_unit(new double[]{2.0, 2.0, 2.0});
+```
+```java
+rescale_to_unit(new double[]{3.5, 4.5});
+```
+```java
+rescale_to_unit(new double[]{-3.0, 3.0});
+```
+```java
+rescale_to_unit(new double[]{10.0, 20.0});
+```
+```java
+rescale_to_unit(new double[]{20.0, 10.0});
+```
+```java
+rescale_to_unit(new double[]{-10.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{10.0, -10.0});
+```
+```java
+rescale_to_unit(new double[]{-20.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{0.0, 100.0});
+```
+```java
+rescale_to_unit(new double[]{100.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{0.0, -100.0});
+```
+```java
+rescale_to_unit(new double[]{-100.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{2.5, 3.5});
+```
+```java
+rescale_to_unit(new double[]{3.5, 2.5});
+```
+```java
+rescale_to_unit(new double[]{-0.5, -1.5});
+```
+```java
+rescale_to_unit(new double[]{-1.5, -0.5});
+```
+```java
+rescale_to_unit(new double[]{0.0});
+```
+```java
+rescale_to_unit(new double[]{1.0});
+```
+```java
+rescale_to_unit(new double[]{-1.0});
+```
+```java
+rescale_to_unit(new double[]{5.0, 5.0, 5.0});
+```
+```java
+rescale_to_unit(new double[]{-5.0, -5.0, -5.0});
+```
+```java
+rescale_to_unit(new double[]{0.0, 0.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{1.0, 2.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{2.0, 1.0, 0.0});
+```
+```java
+rescale_to_unit(new double[]{-0.5, 0.5, 1.5});
+```

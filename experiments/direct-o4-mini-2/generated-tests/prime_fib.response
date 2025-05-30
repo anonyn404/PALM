@@ -1,0 +1,9 @@
+```java
+PRIME_FIB.prime_fib(0);
+```
+```java
+PRIME_FIB.prime_fib(1);
+```
+```java
+PRIME_FIB.prime_fib(2);
+```

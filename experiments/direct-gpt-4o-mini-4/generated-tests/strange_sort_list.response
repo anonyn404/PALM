@@ -1,0 +1,147 @@
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(3, 1, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, 3, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2, 3, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(3, 2, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-1, 0));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(0, -1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(5, 3, 4));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(3, 5, 4));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(4, 5, 3));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-2, -1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-1, -2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(0));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(10, 5));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(5, 10));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, 1, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, 2, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2, 1, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(100, 200, 300));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(200, 100, 300));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(300, 200, 100));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(5, 5, 5));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(10, 10, 5));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(5, 10, 10));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-10, -5, -1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-1, -10, -5));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-5, -1, -10));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(0, 1, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2, 0, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, 2, 0));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(8, 5, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2, 5, 8));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(5, 8, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-2, 0, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(2, -2, 0));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(0, -2, 2));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1000, 500, 250));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(500, 1000, 250));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(250, 1000, 500));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(1, -1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(-1, 1));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(7, 3));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(3, 7));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(0, 0));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(Integer.MAX_VALUE, Integer.MIN_VALUE));
+```
+```java
+STRANGE_SORT_LIST.strange_sort_list(Arrays.asList(Integer.MIN_VALUE, Integer.MAX_VALUE));
+```

@@ -1,0 +1,40 @@
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+class SPECIAL_FILTER {
+    static void assertFalse(boolean v, String errmsg) {assert (v == false): errmsg;}
+    static void assertTrue(boolean v, String errmsg) {assert (v == true): errmsg;}
+    public static int special_filter(int[] nums){
+    int count_1 = 0;
+    ArrayList<Integer> odd_digits_1 = new ArrayList<Integer>(Arrays.asList(1, 3, 5, 7, 9));
+    Integer num_1;
+    assertFalse(0 < nums.length, "Path condition is violated: assertFalse(0 < nums.length) //[1]");
+    return 0;
+}
+
+
+public static void main(String args[]) { ; }
+}
+/* SEPARATOR */
+/*
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+public static int special_filter(int[] nums){
+    int count_1 = 0;
+    ArrayList<Integer> odd_digits_1 = new ArrayList<Integer>(Arrays.asList(1, 3, 5, 7, 9));
+    Integer num_1;
+    assertFalse(0 < nums.length); //[1]
+    return 0;
+}
+*/
+/* SEPARATOR */
+/*
+
+*/
+/* SEPARATOR */
+/*
+1#assertFalse(0 < nums.length)
+
+*/

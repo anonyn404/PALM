@@ -1,0 +1,2 @@
+```javabf("NotAPlanet", "Earth");
+```

@@ -1,0 +1,162 @@
+```java
+longest(Arrays.asList("apple", "banana", "cherry"));
+```
+```java
+longest(Arrays.asList("hi", "hello", "world"));
+```
+```java
+longest(Arrays.asList("short", "longer", "longest"));
+```
+```java
+longest(Arrays.asList("a", "ab", "abc"));
+```
+```java
+longest(Arrays.asList("one", "two", "three", "four", "five"));
+```
+```java
+longest(Arrays.asList("singleword"));
+```
+```java
+longest(Arrays.asList());
+```
+```java
+longest(Arrays.asList("long", "longer", "longest", "longest"));
+```
+```java
+longest(Arrays.asList("cat", "dog", "fish", "elephant"));
+```
+```java
+longest(Arrays.asList("x", "y", "z", "xy", "xyz"));
+```
+```java
+longest(Arrays.asList("1", "22", "333", "4444"));
+```
+```java
+longest(Arrays.asList("short", "tiny", "small"));
+```
+```java
+longest(Arrays.asList("abcd", "bcde", "cdef", "defg"));
+```
+```java
+longest(Arrays.asList("test", "testing", "tester"));
+```
+```java
+longest(Arrays.asList("repeat", "repeat", "repeat"));
+```
+```java
+longest(Arrays.asList("Java", "Python", "JavaScript"));
+```
+```java
+longest(Arrays.asList("hello", "hello", "hello"));
+```
+```java
+longest(Arrays.asList("same", "same", "same", "same"));
+```
+```java
+longest(Arrays.asList("nice", "nicer", "nicest"));
+```
+```java
+longest(Arrays.asList("length", "lengthy", "lengthiest"));
+```
+```java
+longest(Arrays.asList("quick", "brown", "fox", "jumps"));
+```
+```java
+longest(Arrays.asList("red", "blue", "green", "yellow"));
+```
+```java
+longest(Arrays.asList("light", "light", "lights"));
+```
+```java
+longest(Arrays.asList("a", "aa", "aaa", "aaaa"));
+```
+```java
+longest(Arrays.asList("one", "two", "three", "four", "five", "six"));
+```
+```java
+longest(Arrays.asList("long", "short", "", "medium"));
+```
+```java
+longest(Arrays.asList("hello", "world", "sample"));
+```
+```java
+longest(Arrays.asList("single", "double", "triple", "quadruple"));
+```
+```java
+longest(Arrays.asList("join", "us", "to", "test"));
+```
+```java
+longest(Arrays.asList("abc", "abcd", "abcde"));
+```
+```java
+longest(Arrays.asList("first", "second", "third", "fourth", "fifth"));
+```
+```java
+longest(Arrays.asList("summer", "winter", "fall", "spring"));
+```
+```java
+longest(Arrays.asList("up", "down", "left", "right"));
+```
+```java
+longest(Arrays.asList("new", "old"));
+```
+```java
+longest(Arrays.asList("space", "spacecraft", "spaceship"));
+```
+```java
+longest(Arrays.asList(null, null, null));
+```
+```java
+longest(Arrays.asList("", ""));
+```
+```java
+longest(Arrays.asList("same", "same", "different"));
+```
+```java
+longest(Arrays.asList("100", "200", "300"));
+```
+```java
+longest(Arrays.asList("this", "is", "a", "test"));
+```
+```java
+longest(Arrays.asList("upper", "lower", "case"));
+```
+```java
+longest(Arrays.asList("start", "middle", "end", "final"));
+```
+```java
+longest(Arrays.asList("Z", "Y", "X"));
+```
+```java
+longest(Arrays.asList("fast", "faster", "fastest"));
+```
+```java
+longest(Arrays.asList("12345", "1234567", "123456789"));
+```
+```java
+longest(Arrays.asList("alpha", "beta", "gamma"));
+```
+```java
+longest(Arrays.asList("one", "two", "two", "one"));
+```
+```java
+longest(Arrays.asList("beta", "gamma", "delta", "epsilon"));
+```
+```java
+longest(Arrays.asList("hot", "cold", "warm", "cool"));
+```
+```java
+longest(Arrays.asList("big", "bigger", "biggest"));
+```
+```java
+longest(Arrays.asList("maximum", "maximum", "maximum"));
+```
+```java
+longest(Arrays.asList("oneword"));
+```
+```java
+longest(Arrays.asList("same", "same"));
+```
+```java
+longest(Arrays.asList("yes", "no", "maybe", "never"));
+```

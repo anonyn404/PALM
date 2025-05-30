@@ -1,0 +1,12 @@
+```java
+next_smallest(new int[] {});
+```
+```java
+next_smallest(new int[] {0});
+```
+```java
+next_smallest(new int[] {1, 1});
+```
+```java
+next_smallest(new int[] {2, 1});
+```

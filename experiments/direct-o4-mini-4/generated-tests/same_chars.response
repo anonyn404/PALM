@@ -1,0 +1,33 @@
+```java
+same_chars("", "");
+```
+```java
+same_chars("", "A");
+```
+```java
+same_chars("", "AB");
+```
+```java
+same_chars("A", "");
+```
+```java
+same_chars("A", "A");
+```
+```java
+same_chars("A", "B");
+```
+```java
+same_chars("A", "AB");
+```
+```java
+same_chars("AB", "");
+```
+```java
+same_chars("AB", "A");
+```
+```java
+same_chars("AB", "BA");
+```
+```java
+same_chars("AB", "AC");
+```

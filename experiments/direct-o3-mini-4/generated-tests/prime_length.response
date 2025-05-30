@@ -1,0 +1,15 @@
+```java
+prime_length("");
+```
+```java
+prime_length("a");
+```
+```java
+prime_length("ab");
+```
+```java
+prime_length("abc");
+```
+```java
+prime_length("abcd");
+```

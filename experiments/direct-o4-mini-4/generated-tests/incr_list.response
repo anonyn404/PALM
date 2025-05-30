@@ -1,0 +1,12 @@
+```java
+INCR_LIST.incr_list(null);
+```
+```java
+INCR_LIST.incr_list(new ArrayList<Integer>());
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(0));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(0, 1));
+```

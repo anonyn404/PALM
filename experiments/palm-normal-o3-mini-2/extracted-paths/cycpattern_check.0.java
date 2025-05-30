@@ -1,0 +1,34 @@
+import java.util.*;
+
+class CYCPATTERN_CHECK {
+    static void assertFalse(boolean v, String errmsg) {assert (v == false): errmsg;}
+    static void assertTrue(boolean v, String errmsg) {assert (v == true): errmsg;}
+    public static void cycpattern_check(String a, String b){
+    int l_1 = b.length();
+    String pat_1 = b + b;
+    int i_1 = 0;
+    assertTrue(0 < a.length() - l_1 + 1, "Path condition is violated: assertTrue(0 < a.length() - l_1 + 1) //[1]");
+}
+
+
+public static void main(String args[]) { ; }
+}
+/* SEPARATOR */
+/*
+import java.util.*;
+public static void cycpattern_check(String a, String b){
+    int l_1 = b.length();
+    String pat_1 = b + b;
+    int i_1 = 0;
+    assertTrue(0 < a.length() - l_1 + 1); //[1]
+}
+*/
+/* SEPARATOR */
+/*
+
+*/
+/* SEPARATOR */
+/*
+1#assertTrue(0 < a.length() - b.length() + 1)
+
+*/

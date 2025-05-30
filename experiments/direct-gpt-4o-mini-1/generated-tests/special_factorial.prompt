@@ -1,0 +1,32 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (special_factorial); ignore branches in other methods and API calls. Generate up to 50 tests invoking special_factorial. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class SPECIAL_FACTORIAL {
+
+    public static long special_factorial(long n) {
+        long fact_i = 1, special_fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact_i *= i;
+            special_fact *= fact_i;
+        }
+        return special_fact;
+    }
+}

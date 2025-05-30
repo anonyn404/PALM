@@ -1,0 +1,120 @@
+```java
+INCR_LIST.incr_list(Arrays.asList(1, 2, 3));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-1, -2, -3));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(0));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList());
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(5));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(2, 2));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-1, 1));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(10, -10));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(3, 4));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-5, 5, 0));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(100));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-100));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(1, -1));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(7, 8, 9));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(0, 0));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(15));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(20, 30));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-2, -3));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(1, 1));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-4, 2));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(11, 12));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(0, 5, 10));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(3));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(4, -4));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(9));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(1000, -1000));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(30));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(5, 5));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(8, 4));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-6));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(2, 6, 4));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-7, 9));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(25, 35));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(0, -1));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(1, 3));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(-8, -7));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(99));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(42));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(43, 100));
+```
+```java
+INCR_LIST.incr_list(Arrays.asList(7, -2));
+```

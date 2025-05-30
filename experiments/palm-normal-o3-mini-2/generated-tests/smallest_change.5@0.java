@@ -1,0 +1,5 @@
+```java
+public static void main(String args[]) {
+    smallest_change(new int[]{1, 0, 0, 2});
+}
+```

@@ -1,0 +1,52 @@
+You are a Java test generator. Invoke the target method (total_match) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.List;
+public static List<String> total_match(List<String> lst1, List<String> lst2){
+    int l1_1 = 0;
+    Iterator<String> st_iter_1 = lst1.iterator();
+    String st_1;
+    assertFalse(st_iter_1.hasNext()); //[1]
+    int l2_1 = 0;
+    Iterator<String> st_iter_2 = lst2.iterator();
+    String st_2;
+    assertTrue(st_iter_2.hasNext()); //[2]
+    st_2 = st_iter_2.next();
+    l2_1 += st_2.length();
+    assertTrue(st_iter_2.hasNext()); //[3]
+    st_2 = st_iter_2.next();
+    l2_1 += st_2.length();
+    assertFalse(st_iter_2.hasNext()); //[4]
+    assertFalse(0 <= l2_1); //[5]
+    return lst2;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+java.util.List<String> lst1 = new java.util.ArrayList<String>();
+java.util.List<String> lst2 = java.util.Arrays.asList(
+    new String(new char[Integer.MAX_VALUE]), 
+    "a"
+);
+total_match(lst1, lst2);
+```
+Error reason: Exception in thread "main" java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	at TOTAL_MATCH.main(total_match.23.java:30)
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

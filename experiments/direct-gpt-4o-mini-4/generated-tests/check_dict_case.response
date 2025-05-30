@@ -1,0 +1,123 @@
+```java
+check_dict_case(new HashMap<Object, Object>());
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("B", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put("b", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("a", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("b", 2); put("A", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put(1, 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put(1, 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put(1, 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("a", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("B", 1); put("C", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("C", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put("C", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("B", 1); put(1, 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put("B", 1); put(1, 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put(1, 1); put("A", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put(1, 1); put("a", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("1", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put("1", 2); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("1", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 0); put("B", 0); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 0); put("b", 0); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 0); put("A", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 0); put("b", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("1", 0); put("b", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("1", 0); put("A", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("C", 1); put("B", 1); put("A", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("C", 1); put("A", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("b", 1); put("C", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("B", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 1); put("b", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("1", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 1); put("1", 2); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("b", 0); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("A", 0); put("B", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("a", 0); put("B", 1); put("mixed_key", 1); }});
+```
+```java
+check_dict_case(new HashMap<Object, Object>() {{ put("b", 0); put("A", 1); put("mixed_key", 1); }});
+```

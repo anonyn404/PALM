@@ -1,0 +1,165 @@
+```java
+REMOVE_VOWELS.remove_vowels("");
+```
+```java
+REMOVE_VOWELS.remove_vowels("a");
+```
+```java
+REMOVE_VOWELS.remove_vowels("e");
+```
+```java
+REMOVE_VOWELS.remove_vowels("i");
+```
+```java
+REMOVE_VOWELS.remove_vowels("o");
+```
+```java
+REMOVE_VOWELS.remove_vowels("u");
+```
+```java
+REMOVE_VOWELS.remove_vowels("hello");
+```
+```java
+REMOVE_VOWELS.remove_vowels("world");
+```
+```java
+REMOVE_VOWELS.remove_vowels("java");
+```
+```java
+REMOVE_VOWELS.remove_vowels("programming");
+```
+```java
+REMOVE_VOWELS.remove_vowels("example");
+```
+```java
+REMOVE_VOWELS.remove_vowels("test");
+```
+```java
+REMOVE_VOWELS.remove_vowels("remove vowels");
+```
+```java
+REMOVE_VOWELS.remove_vowels("consonants");
+```
+```java
+REMOVE_VOWELS.remove_vowels("aeiou");
+```
+```java
+REMOVE_VOWELS.remove_vowels("AiOuE");
+```
+```java
+REMOVE_VOWELS.remove_vowels("bcd");
+```
+```java
+REMOVE_VOWELS.remove_vowels("cyber");
+```
+```java
+REMOVE_VOWELS.remove_vowels("vowels");
+```
+```java
+REMOVE_VOWELS.remove_vowels("qwrt"); 
+```
+```java
+REMOVE_VOWELS.remove_vowels("xmpl"); 
+```
+```java
+REMOVE_VOWELS.remove_vowels("qwea"); 
+```
+```java
+REMOVE_VOWELS.remove_vowels("test case");
+```
+```java
+REMOVE_VOWELS.remove_vowels("beautiful");
+```
+```java
+REMOVE_VOWELS.remove_vowels("aeon");
+```
+```java
+REMOVE_VOWELS.remove_vowels("social");
+```
+```java
+REMOVE_VOWELS.remove_vowels("input");
+```
+```java
+REMOVE_VOWELS.remove_vowels("output");
+```
+```java
+REMOVE_VOWELS.remove_vowels("thesis");
+```
+```java
+REMOVE_VOWELS.remove_vowels("string");
+```
+```java
+REMOVE_VOWELS.remove_vowels("java programming");
+```
+```java
+REMOVE_VOWELS.remove_vowels("university");
+```
+```java
+REMOVE_VOWELS.remove_vowels("javascript");
+```
+```java
+REMOVE_VOWELS.remove_vowels("array list");
+```
+```java
+REMOVE_VOWELS.remove_vowels("computer");
+```
+```java
+REMOVE_VOWELS.remove_vowels("network");
+```
+```java
+REMOVE_VOWELS.remove_vowels("sequence");
+```
+```java
+REMOVE_VOWELS.remove_vowels("hello world");
+```
+```java
+REMOVE_VOWELS.remove_vowels("quick brown fox");
+```
+```java
+REMOVE_VOWELS.remove_vowels("open ai");
+```
+```java
+REMOVE_VOWELS.remove_vowels("a b c d e");
+```
+```java
+REMOVE_VOWELS.remove_vowels("xyz");
+```
+```java
+REMOVE_VOWELS.remove_vowels("test123");
+```
+```java
+REMOVE_VOWELS.remove_vowels("remove123");
+```
+```java
+REMOVE_VOWELS.remove_vowels("pseudonym");
+```
+```java
+REMOVE_VOWELS.remove_vowels("text input");
+```
+```java
+REMOVE_VOWELS.remove_vowels("taco cat");
+```
+```java
+REMOVE_VOWELS.remove_vowels("palindrome");
+```
+```java
+REMOVE_VOWELS.remove_vowels("mississippi");
+```
+```java
+REMOVE_VOWELS.remove_vowels("test test");
+```
+```java
+REMOVE_VOWELS.remove_vowels("string with spaces");
+```
+```java
+REMOVE_VOWELS.remove_vowels("dare mighty things");
+```
+```java
+REMOVE_VOWELS.remove_vowels("3d printing");
+```
+```java
+REMOVE_VOWELS.remove_vowels("inspiration");
+```
+```java
+REMOVE_VOWELS.remove_vowels("a single vowel");
+```

@@ -1,0 +1,27 @@
+```java
+COMPARE_ONE.compare_one(5, 5);
+```
+```java
+COMPARE_ONE.compare_one(6, 5);
+```
+```java
+COMPARE_ONE.compare_one(4, 5);
+```
+```java
+COMPARE_ONE.compare_one("5.0", "5.0");
+```
+```java
+COMPARE_ONE.compare_one("6.0", "5.0");
+```
+```java
+COMPARE_ONE.compare_one("3,0", "5.0");
+```
+```java
+COMPARE_ONE.compare_one(5.0, 5);
+```
+```java
+COMPARE_ONE.compare_one("7.0", 5);
+```
+```java
+COMPARE_ONE.compare_one(3, "5,0");
+```

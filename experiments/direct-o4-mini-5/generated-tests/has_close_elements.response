@@ -1,0 +1,27 @@
+```java
+has_close_elements(Collections.emptyList(), 1.0);
+```
+```java
+has_close_elements(Arrays.asList(5.0), 1.0);
+```
+```java
+has_close_elements(Arrays.asList(0.0, 0.5), 1.0);
+```
+```java
+has_close_elements(Arrays.asList(0.0, 0.5), 0.5);
+```
+```java
+has_close_elements(Arrays.asList(1.0, 1.0), 0.1);
+```
+```java
+has_close_elements(Arrays.asList(1.0, 1.0), 0.0);
+```
+```java
+has_close_elements(Arrays.asList(0.0, 5.0, 1.0), 2.0);
+```
+```java
+has_close_elements(Arrays.asList(0.0, 5.0, 10.0), 3.0);
+```
+```java
+has_close_elements(Arrays.asList(0.0, 5.0, 7.0), 3.0);
+```

@@ -1,0 +1,42 @@
+```java
+BELOW_ZERO.below_zero(java.util.Collections.emptyList());
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(0));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(-1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(1, 1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(1, 0));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(1, -1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(0, 1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(0, 0));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(0, -1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(1, -2));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(-1, 1));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(-1, 0));
+```
+```java
+BELOW_ZERO.below_zero(java.util.Arrays.asList(-1, -1));
+```

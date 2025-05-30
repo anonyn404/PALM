@@ -1,0 +1,156 @@
+```java
+longest(Arrays.asList("apple", "banana", "cherry"));
+```
+```java
+longest(Arrays.asList("dog", "cat", "elephant"));
+```
+```java
+longest(Arrays.asList("one", "two", "three"));
+```
+```java
+longest(Arrays.asList("longest", "short", "medium"));
+```
+```java
+longest(Arrays.asList("a", "bb", "ccc"));
+```
+```java
+longest(Arrays.asList("apple", "apricot", "banana", "kiwi"));
+```
+```java
+longest(Arrays.asList("hello", "world"));
+```
+```java
+longest(Arrays.asList("red", "green", "blue"));
+```
+```java
+longest(Arrays.asList("single"));
+```
+```java
+longest(Arrays.asList("short", "longlonglong", "mediummm"));
+```
+```java
+longest(Arrays.asList("", "non-empty", "empty"));
+```
+```java
+longest(Arrays.asList("char", "characters", "charisma"));
+```
+```java
+longest(Arrays.asList("test", "testing", "tested"));
+```
+```java
+longest(Arrays.asList("longest", "the", "shortest"));
+```
+```java
+longest(Arrays.asList("abc", "def", "gh"));
+```
+```java
+longest(Arrays.asList("apple", "banana", "kiwi", "fig", "grape"));
+```
+```java
+longest(Arrays.asList("small", "tiny", "biggest", "huge"));
+```
+```java
+longest(Arrays.asList("a", "b", "c", "d"));
+```
+```java
+longest(Arrays.asList("red", "green", "yellow", "orange"));
+```
+```java
+longest(Arrays.asList("long", "short"));
+```
+```java
+longest(Arrays.asList("perfect", "imperfect", "none"));
+```
+```java
+longest(Arrays.asList("x", "y", "z"));
+```
+```java
+longest(Arrays.asList("longstring", "medium", "short"));
+```
+```java
+longest(Arrays.asList("hello", "", "world!"));
+```
+```java
+longest(Arrays.asList("spaces", "with spaces"));
+```
+```java
+longest(Arrays.asList("full", "half", "quarter"));
+```
+```java
+longest(Arrays.asList("high", "higher", "highest", "low"));
+```
+```java
+longest(Arrays.asList("choice", "choices", "chosen"));
+```
+```java
+longest(Arrays.asList("duplicate", "duplicate", "unique"));
+```
+```java
+longest(Arrays.asList("nice", "nice", "bad"));
+```
+```java
+longest(Arrays.asList("first", "second", "third"));
+```
+```java
+longest(Arrays.asList("larger", "larger", "small"));
+```
+```java
+longest(Arrays.asList("single", "double", "triple"));
+```
+```java
+longest(Arrays.asList("sequence", "sequences", "sequenced"));
+```
+```java
+longest(Arrays.asList("are", "this", "are"));
+```
+```java
+longest(Arrays.asList("text", "text", "long text"));
+```
+```java
+longest(Arrays.asList("true", "false", "maybe"));
+```
+```java
+longest(Arrays.asList("log", "longest log", "short log"));
+```
+```java
+longest(Arrays.asList("end", "beginning", "middle"));
+```
+```java
+longest(Arrays.asList("blue", "green", "red", "yellow"));
+```
+```java
+longest(Arrays.asList("alpha", "beta", "gamma", "delta"));
+```
+```java
+longest(Arrays.asList("short", "tall", "average"));
+```
+```java
+longest(Arrays.asList("kilo", "mega", "giga"));
+```
+```java
+longest(Arrays.asList("philosophy", "philosophical", "philosopher"));
+```
+```java
+longest(Arrays.asList("good", "better", "best"));
+```
+```java
+longest(Arrays.asList("cat", "cats", "kitten"));
+```
+```java
+longest(Arrays.asList("red", "violet", "indigo"));
+```
+```java
+longest(Arrays.asList("input", "output", "process"));
+```
+```java
+longest(Arrays.asList("yes", "no", "maybe", "certainly"));
+```
+```java
+longest(Arrays.asList("normal", "abnormal", "supernormal"));
+```
+```java
+longest(Arrays.asList("first", "second", "third", "fourth", "fifth"));
+```
+```java
+longest(Arrays.asList("outer", "inner", "middle", "central"));
+```

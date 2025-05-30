@@ -1,0 +1,9 @@
+```java
+ALL_PREFIXES.all_prefixes("");
+```
+```java
+ALL_PREFIXES.all_prefixes("a");
+```
+```java
+ALL_PREFIXES.all_prefixes("ab");
+```

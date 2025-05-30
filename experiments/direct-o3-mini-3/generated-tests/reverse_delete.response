@@ -1,0 +1,30 @@
+```java
+REVERSE_DELETE.reverse_delete("", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "z");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "ab");
+```
+```java
+REVERSE_DELETE.reverse_delete("aa", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("aa", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("bb", "a");
+```

@@ -1,0 +1,24 @@
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{1});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{0, 2});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{0, 3});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{0, 2, 0, 4});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{0, 2, 0, 3});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{0, 3, 0, 4});
+```
+```java
+ADD_EVEN_AT_ODD.add_even_at_odd(new int[]{0, 3, 0, 5});
+```

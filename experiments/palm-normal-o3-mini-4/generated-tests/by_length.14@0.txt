@@ -1,0 +1,49 @@
+You are a Java test generator. Invoke the target method (by_length) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Map;
+import java.util.HashMap;
+public static ArrayList<String> by_length(ArrayList<Integer> a){
+    Map<Integer, String> digit_map_1 = new HashMap<>();
+    digit_map_1.put(1, "One");
+    digit_map_1.put(2, "Two");
+    digit_map_1.put(3, "Three");
+    digit_map_1.put(4, "Four");
+    digit_map_1.put(5, "Five");
+    digit_map_1.put(6, "Six");
+    digit_map_1.put(7, "Seven");
+    digit_map_1.put(8, "Eight");
+    digit_map_1.put(9, "Nine");
+    Collections.sort(a, Collections.reverseOrder());
+    ArrayList<String> result_1 = new ArrayList<>();
+    Iterator<Integer> num_iter_1 = a.iterator();
+    int num_1;
+    assertTrue(num_iter_1.hasNext()); //[1]
+    num_1 = num_iter_1.next();
+    assertTrue(digit_map_1.get(num_1) != null); //[2]
+    result_1.add(digit_map_1.get(num_1));
+    assertTrue(num_iter_1.hasNext()); //[3]
+    num_1 = num_iter_1.next();
+    assertFalse(digit_map_1.get(num_1) != null); //[4]
+    assertFalse(num_iter_1.hasNext()); //[5]
+    return result_1;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

@@ -1,0 +1,15 @@
+```java
+GET_CLOSET_VOWEL.get_closet_vowel("ab");
+```
+```java
+GET_CLOSET_VOWEL.get_closet_vowel("abc");
+```
+```java
+GET_CLOSET_VOWEL.get_closet_vowel("aei");
+```
+```java
+GET_CLOSET_VOWEL.get_closet_vowel("bAcd");
+```
+```java
+GET_CLOSET_VOWEL.get_closet_vowel("xabac");
+```

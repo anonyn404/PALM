@@ -1,0 +1,56 @@
+You are a Java test generator. Invoke the target method (pairs_sum_to_zero) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.List;
+public static boolean pairs_sum_to_zero(List<Integer> l){
+    int i_1 = 0;
+    assertTrue(0 < l.size()); //[1]
+    int j_1 = 1;
+    assertTrue(1 < l.size()); //[2]
+    assertFalse(l.get(0) + l.get(1) == 0); //[3]
+    j_1 += 1;
+    assertTrue(2 < l.size()); //[4]
+    assertFalse(l.get(0) + l.get(2) == 0); //[5]
+    j_1 += 1;
+    assertFalse(3 < l.size()); //[6]
+    i_1 += 1;
+    assertTrue(1 < l.size()); //[7]
+    int j_2 = 2;
+    assertTrue(2 < l.size()); //[8]
+    assertFalse(l.get(1) + l.get(2) == 0); //[9]
+    j_2 += 1;
+    assertFalse(3 < l.size()); //[10]
+    i_1 += 1;
+    assertFalse(2 < l.size()); //[11]
+    return false;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+List<Integer> testList = Arrays.asList(1, 2, 3);
+pairs_sum_to_zero(testList);
+```
+Error reason: the assertion [11] is not satisfied, assertFalse(2 < l.size()) 
+Round 1 generation:
+```java
+List<Integer> testList = Arrays.asList(1, 2);
+pairs_sum_to_zero(testList);
+```
+Error reason: the assertion [4] is not satisfied, assertTrue(2 < l.size()) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

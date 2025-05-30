@@ -1,0 +1,33 @@
+```java
+HOW_MANY_TIMES.how_many_times("", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ab", "c");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ab", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ab", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aa", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aba", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aba", "ba");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aba", "aa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaa", "aa");
+```

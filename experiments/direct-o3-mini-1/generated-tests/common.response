@@ -1,0 +1,36 @@
+```java
+COMMON.common(new int[]{}, new int[]{});
+```
+```java
+COMMON.common(new int[]{1}, new int[]{});
+```
+```java
+COMMON.common(new int[]{}, new int[]{1});
+```
+```java
+COMMON.common(new int[]{1}, new int[]{1});
+```
+```java
+COMMON.common(new int[]{1}, new int[]{2});
+```
+```java
+COMMON.common(new int[]{1,2}, new int[]{3,4});
+```
+```java
+COMMON.common(new int[]{1,2}, new int[]{1,3});
+```
+```java
+COMMON.common(new int[]{1,2}, new int[]{3,2});
+```
+```java
+COMMON.common(new int[]{1,2}, new int[]{1,2});
+```
+```java
+COMMON.common(new int[]{2,2}, new int[]{2});
+```
+```java
+COMMON.common(new int[]{1,1}, new int[]{1,2});
+```
+```java
+COMMON.common(new int[]{5,6}, new int[]{6,5});
+```

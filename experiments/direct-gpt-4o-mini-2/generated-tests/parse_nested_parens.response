@@ -1,0 +1,156 @@
+```java
+parse_nested_parens("() ()");
+```
+```java
+parse_nested_parens("(()) ()");
+```
+```java
+parse_nested_parens("() (())");
+```
+```java
+parse_nested_parens("((())) ()");
+```
+```java
+parse_nested_parens("() () ()");
+```
+```java
+parse_nested_parens("() (()) (())");
+```
+```java
+parse_nested_parens("((())) (())");
+```
+```java
+parse_nested_parens("() (()) () ()");
+```
+```java
+parse_nested_parens("(()) (()) ()");
+```
+```java
+parse_nested_parens("(()) () (())");
+```
+```java
+parse_nested_parens("((())()) ()");
+```
+```java
+parse_nested_parens("() ((()))");
+```
+```java
+parse_nested_parens("(()()) ()");
+```
+```java
+parse_nested_parens("())() (())");
+```
+```java
+parse_nested_parens("() ()))");
+```
+```java
+parse_nested_parens("(())) ()");
+```
+```java
+parse_nested_parens("(())()) ()");
+```
+```java
+parse_nested_parens("() ()(()))");
+```
+```java
+parse_nested_parens("))() ()");
+```
+```java
+parse_nested_parens("((((()))))");
+```
+```java
+parse_nested_parens("((((()))))");
+```
+```java
+parse_nested_parens("() () () ()");
+```
+```java
+parse_nested_parens("()() ()");
+```
+```java
+parse_nested_parens("(( ))");
+```
+```java
+parse_nested_parens("() (()())");
+```
+```java
+parse_nested_parens("(( () ) () )");
+```
+```java
+parse_nested_parens(")))");
+```
+```java
+parse_nested_parens("(((())()))");
+```
+```java
+parse_nested_parens("() (()()(()(())))");
+```
+```java
+parse_nested_parens("() () () () ()");
+```
+```java
+parse_nested_parens("() (()))))");
+```
+```java
+parse_nested_parens("(()) (()) (()))");
+```
+```java
+parse_nested_parens("() (())())");
+```
+```java
+parse_nested_parens(")) ()");
+```
+```java
+parse_nested_parens("((())())");
+```
+```java
+parse_nested_parens("() (()) (()) ()");
+```
+```java
+parse_nested_parens("(())(()())");
+```
+```java
+parse_nested_parens("() ) ( ");
+```
+```java
+parse_nested_parens("(()(()) )");
+```
+```java
+parse_nested_parens("( )");
+```
+```java
+parse_nested_parens("((( ) ))");
+```
+```java
+parse_nested_parens("((( ) ) )");
+```
+```java
+parse_nested_parens(")()(");
+```
+```java
+parse_nested_parens("()(()))()() ");
+```
+```java
+parse_nested_parens("( () ) ( ");
+```
+```java
+parse_nested_parens("() )()");
+```
+```java
+parse_nested_parens(") ( )");
+```
+```java
+parse_nested_parens("((  ))");
+```
+```java
+parse_nested_parens("(");
+```
+```java
+parse_nested_parens(")(");
+```
+```java
+parse_nested_parens(")(");
+```
+```java
+parse_nested_parens(" )");
+```

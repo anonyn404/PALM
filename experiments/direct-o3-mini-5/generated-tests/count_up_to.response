@@ -1,0 +1,9 @@
+```java
+COUNT_UP_TO.count_up_to(2);
+```
+```java
+COUNT_UP_TO.count_up_to(3);
+```
+```java
+COUNT_UP_TO.count_up_to(4);
+```

@@ -1,0 +1,63 @@
+```java
+find_closest_elements(new double[]{});
+```
+```java
+find_closest_elements(new double[]{5.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{2.0, 1.0});
+```
+```java
+find_closest_elements(new double[]{3.0, 3.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 2.0, 3.0});
+```
+```java
+find_closest_elements(new double[]{3.0, 2.0, 1.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 3.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 1.0, 2.0});
+```
+```java
+find_closest_elements(new double[]{2.0, 1.0, 1.0});
+```
+```java
+find_closest_elements(new double[]{1.0, 2.0, 1.0});
+```
+```java
+find_closest_elements(new double[]{0.0, -1.0});
+```
+```java
+find_closest_elements(new double[]{-2.0, -3.0, -1.0});
+```
+```java
+find_closest_elements(new double[]{-1.0, -1.0, -1.0});
+```
+```java
+find_closest_elements(new double[]{Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY});
+```
+```java
+find_closest_elements(new double[]{Double.NaN, 1.0});
+```
+```java
+find_closest_elements(new double[]{Double.NaN, Double.NaN});
+```
+```java
+find_closest_elements(new double[]{Double.MAX_VALUE, -Double.MAX_VALUE});
+```
+```java
+find_closest_elements(new double[]{1.0, Double.POSITIVE_INFINITY, Double.NEGATIVE_INFINITY});
+```
+```java
+find_closest_elements(new double[]{0.0, -0.0});
+```
+```java
+find_closest_elements(new double[]{-0.0, 0.0, 0.0});
+```

@@ -1,0 +1,174 @@
+```java
+STRING_XOR.string_xor("", "");
+```
+```java
+STRING_XOR.string_xor("a", "a");
+```
+```java
+STRING_XOR.string_xor("a", "b");
+```
+```java
+STRING_XOR.string_xor("b", "b");
+```
+```java
+STRING_XOR.string_xor("ab", "ab");
+```
+```java
+STRING_XOR.string_xor("ab", "aa");
+```
+```java
+STRING_XOR.string_xor("aa", "ab");
+```
+```java
+STRING_XOR.string_xor("aa", "aa");
+```
+```java
+STRING_XOR.string_xor("aaa", "aaa");
+```
+```java
+STRING_XOR.string_xor("aaa", "aab");
+```
+```java
+STRING_XOR.string_xor("aab", "aaa");
+```
+```java
+STRING_XOR.string_xor("aab", "aab");
+```
+```java
+STRING_XOR.string_xor("aaa", "abb");
+```
+```java
+STRING_XOR.string_xor("abb", "aaa");
+```
+```java
+STRING_XOR.string_xor("abb", "abb");
+```
+```java
+STRING_XOR.string_xor("x", "x");
+```
+```java
+STRING_XOR.string_xor("x", "y");
+```
+```java
+STRING_XOR.string_xor("y", "y");
+```
+```java
+STRING_XOR.string_xor("xy", "xy");
+```
+```java
+STRING_XOR.string_xor("xy", "xx");
+```
+```java
+STRING_XOR.string_xor("xx", "xy");
+```
+```java
+STRING_XOR.string_xor("xx", "xx");
+```
+```java
+STRING_XOR.string_xor("xxx", "xxx");
+```
+```java
+STRING_XOR.string_xor("xxx", "xxy");
+```
+```java
+STRING_XOR.string_xor("xxy", "xxx");
+```
+```java
+STRING_XOR.string_xor("xxy", "xxy");
+```
+```java
+STRING_XOR.string_xor("0101", "0101");
+```
+```java
+STRING_XOR.string_xor("0101", "0110");
+```
+```java
+STRING_XOR.string_xor("0110", "0101");
+```
+```java
+STRING_XOR.string_xor("0110", "0110");
+```
+```java
+STRING_XOR.string_xor("1010", "1010");
+```
+```java
+STRING_XOR.string_xor("1010", "1001");
+```
+```java
+STRING_XOR.string_xor("1001", "1010");
+```
+```java
+STRING_XOR.string_xor("1001", "1001");
+```
+```java
+STRING_XOR.string_xor("1111", "1111");
+```
+```java
+STRING_XOR.string_xor("1111", "1100");
+```
+```java
+STRING_XOR.string_xor("1100", "1111");
+```
+```java
+STRING_XOR.string_xor("1100", "1100");
+```
+```java
+STRING_XOR.string_xor("abcd", "abcd");
+```
+```java
+STRING_XOR.string_xor("abcd", "abce");
+```
+```java
+STRING_XOR.string_xor("abce", "abcd");
+```
+```java
+STRING_XOR.string_xor("abce", "abce");
+```
+```java
+STRING_XOR.string_xor("hello", "hello");
+```
+```java
+STRING_XOR.string_xor("hello", "helli");
+```
+```java
+STRING_XOR.string_xor("helli", "hello");
+```
+```java
+STRING_XOR.string_xor("helli", "helli");
+```
+```java
+STRING_XOR.string_xor("test", "test");
+```
+```java
+STRING_XOR.string_xor("test", "text");
+```
+```java
+STRING_XOR.string_xor("text", "test");
+```
+```java
+STRING_XOR.string_xor("text", "text");
+```
+```java
+STRING_XOR.string_xor("same", "same");
+```
+```java
+STRING_XOR.string_xor("same", "sane");
+```
+```java
+STRING_XOR.string_xor("sane", "same");
+```
+```java
+STRING_XOR.string_xor("sane", "sane");
+```
+```java
+STRING_XOR.string_xor("data", "data");
+```
+```java
+STRING_XOR.string_xor("data", "date");
+```
+```java
+STRING_XOR.string_xor("date", "data");
+```
+```java
+STRING_XOR.string_xor("date", "date");
+```

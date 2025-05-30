@@ -1,0 +1,40 @@
+You are a Java test generator. Invoke the target method (check_dict_case) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.HashMap;
+public static void check_dict_case(HashMap<Object, Object> dict){
+    assertFalse(dict.size() == 0); //[1]
+    String state_1 = "start";
+    Iterator<Object> key_iter_1 = dict.keySet().iterator();
+    Object key_1;
+    assertTrue(key_iter_1.hasNext()); //[2]
+    key_1 = key_iter_1.next();
+    assertFalse(!(key_1 instanceof String)); //[3]
+    String str_key_1 = (String) key_1;
+    assertFalse(state_1.equals("start")); //[4]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+HashMap<Object, Object> dict = new HashMap<>();
+dict.put("key", "value");
+check_dict_case(dict);
+```
+Error reason: the assertion [4] is not satisfied, assertFalse(state_1.equals("start")) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

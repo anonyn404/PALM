@@ -1,0 +1,27 @@
+```java
+CHOOSE_NUM.choose_num(2, 1);
+```
+```java
+CHOOSE_NUM.choose_num(0, -1);
+```
+```java
+CHOOSE_NUM.choose_num(0, 2);
+```
+```java
+CHOOSE_NUM.choose_num(-2, 0);
+```
+```java
+CHOOSE_NUM.choose_num(-4, -2);
+```
+```java
+CHOOSE_NUM.choose_num(3, 3);
+```
+```java
+CHOOSE_NUM.choose_num(-3, -3);
+```
+```java
+CHOOSE_NUM.choose_num(0, 1);
+```
+```java
+CHOOSE_NUM.choose_num(-2, 1);
+```

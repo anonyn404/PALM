@@ -1,0 +1,54 @@
+import java.util.*;
+import java.util.ArrayList;
+
+class PRIME_FIB {
+    static void assertFalse(boolean v, String errmsg) {assert (v == false): errmsg;}
+    static void assertTrue(boolean v, String errmsg) {assert (v == true): errmsg;}
+    public static boolean is_prime(int n) {
+    if (n < 2)
+        return false;
+    for (int i = 2; i < (int) Math.sqrt(n) + 1; i += 1) {
+        if (n % i == 0)
+            return false;
+    }
+    return true;
+}
+public static void prime_fib(int n){
+    ArrayList<Integer> fib_1 = new ArrayList<Integer>();
+    fib_1.add(0);
+    fib_1.add(1);
+    assertTrue(true, "Path condition is violated: assertTrue(true) //[1]");
+}
+
+
+public static void main(String args[]) { ; }
+}
+/* SEPARATOR */
+/*
+import java.util.*;
+import java.util.ArrayList;
+public static boolean is_prime(int n) {
+    if (n < 2)
+        return false;
+    for (int i = 2; i < (int) Math.sqrt(n) + 1; i += 1) {
+        if (n % i == 0)
+            return false;
+    }
+    return true;
+}
+public static void prime_fib(int n){
+    ArrayList<Integer> fib_1 = new ArrayList<Integer>();
+    fib_1.add(0);
+    fib_1.add(1);
+    assertTrue(true); //[1]
+}
+*/
+/* SEPARATOR */
+/*
+
+*/
+/* SEPARATOR */
+/*
+1#assertTrue(true)
+
+*/

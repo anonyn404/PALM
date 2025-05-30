@@ -1,0 +1,21 @@
+```java
+LONGEST.longest(Collections.emptyList());
+```
+```java
+LONGEST.longest(Arrays.asList(""));
+```
+```java
+LONGEST.longest(Arrays.asList("abc"));
+```
+```java
+LONGEST.longest(Arrays.asList("long", "s"));
+```
+```java
+LONGEST.longest(Arrays.asList("s", "long"));
+```
+```java
+LONGEST.longest(Arrays.asList("x", "y"));
+```
+```java
+LONGEST.longest(Arrays.asList("", "a"));
+```

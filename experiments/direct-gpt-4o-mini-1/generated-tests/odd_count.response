@@ -1,0 +1,147 @@
+```java
+odd_count(new ArrayList<>(Arrays.asList("123", "456")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("135", "246")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("246", "888")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("111", "222")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("000", "999")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("789", "543")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("0", "1")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("2", "3")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("4", "5")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("6", "7")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("8", "9")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("12", "34")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("56", "78")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("91", "24")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("01", "23")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("45", "67")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("89", "10")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1111", "2222")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("3333", "4444")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("5555", "6666")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("7777", "8888")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("9999", "0000")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1234", "5678")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("4321", "8765")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1357", "2468")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("2468", "1357")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("000", "111")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("222", "333")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("444", "555")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("666", "777")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("888", "999")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("12345", "67890")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("54321", "98765")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("13579", "24680")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("24680", "13579")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("0", "0")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1", "1")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("2", "2")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("3", "3")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("4", "4")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("5", "5")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("6", "6")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("7", "7")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("8", "8")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("9", "9")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("12345", "67890")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("54321", "09876")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("13579", "02468")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("24680", "13579")));
+```

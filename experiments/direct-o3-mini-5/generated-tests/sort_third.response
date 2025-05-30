@@ -1,0 +1,21 @@
+```java
+SORT_THIRD.sort_third(new ArrayList<Integer>());
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(5));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(5, 10));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(3, 2, 1));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(4, 1, 7, 3));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(9, 8, 7, 6, 5));
+```
+```java
+SORT_THIRD.sort_third(Arrays.asList(6, 5, 4, 3, 2, 1));
+```

@@ -1,0 +1,42 @@
+You are a Java test generator. Invoke the target method (double_the_difference) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static int double_the_difference(double[] lst){
+    int result_1 = 0;
+    Double d_1;
+    assertTrue(0 < lst.length); //[1]
+    d_1 = lst[0];
+    assertFalse((int) d_1.doubleValue() == d_1); //[2]
+    assertTrue(1 < lst.length); //[3]
+    d_1 = lst[1];
+    assertTrue((int) d_1.doubleValue() == d_1); //[4]
+    int d_int_1 = (int) d_1.doubleValue();
+    assertTrue(d_int_1 % 2 == 1 && d_int_1 >= 0); //[5]
+    result_1 += d_int_1 * d_int_1;
+    assertFalse(2 < lst.length); //[6]
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+double[] input = {2.0, 3.0};
+double_the_difference(input);
+```
+Error reason: the assertion [2] is not satisfied, assertFalse((int) d_1.doubleValue() == d_1) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

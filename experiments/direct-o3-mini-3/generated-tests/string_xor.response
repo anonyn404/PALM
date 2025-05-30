@@ -1,0 +1,21 @@
+```java
+STRING_XOR.string_xor("", "");
+```
+```java
+STRING_XOR.string_xor("0", "0");
+```
+```java
+STRING_XOR.string_xor("0", "1");
+```
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("01", "00");
+```
+```java
+STRING_XOR.string_xor("10", "00");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```

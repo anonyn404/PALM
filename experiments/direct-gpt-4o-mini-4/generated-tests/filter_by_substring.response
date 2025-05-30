@@ -1,0 +1,168 @@
+```java
+filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "a");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "b");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "c");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "banana", "cherry"), "z");
+```
+```java
+filter_by_substring(Arrays.asList("dog", "cat", "mouse"), "o");
+```
+```java
+filter_by_substring(Arrays.asList("dog", "cat", "mouse"), "a");
+```
+```java
+filter_by_substring(Arrays.asList("dog", "cat", "mouse"), "m");
+```
+```java
+filter_by_substring(Arrays.asList("dog", "cat", "mouse"), "z");
+```
+```java
+filter_by_substring(Arrays.asList("red", "green", "blue"), "re");
+```
+```java
+filter_by_substring(Arrays.asList("red", "green", "blue"), "ea");
+```
+```java
+filter_by_substring(Arrays.asList("red", "green", "blue"), "b");
+```
+```java
+filter_by_substring(Arrays.asList("red", "green", "blue"), "g");
+```
+```java
+filter_by_substring(Arrays.asList("one", "two", "three"), "o");
+```
+```java
+filter_by_substring(Arrays.asList("one", "two", "three"), "h");
+```
+```java
+filter_by_substring(Arrays.asList("one", "two", "three"), "t");
+```
+```java
+filter_by_substring(Arrays.asList("one", "two", "three"), "a");
+```
+```java
+filter_by_substring(Arrays.asList("hello", "world"), "h");
+```
+```java
+filter_by_substring(Arrays.asList("hello", "world"), "o");
+```
+```java
+filter_by_substring(Arrays.asList("hello", "world"), "l");
+```
+```java
+filter_by_substring(Arrays.asList("hello", "world"), "r");
+```
+```java
+filter_by_substring(Arrays.asList("java", "python", "c++"), "a");
+```
+```java
+filter_by_substring(Arrays.asList("java", "python", "c++"), "o");
+```
+```java
+filter_by_substring(Arrays.asList("java", "python", "c++"), "n");
+```
+```java
+filter_by_substring(Arrays.asList("java", "python", "c++"), "x");
+```
+```java
+filter_by_substring(Arrays.asList("apple pie", "banana split", "cherry tart"), "apple");
+```
+```java
+filter_by_substring(Arrays.asList("apple pie", "banana split", "cherry tart"), "split");
+```
+```java
+filter_by_substring(Arrays.asList("apple pie", "banana split", "cherry tart"), "tart");
+```
+```java
+filter_by_substring(Arrays.asList("apple pie", "banana split", "cherry tart"), "blueberry");
+```
+```java
+filter_by_substring(Arrays.asList("sun", "moon", "star"), "sun");
+```
+```java
+filter_by_substring(Arrays.asList("sun", "moon", "star"), "moon");
+```
+```java
+filter_by_substring(Arrays.asList("sun", "moon", "star"), "tar");
+```
+```java
+filter_by_substring(Arrays.asList("sun", "moon", "star"), "plan");
+```
+```java
+filter_by_substring(Arrays.asList("fast", "slow"), "st");
+```
+```java
+filter_by_substring(Arrays.asList("fast", "slow"), "f");
+```
+```java
+filter_by_substring(Arrays.asList("fast", "slow"), "o");
+```
+```java
+filter_by_substring(Arrays.asList("fast", "slow"), "r");
+```
+```java
+filter_by_substring(Arrays.asList("programming", "development"), "program");
+```
+```java
+filter_by_substring(Arrays.asList("programming", "development"), "dev");
+```
+```java
+filter_by_substring(Arrays.asList("programming", "development"), "ent");
+```
+```java
+filter_by_substring(Arrays.asList("programming", "development"), "quick");
+```
+```java
+filter_by_substring(Arrays.asList("sequence", "order"), "or");
+```
+```java
+filter_by_substring(Arrays.asList("sequence", "order"), "sec");
+```
+```java
+filter_by_substring(Arrays.asList("sequence", "order"), "ee");
+```
+```java
+filter_by_substring(Arrays.asList("sequence", "order"), "ent");
+```
+```java
+filter_by_substring(Arrays.asList("car", "bike"), "ar");
+```
+```java
+filter_by_substring(Arrays.asList("car", "bike"), "e");
+```
+```java
+filter_by_substring(Arrays.asList("car", "bike"), "i");
+```
+```java
+filter_by_substring(Arrays.asList("car", "bike"), "f");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "orange", "grape"), "pe");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "orange", "grape"), "or");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "orange", "grape"), "gr");
+```
+```java
+filter_by_substring(Arrays.asList("apple", "orange", "grape"), "b");
+```
+```java
+filter_by_substring(Arrays.asList("red", "yellow", "blue"), "red");
+```
+```java
+filter_by_substring(Arrays.asList("red", "yellow", "blue"), "w");
+```
+```java
+filter_by_substring(Arrays.asList("red", "yellow", "blue"), "p");
+```
+```java
+filter_by_substring(Arrays.asList("red", "yellow", "blue"), "l");
+```

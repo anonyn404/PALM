@@ -1,0 +1,45 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (is_nested); ignore branches in other methods and API calls. Generate up to 50 tests invoking is_nested. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+public class IS_NESTED {
+
+    public static boolean is_nested(String brackets) {
+        ArrayList<Integer> opening_brackets = new ArrayList<>();
+        ArrayList<Integer> closing_brackets = new ArrayList<>();
+        for (int i = 0; i < brackets.length(); i++) {
+            if (brackets.charAt(i) == '[')
+                opening_brackets.add(i);
+            else
+                closing_brackets.add(i);
+        }
+        Collections.reverse(closing_brackets);
+        int cnt = 0, i = 0, l = closing_brackets.size();
+        for (int idx : opening_brackets) {
+            if (i < l && idx < closing_brackets.get(i)) {
+                i++;
+                cnt++;
+            }
+        }
+        return cnt >= 2;
+    }
+}

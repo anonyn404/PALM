@@ -1,0 +1,120 @@
+```java
+X_OR_Y.x_or_y(1, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(2, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(3, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(4, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(5, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(6, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(7, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(8, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(9, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(10, 5, 10);
+```
+```java
+X_OR_Y.x_or_y(1, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(2, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(3, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(4, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(5, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(6, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(7, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(8, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(9, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(10, 20, 30);
+```
+```java
+X_OR_Y.x_or_y(1, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(2, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(3, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(4, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(5, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(6, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(7, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(8, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(9, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(10, 0, 0);
+```
+```java
+X_OR_Y.x_or_y(1, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(2, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(3, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(4, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(5, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(6, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(7, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(8, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(9, -1, 1);
+```
+```java
+X_OR_Y.x_or_y(10, -1, 1);
+```

@@ -1,0 +1,2 @@
+```javaconcatenate(new String[] {"a"});
+```

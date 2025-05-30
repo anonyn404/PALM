@@ -1,0 +1,255 @@
+import java.io.*;
+import java.util.*;
+
+public class MEAN_ABSOLUTE_DEVIATION {
+
+    public static double mean_absolute_deviation(List<Double> numbers) throws Exception {
+        {
+            counter_ABC_0 += 1;
+            if (counter_ABC_0 > 2)
+                throw new Exception("Out of loop-bound. Invalid path.");
+        }
+        int counter_ABC_8 = 0;
+        {
+            profile_var += "_s8";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        double sum = 0.;
+        int counter_ABC_6 = 0;
+        {
+            profile_var += "_s6";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        for (Double number : numbers) {
+            {
+                counter_ABC_6 += 1;
+                if (counter_ABC_6 > 2)
+                    throw new Exception("Out of loop-bound. Invalid path.");
+            }
+            int counter_ABC_7 = 0;
+            {
+                profile_var += "_s7";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            sum += number;
+        }
+        int counter_ABC_5 = 0;
+        {
+            profile_var += "_s5";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        double mean = sum / numbers.size();
+        int counter_ABC_4 = 0;
+        {
+            profile_var += "_s4";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        double deviation_sum = 0.;
+        int counter_ABC_2 = 0;
+        {
+            profile_var += "_s2";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        for (Double number : numbers) {
+            {
+                counter_ABC_2 += 1;
+                if (counter_ABC_2 > 2)
+                    throw new Exception("Out of loop-bound. Invalid path.");
+            }
+            int counter_ABC_3 = 0;
+            {
+                profile_var += "_s3";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            deviation_sum += Math.abs(number - mean);
+        }
+        int counter_ABC_1 = 0;
+        {
+            profile_var += "_s1";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        return deviation_sum / numbers.size();
+    }
+
+    static void process_coverage() {
+        if (profile_var.length() == 0)
+            return;
+        path_set.add(profile_var);
+        profile_var = "";
+    }
+
+    public static void main(String[] args) {
+
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+java.util.List<Double> numbers = java.util.Arrays.asList(1.0);
+mean_absolute_deviation(numbers);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+mean_absolute_deviation(new java.util.ArrayList<Double>());
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+java.util.List<Double> nums = java.util.Collections.singletonList(1.0);
+mean_absolute_deviation(nums);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+java.util.List<Double> numbers = new java.util.AbstractList<Double>() {
+    java.util.Iterator<Double> it = new java.util.Iterator<Double>() {
+        private boolean first = true;
+        public boolean hasNext() {
+            if (first) { first = false; return false; }
+            return true;
+        }
+        public Double next() {
+            return 0.0;
+        }
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+    };
+    public Double get(int i) {
+        return 0.0;
+    }
+    public int size() {
+        return 1;
+    }
+    public java.util.Iterator<Double> iterator() {
+        return it;
+    }
+};
+mean_absolute_deviation(numbers);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+mean_absolute_deviation(Arrays.asList(1.0, 2.0));
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+mean_absolute_deviation(new java.util.ArrayList<Double>());
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+mean_absolute_deviation(java.util.Arrays.asList(1.0));
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+mean_absolute_deviation(Arrays.asList(1.0, 2.0));
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    java.util.List<Double> numbers = java.util.Arrays.asList(5.0);
+mean_absolute_deviation(numbers);
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    List<Double> numbers = new java.util.AbstractList<Double>() {
+    private int call = 0;
+    public java.util.Iterator<Double> iterator() {
+        call++;
+        if (call == 1) return java.util.Collections.<Double>emptyIterator();
+        else return java.util.Arrays.<Double>asList(1.0, 2.0).iterator();
+    }
+    public Double get(int index) { throw new IndexOutOfBoundsException(); }
+    public int size() { return 2; }
+};
+mean_absolute_deviation(numbers);
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+List<Double> numbers = Arrays.asList(1.0, 3.0);
+mean_absolute_deviation(numbers);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+            try {
+                FileWriter writer = new FileWriter("mean_absolute_deviation.txt");
+                for (String path : path_set)
+                    writer.write(path + "\n");
+                // writer.write(path_set.size() + "\n");
+                // writer.write(branch_set.size() + "\n");
+                // writer.write(statement_set.size() + "\n");
+                writer.close();
+            }
+            catch (Exception e) {
+                ;
+            }
+        
+    }
+
+    static String profile_var = "";
+
+    static int counter_ABC_0 = -1000000;
+
+    static Set<String> path_set = new HashSet<>();
+}

@@ -1,0 +1,9 @@
+```java
+MAKE_A_PILE.make_a_pile(0);
+```
+```java
+MAKE_A_PILE.make_a_pile(1);
+```
+```java
+MAKE_A_PILE.make_a_pile(2);
+```

@@ -1,0 +1,18 @@
+```java
+is_bored("");
+```
+```java
+is_bored("I a");
+```
+```java
+is_bored("Hi.World");
+```
+```java
+is_bored("I x.Hello");
+```
+```java
+is_bored("Hi.I y");
+```
+```java
+is_bored("I m.I n");
+```

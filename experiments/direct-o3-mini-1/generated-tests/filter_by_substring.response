@@ -1,0 +1,24 @@
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(new ArrayList<>(), "abc");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple"), "ppl");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("apple"), "xyz");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "helloworld"), "hello");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "hello");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("world", "hello"), "hello");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("world", "planet"), "hello");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(Arrays.asList("hello", "world"), "");
+```

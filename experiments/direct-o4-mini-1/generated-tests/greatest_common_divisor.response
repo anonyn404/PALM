@@ -1,0 +1,9 @@
+```java
+greatest_common_divisor(5, 0);
+```
+```java
+greatest_common_divisor(4, 2);
+```
+```java
+greatest_common_divisor(8, 6);
+```

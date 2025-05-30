@@ -1,0 +1,19 @@
+import java.util.*;
+import java.util.List;
+public class MEAN_ABSOLUTE_DEVIATION31 {
+
+    public static double mean_absolute_deviation(List<Double> numbers) {
+        double sum = 0.;
+        for (Double number : numbers) {
+            sum += number;
+        }
+        double mean = sum / numbers.size();
+        double deviation_sum = 0.;
+        for (Double number : numbers) {
+            deviation_sum += Math.abs(number - mean);
+        }
+        return deviation_sum / numbers.size();
+    }
+public void my_test() {mean_absolute_deviation(Arrays.asList(1.0, 1.0, -1.0));
+}
+}

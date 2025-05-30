@@ -1,0 +1,45 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (separate_paren_groups); ignore branches in other methods and API calls. Generate up to 50 tests invoking separate_paren_groups. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+public class SEPARATE_PAREN_GROUPS {
+
+    public static List<String> separate_paren_groups(String paren_string) {
+        List<String> result = new ArrayList<String>();
+        String current_string = "";
+        int current_depth = 0;
+        for (char c : paren_string.toCharArray()) {
+            if (c == '(') {
+                current_depth += 1;
+                current_string += String.valueOf(c);
+            } else if (c == ')') {
+                current_depth -= 1;
+                current_string += String.valueOf(c);
+                if (current_depth == 0) {
+                    result.add(current_string);
+                    current_string = "";
+                }
+            }
+        }
+        return result;
+    }
+}

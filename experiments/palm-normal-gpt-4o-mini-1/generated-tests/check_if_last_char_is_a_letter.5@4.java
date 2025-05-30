@@ -1,0 +1,6 @@
+```java
+check_if_last_char_is_a_letter("hello"); 
+check_if_last_char_is_a_letter("test"); 
+check_if_last_char_is_a_letter("java"); 
+check_if_last_char_is_a_letter(null); 
+```

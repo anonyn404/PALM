@@ -1,0 +1,15 @@
+```java
+TRI.tri(-1);
+```
+```java
+TRI.tri(0);
+```
+```java
+TRI.tri(1);
+```
+```java
+TRI.tri(2);
+```
+```java
+TRI.tri(3);
+```

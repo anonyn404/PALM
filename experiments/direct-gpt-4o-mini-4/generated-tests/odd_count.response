@@ -1,0 +1,147 @@
+```java
+odd_count(new ArrayList<>(Arrays.asList("1234")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("5678")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1357")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("2468")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("0")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("2")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("123")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("321")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("999")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("000")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1111")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("2020202")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("44444")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("135135135")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("28")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("10")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("12345")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("22446688")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("13579")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("987654321")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("33")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("55")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("777")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("246")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("8888")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("13")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("14")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("16")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1001")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1000")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("898")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("109")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("100")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("30843890")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("123123")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("4444")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("9999")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("111111")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("222222")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1110")));
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("abc")));  // Edge case: non-numeric input
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("123abc")));  // Edge case: alphanumeric input
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("0001")));  // Edge case: leading zeros
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("1a2b3c")));  // Edge case: mixed input
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("7777777")));  // all odds 
+``` 
+```java
+odd_count(new ArrayList<>(Arrays.asList("00000000")));  // all evens
+``` 
+```java
+odd_count(new ArrayList<>(Arrays.asList("")));  // empty string
+```
+```java
+odd_count(new ArrayList<>(Arrays.asList("12"))); // Mix of even and odd 
+```

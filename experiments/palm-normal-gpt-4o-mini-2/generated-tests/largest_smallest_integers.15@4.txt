@@ -1,0 +1,59 @@
+You are a Java test generator. Invoke the target method (largest_smallest_integers) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static int[] largest_smallest_integers(int[] lst){
+    boolean negative_1 = false, positive_1 = false;
+    int max_negative_1 = Integer.MIN_VALUE, min_positive_1 = Integer.MAX_VALUE;
+    int i_1 = 0;
+    assertFalse(0 < lst.length); //[1]
+    assertTrue(!false); //[2]
+    max_negative_1 = 0;
+    assertFalse(!false); //[3]
+    int[] result_1 = { 0, min_positive_1 };
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+int[] input = new int[0];
+largest_smallest_integers(input);
+```
+Error reason: the assertion [3] is not satisfied, assertFalse(!false) 
+Round 1 generation:
+```java
+int[] input = null;
+largest_smallest_integers(input);
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot read the array length because "<parameter1>" is null
+	at LARGEST_SMALLEST_INTEGERS.largest_smallest_integers(largest_smallest_integers.15.java:10)
+	at LARGEST_SMALLEST_INTEGERS.main(largest_smallest_integers.15.java:22)
+
+Round 2 generation:
+```java
+int[] input = new int[1];
+largest_smallest_integers(input);
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(0 < lst.length) 
+Round 3 generation:
+```java
+int[] input = new int[]{0};
+largest_smallest_integers(input);
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(0 < lst.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

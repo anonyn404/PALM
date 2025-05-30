@@ -1,0 +1,30 @@
+```java
+will_it_fly(new int[]{}, -1);
+```
+```java
+will_it_fly(new int[]{}, 0);
+```
+```java
+will_it_fly(new int[]{1}, 0);
+```
+```java
+will_it_fly(new int[]{1}, 1);
+```
+```java
+will_it_fly(new int[]{1,1}, 1);
+```
+```java
+will_it_fly(new int[]{1,1}, 2);
+```
+```java
+will_it_fly(new int[]{1,2}, 3);
+```
+```java
+will_it_fly(new int[]{1,2,1}, 4);
+```
+```java
+will_it_fly(new int[]{1,2,3,1}, 7);
+```
+```java
+will_it_fly(new int[]{1,2,2,1}, 6);
+```

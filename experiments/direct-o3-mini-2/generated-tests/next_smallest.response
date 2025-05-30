@@ -1,0 +1,6 @@
+```java
+NEXT_SMALLEST.next_smallest(new int[]{42});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{3, 1});
+```

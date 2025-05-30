@@ -1,0 +1,138 @@
+```java
+compare_one("1.0", "1.0");
+```
+```java
+compare_one("2.0", "1.0");
+```
+```java
+compare_one("1.0", "2.0");
+```
+```java
+compare_one("3.0", 3.0);
+```
+```java
+compare_one("4.0", 3.0);
+```
+```java
+compare_one("2.0", 3.0);
+```
+```java
+compare_one("5.0", 5);
+```
+```java
+compare_one("6.0", 5);
+```
+```java
+compare_one("4.0", 5);
+```
+```java
+compare_one("0.0", new Object());
+```
+```java
+compare_one("1.0", new Object());
+```
+```java
+compare_one("-1.0", new Object());
+```
+```java
+compare_one(7.0, "7.0");
+```
+```java
+compare_one(8.0, "7.0");
+```
+```java
+compare_one(6.0, "7.0");
+```
+```java
+compare_one(9.0, 9.0);
+```
+```java
+compare_one(10.0, 9.0);
+```
+```java
+compare_one(8.0, 9.0);
+```
+```java
+compare_one(11.0, 11);
+```
+```java
+compare_one(12.0, 11);
+```
+```java
+compare_one(10.0, 11);
+```
+```java
+compare_one(0.0, new Object());
+```
+```java
+compare_one(1.0, new Object());
+```
+```java
+compare_one(-1.0, new Object());
+```
+```java
+compare_one(13, "13.0");
+```
+```java
+compare_one(14, "13.0");
+```
+```java
+compare_one(12, "13.0");
+```
+```java
+compare_one(15, 15.0);
+```
+```java
+compare_one(16, 15.0);
+```
+```java
+compare_one(14, 15.0);
+```
+```java
+compare_one(17, 17);
+```
+```java
+compare_one(18, 17);
+```
+```java
+compare_one(16, 17);
+```
+```java
+compare_one(0, new Object());
+```
+```java
+compare_one(1, new Object());
+```
+```java
+compare_one(-1, new Object());
+```
+```java
+compare_one(new Object(), "0.0");
+```
+```java
+compare_one(new Object(), "-1.0");
+```
+```java
+compare_one(new Object(), "1.0");
+```
+```java
+compare_one(new Object(), 0.0);
+```
+```java
+compare_one(new Object(), -1.0);
+```
+```java
+compare_one(new Object(), 1.0);
+```
+```java
+compare_one(new Object(), 0);
+```
+```java
+compare_one(new Object(), -1);
+```
+```java
+compare_one(new Object(), 1);
+```
+```java
+compare_one(new Object(), new Object());
+```

@@ -1,0 +1,132 @@
+```java
+TOTAL_MATCH.total_match(Arrays.asList("apple"), Arrays.asList("banana", "cherry"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("apple", "orange"), Arrays.asList("banana"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b"), Arrays.asList("c", "d"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test"), Arrays.asList("test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("ab", "cd"), Arrays.asList("e", "f", "g"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList("hello"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("short"), Arrays.asList("longerString"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("longString"), Arrays.asList("short"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("sameLength", "test"), Arrays.asList("alsoSameLength", "test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one"), Arrays.asList("two", "three"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("1", "2"), Arrays.asList("3", "4"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("long"), Arrays.asList("short", "longer"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("just"), Arrays.asList("a", "b", "c"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("pair", "test"), Arrays.asList("single"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList("notEmpty"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hello", "world"), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("hi"), Arrays.asList("hello", "bye"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(""), Arrays.asList(""));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("xyz"), Arrays.asList("xy", "y"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("one", "two"), Arrays.asList("three", "four"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("l"), Arrays.asList("ll"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("verylongstring"), Arrays.asList("short"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc"), Arrays.asList("def", "ghi"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("test1", "test2"), Arrays.asList("test3"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("java"), Arrays.asList("kotlin", "swift"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("base"), Arrays.asList("case", "test"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("single"), Arrays.asList("multiple", "other"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("length"), Arrays.asList("of", "string"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("testString"), Arrays.asList("a", "b", "c", "d"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("first"), Arrays.asList("first", "second"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("aa", "bb"), Arrays.asList("cc"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b", "c"), Arrays.asList("d"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("x"), Arrays.asList("y", "z", "w"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("equalLength"), Arrays.asList("equalLength"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("short"), Arrays.asList("longshort"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("data"), Arrays.asList("information", "moreInfo"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("small"), Arrays.asList("tiny", "minuscule"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("abc", "def"), Arrays.asList("ghi"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("a", "b"), Arrays.asList("a", "b", "c"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("only"), Arrays.asList("notOnly", "more"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList(), Arrays.asList());
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("singleChar"), Arrays.asList("multiChar1", "multiChar2"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("no"), Arrays.asList("yes", "maybe"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("without"), Arrays.asList("with", "out"));
+```

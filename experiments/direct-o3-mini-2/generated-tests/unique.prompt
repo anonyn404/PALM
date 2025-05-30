@@ -1,0 +1,37 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (unique); ignore branches in other methods and API calls. Generate up to 50 tests invoking unique. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+public class UNIQUE {
+
+    public static List<Integer> unique(List<Integer> l) {
+        List<Integer> result = new ArrayList<Integer>();
+        for (Integer n : l) {
+            if (result.contains(n))
+                continue;
+            result.add(n);
+        }
+        Collections.sort(result);
+        return result;
+    }
+}

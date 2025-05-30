@@ -1,0 +1,39 @@
+You are a Java test generator. Invoke the target method (closest_integer) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static int closest_integer(String value){
+    assertTrue(value.indexOf('.') >= 0); //[1]
+    assertTrue(value.charAt(value.length() - 1) == '0'); //[2]
+    value = value.substring(0, value.length() - 1);
+    assertTrue(value.charAt(value.length() - 1) == '0'); //[3]
+    value = value.substring(0, value.length() - 1);
+    assertFalse(value.charAt(value.length() - 1) == '0'); //[4]
+    double num_1 = Double.parseDouble(value);
+    int result_1 = 0;
+    assertTrue(value.length() >= 2 && value.substring(value.length() - 2).equals(".5")); //[5]
+    result_1 = num_1 > 0 ? (int) Math.ceil(num_1) : (int) Math.floor(num_1);
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+closest_integer("2.50");
+```
+Error reason: the assertion [3] is not satisfied, assertTrue(value.charAt(value.length() - 1) == '0') 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

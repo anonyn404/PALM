@@ -1,0 +1,43 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (file_name_check); ignore branches in other methods and API calls. Generate up to 50 tests invoking file_name_check. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class FILE_NAME_CHECK {
+
+    public static String file_name_check(String file_name) {
+        String[] lst = file_name.split("\\.");
+        if (lst.length != 2)
+            return "No";
+        if (!(lst[1].equals("txt") || lst[1].equals("exe") || lst[1].equals("dll")))
+            return "No";
+        if (lst[0].length() == 0)
+            return "No";
+        if (!(('a' <= lst[0].charAt(0) && lst[0].charAt(0) <= 'z') || ('A' <= lst[0].charAt(0) && lst[0].charAt(0) <= 'Z')))
+            return "No";
+        int digit_cnt = 0;
+        for (char c : file_name.toCharArray()) {
+            if ('0' <= c && c <= '9')
+                digit_cnt += 1;
+        }
+        if (digit_cnt > 3)
+            return "No";
+        return "Yes";
+    }
+}

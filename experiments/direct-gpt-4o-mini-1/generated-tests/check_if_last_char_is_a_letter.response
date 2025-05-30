@@ -1,0 +1,150 @@
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("abc");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("abc ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("123");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("abc 123");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("a");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter(" ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("A");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Hello world!");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Goodbye");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Check this");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Test case 1 ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("X");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Z ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Some text that ends with a letter");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("another test ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("    ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("   abc");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Ends with a digit 1");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Ends with a letter: A ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Letter in the middle e");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Some random text 2");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Text 123 ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("only letters A B C D E F G");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Special character ! ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Whitespace before letter   A");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("No letters here# ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("B ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("   Z");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("this is a test");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("letters followed by numbers 9 ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("A B C D E ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("X Y Z ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Check last char with space ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("a single letter");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("multiple spaces before A");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("empty spaces");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("ordinary letter S ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("large space after letter T ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("what about trailing spaces   ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("not a letter 1 ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("C");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("d e f ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("p q r   ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Grey text ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Incorrect end char # ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("H I J K ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Last letter is not allowed * ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("All together A B C D");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Test string - ");
+```

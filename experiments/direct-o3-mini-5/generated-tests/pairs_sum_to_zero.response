@@ -1,0 +1,21 @@
+```java
+pairs_sum_to_zero(Arrays.asList());
+```
+```java
+pairs_sum_to_zero(Arrays.asList(5));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(0, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(2, 3, 4));
+```

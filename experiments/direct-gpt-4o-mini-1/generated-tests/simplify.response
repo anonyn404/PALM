@@ -1,0 +1,159 @@
+```java
+simplify("1/2", "3/4");
+```
+```java
+simplify("1/2", "0/1");
+```
+```java
+simplify("2/3", "1/1");
+```
+```java
+simplify("3/4", "1/2");
+```
+```java
+simplify("0/1", "3/4");
+```
+```java
+simplify("0/1", "5/5");
+```
+```java
+simplify("1/1", "0/1");
+```
+```java
+simplify("2/5", "2/5");
+```
+```java
+simplify("4/6", "2/3");
+```
+```java
+simplify("1/10", "3/15");
+```
+```java
+simplify("3/9", "2/6");
+```
+```java
+simplify("10/5", "5/10");
+```
+```java
+simplify("7/14", "3/6");
+```
+```java
+simplify("2/5", "3/10");
+```
+```java
+simplify("5/5", "1/5");
+```
+```java
+simplify("1/2", "1/2");
+```
+```java
+simplify("3/6", "4/8");
+```
+```java
+simplify("3/8", "6/16");
+```
+```java
+simplify("1/4", "2/8");
+```
+```java
+simplify("5/6", "10/12");
+```
+```java
+simplify("8/12", "4/6");
+```
+```java
+simplify("2/8", "3/12");
+```
+```java
+simplify("3/4", "1/1");
+```
+```java
+simplify("1/3", "4/12");
+```
+```java
+simplify("2/2", "3/3");
+```
+```java
+simplify("7/10", "14/20");
+```
+```java
+simplify("10/15", "5/10");
+```
+```java
+simplify("3/7", "9/21");
+```
+```java
+simplify("8/16", "2/4");
+```
+```java
+simplify("5/1", "3/3");
+```
+```java
+simplify("1/0", "3/4");
+```
+```java
+simplify("2/1", "0/1");
+```
+```java
+simplify("9/9", "4/4");
+```
+```java
+simplify("12/12", "6/6");
+```
+```java
+simplify("2/3", "3/2");
+```
+```java
+simplify("1/5", "1/2");
+```
+```java
+simplify("4/8", "1/2");
+```
+```java
+simplify("1/7", "2/14");
+```
+```java
+simplify("2/1", "1/2");
+```
+```java
+simplify("3/3", "4/6");
+```
+```java
+simplify("5/10", "25/50");
+```
+```java
+simplify("11/22", "1/2");
+```
+```java
+simplify("1/8", "3/24");
+```
+```java
+simplify("0/2", "5/10");
+```
+```java
+simplify("6/9", "2/3");
+```
+```java
+simplify("15/20", "3/4");
+```
+```java
+simplify("0/0", "1/1");
+```
+```java
+simplify("8/4", "2/1");
+```
+```java
+simplify("7/8", "1/2");
+```
+```java
+simplify("9/18", "3/6");
+```
+```java
+simplify("10/2", "0/5");
+```
+```java
+simplify("1/6", "1/3");
+```
+```java
+simplify("3/3", "10/10");
+```

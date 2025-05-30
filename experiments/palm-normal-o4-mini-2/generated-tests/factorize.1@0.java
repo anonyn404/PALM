@@ -1,0 +1,3 @@
+```java
+factorize(0);
+```

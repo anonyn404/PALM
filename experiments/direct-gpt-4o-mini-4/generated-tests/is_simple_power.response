@@ -1,0 +1,153 @@
+```java
+IS_SIMPLE_POWER.is_simple_power(1, 1);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(1, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(2, 1);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(2, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(3, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(4, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(5, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(8, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(9, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(10, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(16, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(27, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(32, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(36, 6);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(64, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(81, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(100, 10);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(121, 11);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(243, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(256, 4);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(729, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(1024, 4);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(2048, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(2187, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(729, 9);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(16384, 4);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(25, 5);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(36, 6);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(4, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(0, 1);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-1, 1);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-8, -2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(27, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(7, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-4, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-9, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-1, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(15, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(12, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(1024, 10);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-1000, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(125, 5);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(10, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(18, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(30, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(42, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(512, 8);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(256, 8);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(11, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(50, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(7, 3);
+```

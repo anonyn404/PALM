@@ -1,0 +1,21 @@
+```java
+GET_POSITIVE.get_positive(java.util.Collections.emptyList());
+```
+```java
+GET_POSITIVE.get_positive(java.util.Arrays.asList(1));
+```
+```java
+GET_POSITIVE.get_positive(java.util.Arrays.asList(0));
+```
+```java
+GET_POSITIVE.get_positive(java.util.Arrays.asList(1, 1));
+```
+```java
+GET_POSITIVE.get_positive(java.util.Arrays.asList(1, 0));
+```
+```java
+GET_POSITIVE.get_positive(java.util.Arrays.asList(0, 1));
+```
+```java
+GET_POSITIVE.get_positive(java.util.Arrays.asList(0, 0));
+```

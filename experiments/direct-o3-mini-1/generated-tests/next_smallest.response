@@ -1,0 +1,27 @@
+```java
+NEXT_SMALLEST.next_smallest(new int[]{});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{5});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{5, 5});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{1, 2});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{2, 1});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{1, 2, 3});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{2, 1, 1, 1});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{3, 2});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{-1, 0, 1});
+```

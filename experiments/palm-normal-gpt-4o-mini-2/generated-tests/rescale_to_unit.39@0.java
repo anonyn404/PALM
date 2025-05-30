@@ -1,0 +1,3 @@
+```java
+rescale_to_unit(new double[]{2.0, 3.0});
+```

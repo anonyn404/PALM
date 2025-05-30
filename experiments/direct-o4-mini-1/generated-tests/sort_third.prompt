@@ -1,0 +1,43 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (sort_third); ignore branches in other methods and API calls. Generate up to 50 tests invoking sort_third. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+public class SORT_THIRD {
+
+    public static List<Integer> sort_third(List<Integer> l) {
+        List<Integer> result = new ArrayList<Integer>();
+        List<Integer> thirds = new ArrayList<Integer>();
+        for (int i = 0; i < l.size(); i += 3) {
+            thirds.add(l.get(i));
+        }
+        Collections.sort(thirds);
+        for (int i = 0; i < l.size(); i += 1) {
+            if (i % 3 == 0) {
+                result.add(thirds.get((int) (i / 3)));
+            } else {
+                result.add(l.get(i));
+            }
+        }
+        return result;
+    }
+}

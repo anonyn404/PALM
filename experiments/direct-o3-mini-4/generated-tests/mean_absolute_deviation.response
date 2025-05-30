@@ -1,0 +1,30 @@
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList());
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(1.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(-1.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(1.0, 2.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(2.0, 2.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(5.0, -5.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(0.0, 0.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(-3.0, -2.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(3.0, 5.0));
+```
+```java
+MEAN_ABSOLUTE_DEVIATION.mean_absolute_deviation(Arrays.asList(100.0, 200.0));
+```

@@ -1,0 +1,60 @@
+```java
+IS_SIMPLE_POWER.is_simple_power(1, 1);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(0, 1);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(1, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(0, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-1, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(2, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(3, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(4, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(9, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(16, 4);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(3, 2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(8, 3);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(4, -2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(3, -2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(1, -2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-2, -2);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(1, 0);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(2, 0);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(0, 0);
+```
+```java
+IS_SIMPLE_POWER.is_simple_power(-5, 0);
+```

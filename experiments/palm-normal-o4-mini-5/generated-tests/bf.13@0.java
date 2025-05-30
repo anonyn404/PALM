@@ -1,0 +1,3 @@
+```java
+bf("Mars", "Mercury");
+```

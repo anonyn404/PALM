@@ -1,0 +1,24 @@
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter(" ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("a");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("1");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("a ");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("a b");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter("Hello world");
+```
+```java
+CHECK_IF_LAST_CHAR_IS_A_LETTER.check_if_last_char_is_a_letter(" b");
+```

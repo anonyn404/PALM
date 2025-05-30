@@ -1,0 +1,35 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (string_xor); ignore branches in other methods and API calls. Generate up to 50 tests invoking string_xor. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class STRING_XOR {
+
+    public static String string_xor(String a, String b) {
+        String result = "";
+        for (int i = 0; i < a.length(); i += 1) {
+            if (a.charAt(i) == b.charAt(i)) {
+                result += "0";
+            } else {
+                result += "1";
+            }
+        }
+        return result;
+    }
+}

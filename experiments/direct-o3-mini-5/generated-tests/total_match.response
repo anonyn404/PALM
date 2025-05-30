@@ -1,0 +1,18 @@
+```java
+TOTAL_MATCH.total_match(List.of(), List.of());
+```
+```java
+TOTAL_MATCH.total_match(List.of(), List.of("a"));
+```
+```java
+TOTAL_MATCH.total_match(List.of("a"), List.of());
+```
+```java
+TOTAL_MATCH.total_match(List.of("aaa"), List.of("aa"));
+```
+```java
+TOTAL_MATCH.total_match(List.of("aa"), List.of("aaa"));
+```
+```java
+TOTAL_MATCH.total_match(List.of("ab"), List.of("cd"));
+```

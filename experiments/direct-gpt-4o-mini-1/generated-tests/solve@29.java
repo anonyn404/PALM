@@ -1,0 +1,2 @@
+```javaSOLVE.solve(29);
+```

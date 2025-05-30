@@ -1,0 +1,159 @@
+```java
+SPLIT_WORDS.split_words("hello world");
+```
+```java
+SPLIT_WORDS.split_words("apple,orange");
+```
+```java
+SPLIT_WORDS.split_words("test");
+```
+```java
+SPLIT_WORDS.split_words("lowercase letters");
+```
+```java
+SPLIT_WORDS.split_words("comma,separated,values");
+```
+```java
+SPLIT_WORDS.split_words("");
+```
+```java
+SPLIT_WORDS.split_words("abc def ghi");
+```
+```java
+SPLIT_WORDS.split_words("foo,bar,baz");
+```
+```java
+SPLIT_WORDS.split_words("xyz");
+```
+```java
+SPLIT_WORDS.split_words("singleword");
+```
+```java
+SPLIT_WORDS.split_words("split this sentence");
+```
+```java
+SPLIT_WORDS.split_words("hello,world");
+```
+```java
+SPLIT_WORDS.split_words("a b c d e");
+```
+```java
+SPLIT_WORDS.split_words("no separator");
+```
+```java
+SPLIT_WORDS.split_words("comma,");
+```
+```java
+SPLIT_WORDS.split_words("a,b");
+```
+```java
+SPLIT_WORDS.split_words("sample input");
+```
+```java
+SPLIT_WORDS.split_words("test,test");
+```
+```java
+SPLIT_WORDS.split_words("word1 word2");
+```
+```java
+SPLIT_WORDS.split_words("test,case");
+```
+```java
+SPLIT_WORDS.split_words("example");
+```
+```java
+SPLIT_WORDS.split_words("lower,cases");
+```
+```java
+SPLIT_WORDS.split_words("simple test");
+```
+```java
+SPLIT_WORDS.split_words(",leading comma");
+```
+```java
+SPLIT_WORDS.split_words("trailing comma,");
+```
+```java
+SPLIT_WORDS.split_words("a b,c");
+```
+```java
+SPLIT_WORDS.split_words("mixed,case");
+```
+```java
+SPLIT_WORDS.split_words("ho ho ho");
+```
+```java
+SPLIT_WORDS.split_words("hello");
+```
+```java
+SPLIT_WORDS.split_words("split,words");
+```
+```java
+SPLIT_WORDS.split_words("just one");
+```
+```java
+SPLIT_WORDS.split_words("ab,cd ef");
+```
+```java
+SPLIT_WORDS.split_words("test,,csv");
+```
+```java
+SPLIT_WORDS.split_words("a long string here");
+```
+```java
+SPLIT_WORDS.split_words(",,multiple commas,,,");
+```
+```java
+SPLIT_WORDS.split_words("abc def,ghi jkl");
+```
+```java
+SPLIT_WORDS.split_words("lowercase");
+```
+```java
+SPLIT_WORDS.split_words("1,2,3");
+```
+```java
+SPLIT_WORDS.split_words("split test");
+```
+```java
+SPLIT_WORDS.split_words("string,with,spaces");
+```
+```java
+SPLIT_WORDS.split_words("case with commas, and spaces");
+```
+```java
+SPLIT_WORDS.split_words("two,words");
+```
+```java
+SPLIT_WORDS.split_words("lower case characters");
+```
+```java
+SPLIT_WORDS.split_words("many,commas,here");
+```
+```java
+SPLIT_WORDS.split_words("A mixed CASE");
+```
+```java
+SPLIT_WORDS.split_words("just testing");
+```
+```java
+SPLIT_WORDS.split_words("normal, sentence");
+```
+```java
+SPLIT_WORDS.split_words("concatenation");
+```
+```java
+SPLIT_WORDS.split_words("this should be split");
+```
+```java
+SPLIT_WORDS.split_words("comma,at,end,");
+```
+```java
+SPLIT_WORDS.split_words("special_characters!@#$%^&*()");
+```
+```java
+SPLIT_WORDS.split_words("leading space ");
+```
+```java
+SPLIT_WORDS.split_words(" trailing space");
+```

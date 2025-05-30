@@ -1,0 +1,15 @@
+```java
+INTERSPERSE.intersperse(Collections.emptyList(), 5);
+```
+
+```java
+INTERSPERSE.intersperse(Arrays.asList(42), 5);
+```
+
+```java
+INTERSPERSE.intersperse(Arrays.asList(1, 2), 99);
+```
+
+```java
+INTERSPERSE.intersperse(Arrays.asList(3, 4, 5), -1);
+```

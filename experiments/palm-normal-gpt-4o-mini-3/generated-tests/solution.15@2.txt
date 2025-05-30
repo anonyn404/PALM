@@ -1,0 +1,48 @@
+You are a Java test generator. Invoke the target method (solution) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+public static int solution(ArrayList<Integer> lst){
+    int result_1 = 0;
+    int i_1 = 0;
+    assertTrue(0 < lst.size()); //[1]
+    assertTrue(true && (lst.get(0) % 2) == 1); //[2]
+    result_1 += lst.get(0);
+    i_1++;
+    assertTrue(1 < lst.size()); //[3]
+    assertTrue(false && (lst.get(1) % 2) == 1); //[4]
+    result_1 += lst.get(1);
+    i_1++;
+    assertFalse(2 < lst.size()); //[5]
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+ArrayList<Integer> lst = new ArrayList<>(Arrays.asList(1));
+solution(lst);
+```
+Error reason: the assertion [3] is not satisfied, assertTrue(1 < lst.size()) 
+Round 1 generation:
+```java
+ArrayList<Integer> lst = new ArrayList<>(Arrays.asList(1, 3));
+solution(lst);
+```
+Error reason: the assertion [4] is not satisfied, assertTrue(false && (lst.get(1) % 2) == 1) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

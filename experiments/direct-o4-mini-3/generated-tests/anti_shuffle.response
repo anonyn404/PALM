@@ -1,0 +1,9 @@
+```java
+ANTI_SHUFFLE.anti_shuffle(" ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("dcba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("dcba fedc");
+```

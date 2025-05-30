@@ -1,0 +1,153 @@
+```java
+EAT.eat(0, 0, 0);
+```
+```java
+EAT.eat(1, 0, 0);
+```
+```java
+EAT.eat(0, 1, 1);
+```
+```java
+EAT.eat(1, 1, 1);
+```
+```java
+EAT.eat(1, 1, 0);
+```
+```java
+EAT.eat(0, 1, 0);
+```
+```java
+EAT.eat(2, 1, 1);
+```
+```java
+EAT.eat(2, 2, 1);
+```
+```java
+EAT.eat(2, 1, 0);
+```
+```java
+EAT.eat(2, 3, 2);
+```
+```java
+EAT.eat(3, 2, 2);
+```
+```java
+EAT.eat(3, 0, 2);
+```
+```java
+EAT.eat(1, 2, 2);
+```
+```java
+EAT.eat(0, 2, 0);
+```
+```java
+EAT.eat(5, 3, 7);
+```
+```java
+EAT.eat(5, 8, 4);
+```
+```java
+EAT.eat(4, 3, 1);
+```
+```java
+EAT.eat(6, 4, 10);
+```
+```java
+EAT.eat(8, 2, 2);
+```
+```java
+EAT.eat(10, 0, 5);
+```
+```java
+EAT.eat(0, 0, 2);
+```
+```java
+EAT.eat(3, 1, 5);
+```
+```java
+EAT.eat(7, 4, 5);
+```
+```java
+EAT.eat(5, 5, 5);
+```
+```java
+EAT.eat(10, 10, 0);
+```
+```java
+EAT.eat(9, 6, 12);
+```
+```java
+EAT.eat(1, 1, 3);
+```
+```java
+EAT.eat(4, 2, 6);
+```
+```java
+EAT.eat(3, 0, 1);
+```
+```java
+EAT.eat(6, 1, 1);
+```
+```java
+EAT.eat(0, 2, 5);
+```
+```java
+EAT.eat(4, 4, 2);
+```
+```java
+EAT.eat(2, 2, 2);
+```
+```java
+EAT.eat(5, 2, 3);
+```
+```java
+EAT.eat(1, 1, 1);
+```
+```java
+EAT.eat(3, 2, 4);
+```
+```java
+EAT.eat(8, 1, 3);
+```
+```java
+EAT.eat(0, 0, 1);
+```
+```java
+EAT.eat(1, 1, 2);
+```
+```java
+EAT.eat(2, 2, 1);
+```
+```java
+EAT.eat(2, 3, 2);
+```
+```java
+EAT.eat(0, 1, 3);
+```
+```java
+EAT.eat(1, 0, 0);
+```
+```java
+EAT.eat(4, 1, 4);
+```
+```java
+EAT.eat(10, 10, 10);
+```
+```java
+EAT.eat(3, 0, 0);
+```
+```java
+EAT.eat(8, 1, 4);
+```
+```java
+EAT.eat(2, 1, 2);
+```
+```java
+EAT.eat(5, 3, 0);
+```
+```java
+EAT.eat(2, 0, 2);
+```
+```java
+EAT.eat(0, 2, 4);
+```

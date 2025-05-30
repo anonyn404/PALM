@@ -1,0 +1,144 @@
+```java
+incr_list(new ArrayList<>(Arrays.asList(1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(1, 2)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-1, -2)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(1, -1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(2, 3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-2, -3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, 1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(1, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-1, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, -1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(3, 4)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(5, 6)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-5, -4)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(10)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(20, 30)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(100, 200)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-100, -200)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(1, 1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(2, 2, 2)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(3, -1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-3, 3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(4, 5, 6)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-4, -5, -6)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, 0, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(1, 2, -1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(2, -2, -3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-1, 1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(10, -10)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(15)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-15)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(8, 9)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-8, -9)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(5, -5, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(2, 2, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-2, -2, 1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, 0, 0, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(3, 3, 3)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-10, 10, 0)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, 1, 1)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(100, 200, 300)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(-100, -200, -300)));
+```
+```java
+incr_list(new ArrayList<>(Arrays.asList(0, -1, 1)));
+```

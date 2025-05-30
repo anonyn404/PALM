@@ -1,0 +1,2 @@
+```javaCONCATENATE.concatenate(new String[]{"0", "1", "2", "3"});
+```

@@ -1,0 +1,48 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a b");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("b a");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ba ab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ab ba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("  ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle(" abc");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a  b");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Bca");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("Cba Ab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("z y");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("aa aa");
+```

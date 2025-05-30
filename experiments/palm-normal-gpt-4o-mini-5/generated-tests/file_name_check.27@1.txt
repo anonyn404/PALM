@@ -1,0 +1,45 @@
+You are a Java test generator. Invoke the target method (file_name_check) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static String file_name_check(String file_name){
+    String[] lst_1 = file_name.split("\\.");
+    assertFalse(lst_1.length != 2); //[1]
+    assertFalse(!(lst_1[1].equals("txt") || lst_1[1].equals("exe") || lst_1[1].equals("dll"))); //[2]
+    assertFalse(lst_1[0].length() == 0); //[3]
+    assertFalse(!(('a' <= lst_1[0].charAt(0) && lst_1[0].charAt(0) <= 'z') || ('A' <= lst_1[0].charAt(0) && lst_1[0].charAt(0) <= 'Z'))); //[4]
+    int digit_cnt_1 = 0;
+    char[] c_array_1 = file_name.toCharArray();
+    char c_1;
+    assertTrue(0 < c_array_1.length); //[5]
+    c_1 = c_array_1[0];
+    assertFalse('0' <= c_1 && c_1 <= '9'); //[6]
+    assertTrue(1 < c_array_1.length); //[7]
+    c_1 = c_array_1[1];
+    assertFalse('0' <= c_1 && c_1 <= '9'); //[8]
+    assertFalse(2 < c_array_1.length); //[9]
+    assertFalse(false); //[10]
+    return "Yes";
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+file_name_check("a.txt");
+```
+Error reason: the assertion [9] is not satisfied, assertFalse(2 < c_array_1.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

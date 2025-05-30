@@ -1,0 +1,3 @@
+```java
+public static void main(String args[]) { count_upper("a"); }
+```

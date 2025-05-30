@@ -1,0 +1,18 @@
+```java
+below_zero(Collections.emptyList());
+```
+```java
+below_zero(Arrays.asList(-1));
+```
+```java
+below_zero(Arrays.asList(0));
+```
+```java
+below_zero(Arrays.asList(-1, 0));
+```
+```java
+below_zero(Arrays.asList(0, -1));
+```
+```java
+below_zero(Arrays.asList(0, 0));
+```

@@ -1,0 +1,183 @@
+```java
+sort_even(new int[]{1, 2});
+```
+```java
+sort_even(new int[]{2, 1});
+```
+```java
+sort_even(new int[]{1, 2, 3});
+```
+```java
+sort_even(new int[]{3, 1, 2});
+```
+```java
+sort_even(new int[]{4, 2, 6});
+```
+```java
+sort_even(new int[]{6, 4, 2});
+```
+```java
+sort_even(new int[]{1, 3, 5, 7});
+```
+```java
+sort_even(new int[]{7, 5, 3, 1});
+```
+```java
+sort_even(new int[]{2, 4, 6, 8});
+```
+```java
+sort_even(new int[]{8, 6, 4, 2});
+```
+```java
+sort_even(new int[]{1, 2, 3, 4});
+```
+```java
+sort_even(new int[]{4, 3, 2, 1});
+```
+```java
+sort_even(new int[]{5, 3});
+```
+```java
+sort_even(new int[]{3, 5});
+```
+```java
+sort_even(new int[]{0, 4});
+```
+```java
+sort_even(new int[]{5, 7, 1});
+```
+```java
+sort_even(new int[]{1, 3, 2});
+```
+```java
+sort_even(new int[]{10, 20});
+```
+```java
+sort_even(new int[]{20, 10});
+```
+```java
+sort_even(new int[]{7, 2, 4, 1});
+```
+```java
+sort_even(new int[]{1, 4, 2, 7});
+```
+```java
+sort_even(new int[]{3, 6, 1, 8});
+```
+```java
+sort_even(new int[]{8, 1, 6, 3});
+```
+```java
+sort_even(new int[]{1, 1, 1, 1});
+```
+```java
+sort_even(new int[]{2, 2, 1});
+```
+```java
+sort_even(new int[]{5, 5, 5, 5});
+```
+```java
+sort_even(new int[]{2, 2, 2, 2});
+```
+```java
+sort_even(new int[]{1, 3, 5});
+```
+```java
+sort_even(new int[]{5, 3, 1});
+```
+```java
+sort_even(new int[]{1});
+```
+```java
+sort_even(new int[]{2, 3});
+```
+```java
+sort_even(new int[]{3, 2});
+```
+```java
+sort_even(new int[]{1, 4, 3, 2});
+```
+```java
+sort_even(new int[]{4, 3, 1, 2});
+```
+```java
+sort_even(new int[]{0});
+```
+```java
+sort_even(new int[]{1, 0});
+```
+```java
+sort_even(new int[]{0, 1});
+```
+```java
+sort_even(new int[]{5, 4});
+```
+```java
+sort_even(new int[]{4, 5});
+```
+```java
+sort_even(new int[]{6, 7});
+```
+```java
+sort_even(new int[]{7, 6});
+```
+```java
+sort_even(new int[]{9, 8});
+```
+```java
+sort_even(new int[]{8, 9});
+```
+```java
+sort_even(new int[]{2, 5, 3});
+```
+```java
+sort_even(new int[]{3, 5, 2});
+```
+```java
+sort_even(new int[]{3, 2});
+```
+```java
+sort_even(new int[]{2, 3});
+```
+```java
+sort_even(new int[]{1, 5, 4});
+```
+```java
+sort_even(new int[]{4, 5, 1});
+```
+```java
+sort_even(new int[]{4});
+```
+```java
+sort_even(new int[]{5});
+```
+```java
+sort_even(new int[]{2, 2, 3});
+```
+```java
+sort_even(new int[]{3, 2, 2});
+```
+```java
+sort_even(new int[]{6, 7, 8});
+```
+```java
+sort_even(new int[]{8, 7, 6});
+```
+```java
+sort_even(new int[]{0, 2, 2});
+```
+```java
+sort_even(new int[]{2, 0, 2});
+```
+```java
+sort_even(new int[]{3, 4, 5});
+```
+```java
+sort_even(new int[]{5, 4, 3});
+```
+```java
+sort_even(new int[]{9, 8, 7});
+```
+```java
+sort_even(new int[]{7, 8, 9});
+```

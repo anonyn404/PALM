@@ -1,0 +1,21 @@
+```java
+REVERSE_DELETE.reverse_delete("", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("x", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("xy", "z");
+```
+```java
+REVERSE_DELETE.reverse_delete("xy", "y");
+```
+```java
+REVERSE_DELETE.reverse_delete("xy", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("xy", "xy");
+```

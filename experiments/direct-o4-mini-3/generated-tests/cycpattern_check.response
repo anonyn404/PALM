@@ -1,0 +1,69 @@
+```java
+CYCPATTERN_CHECK.cycpattern_check("any", "");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("x", "x");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("yx", "x");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("yy", "x");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("ab", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("ba", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xab", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xxx", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xba", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("bca", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xabc", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xxx", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("a", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("", "");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("", "a");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xbca", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abcd", "abcd");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("bcda", "abcd");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xxxx", "abcd");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xabcd", "abcd");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xbcda", "abcd");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "abcd");
+```

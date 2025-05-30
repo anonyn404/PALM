@@ -1,0 +1,159 @@
+```java
+FIX_SPACES.fix_spaces("   ");
+```
+```java
+FIX_SPACES.fix_spaces("  a");
+```
+```java
+FIX_SPACES.fix_spaces("a  b");
+```
+```java
+FIX_SPACES.fix_spaces(" a ");
+```
+```java
+FIX_SPACES.fix_spaces("   a   ");
+```
+```java
+FIX_SPACES.fix_spaces("a   b   c");
+```
+```java
+FIX_SPACES.fix_spaces("a b");
+```
+```java
+FIX_SPACES.fix_spaces("     a");
+```
+```java
+FIX_SPACES.fix_spaces("a     ");
+```
+```java
+FIX_SPACES.fix_spaces("a b c");
+```
+```java
+FIX_SPACES.fix_spaces(" a b ");
+```
+```java
+FIX_SPACES.fix_spaces("a  b c");
+```
+```java
+FIX_SPACES.fix_spaces("   a b c  ");
+```
+```java
+FIX_SPACES.fix_spaces("ab");
+```
+```java
+FIX_SPACES.fix_spaces("");
+```
+```java
+FIX_SPACES.fix_spaces("    ");
+```
+```java
+FIX_SPACES.fix_spaces("a   b");
+```
+```java
+FIX_SPACES.fix_spaces("abc");
+```
+```java
+FIX_SPACES.fix_spaces("  abc   ");
+```
+```java
+FIX_SPACES.fix_spaces(" ab c ");
+```
+```java
+FIX_SPACES.fix_spaces("  a  b  ");
+```
+```java
+FIX_SPACES.fix_spaces("a b  ");
+```
+```java
+FIX_SPACES.fix_spaces("   a   b  ");
+```
+```java
+FIX_SPACES.fix_spaces(" a   ");
+```
+```java
+FIX_SPACES.fix_spaces(" b  ");
+```
+```java
+FIX_SPACES.fix_spaces("       ");
+```
+```java
+FIX_SPACES.fix_spaces("   a b");
+```
+```java
+FIX_SPACES.fix_spaces("  a   b c ");
+```
+```java
+FIX_SPACES.fix_spaces("   a b c");
+```
+```java
+FIX_SPACES.fix_spaces("a b c d");
+```
+```java
+FIX_SPACES.fix_spaces(" a b  c ");
+```
+```java
+FIX_SPACES.fix_spaces("    ab   ");
+```
+```java
+FIX_SPACES.fix_spaces("ab  c");
+```
+```java
+FIX_SPACES.fix_spaces(" ");
+```
+```java
+FIX_SPACES.fix_spaces("a      b");
+```
+```java
+FIX_SPACES.fix_spaces("ab    c");
+```
+```java
+FIX_SPACES.fix_spaces("a b c  d");
+```
+```java
+FIX_SPACES.fix_spaces("  a b c ");
+```
+```java
+FIX_SPACES.fix_spaces("  ");
+```
+```java
+FIX_SPACES.fix_spaces(" a b c ");
+```
+```java
+FIX_SPACES.fix_spaces("b    a");
+```
+```java
+FIX_SPACES.fix_spaces("a   b   c");
+```
+```java
+FIX_SPACES.fix_spaces("   abc");
+```
+```java
+FIX_SPACES.fix_spaces("abc   ");
+```
+```java
+FIX_SPACES.fix_spaces("   a b c ");
+```
+```java
+FIX_SPACES.fix_spaces("   a b c d");
+```
+```java
+FIX_SPACES.fix_spaces("a     b   c");
+```
+```java
+FIX_SPACES.fix_spaces("      ");
+```
+```java
+FIX_SPACES.fix_spaces("a b c d e");
+```
+```java
+FIX_SPACES.fix_spaces("   a    ");
+```
+```java
+FIX_SPACES.fix_spaces("   abc   ");
+```
+```java
+FIX_SPACES.fix_spaces("abc de f");
+```
+```java
+FIX_SPACES.fix_spaces("  a b");
+```

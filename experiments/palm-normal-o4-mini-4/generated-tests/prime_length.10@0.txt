@@ -1,0 +1,33 @@
+You are a Java test generator. Invoke the target method (prime_length) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static boolean prime_length(String string){
+    int l_1 = string.length();
+    assertFalse(l_1 <= 1); //[1]
+    int i_1 = 2;
+    assertTrue(2 < l_1); //[2]
+    assertFalse(l_1 % 2 == 0); //[3]
+    i_1 += 1;
+    assertTrue(3 < l_1); //[4]
+    assertFalse(l_1 % 3 == 0); //[5]
+    i_1 += 1;
+    assertFalse(4 < l_1); //[6]
+    return true;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

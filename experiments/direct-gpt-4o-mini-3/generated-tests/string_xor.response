@@ -1,0 +1,141 @@
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("00", "11");
+```
+```java
+STRING_XOR.string_xor("11", "00");
+```
+```java
+STRING_XOR.string_xor("11", "11");
+```
+```java
+STRING_XOR.string_xor("01", "10");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("01", "01");
+```
+```java
+STRING_XOR.string_xor("10", "10");
+```
+```java
+STRING_XOR.string_xor("00", "10");
+```
+```java
+STRING_XOR.string_xor("00", "01");
+```
+```java
+STRING_XOR.string_xor("11", "10");
+```
+```java
+STRING_XOR.string_xor("11", "01");
+```
+```java
+STRING_XOR.string_xor("10", "00");
+```
+```java
+STRING_XOR.string_xor("01", "00");
+```
+```java
+STRING_XOR.string_xor("10", "11");
+```
+```java
+STRING_XOR.string_xor("01", "11");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("01", "10");
+```
+```java
+STRING_XOR.string_xor("01", "10");
+```
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("11", "01");
+```
+```java
+STRING_XOR.string_xor("00", "11");
+```
+```java
+STRING_XOR.string_xor("10", "10");
+```
+```java
+STRING_XOR.string_xor("01", "01");
+```
+```java
+STRING_XOR.string_xor("11", "11");
+```
+```java
+STRING_XOR.string_xor("00", "10");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("01", "00");
+```
+```java
+STRING_XOR.string_xor("10", "10");
+```
+```java
+STRING_XOR.string_xor("01", "11");
+```
+```java
+STRING_XOR.string_xor("11", "10");
+```
+```java
+STRING_XOR.string_xor("00", "01");
+```
+```java
+STRING_XOR.string_xor("00", "10");
+```
+```java
+STRING_XOR.string_xor("11", "00");
+```
+```java
+STRING_XOR.string_xor("01", "10");
+```
+```java
+STRING_XOR.string_xor("10", "00");
+```
+```java
+STRING_XOR.string_xor("11", "01");
+```
+```java
+STRING_XOR.string_xor("00", "11");
+```
+```java
+STRING_XOR.string_xor("11", "11");
+```
+```java
+STRING_XOR.string_xor("00", "00");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("11", "10");
+```
+```java
+STRING_XOR.string_xor("01", "01");
+```
+```java
+STRING_XOR.string_xor("00", "10");
+```
+```java
+STRING_XOR.string_xor("01", "11");
+```
+```java
+STRING_XOR.string_xor("10", "01");
+```
+```java
+STRING_XOR.string_xor("00", "11");
+```

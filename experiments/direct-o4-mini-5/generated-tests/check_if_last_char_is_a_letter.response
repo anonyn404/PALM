@@ -1,0 +1,15 @@
+```java
+check_if_last_char_is_a_letter("");
+```
+```java
+check_if_last_char_is_a_letter(" ");
+```
+```java
+check_if_last_char_is_a_letter("a");
+```
+```java
+check_if_last_char_is_a_letter("ab");
+```
+```java
+check_if_last_char_is_a_letter("1");
+```

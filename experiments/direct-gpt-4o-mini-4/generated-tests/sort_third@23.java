@@ -1,0 +1,2 @@
+```javasort_third(Arrays.asList(6, 4, 5, 2, 3));
+```

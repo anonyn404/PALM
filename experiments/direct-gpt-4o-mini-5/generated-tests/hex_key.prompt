@@ -1,0 +1,32 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (hex_key); ignore branches in other methods and API calls. Generate up to 50 tests invoking hex_key. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class HEX_KEY {
+
+    public static int hex_key(String num) {
+        int result = 0;
+        for (char c : num.toCharArray()) {
+            if (c == '2' || c == '3' || c == '5' || c == '7' || c == 'B' || c == 'D')
+                result += 1;
+        }
+        return result;
+    }
+}

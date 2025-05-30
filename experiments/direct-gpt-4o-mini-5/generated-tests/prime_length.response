@@ -1,0 +1,165 @@
+```java
+PRIME_LENGTH.prime_length("");
+```
+```java
+PRIME_LENGTH.prime_length("a");
+```
+```java
+PRIME_LENGTH.prime_length("ab");
+```
+```java
+PRIME_LENGTH.prime_length("abc");
+```
+```java
+PRIME_LENGTH.prime_length("abcd");
+```
+```java
+PRIME_LENGTH.prime_length("abcde");
+```
+```java
+PRIME_LENGTH.prime_length("abcdef");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefg");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefgh");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghi");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghij");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijk");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijkl");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklm");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmn");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmno");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnop");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopq");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqr");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrs");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrst");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrstu");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrstuv");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrstuvw");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrstuvwx");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrstuvwxy");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijklmnopqrstuvwxyz");
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghij1234567890");
+```
+```java
+PRIME_LENGTH.prime_length("abcde12345");
+```
+```java
+PRIME_LENGTH.prime_length("longerstring123");
+```
+```java
+PRIME_LENGTH.prime_length("mnoqrstuvwxyz");
+```
+```java
+PRIME_LENGTH.prime_length("sixteencharacters!");
+```
+```java
+PRIME_LENGTH.prime_length("twentycharactershere!");
+```
+```java
+PRIME_LENGTH.prime_length("thirtycharacterswouldlooklikethis!");
+```
+```java
+PRIME_LENGTH.prime_length("ab"); // boundary case
+```
+```java
+PRIME_LENGTH.prime_length("abcdefg"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghi"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijl"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("abcdefghijk"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("bac"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("defg"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("mno"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("pqrst"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("xyz"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("abcde"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("strings"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("teststring"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("hijklmnop"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("aabbccdd"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("randomstring"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("eleven"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("twelve"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("fourteen"); // prime length
+```
+```java
+PRIME_LENGTH.prime_length("sixteen"); // not prime length
+```
+```java
+PRIME_LENGTH.prime_length("twentyone"); // not prime length
+```

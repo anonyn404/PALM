@@ -1,0 +1,45 @@
+```java
+GENERATE_INTEGERS.generate_integers(1, 1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(4, 4);
+```
+```java
+GENERATE_INTEGERS.generate_integers(4, 6);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(0, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, 1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(0, 9);
+```
+```java
+GENERATE_INTEGERS.generate_integers(10, 1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, 3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 10);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, 8);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-5, -3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-5, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-3, -5);
+```

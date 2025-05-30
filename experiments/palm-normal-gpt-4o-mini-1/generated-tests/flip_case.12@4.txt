@@ -1,0 +1,61 @@
+You are a Java test generator. Invoke the target method (flip_case) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static String flip_case(String string){
+    char[] char_list_1 = string.toCharArray();
+    int i_1 = 0;
+    assertTrue(0 < char_list_1.length); //[1]
+    char c_1 = char_list_1[0];
+    assertTrue(Character.isLowerCase(c_1)); //[2]
+    char_list_1[i_1] = Character.toUpperCase(c_1);
+    i_1 += 1;
+    assertTrue(1 < char_list_1.length); //[3]
+    char c_2 = char_list_1[1];
+    assertTrue(Character.isLowerCase(c_2)); //[4]
+    char_list_1[i_1] = Character.toUpperCase(c_2);
+    i_1 += 1;
+    assertFalse(2 < char_list_1.length); //[5]
+    return new String(char_list_1);
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+String result1 = flip_case("ab"); // all asserts should pass
+String result2 = flip_case("a"); // it should pass the case of a single character
+```
+Error reason: the assertion [3] is not satisfied, assertTrue(1 < char_list_1.length) 
+Round 1 generation:
+```java
+String result1 = flip_case("abc"); // all asserts should pass
+String result2 = flip_case("a"); // it should pass the case of a single character
+```
+Error reason: the assertion [5] is not satisfied, assertFalse(2 < char_list_1.length) 
+Round 2 generation:
+```java
+String result1 = flip_case("a"); // single character, should pass
+String result2 = flip_case("b"); // single character, should pass
+```
+Error reason: the assertion [3] is not satisfied, assertTrue(1 < char_list_1.length) 
+Round 3 generation:
+```java
+String result1 = flip_case("abc"); // should pass all asserts
+String result2 = flip_case("ab"); // should pass all asserts
+```
+Error reason: the assertion [5] is not satisfied, assertFalse(2 < char_list_1.length) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

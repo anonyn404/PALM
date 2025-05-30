@@ -1,0 +1,135 @@
+```java
+CIRCULAR_SHIFT.circular_shift(123, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 3);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 4);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(123, 5);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(0, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(0, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(0, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-456, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-456, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-456, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-456, 3);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-456, 4);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(-456, 5);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(789, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(789, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(789, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(789, 3);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(789, 4);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(789, 5);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(9999, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(9999, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(9999, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(9999, 3);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(9999, 4);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(9999, 5);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(1, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(1, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(1, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(3, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(3, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(3, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(5, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(5, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(5, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(12, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(12, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(12, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(98, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(98, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(98, 2);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(100, 0);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(100, 1);
+```
+```java
+CIRCULAR_SHIFT.circular_shift(100, 2);
+```

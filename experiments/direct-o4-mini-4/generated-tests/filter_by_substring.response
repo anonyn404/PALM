@@ -1,0 +1,21 @@
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Collections.emptyList(), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Arrays.asList("a"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Arrays.asList("b"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Arrays.asList("aba", "a"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Arrays.asList("aba", "b"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Arrays.asList("b", "aba"), "a");
+```
+```java
+FILTER_BY_SUBSTRING.filter_by_substring(java.util.Arrays.asList("b", "bb"), "a");
+```

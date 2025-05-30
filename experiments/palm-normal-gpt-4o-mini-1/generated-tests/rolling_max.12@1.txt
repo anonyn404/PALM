@@ -1,0 +1,47 @@
+You are a Java test generator. Invoke the target method (rolling_max) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+public static List<Integer> rolling_max(List<Integer> numbers){
+    List<Integer> result_1 = new ArrayList<Integer>();
+    Integer running_max_1 = null;
+    Iterator<Integer> n_iter_1 = numbers.iterator();
+    Integer n_1;
+    assertTrue(n_iter_1.hasNext()); //[1]
+    n_1 = n_iter_1.next();
+    assertTrue(running_max_1 == null); //[2]
+    running_max_1 = n_1;
+    result_1.add(running_max_1);
+    assertTrue(n_iter_1.hasNext()); //[3]
+    n_1 = n_iter_1.next();
+    assertTrue(running_max_1 == null); //[4]
+    running_max_1 = n_1;
+    result_1.add(running_max_1);
+    assertFalse(n_iter_1.hasNext()); //[5]
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+List<Integer> input = Arrays.asList(1);
+List<Integer> result = rolling_max(input);
+```
+Error reason: the assertion [3] is not satisfied, assertTrue(n_iter_1.hasNext()) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

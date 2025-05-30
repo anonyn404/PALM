@@ -1,0 +1,4 @@
+```java
+ArrayList<Integer> a = new ArrayList<>(Arrays.asList(0, 1));
+by_length(a);
+```

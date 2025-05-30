@@ -1,0 +1,21 @@
+```java
+FILTER_INTEGERS.filter_integers(new ArrayList<>());
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(42));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("hello"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, 2));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList(1, "world"));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("test", 2));
+```
+```java
+FILTER_INTEGERS.filter_integers(Arrays.asList("foo", "bar"));
+```

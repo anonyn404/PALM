@@ -1,0 +1,21 @@
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(), 0);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(5)), 1);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(123)), 1);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(5, 10)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(5, 123)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(123, 5)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(123, 456)), 2);
+```

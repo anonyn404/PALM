@@ -1,0 +1,33 @@
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList()));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("2")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("3")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("23")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("32")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("", "")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("2", "4")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("3", "5")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("2", "3")));
+```
+```java
+ODD_COUNT.odd_count(new ArrayList<>(Arrays.asList("3", "2")));
+```

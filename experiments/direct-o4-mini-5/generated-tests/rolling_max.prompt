@@ -1,0 +1,39 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (rolling_max); ignore branches in other methods and API calls. Generate up to 50 tests invoking rolling_max. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+public class ROLLING_MAX {
+
+    public static List<Integer> rolling_max(List<Integer> numbers) {
+        List<Integer> result = new ArrayList<Integer>();
+        Integer running_max = null;
+        for (Integer n : numbers) {
+            if (running_max == null) {
+                running_max = n;
+            } else {
+                running_max = Math.max(running_max, n);
+            }
+            result.add(running_max);
+        }
+        return result;
+    }
+}

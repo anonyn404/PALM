@@ -1,0 +1,9 @@
+```java
+CONCATENATE.concatenate(new String[]{});
+```
+```java
+CONCATENATE.concatenate(new String[]{"S1"});
+```
+```java
+CONCATENATE.concatenate(new String[]{"S1", "S2"});
+```

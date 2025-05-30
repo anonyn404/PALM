@@ -1,0 +1,3 @@
+```java
+public static void main(String args[]) { monotonic(new int[]{3, 2, 1}); }
+```

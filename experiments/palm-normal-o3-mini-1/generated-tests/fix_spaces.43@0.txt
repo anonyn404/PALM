@@ -1,0 +1,47 @@
+You are a Java test generator. Invoke the target method (fix_spaces) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static String fix_spaces(String text){
+    String new_text_1 = "";
+    int i_1 = 0;
+    int start_1 = 0;
+    int end_1 = 0;
+    assertTrue(0 < text.length()); //[1]
+    assertTrue(text.charAt(0) == ' '); //[2]
+    end_1 += 1;
+    i_1 += 1;
+    assertTrue(1 < text.length()); //[3]
+    assertFalse(text.charAt(1) == ' '); //[4]
+    assertFalse(false); //[5]
+    assertTrue(true); //[6]
+    int j_1 = 0;
+    assertTrue(true); //[7]
+    new_text_1 += "_";
+    j_1 += 1;
+    assertFalse(false); //[8]
+    new_text_1 += text.substring(1, 2);
+    start_1 = 2;
+    end_1 = 2;
+    i_1 += 1;
+    assertFalse(2 < text.length()); //[9]
+    assertFalse(false); //[10]
+    assertFalse(false); //[11]
+    return new_text_1;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

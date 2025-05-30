@@ -1,0 +1,41 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (decode_shift); ignore branches in other methods and API calls. Generate up to 50 tests invoking decode_shift. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class DECODE_SHIFT {
+
+    public static String encode_shift(String string) {
+        StringBuilder sb = new StringBuilder();
+        for (char c : string.toCharArray()) {
+            c = (char) ((((int) c + 5 - (int) ('a')) % 26) + (int) ('a'));
+            sb.append(c);
+        }
+        return sb.toString();
+    }
+
+    public static String decode_shift(String string) {
+        StringBuilder sb = new StringBuilder();
+        for (char c : string.toCharArray()) {
+            c = (char) ((((int) c + 21 - (int) ('a')) % 26) + (int) ('a'));
+            sb.append(c);
+        }
+        return sb.toString();
+    }
+}

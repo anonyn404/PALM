@@ -1,0 +1,153 @@
+```java
+same_chars("abc", "abc");
+```
+```java
+same_chars("abc", "acb");
+```
+```java
+same_chars("abc", "abcd");
+```
+```java
+same_chars("abc", "ab");
+```
+```java
+same_chars("abc", "a");
+```
+```java
+same_chars("abc", "");
+```
+```java
+same_chars("", "");
+```
+```java
+same_chars("", "a");
+```
+```java
+same_chars("a", "a");
+```
+```java
+same_chars("a", "");
+```
+```java
+same_chars("ab", "ba");
+```
+```java
+same_chars("ab", "b");
+```
+```java
+same_chars("ab", "abc");
+```
+```java
+same_chars("abc", "a");
+```
+```java
+same_chars("abc", null);
+```
+```java
+same_chars(null, null);
+```
+```java
+same_chars(null, "");
+```
+```java
+same_chars("", "b");
+```
+```java
+same_chars("c", "c");
+```
+```java
+same_chars("c", "d");
+```
+```java
+same_chars("a", "ab");
+```
+```java
+same_chars("x", "y");
+```
+```java
+same_chars("xyz", "zyx");
+```
+```java
+same_chars("xxy", "xyx");
+```
+```java
+same_chars("aa", "aa");
+```
+```java
+same_chars("aaa", "aa");
+```
+```java
+same_chars("abc", "def");
+```
+```java
+same_chars("abcd", "dabc");
+```
+```java
+same_chars("ab", "ba");
+```
+```java
+same_chars("abcde", "edcba");
+```
+```java
+same_chars("hello", "olleh");
+```
+```java
+same_chars("hello", "hello");
+```
+```java
+same_chars("hi", "ih");
+```
+```java
+same_chars("hi", "hii");
+```
+```java
+same_chars("java", "avaj");
+```
+```java
+same_chars("test", "sett");
+```
+```java
+same_chars("moon", "mono");
+```
+```java
+same_chars("none", "neon");
+```
+```java
+same_chars("123", "321");
+```
+```java
+same_chars("!@#", "#@!");
+```
+```java
+same_chars("abc", "x");
+```
+```java
+same_chars("a", "b");
+```
+```java
+same_chars("1", "1");
+```
+```java
+same_chars("abcde", "abcde");
+```
+```java
+same_chars("hello", "helo");
+```
+```java
+same_chars("same", "smae");
+```
+```java
+same_chars("one", "eno");
+```
+```java
+same_chars("two", "two");
+```
+```java
+same_chars("three", "three");
+```
+```java
+same_chars("four", "foru");
+```
+```java
+same_chars("five", "ivef");
+```

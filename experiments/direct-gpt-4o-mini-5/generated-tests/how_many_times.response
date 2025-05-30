@@ -1,0 +1,153 @@
+```java
+HOW_MANY_TIMES.how_many_times("hello", "l");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "o");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "hello");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "he");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "ll");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "x");
+```
+```java
+HOW_MANY_TIMES.how_many_times("", "l");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "abc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ababab", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abababab", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdef", "gh");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaaaa", "aa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("mississippi", "ss");
+```
+```java
+HOW_MANY_TIMES.how_many_times("banana", "ana");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "c");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabcabc", "abc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("racecar", "ace");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaa", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abab", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("object", "j");
+```
+```java
+HOW_MANY_TIMES.how_many_times("fallfall", "fall");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello world", "hello");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello world", "world");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello world", "lo");
+```
+```java
+HOW_MANY_TIMES.how_many_times("test", "test");
+```
+```java
+HOW_MANY_TIMES.how_many_times("noon", "no");
+```
+```java
+HOW_MANY_TIMES.how_many_times("noon", "oon");
+```
+```java
+HOW_MANY_TIMES.how_many_times("goodbye", "bye");
+```
+```java
+HOW_MANY_TIMES.how_many_times("goodbye", "good");
+```
+```java
+HOW_MANY_TIMES.how_many_times("space space", "space");
+```
+```java
+HOW_MANY_TIMES.how_many_times("123456", "234");
+```
+```java
+HOW_MANY_TIMES.how_many_times("123123", "123");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("openai", "ai");
+```
+```java
+HOW_MANY_TIMES.how_many_times("openai", "open");
+```
+```java
+HOW_MANY_TIMES.how_many_times("iliketocode", "code");
+```
+```java
+HOW_MANY_TIMES.how_many_times("tr", "tr");
+```
+```java
+HOW_MANY_TIMES.how_many_times("trtrtr", "tr");
+```
+```java
+HOW_MANY_TIMES.how_many_times("x", "x");
+```
+```java
+HOW_MANY_TIMES.how_many_times("x", "y");
+```
+```java
+HOW_MANY_TIMES.how_many_times("openaiopenai", "openai");
+```
+```java
+HOW_MANY_TIMES.how_many_times("helloworld", "world");
+```
+```java
+HOW_MANY_TIMES.how_many_times("helloworld", "hello");
+```
+```java
+HOW_MANY_TIMES.how_many_times("concatconcat", "cat");
+```
+```java
+HOW_MANY_TIMES.how_many_times("longlongstring", "long");
+```

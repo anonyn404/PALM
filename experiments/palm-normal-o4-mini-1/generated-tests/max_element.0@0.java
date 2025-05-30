@@ -1,0 +1,1 @@
+max_element(java.util.Collections.singletonList(0));

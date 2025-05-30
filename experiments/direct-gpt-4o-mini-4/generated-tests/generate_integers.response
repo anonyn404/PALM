@@ -1,0 +1,135 @@
+```java
+GENERATE_INTEGERS.generate_integers(2, 2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(4, 4);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(6, 6);
+```
+```java
+GENERATE_INTEGERS.generate_integers(7, 7);
+```
+```java
+GENERATE_INTEGERS.generate_integers(8, 8);
+```
+```java
+GENERATE_INTEGERS.generate_integers(1, 8);
+```
+```java
+GENERATE_INTEGERS.generate_integers(1, 3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(10, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 6);
+```
+```java
+GENERATE_INTEGERS.generate_integers(4, 7);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, 2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(0, 3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-1, 4);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-5, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(9, 2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(8, 1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, 10);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, 1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, 6);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-2, 6);
+```
+```java
+GENERATE_INTEGERS.generate_integers(4, 10);
+```
+```java
+GENERATE_INTEGERS.generate_integers(8, 5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, 8);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-1, -1);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-2, -2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, -5);
+```
+```java
+GENERATE_INTEGERS.generate_integers(6, -3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(0, 0);
+```
+```java
+GENERATE_INTEGERS.generate_integers(7, 0);
+```
+```java
+GENERATE_INTEGERS.generate_integers(1, 0);
+```
+```java
+GENERATE_INTEGERS.generate_integers(3, 0);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, 0);
+```
+```java
+GENERATE_INTEGERS.generate_integers(2, -2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-1, 0);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-5, -2);
+```
+```java
+GENERATE_INTEGERS.generate_integers(5, 3);
+```
+```java
+GENERATE_INTEGERS.generate_integers(8, 10);
+```
+```java
+GENERATE_INTEGERS.generate_integers(7, 10);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-10, -8);
+```
+```java
+GENERATE_INTEGERS.generate_integers(-3, -1);
+```

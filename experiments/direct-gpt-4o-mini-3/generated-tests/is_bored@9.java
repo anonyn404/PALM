@@ -1,0 +1,2 @@
+```javaIS_BORED.is_bored("I want to do something exciting.");
+```

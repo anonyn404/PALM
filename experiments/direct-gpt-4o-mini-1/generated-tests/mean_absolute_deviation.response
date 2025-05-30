@@ -1,0 +1,138 @@
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 2.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 2.0, 3.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0, 0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 1.0, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(5.0, 5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(5.0, 10.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-1.0, -2.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-10.0, 0.0, 10.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(3.0, 3.0, 5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.NaN, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(2.0, -2.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.5, 2.5));
+```
+```java
+mean_absolute_deviation(Arrays.asList(3.0, 4.0, 4.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(10.0, 20.0, 30.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 2.0, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.5, 2.5));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-1.0, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(2.0, 2.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 3.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.POSITIVE_INFINITY, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-3.0, -1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 1.0, -1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(2.0, 3.0, 5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(4.0, 4.0, 6.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-5.0, 0.0, 5.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 2.0, 4.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-1.0, 2.5));
+```
+```java
+mean_absolute_deviation(Arrays.asList(8.0, 8.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-10.0, -5.0, 0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(1.0, 1.0, 1.0, 1.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.1, 0.2));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-0.5, 0.5));
+```
+```java
+mean_absolute_deviation(Arrays.asList(7.1, 7.2, 7.3));
+```
+```java
+mean_absolute_deviation(Arrays.asList(Double.NEGATIVE_INFINITY, 0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-5.0, 10.0, -15.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(3.5, 3.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(0.0, 0.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(2.2, 2.3));
+```
+```java
+mean_absolute_deviation(Arrays.asList(6.0, 6.0, 6.0, 6.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-2.0, -3.0, -4.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(100.0, 200.0));
+```
+```java
+mean_absolute_deviation(Arrays.asList(4.5, 4.5, 5.5));
+```
+```java
+mean_absolute_deviation(Arrays.asList(2.2, 3.3));
+```
+```java
+mean_absolute_deviation(Arrays.asList(-100.0, 0.0, -200.0));
+```

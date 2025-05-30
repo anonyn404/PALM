@@ -1,0 +1,45 @@
+```java
+total_match(Collections.emptyList(), Collections.emptyList());
+```
+```java
+total_match(Collections.emptyList(), Arrays.asList("a"));
+```
+```java
+total_match(Arrays.asList("a"), Collections.emptyList());
+```
+```java
+total_match(Arrays.asList("a"), Arrays.asList("a"));
+```
+```java
+total_match(Arrays.asList("a","a"), Arrays.asList("a"));
+```
+```java
+total_match(Arrays.asList("a"), Arrays.asList("a","a"));
+```
+```java
+total_match(Collections.emptyList(), Arrays.asList("a","b"));
+```
+```java
+total_match(Arrays.asList("a","b"), Collections.emptyList());
+```
+```java
+total_match(Arrays.asList("a","bb"), Arrays.asList("aa"));
+```
+```java
+total_match(Arrays.asList("aa"), Arrays.asList("a","bb"));
+```
+```java
+total_match(Arrays.asList("a","b"), Arrays.asList("c","d"));
+```
+```java
+total_match(Arrays.asList("a","bb"), Arrays.asList("c","d"));
+```
+```java
+total_match(Arrays.asList("a","bb"), Arrays.asList("c","dd"));
+```
+```java
+total_match(Arrays.asList("aa","b"), Arrays.asList("c","d"));
+```
+```java
+total_match(Arrays.asList("a","b"), Arrays.asList("c","dd"));
+```

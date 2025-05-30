@@ -1,0 +1,75 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("cba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("bac");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("bca");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("cab");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("acb");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a b");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ab cd");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("ba dc");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc cba");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("cab bac");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("aaa bbb");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("b b");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a aa");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("aa a");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("xy yx");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("zzz z");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("123 321");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("bca abc");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("hello world");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("world hello");
+```

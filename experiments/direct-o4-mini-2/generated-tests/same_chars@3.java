@@ -1,0 +1,2 @@
+```javasame_chars("","aa");
+```

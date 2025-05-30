@@ -1,0 +1,33 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (sum_product); ignore branches in other methods and API calls. Generate up to 50 tests invoking sum_product. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.List;
+public class SUM_PRODUCT {
+
+    public static Integer[] sum_product(List<Integer> numbers) {
+        Integer[] result = new Integer[] { 0, 1 };
+        for (Integer n : numbers) {
+            result[0] += n;
+            result[1] *= n;
+        }
+        return result;
+    }
+}

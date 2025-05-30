@@ -1,0 +1,2 @@
+```javaSIMPLIFY.simplify("8/9", "9/10");
+```

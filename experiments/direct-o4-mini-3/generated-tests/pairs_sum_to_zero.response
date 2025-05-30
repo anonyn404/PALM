@@ -1,0 +1,18 @@
+```java
+pairs_sum_to_zero(Arrays.asList(1, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2, -2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2, 3, -2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2, 3, 4));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2, 3));
+```

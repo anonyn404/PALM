@@ -1,0 +1,168 @@
+```java
+WORDS_STRINGS.words_strings(null);
+```
+```java
+WORDS_STRINGS.words_strings("");
+```
+```java
+WORDS_STRINGS.words_strings(",");
+```
+```java
+WORDS_STRINGS.words_strings("a,b,c");
+```
+```java
+WORDS_STRINGS.words_strings("hello,world");
+```
+```java
+WORDS_STRINGS.words_strings("one,two,three");
+```
+```java
+WORDS_STRINGS.words_strings("  leading,spaces");
+```
+```java
+WORDS_STRINGS.words_strings("trailing,spaces  ");
+```
+```java
+WORDS_STRINGS.words_strings("multiple, commas,,here");
+```
+```java
+WORDS_STRINGS.words_strings("single");
+```
+```java
+WORDS_STRINGS.words_strings("a,,b , c,d");
+```
+```java
+WORDS_STRINGS.words_strings(",,");
+```
+```java
+WORDS_STRINGS.words_strings("a");
+```
+```java
+WORDS_STRINGS.words_strings("abc,def,ghi");
+```
+```java
+WORDS_STRINGS.words_strings(",a,b,c,");
+```
+```java
+WORDS_STRINGS.words_strings(" , ");
+```
+```java
+WORDS_STRINGS.words_strings("word");
+```
+```java
+WORDS_STRINGS.words_strings(", , , ");
+```
+```java
+WORDS_STRINGS.words_strings("text,with,more,spaces");
+```
+```java
+WORDS_STRINGS.words_strings("chars,with,spaces,in,between");
+```
+```java
+WORDS_STRINGS.words_strings("one, two, three");
+```
+```java
+WORDS_STRINGS.words_strings("a b c d");
+```
+```java
+WORDS_STRINGS.words_strings("test ,  test");
+```
+```java
+WORDS_STRINGS.words_strings("hello,, ,world");
+```
+```java
+WORDS_STRINGS.words_strings("abc");
+```
+```java
+WORDS_STRINGS.words_strings(",text,");
+```
+```java
+WORDS_STRINGS.words_strings("pair  ,another");
+```
+```java
+WORDS_STRINGS.words_strings("split,this,text,by,comma");
+```
+```java
+WORDS_STRINGS.words_strings("    ");
+```
+```java
+WORDS_STRINGS.words_strings("  a  ,  b  ,  c  ");
+```
+```java
+WORDS_STRINGS.words_strings("foo,bar,baz");
+```
+```java
+WORDS_STRINGS.words_strings("1,2,3");
+```
+```java
+WORDS_STRINGS.words_strings("one,,two");
+```
+```java
+WORDS_STRINGS.words_strings("this is a test");
+```
+```java
+WORDS_STRINGS.words_strings("red,blue,green");
+```
+```java
+WORDS_STRINGS.words_strings(",,multiple,,");
+```
+```java
+WORDS_STRINGS.words_strings("a,b,c,d,e,f");
+```
+```java
+WORDS_STRINGS.words_strings("empty, ,string");
+```
+```java
+WORDS_STRINGS.words_strings(" ,a,b");
+```
+```java
+WORDS_STRINGS.words_strings("check, the, split");
+```
+```java
+WORDS_STRINGS.words_strings("a,b,,,,,c");
+```
+```java
+WORDS_STRINGS.words_strings("one, , two");
+```
+```java
+WORDS_STRINGS.words_strings("even,,more");
+```
+```java
+WORDS_STRINGS.words_strings("testing,,,123");
+```
+```java
+WORDS_STRINGS.words_strings("a");
+```
+```java
+WORDS_STRINGS.words_strings("b c d ");
+```
+```java
+WORDS_STRINGS.words_strings(" ,");
+```
+```java
+WORDS_STRINGS.words_strings("a, b");
+```
+```java
+WORDS_STRINGS.words_strings("trim ,spaces ,here , ");
+```
+```java
+WORDS_STRINGS.words_strings("first,second");
+```
+```java
+WORDS_STRINGS.words_strings("next, test");
+```
+```java
+WORDS_STRINGS.words_strings("impact,comma");
+```
+```java
+WORDS_STRINGS.words_strings("can't,wait");
+```
+```java
+WORDS_STRINGS.words_strings("splitting, this,works");
+```
+```java
+WORDS_STRINGS.words_strings("the, final , test");
+```
+```java
+WORDS_STRINGS.words_strings("array,list");
+```

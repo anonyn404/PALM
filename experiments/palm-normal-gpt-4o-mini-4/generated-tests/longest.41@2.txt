@@ -1,0 +1,55 @@
+You are a Java test generator. Invoke the target method (longest) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.List;
+public static String longest(List<String> strings){
+    int maxlen_1 = 0;
+    Iterator<String> string_iter_1 = strings.iterator();
+    String string_1;
+    assertTrue(string_iter_1.hasNext()); //[1]
+    string_1 = string_iter_1.next();
+    assertTrue(string_1.length() > 0); //[2]
+    maxlen_1 = string_1.length();
+    assertTrue(string_iter_1.hasNext()); //[3]
+    string_1 = string_iter_1.next();
+    assertFalse(string_1.length() > maxlen_1); //[4]
+    assertFalse(string_iter_1.hasNext()); //[5]
+    Iterator<String> string_iter_2 = strings.iterator();
+    String string_2;
+    assertFalse(string_iter_2.hasNext()); //[6]
+    return null;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+List<String> strings = new ArrayList<>();
+strings.add("a");
+strings.add("b");
+```
+Error reason: The target method is not invoked in your generated test.
+Round 1 generation:
+```java
+List<String> strings = new ArrayList<>();
+strings.add("test");
+strings.add("a");
+// Invoke the target method
+longest(strings);
+```
+Error reason: the assertion [6] is not satisfied, assertFalse(string_iter_2.hasNext()) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

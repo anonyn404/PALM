@@ -1,0 +1,135 @@
+```java
+unique_digits(new ArrayList<>(Arrays.asList(1, 3, 5)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(2, 4, 6)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(1, 2, 3)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(7, 9, 11)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(0, 2, 4)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(11, 13, 15)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(21, 23, 25)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(2, 22, 42)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(19, 21, 23)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(30, 32, 34)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(1, 5, 7)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(12, 14, 16)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(15, 17, 19)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(3, 7, 11)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(0, 1, 4)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(23, 25, 27)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(41, 43, 45)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(13, 15, 19)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(2, 4, 8)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(5, 7, 9)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(22, 24, 26)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(30, 31, 33)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(1, 3, 7, 9)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(2, 18, 28)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(10, 12, 30)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(31, 33, 35)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(1, 19, 21)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(2, 6, 10)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(8, 12, 16)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(37, 39, 41)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(5, 9, 15)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(1, 21, 121)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(101, 111, 121)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(19, 70, 80)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(77, 79, 81)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(99, 101, 105)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(23, 33, 43)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(37, 9, 19)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(12, 14, 22)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(6, 66, 666)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(35, 10, 11)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(77, 78, 79)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(14, 16, 18)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(101, 201, 301)));
+```
+```java
+unique_digits(new ArrayList<>(Arrays.asList(0, 3, 3)));
+```

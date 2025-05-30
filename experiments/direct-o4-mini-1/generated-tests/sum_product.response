@@ -1,0 +1,39 @@
+```java
+SUM_PRODUCT.sum_product(Arrays.asList());
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(0));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(-1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(0, 0));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(0, 1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(0, -1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(1, 0));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(1, 1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(1, -1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(-1, 0));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(-1, 1));
+```
+```java
+SUM_PRODUCT.sum_product(Arrays.asList(-1, -1));
+```

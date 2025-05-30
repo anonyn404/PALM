@@ -1,0 +1,18 @@
+```java
+IS_BORED.is_bored("I okay");
+```
+```java
+IS_BORED.is_bored("Hi");
+```
+```java
+IS_BORED.is_bored("I am here. I am bored");
+```
+```java
+IS_BORED.is_bored("I love it. No way");
+```
+```java
+IS_BORED.is_bored("No comment. I agree");
+```
+```java
+IS_BORED.is_bored("Hello there. Goodbye");
+```

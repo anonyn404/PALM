@@ -1,0 +1,12 @@
+```java
+UNIQUE.unique(new ArrayList<Integer>());
+```
+```java
+UNIQUE.unique(Arrays.asList(1));
+```
+```java
+UNIQUE.unique(Arrays.asList(1,2));
+```
+```java
+UNIQUE.unique(Arrays.asList(1,1));
+```

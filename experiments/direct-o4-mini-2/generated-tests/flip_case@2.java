@@ -1,0 +1,2 @@
+```javaflip_case("A");
+```

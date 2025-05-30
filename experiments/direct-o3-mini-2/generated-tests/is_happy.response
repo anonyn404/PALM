@@ -1,0 +1,9 @@
+```java
+IS_HAPPY.is_happy("ab");
+```
+```java
+IS_HAPPY.is_happy("aaa");
+```
+```java
+IS_HAPPY.is_happy("abc");
+```

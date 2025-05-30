@@ -1,0 +1,150 @@
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "bca");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "cab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "abcd");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abcabc", "abc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xyzxyz", "xyz");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("pattern", "tern");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("ababab", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("ababab", "ba");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("aabbcc", "bca");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xyzxyzxyz", "xyz");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abcdef", "def");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("hello", "lo");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("looploop", "loop");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("cde", "de");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("pattern1", "tern1");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("1234", "123");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("aaa", "aa");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("testtest", "test");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("repeat", "peat");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("repeat", "repe");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abc", "a");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("abcabc", "bc");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("circular", "cular");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xxyy", "yy");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xyxyxy", "yxy");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("ppppp", "p");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("contradictory", "dict");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("silence", "ll");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("align", "ign");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("buzz", "uz");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("program", "g");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("pattern", "pa");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("java", "ava");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("recursive", "e");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("loops", "s");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("modern", "do");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("cf", "f");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("xxy", "xy");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("salutation", "t");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("concat", "cat");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("compliment", "pl");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("sense", "nse");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("example", "pl");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("outcome", "me");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("facet", "ace");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("hallucinate", "te");
+```

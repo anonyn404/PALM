@@ -1,0 +1,15 @@
+```java
+SORT_ARRAY.sort_array(new int[]{});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{1, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{4, 2});
+```
+```java
+SORT_ARRAY.sort_array(new int[]{4, 1, 5, 2});
+```

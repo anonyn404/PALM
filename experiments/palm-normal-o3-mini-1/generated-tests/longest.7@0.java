@@ -1,0 +1,3 @@
+```java
+longest(Collections.emptyList());
+```

@@ -1,0 +1,39 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (will_it_fly); ignore branches in other methods and API calls. Generate up to 50 tests invoking will_it_fly. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class WILL_IT_FLY {
+
+    public static boolean will_it_fly(int[] q, int w) {
+        int sum = 0;
+        for (int i = 0; i < q.length; i += 1) sum += q[i];
+        if (sum > w)
+            return false;
+        int i = 0;
+        int j = q.length - 1;
+        while (i < j) {
+            if (q[i] != q[j])
+                return false;
+            i += 1;
+            j -= 1;
+        }
+        return true;
+    }
+}

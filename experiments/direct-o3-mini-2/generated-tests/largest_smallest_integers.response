@@ -1,0 +1,39 @@
+```java
+largest_smallest_integers(new int[]{});
+```
+```java
+largest_smallest_integers(new int[]{-5});
+```
+```java
+largest_smallest_integers(new int[]{5});
+```
+```java
+largest_smallest_integers(new int[]{0});
+```
+```java
+largest_smallest_integers(new int[]{-3, -1});
+```
+```java
+largest_smallest_integers(new int[]{-2, 3});
+```
+```java
+largest_smallest_integers(new int[]{-4, 0});
+```
+```java
+largest_smallest_integers(new int[]{5, -2});
+```
+```java
+largest_smallest_integers(new int[]{4, 2});
+```
+```java
+largest_smallest_integers(new int[]{4, 0});
+```
+```java
+largest_smallest_integers(new int[]{0, -1});
+```
+```java
+largest_smallest_integers(new int[]{0, 7});
+```
+```java
+largest_smallest_integers(new int[]{0, 0});
+```

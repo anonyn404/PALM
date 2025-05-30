@@ -1,0 +1,39 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (odd_count); ignore branches in other methods and API calls. Generate up to 50 tests invoking odd_count. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+public class ODD_COUNT {
+
+    public static ArrayList<String> odd_count(ArrayList<String> lst) {
+        ArrayList<String> result = new ArrayList<>();
+        for (String s : lst) {
+            int n = 0;
+            for (int i = 0; i < s.length(); i++) {
+                int digit = s.charAt(i) - '0';
+                if (digit % 2 == 1) {
+                    n++;
+                }
+            }
+            result.add("the number of odd elements " + n + "n the str" + n + "ng " + n + " of the " + n + "nput.");
+        }
+        return result;
+    }
+}

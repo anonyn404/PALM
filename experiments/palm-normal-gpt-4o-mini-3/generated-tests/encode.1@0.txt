@@ -1,0 +1,27 @@
+You are a Java test generator. Invoke the target method (encode) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static String encode(String message){
+    StringBuilder sb_1 = new StringBuilder();
+    char[] c_array_1 = message.toCharArray();
+    char c_1;
+    assertFalse(0 < c_array_1.length); //[1]
+    return sb_1.toString();
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

@@ -1,0 +1,12 @@
+```java
+modp(0,5);
+```
+```java
+modp(1,5);
+```
+```java
+modp(2,5);
+```
+```java
+modp(3,5);
+```

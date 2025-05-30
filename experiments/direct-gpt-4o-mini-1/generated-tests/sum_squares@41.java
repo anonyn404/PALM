@@ -1,0 +1,2 @@
+```javaSUM_SQUARES.sum_squares(new int[]{6, 7, 8});
+```

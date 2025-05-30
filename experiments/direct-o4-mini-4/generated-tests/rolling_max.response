@@ -1,0 +1,15 @@
+```java
+ROLLING_MAX.rolling_max(Collections.emptyList());
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(5));
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(1, 0));
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(1, 1));
+```
+```java
+ROLLING_MAX.rolling_max(Arrays.asList(1, 2));
+```

@@ -1,0 +1,74 @@
+You are a Java test generator. Invoke the target method (max_element) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.List;
+public static int max_element(List<Integer> l){
+    int m_1 = l.get(0);
+    Iterator<Integer> e_iter_1 = l.iterator();
+    Integer e_1;
+    assertFalse(e_iter_1.hasNext()); //[1]
+    return m_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+List<Integer> l = new ArrayList<>(); 
+l.add(1); 
+l.add(2); 
+l.add(3); 
+max_element(l);
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(e_iter_1.hasNext()) 
+Round 1 generation:
+```java
+List<Integer> l = new ArrayList<>(); 
+max_element(l);
+```
+Error reason: Exception in thread "main" java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at MAX_ELEMENT.max_element(max_element.1.java:8)
+	at MAX_ELEMENT.main(max_element.1.java:19)
+
+Round 2 generation:
+```java
+List<Integer> l = new ArrayList<>(); 
+l.add(null); 
+max_element(l);
+```
+Error reason: Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.List.get(int)" is null
+	at MAX_ELEMENT.max_element(max_element.1.java:8)
+	at MAX_ELEMENT.main(max_element.1.java:20)
+
+Round 3 generation:
+```java
+List<Integer> l = new ArrayList<>(); 
+l.add(1); 
+l.add(2); 
+l.add(3); 
+Iterator<Integer> e_iter_1 = l.iterator();
+e_iter_1.next(); // Move to the first element
+e_iter_1.remove(); // Remove it to satisfy the assertFalse
+max_element(l);
+```
+Error reason: the assertion [1] is not satisfied, assertFalse(e_iter_1.hasNext()) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

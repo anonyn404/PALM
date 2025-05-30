@@ -1,0 +1,15 @@
+```java
+concatenate(null);
+```
+```java
+concatenate(new String[]{});
+```
+```java
+concatenate(new String[]{""});
+```
+```java
+concatenate(new String[]{"a"});
+```
+```java
+concatenate(new String[]{"a","b"});
+```

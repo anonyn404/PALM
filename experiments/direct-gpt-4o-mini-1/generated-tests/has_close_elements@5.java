@@ -1,0 +1,2 @@
+```javahas_close_elements(Arrays.asList(3.0, 5.0, 5.5), 0.6);
+```

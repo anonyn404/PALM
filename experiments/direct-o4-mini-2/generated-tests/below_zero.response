@@ -1,0 +1,15 @@
+```java
+BELOW_ZERO.below_zero(Collections.emptyList());
+```
+```java
+BELOW_ZERO.below_zero(Collections.singletonList(-1));
+```
+```java
+BELOW_ZERO.below_zero(Collections.singletonList(5));
+```
+```java
+BELOW_ZERO.below_zero(Arrays.asList(1, -3));
+```
+```java
+BELOW_ZERO.below_zero(Arrays.asList(1, 2));
+```

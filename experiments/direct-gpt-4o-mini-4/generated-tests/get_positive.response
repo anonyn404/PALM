@@ -1,0 +1,150 @@
+```java
+get_positive(Arrays.asList(1));
+```
+```java
+get_positive(Arrays.asList(-1));
+```
+```java
+get_positive(Arrays.asList(0));
+```
+```java
+get_positive(Arrays.asList(1, 2));
+```
+```java
+get_positive(Arrays.asList(-1, 2));
+```
+```java
+get_positive(Arrays.asList(0, 2));
+```
+```java
+get_positive(Arrays.asList(1, -1));
+```
+```java
+get_positive(Arrays.asList(1, 0));
+```
+```java
+get_positive(Arrays.asList(-1, 0));
+```
+```java
+get_positive(Arrays.asList(-1, -2));
+```
+```java
+get_positive(Arrays.asList(5, -5));
+```
+```java
+get_positive(Arrays.asList(3, 0));
+```
+```java
+get_positive(Arrays.asList(2, 3));
+```
+```java
+get_positive(Arrays.asList(0, -3));
+```
+```java
+get_positive(Arrays.asList(4, 1));
+```
+```java
+get_positive(Arrays.asList(0, 1));
+```
+```java
+get_positive(Arrays.asList(-4, -1));
+```
+```java
+get_positive(Arrays.asList(-2, 2));
+```
+```java
+get_positive(Arrays.asList(10, -10));
+```
+```java
+get_positive(Arrays.asList(0, 5));
+```
+```java
+get_positive(Arrays.asList(-3, 6));
+```
+```java
+get_positive(Arrays.asList(8, -4));
+```
+```java
+get_positive(Arrays.asList(1, 1));
+```
+```java
+get_positive(Arrays.asList(-1, 1));
+```
+```java
+get_positive(Arrays.asList(-2, -2));
+```
+```java
+get_positive(Arrays.asList(7, 2));
+```
+```java
+get_positive(Arrays.asList(-7, 0));
+```
+```java
+get_positive(Arrays.asList(0, 0));
+```
+```java
+get_positive(Arrays.asList(1, -1, 2));
+```
+```java
+get_positive(Arrays.asList(-2, 2, 3));
+```
+```java
+get_positive(Arrays.asList(4, 3, -1));
+```
+```java
+get_positive(Arrays.asList(-1, -2, 0));
+```
+```java
+get_positive(Arrays.asList(5, 1, -5));
+```
+```java
+get_positive(Arrays.asList(0, -10, 10));
+```
+```java
+get_positive(Arrays.asList(9, -3));
+```
+```java
+get_positive(Arrays.asList(1, -1, 0));
+```
+```java
+get_positive(Arrays.asList(-7, 1, 5));
+```
+```java
+get_positive(Arrays.asList(-11));
+```
+```java
+get_positive(Arrays.asList(22, -22));
+```
+```java
+get_positive(Arrays.asList(0, 6, -6));
+```
+```java
+get_positive(Arrays.asList(1, 2, -3));
+```
+```java
+get_positive(Arrays.asList(-5, -6, 7));
+```
+```java
+get_positive(Arrays.asList(3, 4, 5));
+```
+```java
+get_positive(Arrays.asList(-1));
+```
+```java
+get_positive(Arrays.asList(-10));
+```
+```java
+get_positive(Arrays.asList(0));
+```
+```java
+get_positive(Arrays.asList(-5, -3, -2));
+```
+```java
+get_positive(Arrays.asList(1, 2, -1));
+```
+```java
+get_positive(Arrays.asList(-7, -8, 6));
+```
+```java
+get_positive(Arrays.asList(14, -10, -15));
+```

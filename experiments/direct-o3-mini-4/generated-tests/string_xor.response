@@ -1,0 +1,21 @@
+```java
+STRING_XOR.string_xor("", "");
+```
+```java
+STRING_XOR.string_xor("a", "a");
+```
+```java
+STRING_XOR.string_xor("a", "b");
+```
+```java
+STRING_XOR.string_xor("aa", "aa");
+```
+```java
+STRING_XOR.string_xor("ab", "aa");
+```
+```java
+STRING_XOR.string_xor("ab", "bb");
+```
+```java
+STRING_XOR.string_xor("ab", "ba");
+```

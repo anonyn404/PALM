@@ -1,0 +1,162 @@
+```java
+SPLIT_WORDS.split_words("hello world");
+```
+```java
+SPLIT_WORDS.split_words("apple,banana");
+```
+```java
+SPLIT_WORDS.split_words("test");
+```
+```java
+SPLIT_WORDS.split_words(" ");
+```
+```java
+SPLIT_WORDS.split_words("singleword");
+```
+```java
+SPLIT_WORDS.split_words("lower Case");
+```
+```java
+SPLIT_WORDS.split_words("case,testing");
+```
+```java
+SPLIT_WORDS.split_words("a b c");
+```
+```java
+SPLIT_WORDS.split_words("comma,separated");
+```
+```java
+SPLIT_WORDS.split_words("noSpacesOrCommas");
+```
+```java
+SPLIT_WORDS.split_words("this has spaces");
+```
+```java
+SPLIT_WORDS.split_words("this,has,commas");
+```
+```java
+SPLIT_WORDS.split_words("a,b");
+```
+```java
+SPLIT_WORDS.split_words("abcde");
+```
+```java
+SPLIT_WORDS.split_words("justOne");
+```
+```java
+SPLIT_WORDS.split_words("a b c d e");
+```
+```java
+SPLIT_WORDS.split_words("ab,cd");
+```
+```java
+SPLIT_WORDS.split_words("a,b,c,d,e");
+```
+```java
+SPLIT_WORDS.split_words("x y z");
+```
+```java
+SPLIT_WORDS.split_words(" , ");
+```
+```java
+SPLIT_WORDS.split_words(", ,");
+```
+```java
+SPLIT_WORDS.split_words("multiple  spaces");
+```
+```java
+SPLIT_WORDS.split_words(", , ,");
+```
+```java
+SPLIT_WORDS.split_words("2, 4, 6");
+```
+```java
+SPLIT_WORDS.split_words("odd, lowercase");
+```
+```java
+SPLIT_WORDS.split_words("has5numbers4");
+```
+```java
+SPLIT_WORDS.split_words("test case,example");
+```
+```java
+SPLIT_WORDS.split_words("empty,,,");
+```
+```java
+SPLIT_WORDS.split_words("yeah right");
+```
+```java
+SPLIT_WORDS.split_words("spaces , and commas");
+```
+```java
+SPLIT_WORDS.split_words("hi,there");
+```
+```java
+SPLIT_WORDS.split_words(".,.,.,");
+```
+```java
+SPLIT_WORDS.split_words("great");
+```
+```java
+SPLIT_WORDS.split_words("mixed,Case");
+```
+```java
+SPLIT_WORDS.split_words("case without spaces or commas");
+```
+```java
+SPLIT_WORDS.split_words("split,here,please");
+```
+```java
+SPLIT_WORDS.split_words("one two three four");
+```
+```java
+SPLIT_WORDS.split_words("multiple, , spaces");
+```
+```java
+SPLIT_WORDS.split_words("twoWords");
+```
+```java
+SPLIT_WORDS.split_words("just commas,,,,");
+```
+```java
+SPLIT_WORDS.split_words(" , with spaces ");
+```
+```java
+SPLIT_WORDS.split_words("splittest");
+```
+```java
+SPLIT_WORDS.split_words("testing, results");
+```
+```java
+SPLIT_WORDS.split_words("Casual Words");
+```
+```java
+SPLIT_WORDS.split_words("Mixed Text");
+```
+```java
+SPLIT_WORDS.split_words("Check If Works");
+```
+```java
+SPLIT_WORDS.split_words("more, tests, here");
+```
+```java
+SPLIT_WORDS.split_words("test , with , little, complexity");
+```
+```java
+SPLIT_WORDS.split_words("1, 2, 3");
+```
+```java
+SPLIT_WORDS.split_words("check");
+```
+```java
+SPLIT_WORDS.split_words("black , white");
+```
+```java
+SPLIT_WORDS.split_words("just a , test");
+```
+```java
+SPLIT_WORDS.split_words("try it");
+```
+```java
+SPLIT_WORDS.split_words("one");
+```

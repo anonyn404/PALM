@@ -1,0 +1,129 @@
+```java
+STRING_TO_MD5.string_to_md5("");
+```
+```java
+STRING_TO_MD5.string_to_md5("a");
+```
+```java
+STRING_TO_MD5.string_to_md5("ab");
+```
+```java
+STRING_TO_MD5.string_to_md5("abc");
+```
+```java
+STRING_TO_MD5.string_to_md5("abcd");
+```
+```java
+STRING_TO_MD5.string_to_md5("abcde");
+```
+```java
+STRING_TO_MD5.string_to_md5("12345");
+```
+```java
+STRING_TO_MD5.string_to_md5("!@#$%");
+```
+```java
+STRING_TO_MD5.string_to_md5(" ");
+```
+```java
+STRING_TO_MD5.string_to_md5("test");
+```
+```java
+STRING_TO_MD5.string_to_md5("sample text");
+```
+```java
+STRING_TO_MD5.string_to_md5("longer string input for testing");
+```
+```java
+STRING_TO_MD5.string_to_md5("md5hash");
+```
+```java
+STRING_TO_MD5.string_to_md5("another test case");
+```
+```java
+STRING_TO_MD5.string_to_md5("special characters: ñ, ö, い");
+```
+```java
+STRING_TO_MD5.string_to_md5("this is a test of the emergency broadcast system");
+```
+```java
+STRING_TO_MD5.string_to_md5("1234567890");
+```
+```java
+STRING_TO_MD5.string_to_md5("one more test");
+```
+```java
+STRING_TO_MD5.string_to_md5("mixed CASE TEXT");
+```
+```java
+STRING_TO_MD5.string_to_md5("Java unit testing");
+```
+```java
+STRING_TO_MD5.string_to_md5("a very very long string that exceeds normal length expectations");
+```
+```java
+STRING_TO_MD5.string_to_md5("hash this!");
+```
+```java
+STRING_TO_MD5.string_to_md5("another random string input");
+```
+```java
+STRING_TO_MD5.string_to_md5("empty except for space ");
+```
+```java
+STRING_TO_MD5.string_to_md5("!@#%^&*()_+");
+```
+```java
+STRING_TO_MD5.string_to_md5("repeat repeat repeat");
+```
+```java
+STRING_TO_MD5.string_to_md5("some numbers 12345 and letters abcde");
+```
+```java
+STRING_TO_MD5.string_to_md5("quick brown fox jumps over the lazy dog");
+```
+```java
+STRING_TO_MD5.string_to_md5("simple test");
+```
+```java
+STRING_TO_MD5.string_to_md5("testing, 1, 2, 3...");
+```
+```java
+STRING_TO_MD5.string_to_md5("!!@@##$$%%^^&&**()__");
+```
+```java
+STRING_TO_MD5.string_to_md5("username@example.com");
+```
+```java
+STRING_TO_MD5.string_to_md5("password");
+```
+```java
+STRING_TO_MD5.string_to_md5("java@2023");
+```
+```java
+STRING_TO_MD5.string_to_md5("test123");
+```
+```java
+STRING_TO_MD5.string_to_md5("just another string");
+```
+```java
+STRING_TO_MD5.string_to_md5("full of special characters: ~`!@#$%^&*()-_=+[]{}|;:'\",.<>?/");
+```
+```java
+STRING_TO_MD5.string_to_md5("the quick brown fox");
+```
+```java
+STRING_TO_MD5.string_to_md5("so many tests");
+```
+```java
+STRING_TO_MD5.string_to_md5("random thing");
+```
+```java
+STRING_TO_MD5.string_to_md5("string to md5");
+```
+```java
+STRING_TO_MD5.string_to_md5("never gonna give you up!");
+```
+```java
+STRING_TO_MD5.string_to_md5("0123456789abcdefghijklmnopqrstuvwxyz");
+```

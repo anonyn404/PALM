@@ -1,0 +1,35 @@
+You are a Java test generator. Invoke the target method (largest_prime_factor) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static boolean is_prime(int k) {
+    if (k < 2)
+        return false;
+    for (int i = 2; i < k; i += 1) {
+        if (k % i == 0)
+            return false;
+    }
+    return true;
+}
+public static int largest_prime_factor(int n){
+    int largest_1 = 1;
+    int j_1 = 2;
+    assertFalse(2 < n); //[1]
+    return 1;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

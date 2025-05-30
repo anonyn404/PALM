@@ -1,0 +1,147 @@
+```java
+next_smallest(new int[] {1, 2, 3});
+```
+```java
+next_smallest(new int[] {3, 2, 1});
+```
+```java
+next_smallest(new int[] {2, 2, 3});
+```
+```java
+next_smallest(new int[] {1, 1, 1});
+```
+```java
+next_smallest(new int[] {5, 5, 5});
+```
+```java
+next_smallest(new int[] {1, 2, 2});
+```
+```java
+next_smallest(new int[] {2, 1, 1});
+```
+```java
+next_smallest(new int[] {5, 3, 5});
+```
+```java
+next_smallest(new int[] {10, 20});
+```
+```java
+next_smallest(new int[] {20, 10});
+```
+```java
+next_smallest(new int[] {0, 1});
+```
+```java
+next_smallest(new int[] {1, 0});
+```
+```java
+next_smallest(new int[] {-1, 0});
+```
+```java
+next_smallest(new int[] {0, -1});
+```
+```java
+next_smallest(new int[] {1, -1});
+```
+```java
+next_smallest(new int[] {-1, 1});
+```
+```java
+next_smallest(new int[] {3, 3, 4});
+```
+```java
+next_smallest(new int[] {4, 3, 3});
+```
+```java
+next_smallest(new int[] {2, 5});
+```
+```java
+next_smallest(new int[] {5, 2});
+```
+```java
+next_smallest(new int[] {0, 0});
+```
+```java
+next_smallest(new int[] {10000, 9999});
+```
+```java
+next_smallest(new int[] {9999, 10000});
+```
+```java
+next_smallest(new int[] {2, 2, 2, 2});
+```
+```java
+next_smallest(new int[] {1, 2, 1});
+```
+```java
+next_smallest(new int[] {2});
+```
+```java
+next_smallest(new int[] {});
+```
+```java
+next_smallest(new int[] {5, 5, 1});
+```
+```java
+next_smallest(new int[] {1, 5, 5});
+```
+```java
+next_smallest(new int[] {5, 1});
+```
+```java
+next_smallest(new int[] {1, 5});
+```
+```java
+next_smallest(new int[] {3, 5, 5});
+```
+```java
+next_smallest(new int[] {5, 3, 4});
+```
+```java
+next_smallest(new int[] {4, 5, 5});
+```
+```java
+next_smallest(new int[] {5, 4, 3});
+```
+```java
+next_smallest(new int[] {3, 4, 5});
+```
+```java
+next_smallest(new int[] {-5, -4});
+```
+```java
+next_smallest(new int[] {-4, -5});
+```
+```java
+next_smallest(new int[] {-1, -1});
+```
+```java
+next_smallest(new int[] {-2, -1});
+```
+```java
+next_smallest(new int[] {-1, -2});
+```
+```java
+next_smallest(new int[] {-2, -2});
+```
+```java
+next_smallest(new int[] {-1, 0});
+```
+```java
+next_smallest(new int[] {0, -1});
+```
+```java
+next_smallest(new int[] {-1});
+```
+```java
+next_smallest(new int[] {1});
+```
+```java
+next_smallest(new int[] {0});
+```
+```java
+next_smallest(new int[] {-9999, -10000});
+```
+```java
+next_smallest(new int[] {-10000, -9999});
+```

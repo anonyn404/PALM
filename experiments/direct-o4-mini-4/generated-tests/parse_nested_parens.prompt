@@ -1,0 +1,44 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (parse_nested_parens); ignore branches in other methods and API calls. Generate up to 50 tests invoking parse_nested_parens. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+public class PARSE_NESTED_PARENS {
+
+    public static List<Integer> parse_nested_parens(String paren_string) {
+        String[] paren_groups = paren_string.split(" ");
+        List<Integer> result = new ArrayList<Integer>();
+        for (String paren_group : paren_groups) {
+            int depth = 0;
+            int max_depth = 0;
+            for (char c : paren_group.toCharArray()) {
+                if (c == '(') {
+                    depth += 1;
+                    max_depth = Math.max(depth, max_depth);
+                } else {
+                    depth -= 1;
+                }
+            }
+            result.add(max_depth);
+        }
+        return result;
+    }
+}

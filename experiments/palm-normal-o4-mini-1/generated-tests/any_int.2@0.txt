@@ -1,0 +1,25 @@
+You are a Java test generator. Invoke the target method (any_int) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static boolean any_int(double x, double y, double z){
+    assertTrue((int) x == x && (int) y == y && (int) z == z); //[1]
+    assertTrue(x + y == z || x + z == y || y + z == x); //[2]
+    return true;
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

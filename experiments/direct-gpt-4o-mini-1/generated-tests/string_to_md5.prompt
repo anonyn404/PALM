@@ -1,0 +1,35 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (string_to_md5); ignore branches in other methods and API calls. Generate up to 50 tests invoking string_to_md5. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import javax.xml.bind.DatatypeConverter;
+public class STRING_TO_MD5 {
+
+    public static String string_to_md5(String text) throws NoSuchAlgorithmException {
+        if (text.equals(""))
+            return null;
+        MessageDigest md = MessageDigest.getInstance("MD5");
+        md.update(text.getBytes());
+        byte[] digest = md.digest();
+        return DatatypeConverter.printHexBinary(digest).toLowerCase();
+    }
+}

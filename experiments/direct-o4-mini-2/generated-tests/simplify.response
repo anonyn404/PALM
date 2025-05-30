@@ -1,0 +1,72 @@
+```java
+SIMPLIFY.simplify("1/2", "2/1");
+```
+```java
+SIMPLIFY.simplify("2/3", "3/2");
+```
+```java
+SIMPLIFY.simplify("0/1", "5/7");
+```
+```java
+SIMPLIFY.simplify("-1/2", "2/1");
+```
+```java
+SIMPLIFY.simplify("1/-2", "-2/1");
+```
+```java
+SIMPLIFY.simplify("-1/-2", "-2/-1");
+```
+```java
+SIMPLIFY.simplify("3/4", "8/6");
+```
+```java
+SIMPLIFY.simplify("5/4", "4/5");
+```
+```java
+SIMPLIFY.simplify("7/9", "9/7");
+```
+```java
+SIMPLIFY.simplify("3/6", "4/2");
+```
+```java
+SIMPLIFY.simplify("0/5", "0/8");
+```
+```java
+SIMPLIFY.simplify("10/15", "3/2");
+```
+```java
+SIMPLIFY.simplify("1/2", "1/3");
+```
+```java
+SIMPLIFY.simplify("2/3", "1/2");
+```
+```java
+SIMPLIFY.simplify("2/3", "2/3");
+```
+```java
+SIMPLIFY.simplify("2/5", "3/7");
+```
+```java
+SIMPLIFY.simplify("7/8", "3/5");
+```
+```java
+SIMPLIFY.simplify("-1/2", "1/4");
+```
+```java
+SIMPLIFY.simplify("1/3", "-1/5");
+```
+```java
+SIMPLIFY.simplify("-2/3", "-3/4");
+```
+```java
+SIMPLIFY.simplify("3/2", "2/9");
+```
+```java
+SIMPLIFY.simplify("5/7", "4/5");
+```
+```java
+SIMPLIFY.simplify("8/9", "9/10");
+```
+```java
+SIMPLIFY.simplify("-3/5", "2/4");
+```

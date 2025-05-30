@@ -1,0 +1,9 @@
+```java
+string_sequence(-1);
+```
+```java
+string_sequence(0);
+```
+```java
+string_sequence(1);
+```

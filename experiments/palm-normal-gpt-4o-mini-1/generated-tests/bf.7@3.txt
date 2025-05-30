@@ -1,0 +1,49 @@
+You are a Java test generator. Invoke the target method (bf) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+public static ArrayList<String> bf(String planet1, String planet2){
+    ArrayList<String> planet_names_1 = new ArrayList<String>(Arrays.asList("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"));
+    ArrayList<String> result_1 = new ArrayList<String>();
+    assertFalse((!planet_names_1.contains(planet1)) || (!planet_names_1.contains(planet2))); //[1]
+    int planet1_index_1 = planet_names_1.indexOf(planet1);
+    int planet2_index_1 = planet_names_1.indexOf(planet2);
+    assertFalse(planet1_index_1 < planet2_index_1); //[2]
+    int i_1 = planet2_index_1 + 1;
+    assertFalse(i_1 < planet1_index_1); //[3]
+    return result_1;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+bf("Mars", "Venus");
+```
+Error reason: the assertion [3] is not satisfied, assertFalse(i_1 < planet1_index_1) 
+Round 1 generation:
+```java
+bf("Venus", "Mars");
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(planet1_index_1 < planet2_index_1) 
+Round 2 generation:
+```java
+bf("Mars", "Jupiter");
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(planet1_index_1 < planet2_index_1) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

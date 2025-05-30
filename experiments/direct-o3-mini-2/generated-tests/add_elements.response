@@ -1,0 +1,33 @@
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(), 0);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(12)), 1);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(123)), 1);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(10, 9)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(100, 9)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(9, 100)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(100, 100)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(-1)), 1);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(-12)), 1);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(-12, -1)), 2);
+```
+```java
+ADD_ELEMENTS.add_elements(new ArrayList<Integer>(Arrays.asList(-1, -12)), 2);
+```

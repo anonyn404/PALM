@@ -1,0 +1,9 @@
+```java
+decode_shift("");
+```
+```java
+decode_shift("a");
+```
+```java
+decode_shift("ab");
+```

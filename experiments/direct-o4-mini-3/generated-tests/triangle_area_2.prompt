@@ -1,0 +1,35 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (triangle_area_2); ignore branches in other methods and API calls. Generate up to 50 tests invoking triangle_area_2. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+public class TRIANGLE_AREA_2 {
+
+    public static double triangle_area_2(double a, double b, double c) {
+        if (a + b <= c || a + c <= b || b + c <= a)
+            return -1;
+        double s = (a + b + c) / 2.;
+        double result = Math.pow(s * (s - a) * (s - b) * (s - c), 0.5);
+        BigDecimal bd = BigDecimal.valueOf(result);
+        bd = bd.setScale(2, RoundingMode.HALF_UP);
+        return bd.doubleValue();
+    }
+}

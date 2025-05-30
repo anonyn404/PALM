@@ -1,0 +1,2 @@
+```javalongest(Arrays.asList("",""));
+```

@@ -1,0 +1,156 @@
+```java
+SUM_SQUARES.sum_squares(new int[]{0});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{3});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{4});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{5});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{6});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{7});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{8});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{9});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{10});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-3});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-4});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-5});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-6});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{0, 0});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{1, 2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{3, 4});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{5, 6});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{7, 8});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{9, 10});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-1, -2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-3, -4});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{0, 1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{2, 3});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{4, 5});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{6, 7});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{8, 9});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-1, 0});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{1, -1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{2, -2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{3, -3});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{4, -4});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{5, -5});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-6, -7});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{7, 0});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-8, -9});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{10, 10});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{0, 0, 0});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{1, 1, 1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{2, 2, 2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-1, -1, -1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{3, 4, 5});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-3, -4, -5});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{0, 1, 2});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{1, 0, -1});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{10, 9, 8});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{-10, -9, -8});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{0, 2, 4});
+```
+```java
+SUM_SQUARES.sum_squares(new int[]{5, 5, 5});
+```

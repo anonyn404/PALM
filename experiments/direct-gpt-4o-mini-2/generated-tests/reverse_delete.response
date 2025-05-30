@@ -1,0 +1,153 @@
+```java
+REVERSE_DELETE.reverse_delete("abc", "d");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("", "d");
+```
+```java
+REVERSE_DELETE.reverse_delete("", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "ab");
+```
+```java
+REVERSE_DELETE.reverse_delete("ab", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("abc", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("cba", "d");
+```
+```java
+REVERSE_DELETE.reverse_delete("cba", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("cba", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("cba", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("cba", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("cba", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("a", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("aaa", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("aaa", "");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "ef");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "abcde");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "f");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "de");
+```
+```java
+REVERSE_DELETE.reverse_delete("abcde", "abd");
+```
+```java
+REVERSE_DELETE.reverse_delete("aabbcc", "abc");
+```
+```java
+REVERSE_DELETE.reverse_delete("aabbcc", "a");
+```
+```java
+REVERSE_DELETE.reverse_delete("aabbcc", "b");
+```
+```java
+REVERSE_DELETE.reverse_delete("aabbcc", "c");
+```
+```java
+REVERSE_DELETE.reverse_delete("aabbcc", "ab");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "234");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "1");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "5");
+```
+```java
+REVERSE_DELETE.reverse_delete("12345", "12345");
+```
+```java
+REVERSE_DELETE.reverse_delete("012345", "0");
+```
+```java
+REVERSE_DELETE.reverse_delete("!@#$%", "&*");
+```
+```java
+REVERSE_DELETE.reverse_delete("!@#$%", "$");
+```
+```java
+REVERSE_DELETE.reverse_delete("!@#$%", "@");
+```
+```java
+REVERSE_DELETE.reverse_delete("!@#$%", "!");
+```
+```java
+REVERSE_DELETE.reverse_delete("!@#$%", "%");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "y");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "z");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "x");
+```
+```java
+REVERSE_DELETE.reverse_delete("xyz", "xyz");
+```
+```java
+REVERSE_DELETE.reverse_delete("xy", "x");
+```

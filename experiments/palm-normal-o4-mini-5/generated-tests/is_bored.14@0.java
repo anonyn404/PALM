@@ -1,0 +1,1 @@
+is_bored("I go. Not I");

@@ -1,0 +1,21 @@
+```java
+FILTER_BY_PREFIX.filter_by_prefix(new ArrayList<String>(), "a");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("banana"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple", "apricot"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("apple", "banana"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("banana", "apple"), "ap");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("banana", "cherry"), "ap");
+```

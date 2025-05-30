@@ -1,0 +1,2 @@
+```javaencrypt("test case");
+```

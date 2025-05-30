@@ -1,0 +1,18 @@
+```java
+ANY_INT.any_int(1, 2, 3);
+```
+```java
+ANY_INT.any_int(2, 5, 3);
+```
+```java
+ANY_INT.any_int(5, 2, 3);
+```
+```java
+ANY_INT.any_int(1, 2, 4);
+```
+```java
+ANY_INT.any_int(1.5, 2, 3);
+```
+```java
+ANY_INT.any_int(-1, -2, -3);
+```

@@ -1,0 +1,24 @@
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(5L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(-5L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(0L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(1L, 2L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(-1L, -2L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(1L, -1L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(-1L, 1L)));
+```
+```java
+MIN_SUBARRAY_SUM.min_subarray_sum(new ArrayList<Long>(Arrays.asList(-2L, 1L)));
+```

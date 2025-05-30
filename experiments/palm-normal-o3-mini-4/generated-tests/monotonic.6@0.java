@@ -1,0 +1,4 @@
+```java
+int[] arr = {1, 2};
+monotonic(arr);
+```

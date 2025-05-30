@@ -1,0 +1,45 @@
+```java
+NEXT_SMALLEST.next_smallest(new int[]{});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{5});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{5,5});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{5,3});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{3,5});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{1,2,3});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{3,2,1});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{2,2,1});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{2,1,2});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{1,1,2,2});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{-1,-2});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{-2,-1});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{0,0,0});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{Integer.MIN_VALUE,Integer.MAX_VALUE});
+```
+```java
+NEXT_SMALLEST.next_smallest(new int[]{2147483647,2147483646});
+```

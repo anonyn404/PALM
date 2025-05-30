@@ -1,0 +1,111 @@
+```java
+check_dict_case(new HashMap<Object,Object>());
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put(1, 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("ABC", 1);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("abc", 1);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("Abc", 1);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("A", 1);
+    m.put("B", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("a", 1);
+    m.put("b", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("A", 1);
+    m.put("b", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("A", 1);
+    m.put(1, "v");
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("a", 1);
+    m.put("B", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("a", 1);
+    m.put(1, "v");
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put(1, "v");
+    m.put("A", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("Ab", 1);
+    m.put("A", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("A", 1);
+    m.put("Ab", 2);
+    check_dict_case(m);
+}
+```
+```java
+{
+    HashMap<Object,Object> m = new HashMap<>();
+    m.put("a", 1);
+    m.put("Ab", 2);
+    check_dict_case(m);
+}
+```

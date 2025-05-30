@@ -1,0 +1,675 @@
+import java.io.*;
+import java.util.*;
+
+public class EXCHANGE {
+
+    public static String exchange(ArrayList<Integer> lst1, ArrayList<Integer> lst2) throws Exception {
+        {
+            counter_ABC_0 += 1;
+            if (counter_ABC_0 > 2)
+                throw new Exception("Out of loop-bound. Invalid path.");
+        }
+        int counter_ABC_13 = 0;
+        {
+            profile_var += "_s13";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        int odd = 0, even = 0;
+        int counter_ABC_9 = 0;
+        {
+            profile_var += "_s9";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        for (int i : lst1) {
+            {
+                counter_ABC_9 += 1;
+                if (counter_ABC_9 > 2)
+                    throw new Exception("Out of loop-bound. Invalid path.");
+            }
+            int counter_ABC_10 = 0;
+            {
+                profile_var += "_s10";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            if ((i % 2) == 1) {
+                {
+                    profile_var += "_T12";
+                    if (profile_var.length() > 10000)
+                        throw new Exception("Profiler string too long");
+                }
+                {
+                    counter_ABC_10 += 1;
+                    if (counter_ABC_10 > 2)
+                        throw new Exception("Out of loop-bound. Invalid path.");
+                }
+                int counter_ABC_11 = 0;
+                {
+                    profile_var += "_s11";
+                    if (profile_var.length() > 10000)
+                        throw new Exception("Profiler string too long");
+                }
+                odd++;
+            }
+        }
+        int counter_ABC_5 = 0;
+        {
+            profile_var += "_s5";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        for (int i : lst2) {
+            {
+                counter_ABC_5 += 1;
+                if (counter_ABC_5 > 2)
+                    throw new Exception("Out of loop-bound. Invalid path.");
+            }
+            int counter_ABC_6 = 0;
+            {
+                profile_var += "_s6";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            if ((i % 2) == 0) {
+                {
+                    profile_var += "_T8";
+                    if (profile_var.length() > 10000)
+                        throw new Exception("Profiler string too long");
+                }
+                {
+                    counter_ABC_6 += 1;
+                    if (counter_ABC_6 > 2)
+                        throw new Exception("Out of loop-bound. Invalid path.");
+                }
+                int counter_ABC_7 = 0;
+                {
+                    profile_var += "_s7";
+                    if (profile_var.length() > 10000)
+                        throw new Exception("Profiler string too long");
+                }
+                even++;
+            }
+        }
+        int counter_ABC_2 = 0;
+        {
+            profile_var += "_s2";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        if (even >= odd) {
+            {
+                profile_var += "_T4";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            {
+                counter_ABC_2 += 1;
+                if (counter_ABC_2 > 2)
+                    throw new Exception("Out of loop-bound. Invalid path.");
+            }
+            int counter_ABC_3 = 0;
+            {
+                profile_var += "_s3";
+                if (profile_var.length() > 10000)
+                    throw new Exception("Profiler string too long");
+            }
+            return "YES";
+        }
+        int counter_ABC_1 = 0;
+        {
+            profile_var += "_s1";
+            if (profile_var.length() > 10000)
+                throw new Exception("Profiler string too long");
+        }
+        return "NO";
+    }
+
+    static void process_coverage() {
+        if (profile_var.length() == 0)
+            return;
+        path_set.add(profile_var);
+        profile_var = "";
+    }
+
+    public static void main(String[] args) {
+
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst1.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst1.add(2);
+lst1.add(4);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+lst1.add(2);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(3);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+System.out.println(exchange(lst1, lst2));
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    ArrayList<Integer> lst1 = new ArrayList<>();
+    ArrayList<Integer> lst2 = new ArrayList<>();
+    lst2.add(1);
+    lst2.add(2);
+    exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+lst1.add(4);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> list1 = new ArrayList<>();
+list1.add(1);
+ArrayList<Integer> list2 = new ArrayList<>();
+list2.add(42);
+exchange(list1, list2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(2);
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    ArrayList<Integer> lst1 = new ArrayList<>();
+    lst1.add(2);
+    lst1.add(3);
+    ArrayList<Integer> lst2 = new ArrayList<>();
+    exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+lst1.add(3);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst1.add(2);
+lst2.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(3);
+lst2.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> list1 = new ArrayList<>();
+list1.add(2);
+ArrayList<Integer> list2 = new ArrayList<>();
+list2.add(1);
+exchange(list1, list2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(2);
+lst2.add(4);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(2);
+lst2.add(3);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst1.add(2);
+lst2.add(3);
+lst2.add(4);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+lst1.add(4);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+ArrayList<Integer> lst2 = new ArrayList<>(Arrays.asList(1, 3));
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+lst1.add(4);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+lst1.add(2);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(10);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(1);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(3);
+lst2.add(2);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+lst1.add(3);
+ArrayList<Integer> lst2 = new ArrayList<>();
+lst2.add(1);
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+                try {
+                    profile_var = "";
+                    counter_ABC_0 = 0;
+                    
+ArrayList<Integer> lst1 = new ArrayList<>();
+lst1.add(2);
+lst1.add(3);
+ArrayList<Integer> lst2 = new ArrayList<>();
+exchange(lst1, lst2);
+
+                    process_coverage();
+                }
+                catch (Exception e) { }
+                
+            try {
+                FileWriter writer = new FileWriter("exchange.txt");
+                for (String path : path_set)
+                    writer.write(path + "\n");
+                // writer.write(path_set.size() + "\n");
+                // writer.write(branch_set.size() + "\n");
+                // writer.write(statement_set.size() + "\n");
+                writer.close();
+            }
+            catch (Exception e) {
+                ;
+            }
+        
+    }
+
+    static String profile_var = "";
+
+    static int counter_ABC_0 = -1000000;
+
+    static Set<String> path_set = new HashSet<>();
+}

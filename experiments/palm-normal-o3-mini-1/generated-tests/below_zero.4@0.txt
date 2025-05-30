@@ -1,0 +1,31 @@
+You are a Java test generator. Invoke the target method (below_zero) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.List;
+public static void below_zero(List<Integer> operations){
+    int balance_1 = 0;
+    Iterator<Integer> op_iter_1 = operations.iterator();
+    Integer op_1;
+    assertTrue(op_iter_1.hasNext()); //[1]
+    op_1 = op_iter_1.next();
+    balance_1 += op_1;
+    assertFalse(balance_1 < 0); //[2]
+    assertTrue(op_iter_1.hasNext()); //[3]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

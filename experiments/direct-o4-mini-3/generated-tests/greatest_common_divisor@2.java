@@ -1,0 +1,2 @@
+```javagreatest_common_divisor(4,2);
+```

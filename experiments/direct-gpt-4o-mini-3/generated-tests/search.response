@@ -1,0 +1,156 @@
+```java
+search(new int[]{1, 2, 3});
+```
+```java
+search(new int[]{3, 2, 1});
+```
+```java
+search(new int[]{1, 1, 1});
+```
+```java
+search(new int[]{0});
+```
+```java
+search(new int[]{-1, -2, -3});
+```
+```java
+search(new int[]{5, 2, 5});
+```
+```java
+search(new int[]{1, 2, 2});
+```
+```java
+search(new int[]{3, 3, 3});
+```
+```java
+search(new int[]{0, 0, 0});
+```
+```java
+search(new int[]{1, 0, 1});
+```
+```java
+search(new int[]{2});
+```
+```java
+search(new int[]{1, -1, 1});
+```
+```java
+search(new int[]{-1, 0, 1});
+```
+```java
+search(new int[]{0, 1, 0});
+```
+```java
+search(new int[]{2, 2, 2});
+```
+```java
+search(new int[]{1, 2, 0});
+```
+```java
+search(new int[]{5, 7, 5});
+```
+```java
+search(new int[]{-5});
+```
+```java
+search(new int[]{-3, -1, 0});
+```
+```java
+search(new int[]{4, 4, 4});
+```
+```java
+search(new int[]{2, 1, 2});
+```
+```java
+search(new int[]{0, 2, 3});
+```
+```java
+search(new int[]{1, 2});
+```
+```java
+search(new int[]{-2, -1});
+```
+```java
+search(new int[]{3, 3});
+```
+```java
+search(new int[]{5, 5});
+```
+```java
+search(new int[]{-1, 2});
+```
+```java
+search(new int[]{6, 2, 6});
+```
+```java
+search(new int[]{0, 1});
+```
+```java
+search(new int[]{1, 3});
+```
+```java
+search(new int[]{0, -1});
+```
+```java
+search(new int[]{1, 2, 2, 3});
+```
+```java
+search(new int[]{2, 2, 1, 0});
+```
+```java
+search(new int[]{1});
+```
+```java
+search(new int[]{0, 0, 1, 2});
+```
+```java
+search(new int[]{3, 2, 3});
+```
+```java
+search(new int[]{4, 2, 4});
+```
+```java
+search(new int[]{-4, -2, 0});
+```
+```java
+search(new int[]{0, 5, 5});
+```
+```java
+search(new int[]{1, 1, 0});
+```
+```java
+search(new int[]{7});
+```
+```java
+search(new int[]{2, 3, 3});
+```
+```java
+search(new int[]{0, 1, 1});
+```
+```java
+search(new int[]{1, 0, -1});
+```
+```java
+search(new int[]{5, 0});
+```
+```java
+search(new int[]{9, 9, 3});
+```
+```java
+search(new int[]{-3});
+```
+```java
+search(new int[]{1, -1, 1});
+```
+```java
+search(new int[]{6, 6});
+```
+```java
+search(new int[]{0, -2, -1});
+```
+```java
+search(new int[]{1, 5});
+```
+```java
+search(new int[]{8, 2, 8});
+```

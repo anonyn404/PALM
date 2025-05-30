@@ -1,0 +1,32 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (add_even_at_odd); ignore branches in other methods and API calls. Generate up to 50 tests invoking add_even_at_odd. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class ADD_EVEN_AT_ODD {
+
+    public static int add_even_at_odd(int[] lst) {
+        int sum = 0;
+        for (int i = 1; i < lst.length; i += 2) {
+            if (lst[i] % 2 == 0)
+                sum += lst[i];
+        }
+        return sum;
+    }
+}

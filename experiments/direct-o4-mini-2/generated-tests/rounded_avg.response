@@ -1,0 +1,9 @@
+```java
+rounded_avg(1, 0);
+```
+```java
+rounded_avg(5, 5);
+```
+```java
+rounded_avg(3, 4);
+```

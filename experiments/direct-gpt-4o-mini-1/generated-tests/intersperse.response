@@ -1,0 +1,123 @@
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList()), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3, 4)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3, 4)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3, 4)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4, 5)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4, 5)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4, 5)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 4)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 4)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 4)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(5, 6)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(5, 6)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(5, 6)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 1)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 2)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 3)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 1)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 3, 4, 2)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(3, 4, 5, 3)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 2, 3, 4)), 5);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(5, 6, 7)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(5, 6, 7)), 1);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(5, 6, 7)), 2);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 0, 2)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, 0)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 1)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(2, 0)), 0);
+```
+```java
+INTERSPESE.intersperse(new ArrayList<>(Arrays.asList(1, -1, 1)), 0);
+```

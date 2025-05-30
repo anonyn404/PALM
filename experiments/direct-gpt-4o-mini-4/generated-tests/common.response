@@ -1,0 +1,153 @@
+```java
+common(new int[]{1, 2}, new int[]{2, 3});
+```
+```java
+common(new int[]{1, 2}, new int[]{4, 5});
+```
+```java
+common(new int[]{5, 6}, new int[]{6, 7});
+```
+```java
+common(new int[]{0}, new int[]{0, 1});
+```
+```java
+common(new int[]{1, 2, 3}, new int[]{3, 4, 5});
+```
+```java
+common(new int[]{9, 8}, new int[]{5, 7});
+```
+```java
+common(new int[]{10, 20}, new int[]{30, 40});
+```
+```java
+common(new int[]{3, 4, 5}, new int[]{5, 4, 3});
+```
+```java
+common(new int[]{1, 2, 2}, new int[]{2, 1});
+```
+```java
+common(new int[]{-1, -2}, new int[]{-3, -2});
+```
+```java
+common(new int[]{1}, new int[]{1});
+```
+```java
+common(new int[]{}, new int[]{1, 2});
+```
+```java
+common(new int[]{1, 2, 3}, new int[]{4, 5, 6});
+```
+```java
+common(new int[]{2, 3}, new int[]{1, 2});
+```
+```java
+common(new int[]{}, new int[]{});
+```
+```java
+common(new int[]{0, 0, 0}, new int[]{0});
+```
+```java
+common(new int[]{5, 5}, new int[]{5, 5});
+```
+```java
+common(new int[]{1, 5}, new int[]{1, 2, 5});
+```
+```java
+common(new int[]{-1, -2, -3}, new int[]{-3, -2, -1});
+```
+```java
+common(new int[]{100, 200, 300}, new int[]{300, 200});
+```
+```java
+common(new int[]{3}, new int[]{3, 4});
+```
+```java
+common(new int[]{7}, new int[]{8});
+```
+```java
+common(new int[]{1, 1, 1}, new int[]{1});
+```
+```java
+common(new int[]{2, 3, 4}, new int[]{4, 5, 2});
+```
+```java
+common(new int[]{10, 9}, new int[]{9, 8});
+```
+```java
+common(new int[]{}, new int[]{10});
+```
+```java
+common(new int[]{-1}, new int[]{-1});
+```
+```java
+common(new int[]{5, 10}, new int[]{15});
+```
+```java
+common(new int[]{8}, new int[]{7, 8, 9});
+```
+```java
+common(new int[]{2, 4}, new int[]{6, 4, 2});
+```
+```java
+common(new int[]{14, 12}, new int[]{12, 14});
+```
+```java
+common(new int[]{11, 13}, new int[]{13, 11});
+```
+```java
+common(new int[]{0}, new int[]{1, 2});
+```
+```java
+common(new int[]{5, 5}, new int[]{5});
+```
+```java
+common(new int[]{50, 60}, new int[]{70, 80});
+```
+```java
+common(new int[]{-5, -10}, new int[]{-5});
+```
+```java
+common(new int[]{1, 2, 2, 3}, new int[]{3, 1, 2});
+```
+```java
+common(new int[]{3, 2, 4}, new int[]{4, 3});
+```
+```java
+common(new int[]{9}, new int[]{9});
+```
+```java
+common(new int[]{}, new int[]{});
+```
+```java
+common(new int[]{8, 8}, new int[]{8, 8});
+```
+```java
+common(new int[]{1, 1, 1, 1}, new int[]{1, 1});
+```
+```java
+common(new int[]{-4, -4, -5}, new int[]{-5, -4});
+```
+```java
+common(new int[]{100, 200}, new int[]{200, 300});
+```
+```java
+common(new int[]{}, new int[]{0});
+```
+```java
+common(new int[]{5, 5, 6}, new int[]{6, 5});
+```
+```java
+common(new int[]{12}, new int[]{12, 15});
+```
+```java
+common(new int[]{200, 201, 202}, new int[]{203, 201});
+```
+```java
+common(new int[]{10, 20}, new int[]{20, 10});
+```
+```java
+common(new int[]{0, 1}, new int[]{1, 0});
+```
+```java
+common(new int[]{0}, new int[]{0});
+```

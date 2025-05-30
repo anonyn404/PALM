@@ -1,0 +1,12 @@
+```java
+unique(Collections.emptyList());
+```
+```java
+unique(Arrays.asList(1));
+```
+```java
+unique(Arrays.asList(1, 2));
+```
+```java
+unique(Arrays.asList(1, 1));
+```

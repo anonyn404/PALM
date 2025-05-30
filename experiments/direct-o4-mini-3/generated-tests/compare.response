@@ -1,0 +1,9 @@
+```java
+COMPARE.compare(new int[]{}, new int[]{});
+```
+```java
+COMPARE.compare(new int[]{0}, new int[]{0});
+```
+```java
+COMPARE.compare(new int[]{0, 0}, new int[]{0, 0});
+```

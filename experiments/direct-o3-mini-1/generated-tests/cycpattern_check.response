@@ -1,0 +1,33 @@
+```java
+CYCPATTERN_CHECK.cycpattern_check("ab", "a");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("bb", "a");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("a", "");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("", "");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("a", "aa");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("aa", "aa");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("baa", "aa");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("aba", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("bbb", "ab");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("ababa", "aba");
+```
+```java
+CYCPATTERN_CHECK.cycpattern_check("", "a");
+```

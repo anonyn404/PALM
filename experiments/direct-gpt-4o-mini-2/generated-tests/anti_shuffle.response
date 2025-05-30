@@ -1,0 +1,150 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("hello world");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("abc def");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("java programming");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("test case");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("single");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("shuffled words");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("unit testing");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("symbolic execution");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("class method");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("java code");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("random string");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("special_chars !@#");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("123 456");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("space test");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("duplicate duplicate");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("one");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("two words");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("another test");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("testing, one, two, three");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("nested spaces are   tricky");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("examples should  pass");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("to sort these");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("   multiple whitespaces ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("same same same");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("uniqueness test");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("similar but different");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("capitalization Test");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("testing with numbers 1 2 3");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("written with care");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("spaces in  between");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("mixedCASE");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("java  code example");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("end of string ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("normalize input");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("characters like & % $");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("split   and sort");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("a quick brown fox");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("pack my box with five dozen liquor jugs");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("123,456,789");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("fun with strings");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("set  theory");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("testing spaces  versus tabs");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("great expectations");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("word word");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("another one");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("   leading spaces");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("trailing spaces   ");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("uniform string lengths");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("no spaces");
+```

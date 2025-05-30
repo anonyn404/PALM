@@ -1,0 +1,153 @@
+```java
+pairs_sum_to_zero(Arrays.asList(1, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(2, -2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(0, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(3, -3));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(5, -5));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-1, 1, 2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(2, -2, 3));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-3, 3, 5));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, -2, 2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-4, 4, 1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(0, 3, -3));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 1, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-5, 5, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(10, -10, 1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-7, 7, 8));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(6, -6, -6));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(4, 4, -8));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(5, -5));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(0, 1, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(8, -8, 9));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-9, 9, 1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(7, 7, -14));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-2, 2, 5));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(11, -11, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-6, 6, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(13, 1, -14));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-15, 15, 7));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(12, -12, 2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(10, 20, -30));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 0, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(14, -10, -4));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-100, 100, 50));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(55, -55, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(3, -5, 5));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-1, 0, 1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(20, -5, -15));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-4, 0, 4));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(25, -25, 50));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(0, 0, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(30, -30, 40));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(9, -9, 8));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-8, 8, 16));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(5, -2, -3));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(15, -5, -10));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-2, 2, 2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-3, 3, -1));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(100, -100, 0));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(42, -42, 42));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(-50, 50));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(1, 2));
+```
+```java
+pairs_sum_to_zero(Arrays.asList(2, 1));
+```

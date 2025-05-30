@@ -1,0 +1,153 @@
+```java
+fix_spaces("abc");
+```
+```java
+fix_spaces("a b c");
+```
+```java
+fix_spaces("a  b  c");
+```
+```java
+fix_spaces("a   b   c");
+```
+```java
+fix_spaces("   ");
+```
+```java
+fix_spaces("a b   c");
+```
+```java
+fix_spaces("a   b c");
+```
+```java
+fix_spaces("a b c  ");
+```
+```java
+fix_spaces("a     b c");
+```
+```java
+fix_spaces("a      b    c");
+```
+```java
+fix_spaces("a b c");
+```
+```java
+fix_spaces(" a b c ");
+```
+```java
+fix_spaces("   a   b   c   ");
+```
+```java
+fix_spaces("a b     c");
+```
+```java
+fix_spaces("  a b  c ");
+```
+```java
+fix_spaces("  abc  ");
+```
+```java
+fix_spaces("a b");
+```
+```java
+fix_spaces("ab  c");
+```
+```java
+fix_spaces("a  b");
+```
+```java
+fix_spaces("  a b");
+```
+```java
+fix_spaces(" b ");
+```
+```java
+fix_spaces("  ");
+```
+```java
+fix_spaces("a");
+```
+```java
+fix_spaces("b");
+```
+```java
+fix_spaces("c");
+```
+```java
+fix_spaces("a b c d");
+```
+```java
+fix_spaces("  d  e  f  ");
+```
+```java
+fix_spaces("hello world");
+```
+```java
+fix_spaces("hello  world");
+```
+```java
+fix_spaces("hello   world!");
+```
+```java
+fix_spaces("  abc");
+```
+```java
+fix_spaces("a  too   long    space");
+```
+```java
+fix_spaces("no space");
+```
+```java
+fix_spaces("one  two");
+```
+```java
+fix_spaces("a  b  c  d  e");
+```
+```java
+fix_spaces("x  y z");
+```
+```java
+fix_spaces("spaces      after");
+```
+```java
+fix_spaces("before     spaces");
+```
+```java
+fix_spaces("   leading");
+```
+```java
+fix_spaces("trailing    ");
+```
+```java
+fix_spaces("some  mixed  spaces");
+```
+```java
+fix_spaces("mixed consecutive   spaces");
+```
+```java
+fix_spaces("multiple    spaces   within  words");
+```
+```java
+fix_spaces("testing   different  inputs");
+```
+```java
+fix_spaces("String   manipulation");
+```
+```java
+fix_spaces(" spacing");
+```
+```java
+fix_spaces("space   ");
+```
+```java
+fix_spaces("e   xample");
+```
+```java
+fix_spaces("f  u n  c t i o n");
+```
+```java
+fix_spaces("no spaces at all");
+```
+```java
+fix_spaces("spaces    certain  places");
+```

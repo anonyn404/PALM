@@ -1,0 +1,21 @@
+```java
+FILTER_BY_PREFIX.filter_by_prefix(new ArrayList<String>(), "pre");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("pre1"), "pre");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("other"), "pre");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("pre1", "pre2"), "pre");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("pre1", "other"), "pre");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("other", "pre2"), "pre");
+```
+```java
+FILTER_BY_PREFIX.filter_by_prefix(Arrays.asList("other1", "other2"), "pre");
+```

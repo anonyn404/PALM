@@ -1,0 +1,39 @@
+```java
+PROD_SIGNS.prod_signs(new int[]{});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{0});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{-1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{0,0});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{0,-1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{0,1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{-1,0});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{-1,-1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{-1,1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{1,0});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{1,-1});
+```
+```java
+PROD_SIGNS.prod_signs(new int[]{1,1});
+```

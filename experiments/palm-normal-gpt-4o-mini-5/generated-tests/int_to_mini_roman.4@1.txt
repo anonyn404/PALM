@@ -1,0 +1,38 @@
+You are a Java test generator. Invoke the target method (int_to_mini_roman) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static void int_to_mini_roman(int number){
+    int[] num_1 = new int[] { 1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000 };
+    String[] sym_1 = new String[] { "I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M" };
+    int i_1 = 12;
+    String result_1 = "";
+    assertTrue(number > 0); //[1]
+    int div_1 = (int) (number / num_1[12]);
+    assertFalse(div_1 > 0); //[2]
+    number %= num_1[12];
+    i_1 -= 1;
+    assertTrue(number > 0); //[3]
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+int_to_mini_roman(1000);
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(div_1 > 0) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

@@ -1,0 +1,123 @@
+```java
+check_dict_case(new HashMap<>());
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("ANOTHERKEY", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("anotherkey", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("key", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("KEY", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("mixedKey", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("MIXEDkey", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put(100, 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put(100, 1); put(200, 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put(100, 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("key2", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("KEY2", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put(7.5, "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put(7.5, "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("otherKey", "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("OTHERKEY", "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put(null, "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put(null, 1); put("key", "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("MIXEDkey", "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("mixedKey", "value"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 0); put("key", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", 1); put("", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("UPPER", 1); put("lower", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("lower", 1); put("UPPER", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("UPPERkey", 1); put("lowerKey", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("lowerKey", 1); put("UPPERkey", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", 1); put("mixedString123", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("mixed123", 1); put("KEY", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("keyName", 1); put("ANOTHER", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEYNAME", 1); put("another", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", null); put("value", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", null); put("value", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY123", 1); put("key456", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key456", 1); put("KEY123", 2); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY", "1"); put("KEY2", "2"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key", "1"); put("key2", "2"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("KEY1", "value1"); put("key2", "value2"); }});
+```
+```java
+check_dict_case(new HashMap<String, Object>() {{ put("key1", "value1"); put("KEY2", "value2"); }});
+```

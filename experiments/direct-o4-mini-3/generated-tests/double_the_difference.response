@@ -1,0 +1,63 @@
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{1.5});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{2.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{-3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{1.5, 1.5});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{1.5, 2.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{1.5, 3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{1.5, -3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{2.0, 1.5});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{2.0, 2.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{2.0, 3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{2.0, -3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{3.0, 1.5});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{3.0, 2.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{3.0, 3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{3.0, -3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{-3.0, 1.5});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{-3.0, 2.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{-3.0, 3.0});
+```
+```java
+DOUBLE_THE_DIFFERENCE.double_the_difference(new double[]{-3.0, -3.0});
+```

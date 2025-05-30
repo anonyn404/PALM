@@ -1,0 +1,15 @@
+```java
+change_base(0, 2);
+```
+```java
+change_base(-1, 2);
+```
+```java
+change_base(1, 2);
+```
+```java
+change_base(3, 2);
+```
+```java
+change_base(8, 2);
+```

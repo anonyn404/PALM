@@ -1,0 +1,69 @@
+```java
+PARSE_MUSIC.parse_music("");
+```
+```java
+PARSE_MUSIC.parse_music("   ");
+```
+```java
+PARSE_MUSIC.parse_music("o");
+```
+```java
+PARSE_MUSIC.parse_music("o|");
+```
+```java
+PARSE_MUSIC.parse_music(".|");
+```
+```java
+PARSE_MUSIC.parse_music("x");
+```
+```java
+PARSE_MUSIC.parse_music("o o");
+```
+```java
+PARSE_MUSIC.parse_music("o o|");
+```
+```java
+PARSE_MUSIC.parse_music("o .|");
+```
+```java
+PARSE_MUSIC.parse_music("o x");
+```
+```java
+PARSE_MUSIC.parse_music("o| o");
+```
+```java
+PARSE_MUSIC.parse_music("o| o|");
+```
+```java
+PARSE_MUSIC.parse_music("o| .|");
+```
+```java
+PARSE_MUSIC.parse_music("o| x");
+```
+```java
+PARSE_MUSIC.parse_music(".| .|");
+```
+```java
+PARSE_MUSIC.parse_music(".| x");
+```
+```java
+PARSE_MUSIC.parse_music("x x");
+```
+```java
+PARSE_MUSIC.parse_music(" o");
+```
+```java
+PARSE_MUSIC.parse_music("o ");
+```
+```java
+PARSE_MUSIC.parse_music(" o ");
+```
+```java
+PARSE_MUSIC.parse_music(" o o");
+```
+```java
+PARSE_MUSIC.parse_music("o o ");
+```
+```java
+PARSE_MUSIC.parse_music("o  o");
+```

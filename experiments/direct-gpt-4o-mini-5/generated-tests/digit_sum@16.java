@@ -1,0 +1,2 @@
+```javadigit_sum("MNO");
+```

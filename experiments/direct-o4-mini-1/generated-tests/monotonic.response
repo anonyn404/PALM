@@ -1,0 +1,9 @@
+```java
+MONOTONIC.monotonic(new int[]{1,2,3});
+```
+```java
+MONOTONIC.monotonic(new int[]{3,2,1});
+```
+```java
+MONOTONIC.monotonic(new int[]{1,3,2});
+```

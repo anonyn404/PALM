@@ -1,0 +1,165 @@
+```java
+HOW_MANY_TIMES.how_many_times("hello", "lo");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "he");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "o");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "hello");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "l");
+```
+```java
+HOW_MANY_TIMES.how_many_times("hello", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("", "hello");
+```
+```java
+HOW_MANY_TIMES.how_many_times("", "");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaa", "aa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "abc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ababab", "aba");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ababab", "ab");
+```
+```java
+HOW_MANY_TIMES.how_many_times("ababab", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abc", "bc");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcde", "de");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdefgh", "efg");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdefg", "g");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdefg", "f");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdefghij", "j");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdefgh", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("onlyone", "one");
+```
+```java
+HOW_MANY_TIMES.how_many_times("stringwithnosubstring", "substring");
+```
+```java
+HOW_MANY_TIMES.how_many_times("teststring", "test");
+```
+```java
+HOW_MANY_TIMES.how_many_times("repeatrepeat", "repeat");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("a", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aa", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcabc", "c");
+```
+```java
+HOW_MANY_TIMES.how_many_times("testtesttest", "test");
+```
+```java
+HOW_MANY_TIMES.how_many_times("", "a");
+```
+```java
+HOW_MANY_TIMES.how_many_times("bmpbybpbmp", "b");
+```
+```java
+HOW_MANY_TIMES.how_many_times("example", "ample");
+```
+```java
+HOW_MANY_TIMES.how_many_times("aaaaaa", "aaa");
+```
+```java
+HOW_MANY_TIMES.how_many_times("abcdabcd", "abcd");
+```
+```java
+HOW_MANY_TIMES.how_many_times("onceuponatime", "once");
+```
+```java
+HOW_MANY_TIMES.how_many_times("node", "node");
+```
+```java
+HOW_MANY_TIMES.how_many_times("overlapoverlap", "overlap");
+```
+```java
+HOW_MANY_TIMES.how_many_times("jumbujumbuj", "jumbu");
+```
+```java
+HOW_MANY_TIMES.how_many_times("java", "j");
+```
+```java
+HOW_MANY_TIMES.how_many_times("kotlin", "k");
+```
+```java
+HOW_MANY_TIMES.how_many_times("swift", "s");
+```
+```java
+HOW_MANY_TIMES.how_many_times("perlperl", "perl");
+```
+```java
+HOW_MANY_TIMES.how_many_times("rustlang", "ust");
+```
+```java
+HOW_MANY_TIMES.how_many_times("pythonpython", "python");
+```
+```java
+HOW_MANY_TIMES.how_many_times("javascript", "script");
+```
+```java
+HOW_MANY_TIMES.how_many_times("golang", "go");
+```
+```java
+HOW_MANY_TIMES.how_many_times("PHPisgreat", "great");
+```
+```java
+HOW_MANY_TIMES.how_many_times("haskell", "k");
+```
+```java
+HOW_MANY_TIMES.how_many_times("typescript", "script");
+```
+```java
+HOW_MANY_TIMES.how_many_times("bdkdkdb", "dk");
+```
+```java
+HOW_MANY_TIMES.how_many_times("repeatrepeat", "repeat");
+```
+```java
+HOW_MANY_TIMES.how_many_times("setupsetup", "setup");
+```
+```java
+HOW_MANY_TIMES.how_many_times("repeats", "p");
+```
+```java
+HOW_MANY_TIMES.how_many_times("tests", "t");
+```

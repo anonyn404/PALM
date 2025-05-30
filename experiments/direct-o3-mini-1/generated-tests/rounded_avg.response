@@ -1,0 +1,9 @@
+```java
+ROUNDED_AVG.rounded_avg(1, 0);
+```
+```java
+ROUNDED_AVG.rounded_avg(2, 2);
+```
+```java
+ROUNDED_AVG.rounded_avg(2, 3);
+```

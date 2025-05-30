@@ -1,0 +1,24 @@
+```java
+SEARCH.search(new int[]{2, 3});
+```
+```java
+SEARCH.search(new int[]{1, 2});
+```
+```java
+SEARCH.search(new int[]{0, 2});
+```
+```java
+SEARCH.search(new int[]{0, 1});
+```
+```java
+SEARCH.search(new int[]{2, 2});
+```
+```java
+SEARCH.search(new int[]{2, 1});
+```
+```java
+SEARCH.search(new int[]{2, 0});
+```
+```java
+SEARCH.search(new int[]{1, 0});
+```

@@ -1,0 +1,159 @@
+```java
+cycpattern_check("abcde", "bc");
+```
+```java
+cycpattern_check("abcde", "cd");
+```
+```java
+cycpattern_check("abcde", "de");
+```
+```java
+cycpattern_check("abcde", "abc");
+```
+```java
+cycpattern_check("abcde", "abcd");
+```
+```java
+cycpattern_check("abc", "ab");
+```
+```java
+cycpattern_check("abc", "bc");
+```
+```java
+cycpattern_check("abc", "ac");
+```
+```java
+cycpattern_check("abc", "a");
+```
+```java
+cycpattern_check("abc", "c");
+```
+```java
+cycpattern_check("xyzabcxyz", "abc");
+```
+```java
+cycpattern_check("xyzabcxyz", "xyz");
+```
+```java
+cycpattern_check("xyzabcxyz", "z");
+```
+```java
+cycpattern_check("xyzabcxyz", "a");
+```
+```java
+cycpattern_check("xyzabcxyz", "xyzab");
+```
+```java
+cycpattern_check("ab", "a");
+```
+```java
+cycpattern_check("ab", "b");
+```
+```java
+cycpattern_check("ab", "ab");
+```
+```java
+cycpattern_check("abcdefghijkl", "ef");
+```
+```java
+cycpattern_check("abcdefghijkl", "gh");
+```
+```java
+cycpattern_check("abcdefghijkl", "abc");
+```
+```java
+cycpattern_check("abcdefghijkl", "xyz");
+```
+```java
+cycpattern_check("aaa", "a");
+```
+```java
+cycpattern_check("aaa", "aa");
+```
+```java
+cycpattern_check("aaa", "aaa");
+```
+```java
+cycpattern_check("aaaaa", "aa");
+```
+```java
+cycpattern_check("aaaaa", "a");
+```
+```java
+cycpattern_check("aaaaa", "aaaa");
+```
+```java
+cycpattern_check("abcdefgh", "abcdef");
+```
+```java
+cycpattern_check("abcdefgh", "gh");
+```
+```java
+cycpattern_check("abcdefgh", "h");
+```
+```java
+cycpattern_check("", "a");
+```
+```java
+cycpattern_check("", "");
+```
+```java
+cycpattern_check("a", "a");
+```
+```java
+cycpattern_check("a", "");
+```
+```java
+cycpattern_check("abcdefghijklmnop", "lmnop");
+```
+```java
+cycpattern_check("abcdefghijklmnop", "ijklm");
+```
+```java
+cycpattern_check("abcdefghijklmnopqrstuvwxyz", "uvw");
+```
+```java
+cycpattern_check("abcdefghijklmnopqrstuvwx", "xyz");
+```
+```java
+cycpattern_check("testcase", "test");
+```
+```java
+cycpattern_check("testcase", "case");
+```
+```java
+cycpattern_check("programming", "gram");
+```
+```java
+cycpattern_check("programming", "ming");
+```
+```java
+cycpattern_check("hidden", "den");
+```
+```java
+cycpattern_check("hidden", "hid");
+```
+```java
+cycpattern_check("repeatingrepeating", "peat");
+```
+```java
+cycpattern_check("repeatingrepeating", "rep");
+```
+```java
+cycpattern_check("yesyes", "es");
+```
+```java
+cycpattern_check("yesyes", "ye");
+```
+```java
+cycpattern_check("nononono", "no");
+```
+```java
+cycpattern_check("nononono", "non");
+```
+```java
+cycpattern_check("yesnodoubt", "doubt");
+```
+```java
+cycpattern_check("yesnodoubt", "yes");
+```

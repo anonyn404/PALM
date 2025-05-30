@@ -1,0 +1,2 @@
+```javaencode("Start.");
+```

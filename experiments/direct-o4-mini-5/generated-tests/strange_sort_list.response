@@ -1,0 +1,45 @@
+```java
+strange_sort_list(Arrays.asList());
+```
+```java
+strange_sort_list(Arrays.asList(5));
+```
+```java
+strange_sort_list(Arrays.asList(-5));
+```
+```java
+strange_sort_list(Arrays.asList(1, 2));
+```
+```java
+strange_sort_list(Arrays.asList(2, 1));
+```
+```java
+strange_sort_list(Arrays.asList(1, 1));
+```
+```java
+strange_sort_list(Arrays.asList(3, 1, 2));
+```
+```java
+strange_sort_list(Arrays.asList(2, 3, 1));
+```
+```java
+strange_sort_list(Arrays.asList(1, 1, 2));
+```
+```java
+strange_sort_list(Arrays.asList(4, 3, 2, 1));
+```
+```java
+strange_sort_list(Arrays.asList(1, 2, 3, 4));
+```
+```java
+strange_sort_list(Arrays.asList(2, 2, 2, 2));
+```
+```java
+strange_sort_list(Arrays.asList(0, -1, 1, -2, 2));
+```
+```java
+strange_sort_list(Arrays.asList(Integer.MAX_VALUE, Integer.MIN_VALUE));
+```
+```java
+strange_sort_list(Arrays.asList(10, 20, 30, 5, 15));
+```

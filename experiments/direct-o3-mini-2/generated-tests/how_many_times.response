@@ -1,0 +1,21 @@
+```java
+how_many_times("", "a");
+```
+```java
+how_many_times("b", "a");
+```
+```java
+how_many_times("a", "a");
+```
+```java
+how_many_times("bb", "a");
+```
+```java
+how_many_times("ab", "a");
+```
+```java
+how_many_times("ba", "a");
+```
+```java
+how_many_times("aa", "a");
+```

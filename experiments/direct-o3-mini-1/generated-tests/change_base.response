@@ -1,0 +1,9 @@
+```java
+CHANGE_BASE.change_base(0, 10);
+```
+```java
+CHANGE_BASE.change_base(1, 2);
+```
+```java
+CHANGE_BASE.change_base(2, 2);
+```

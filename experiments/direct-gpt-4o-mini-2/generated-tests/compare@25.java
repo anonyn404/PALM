@@ -1,0 +1,2 @@
+```javacompare(new int[]{-2, -1}, new int[]{-2, -1});
+```

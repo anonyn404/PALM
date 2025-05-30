@@ -1,0 +1,6 @@
+```java
+TOTAL_MATCH.total_match(Arrays.asList("A", "B"), Arrays.asList("ABC"));
+```
+```java
+TOTAL_MATCH.total_match(Arrays.asList("Hello"), Arrays.asList("Hi"));
+```

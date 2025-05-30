@@ -1,0 +1,32 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (change_base); ignore branches in other methods and API calls. Generate up to 50 tests invoking change_base. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class CHANGE_BASE {
+
+    public static String change_base(int x, int base) {
+        String result = "";
+        while (x > 0) {
+            result = (x % base) + result;
+            x = (int) x / base;
+        }
+        return result;
+    }
+}

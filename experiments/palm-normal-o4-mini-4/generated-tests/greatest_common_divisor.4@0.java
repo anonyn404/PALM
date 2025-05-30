@@ -1,0 +1,1 @@
+greatest_common_divisor(20, 6);

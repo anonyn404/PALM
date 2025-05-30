@@ -1,0 +1,13 @@
+```java
+    assertTrue(iscude(0));
+    assertTrue(iscude(1));
+    assertTrue(iscude(8));
+    assertTrue(iscude(27));
+    assertTrue(iscude(64));
+    assertTrue(iscude(125));
+    assertFalse(iscude(2));
+    assertFalse(iscude(3));
+    assertFalse(iscude(5));
+    assertFalse(iscude(6));
+    assertFalse(iscude(10));
+```

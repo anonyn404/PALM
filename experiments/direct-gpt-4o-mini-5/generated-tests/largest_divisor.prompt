@@ -1,0 +1,31 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (largest_divisor); ignore branches in other methods and API calls. Generate up to 50 tests invoking largest_divisor. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class LARGEST_DIVISOR {
+
+    public static int largest_divisor(int n) {
+        for (int i = n - 1; i >= 1; i -= 1) {
+            if (n % i == 0)
+                return i;
+        }
+        return 1;
+    }
+}

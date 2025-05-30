@@ -1,0 +1,33 @@
+```java
+is_simple_power(1, 1);
+```
+```java
+is_simple_power(2, 1);
+```
+```java
+is_simple_power(1, 2);
+```
+```java
+is_simple_power(0, 2);
+```
+```java
+is_simple_power(2, 2);
+```
+```java
+is_simple_power(2, 3);
+```
+```java
+is_simple_power(4, 2);
+```
+```java
+is_simple_power(5, 2);
+```
+```java
+is_simple_power(2, 0);
+```
+```java
+is_simple_power(9, 3);
+```
+```java
+is_simple_power(8, 3);
+```

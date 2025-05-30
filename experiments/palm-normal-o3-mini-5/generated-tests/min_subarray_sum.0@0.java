@@ -1,0 +1,5 @@
+```java
+ArrayList<Long> input = new ArrayList<>();
+input.add(1L);
+min_subarray_sum(input);
+```

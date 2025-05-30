@@ -1,0 +1,8 @@
+_s7_s2_s6_s4_s5_s3_s1
+_s7_s2_s6_s4_s5_s5_s3_s1
+_s7_s2_s6_s4_s3_s6_s4_s5_s3_s1
+_s7_s2_s6_s4_s5_s3_s6_s4_s3_s1
+_s7_s2_s6_s4_s3_s1
+_s7_s2_s6_s4_s5_s5_s3_s6_s4_s5_s5_s3_s1
+_s7_s2_s6_s4_s5_s3_s6_s4_s5_s3_s1
+_s7_s2_s1

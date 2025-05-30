@@ -1,0 +1,48 @@
+You are a Java test generator. Invoke the target method (how_many_times) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+public static int how_many_times(String string, String substring){
+    int times_1 = 0;
+    int i_1 = 0;
+    assertTrue(0 < string.length() - substring.length() + 1); //[1]
+    assertFalse(string.substring(0, 0 + substring.length()).equals(substring)); //[2]
+    i_1 += 1;
+    assertTrue(1 < string.length() - substring.length() + 1); //[3]
+    assertFalse(string.substring(1, 1 + substring.length()).equals(substring)); //[4]
+    i_1 += 1;
+    assertFalse(2 < string.length() - substring.length() + 1); //[5]
+    return 0;
+}
+
+** Feedback **
+You have previously generated concrete unit tests, but each of them violated some assertions. Please regenerate a valid unit test based on the feedback provided below.
+Round 0 generation:
+```java
+how_many_times("abc", "a");
+```
+Error reason: the assertion [2] is not satisfied, assertFalse(string.substring(0, 0 + substring.length()).equals(substring)) 
+Round 1 generation:
+```java
+how_many_times("abc", "b");
+```
+Error reason: the assertion [4] is not satisfied, assertFalse(string.substring(1, 1 + substring.length()).equals(substring)) 
+Round 2 generation:
+```java
+how_many_times("abc", "c");
+```
+Error reason: the assertion [5] is not satisfied, assertFalse(2 < string.length() - substring.length() + 1) 
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

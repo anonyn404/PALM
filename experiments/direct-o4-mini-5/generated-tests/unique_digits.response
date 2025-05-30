@@ -1,0 +1,60 @@
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList()));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(246)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(23)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(0)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(135, 79)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(135, 246)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(246, 135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(246, 802)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(135, 23)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(23, 135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(23, 24)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(0, 135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(135, 0)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(0, 0)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(135, 23, 802)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(-135)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(-24)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(-135, -24)));
+```
+```java
+UNIQUE_DIGITS.unique_digits(new ArrayList<Integer>(Arrays.asList(-24, -135)));
+```

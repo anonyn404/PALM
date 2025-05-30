@@ -1,0 +1,2 @@
+```javaISCUDE.iscude(-26);
+```

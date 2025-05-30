@@ -1,0 +1,27 @@
+```java
+split_words("a b");
+```
+```java
+split_words("a,b");
+```
+```java
+split_words("");
+```
+```java
+split_words("a");
+```
+```java
+split_words("b");
+```
+```java
+split_words("aa");
+```
+```java
+split_words("ab");
+```
+```java
+split_words("ba");
+```
+```java
+split_words("bb");
+```

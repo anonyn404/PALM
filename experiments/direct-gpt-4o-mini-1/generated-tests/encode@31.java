@@ -1,0 +1,2 @@
+```javaencode("LongStringWithVowels");
+```

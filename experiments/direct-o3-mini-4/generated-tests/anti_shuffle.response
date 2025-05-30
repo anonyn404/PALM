@@ -1,0 +1,9 @@
+```java
+ANTI_SHUFFLE.anti_shuffle("abc");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle("dog cat");
+```
+```java
+ANTI_SHUFFLE.anti_shuffle(" ");
+```

@@ -1,0 +1,51 @@
+```java
+WORDS_STRINGS.words_strings(null);
+```
+```java
+WORDS_STRINGS.words_strings("");
+```
+```java
+WORDS_STRINGS.words_strings("abc");
+```
+```java
+WORDS_STRINGS.words_strings("a b c");
+```
+```java
+WORDS_STRINGS.words_strings("a,b,c");
+```
+```java
+WORDS_STRINGS.words_strings(",a,");
+```
+```java
+WORDS_STRINGS.words_strings("a,,b");
+```
+```java
+WORDS_STRINGS.words_strings(" , , ");
+```
+```java
+WORDS_STRINGS.words_strings("hello,world test");
+```
+```java
+WORDS_STRINGS.words_strings("   abc");
+```
+```java
+WORDS_STRINGS.words_strings("abc   ");
+```
+```java
+WORDS_STRINGS.words_strings(" abc def");
+```
+```java
+WORDS_STRINGS.words_strings(" abc  def");
+```
+```java
+WORDS_STRINGS.words_strings(",,");
+```
+```java
+WORDS_STRINGS.words_strings("a,b c,d");
+```
+```java
+WORDS_STRINGS.words_strings("a\tb");
+```
+```java
+WORDS_STRINGS.words_strings(" a\tb,c ");
+```

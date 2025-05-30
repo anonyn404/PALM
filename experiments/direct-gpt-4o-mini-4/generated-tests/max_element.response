@@ -1,0 +1,153 @@
+```java
+max_element(Arrays.asList(1, 2, 3));
+```
+```java
+max_element(Arrays.asList(3, 2, 1));
+```
+```java
+max_element(Arrays.asList(1, 1, 1));
+```
+```java
+max_element(Arrays.asList(-1, -2, -3));
+```
+```java
+max_element(Arrays.asList(5, 3, 4));
+```
+```java
+max_element(Arrays.asList(0, 0, 0));
+```
+```java
+max_element(Arrays.asList(-1, 0, 1));
+```
+```java
+max_element(Arrays.asList(10, 20, 30));
+```
+```java
+max_element(Arrays.asList(-10, -20, -5));
+```
+```java
+max_element(Arrays.asList(1, 2, 2));
+```
+```java
+max_element(Arrays.asList(5, 5, 5));
+```
+```java
+max_element(Arrays.asList(2, 3, 2));
+```
+```java
+max_element(Arrays.asList(7, 7, 8));
+```
+```java
+max_element(Arrays.asList(8, 8, 7));
+```
+```java
+max_element(Arrays.asList(4, 5, 5));
+```
+```java
+max_element(Arrays.asList(3, 3, 4));
+```
+```java
+max_element(Arrays.asList(Integer.MAX_VALUE, 0, Integer.MIN_VALUE));
+```
+```java
+max_element(Arrays.asList(Integer.MIN_VALUE, Integer.MAX_VALUE, 0));
+```
+```java
+max_element(Arrays.asList(2, -3, 5));
+```
+```java
+max_element(Arrays.asList(-5, -3, -1));
+```
+```java
+max_element(Arrays.asList(9, 5, 6));
+```
+```java
+max_element(Arrays.asList(6, 9, 8));
+```
+```java
+max_element(Arrays.asList(7, 5, 7));
+```
+```java
+max_element(Arrays.asList(-1, -2, 0));
+```
+```java
+max_element(Arrays.asList(100, 10, 1000));
+```
+```java
+max_element(Arrays.asList(0, 0, -111));
+```
+```java
+max_element(Arrays.asList(-1000, -10, -100));
+```
+```java
+max_element(Arrays.asList(Long.MAX_VALUE, 1, 2));
+```
+```java
+max_element(Arrays.asList(3, Long.MAX_VALUE, 4));
+```
+```java
+max_element(Arrays.asList(-3, -1, -2));
+```
+```java
+max_element(Arrays.asList(2, 3, Integer.MAX_VALUE));
+```
+```java
+max_element(Arrays.asList(0, Integer.MAX_VALUE, 0));
+```
+```java
+max_element(Arrays.asList(5, 5, 3));
+```
+```java
+max_element(Arrays.asList(1, 1, 2));
+```
+```java
+max_element(Arrays.asList(2, 4, 3));
+```
+```java
+max_element(Arrays.asList(0, -1, 1));
+```
+```java
+max_element(Arrays.asList(-1, 1, -1));
+```
+```java
+max_element(Arrays.asList(1, Integer.MIN_VALUE, 0));
+```
+```java
+max_element(Arrays.asList(7, 10, 7));
+```
+```java
+max_element(Arrays.asList(10, 5, 6));
+```
+```java
+max_element(Arrays.asList(2, 1, 1));
+```
+```java
+max_element(Arrays.asList(2, 2, 2));
+```
+```java
+max_element(Arrays.asList(-2, -3, -1));
+```
+```java
+max_element(Arrays.asList(-3, -2, -4));
+```
+```java
+max_element(Arrays.asList(-5, -4, -5));
+```
+```java
+max_element(Arrays.asList(-10, -11, -9));
+```
+```java
+max_element(Arrays.asList(1, 2, 2));
+```
+```java
+max_element(Arrays.asList(0, 0, 1));
+```
+```java
+max_element(Arrays.asList(5, 3, 1));
+```
+```java
+max_element(Arrays.asList(Integer.MAX_VALUE, Integer.MIN_VALUE));
+```
+```java
+max_element(Arrays.asList(-999, -1000, -998));
+```

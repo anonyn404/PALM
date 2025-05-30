@@ -1,0 +1,39 @@
+You are a Java test generator. Invoke the target method (prime_fib) with concrete inputs so that all `assertTrue` and `assertFalse` statements pass.
+Allow edge cases (e.g. null, empty) if they meet those constraints. Include no printing, error handling, unrelated logic or return‑value checks.
+
+** Input program **
+import java.util.*;
+import java.util.ArrayList;
+public static boolean is_prime(int n) {
+    if (n < 2)
+        return false;
+    for (int i = 2; i < (int) Math.sqrt(n) + 1; i += 1) {
+        if (n % i == 0)
+            return false;
+    }
+    return true;
+}
+public static void prime_fib(int n){
+    ArrayList<Integer> fib_1 = new ArrayList<Integer>();
+    fib_1.add(0);
+    fib_1.add(1);
+    assertTrue(true); //[1]
+    int len_1 = fib_1.size();
+    fib_1.add(fib_1.get(len_1 - 1) + fib_1.get(len_1 - 2));
+    assertTrue(is_prime(fib_1.get(fib_1.size() - 1))); //[2]
+}
+
+
+** Output Format **
+If satisfiable, output :
+```java
+// write you code here
+```
+
+Only output the code to replace <hole> in the auxiliary test driver:
+public static void main(String args[]) { <hole> }
+
+If no input can satisfy the path condition, output:
+UNSAT
+
+Only generate a java unit test or UNSAT without any explanation or comments.

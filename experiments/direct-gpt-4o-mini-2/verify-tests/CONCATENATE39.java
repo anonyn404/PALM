@@ -1,0 +1,11 @@
+import java.util.*;
+public class CONCATENATE39 {
+
+    public static String concatenate(String[] strings) {
+        String result = "";
+        for (String string : strings) result += string;
+        return result;
+    }
+public void my_test() {CONCATENATE39.concatenate(new String[] { null, "World" });
+}
+}

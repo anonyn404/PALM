@@ -1,0 +1,35 @@
+You are a symbolic‐execution‐based Java unit‐test generator. Consider loop‑bound=2. For recursive functions, depth-bound=2. Only enumerate paths in the target method (simplify); ignore branches in other methods and API calls. Generate up to 50 tests invoking simplify. Output each invocation as its own triple‑backtick code block. No comments or explanations.
+
+** Example input **
+boolean foo(int num) {
+    if (num > 0) return true;
+    else if (num < 0) return true;
+    else return false;
+}
+** Example output **
+```java
+foo(5);
+```
+```java
+foo(-5);
+```
+```java
+foo(0);
+```
+
+** Program **
+import java.util.*;
+public class SIMPLIFY {
+
+    public static boolean simplify(String x, String n) {
+        int a = Integer.parseInt(x.split("/")[0]);
+        int b = Integer.parseInt(x.split("/")[1]);
+        int c = Integer.parseInt(n.split("/")[0]);
+        int d = Integer.parseInt(n.split("/")[1]);
+        int numerator = a * c;
+        int denom = b * d;
+        if (1.0 * numerator / denom == (int) (numerator / denom))
+            return true;
+        return false;
+    }
+}

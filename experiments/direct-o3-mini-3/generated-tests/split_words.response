@@ -1,0 +1,21 @@
+```java
+SPLIT_WORDS.split_words("hello world");
+```
+```java
+SPLIT_WORDS.split_words("hello,world");
+```
+```java
+SPLIT_WORDS.split_words("");
+```
+```java
+SPLIT_WORDS.split_words("b");
+```
+```java
+SPLIT_WORDS.split_words("a");
+```
+```java
+SPLIT_WORDS.split_words("bb");
+```
+```java
+SPLIT_WORDS.split_words("ba");
+```

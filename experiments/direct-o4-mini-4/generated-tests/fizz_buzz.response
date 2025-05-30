@@ -1,0 +1,12 @@
+```java
+fizz_buzz(-1);
+```
+```java
+fizz_buzz(0);
+```
+```java
+fizz_buzz(1);
+```
+```java
+fizz_buzz(2);
+```

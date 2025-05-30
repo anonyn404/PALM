@@ -1,0 +1,9 @@
+```java
+FIB4.fib4(0);
+```
+```java
+FIB4.fib4(4);
+```
+```java
+FIB4.fib4(5);
+```
